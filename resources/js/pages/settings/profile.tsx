@@ -26,7 +26,7 @@ export default function Profile() {
                 <Heading
                     variant="small"
                     title="Profile"
-                    description="Update your name and email address"
+                    description="Update your username"
                 />
 
                 <Form
@@ -39,41 +39,21 @@ export default function Profile() {
                     {({ processing, errors }) => (
                         <>
                             <div className="grid gap-2">
-                                <Label htmlFor="name">Name</Label>
+                                <Label htmlFor="username">Username</Label>
 
                                 <Input
-                                    id="name"
+                                    id="username"
                                     className="mt-1 block w-full"
-                                    defaultValue={auth.user.name}
-                                    name="name"
-                                    required
-                                    autoComplete="name"
-                                    placeholder="Full name"
-                                />
-
-                                <InputError
-                                    className="mt-2"
-                                    message={errors.name}
-                                />
-                            </div>
-
-                            <div className="grid gap-2">
-                                <Label htmlFor="email">Email address</Label>
-
-                                <Input
-                                    id="email"
-                                    type="email"
-                                    className="mt-1 block w-full"
-                                    defaultValue={auth.user.email}
-                                    name="email"
+                                    defaultValue={auth.user.username}
+                                    name="username"
                                     required
                                     autoComplete="username"
-                                    placeholder="Email address"
+                                    placeholder="Username"
                                 />
 
                                 <InputError
                                     className="mt-2"
-                                    message={errors.email}
+                                    message={errors.username}
                                 />
                             </div>
 

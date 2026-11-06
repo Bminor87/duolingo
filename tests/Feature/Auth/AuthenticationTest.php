@@ -13,7 +13,7 @@ test('users can authenticate using the login screen', function () {
     $user = User::factory()->create();
 
     $response = $this->post(route('login.store'), [
-        'email' => $user->email,
+        'username' => $user->username,
         'password' => 'password',
     ]);
 
@@ -25,7 +25,7 @@ test('users can not authenticate with invalid password', function () {
     $user = User::factory()->create();
 
     $this->post(route('login.store'), [
-        'email' => $user->email,
+        'username' => $user->username,
         'password' => 'wrong-password',
     ]);
 
@@ -45,10 +45,10 @@ test('users can logout', function () {
 test('users are rate limited', function () {
     $user = User::factory()->create();
 
-    RateLimiter::increment(md5('login'.implode('|', [$user->email, '127.0.0.1'])), amount: 5);
+    RateLimiter::increment(md5('login'.implode('|', [$user->username, '127.0.0.1'])), amount: 5);
 
     $response = $this->post(route('login.store'), [
-        'email' => $user->email,
+        'username' => $user->username,
         'password' => 'wrong-password',
     ]);
 

@@ -17,36 +17,34 @@ trait ProfileValidationRules
     protected function profileRules(?int $userId = null): array
     {
         return [
-            'name' => $this->nameRules(),
-            'email' => $this->emailRules($userId),
+            'username' => $this->usernameRules($userId),
         ];
     }
 
     /**
-     * Get the validation rules used to validate user names.
+     * Get the validation rules used to validate usernames.
      *
      * @return array<int, Unique|ValidationRule|array<mixed>|string>
      */
-    protected function nameRules(): array
-    {
-        return ['required', 'string', 'max:255'];
-    }
-
-    /**
-     * Get the validation rules used to validate user emails.
-     *
-     * @return array<int, Unique|ValidationRule|array<mixed>|string>
-     */
-    protected function emailRules(?int $userId = null): array
+    protected function usernameRules(?int $userId = null): array
     {
         return [
             'required',
             'string',
-            'email',
-            'max:255',
+            'min:3',
+            'max:32',
+            'alpha_dash:ascii',
             $userId === null
                 ? Rule::unique(User::class)
                 : Rule::unique(User::class)->ignore($userId),
         ];
+    }
+
+    /**
+     * Normalize a username so lookups and uniqueness are case-insensitive.
+     */
+    protected function normalizeUsername(mixed $username): mixed
+    {
+        return is_string($username) ? mb_strtolower(trim($username)) : $username;
     }
 }
