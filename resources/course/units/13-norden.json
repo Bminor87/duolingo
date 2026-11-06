@@ -1,0 +1,683 @@
+{
+    "id": "norden",
+    "title": "Pohjoismaat",
+    "subtitle": "Norden",
+    "description": "Opit kertomaan matkoistasi Pohjoismaissa, yhteistyöstä pohjoismaisten kollegojen kanssa ja pohjoismaisesta elokuvasta sekä kysymään muilta kysymyksiä. Auttaa suullisessa Moodle-keskustelussa Pohjoismaista.",
+    "icon": "map",
+    "color": "green",
+    "exam": ["assignment", "oral"],
+    "source": "Tehtävä \"Inled en muntlig diskussion på Moodles diskussionsplattform om de nordiska länderna\". Lauseet ovat enimmäkseen lisämateriaalia suomenruotsalaisella sanastolla.",
+    "lessons": [
+        {
+            "id": "norden-l1",
+            "title": "Matkat Pohjoismaissa",
+            "intro": "Aloita keskustelu kertomalla, missä olet käynyt Pohjoismaissa. Vaihda vain kaupungin tai maan nimi.",
+            "sentences": [
+                {
+                    "id": "norden-s01",
+                    "sv": "Norden består av fem länder: Finland, Sverige, Norge, Danmark och Island.",
+                    "fi": "Pohjoismaihin kuuluu viisi maata: Suomi, Ruotsi, Norja, Tanska ja Islanti.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "består av",
+                            "d": ["består på", "består i", "står av"]
+                        },
+                        { "w": "länder", "d": ["land", "landet", "länderna"] },
+                        { "w": "Danmark", "d": ["Danska", "Dansk", "Danmarks"] }
+                    ],
+                    "grammar": ["plural", "rektio"],
+                    "note": "bestå av = koostua jostakin. ett land = maa, monikko länder (vokaali muuttuu!).",
+                    "wrong": [
+                        "Norden består på fem länder: Finland, Sverige, Norge, Danmark och Island.",
+                        "Norden består av fem land: Finland, Sverige, Norge, Danmark och Island."
+                    ]
+                },
+                {
+                    "id": "norden-s02",
+                    "sv": "Jag har varit i Stockholm.",
+                    "fi": "Olen käynyt Tukholmassa.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "varit", "d": ["vara", "var", "är"] },
+                        {
+                            "w": "Stockholm",
+                            "d": ["Sverige", "svensk", "Stockholms"]
+                        }
+                    ],
+                    "grammar": ["perfect", "prepositions"],
+                    "note": "har varit i = olen ollut / käynyt jossakin (perfekti). Kaupungeissa käytetään prepositiota i.",
+                    "wrong": [
+                        "Jag har vara i Stockholm.",
+                        "Jag är varit i Stockholm."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag har varit i Köpenhamn.",
+                            "fi": "Olen käynyt Kööpenhaminassa.",
+                            "w": "Köpenhamn",
+                            "d": ["Danmark", "dansk", "Köpenhamns"]
+                        },
+                        {
+                            "sv": "Jag har varit i Oslo.",
+                            "fi": "Olen käynyt Oslossa.",
+                            "w": "Oslo",
+                            "d": ["Norge", "norsk", "Oslos"]
+                        },
+                        {
+                            "sv": "Jag har varit i Reykjavik.",
+                            "fi": "Olen käynyt Reykjavikissa.",
+                            "w": "Reykjavik",
+                            "d": ["Island", "isländsk", "Reykjaviks"]
+                        }
+                    ]
+                },
+                {
+                    "id": "norden-s03",
+                    "sv": "Jag har rest till Sverige många gånger.",
+                    "fi": "Olen matkustanut Ruotsiin monta kertaa.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "rest", "d": ["resa", "reste", "reser"] },
+                        { "w": "till", "d": ["i", "på", "av"] },
+                        { "w": "gånger", "d": ["gång", "gången", "gånga"] }
+                    ],
+                    "grammar": ["perfect", "prepositions", "plural"],
+                    "note": "resa till = matkustaa johonkin (till = -lle, -Vn). många gånger = monta kertaa.",
+                    "wrong": [
+                        "Jag har rest i Sverige många gånger.",
+                        "Jag har resa till Sverige många gånger."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag har rest till Norge många gånger.",
+                            "fi": "Olen matkustanut Norjaan monta kertaa.",
+                            "w": "Norge",
+                            "d": ["Norges", "norsk", "Norden"]
+                        }
+                    ]
+                },
+                {
+                    "id": "norden-s04",
+                    "sv": "Förra sommaren var jag i Norge.",
+                    "fi": "Viime kesänä olin Norjassa.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Förra",
+                            "a": ["förra"],
+                            "d": ["Nästa", "Första", "Förr"]
+                        },
+                        { "w": "var", "d": ["är", "varit", "vara"] },
+                        {
+                            "w": "i Norge",
+                            "d": ["till Norge", "på Norge", "av Norge"]
+                        }
+                    ],
+                    "grammar": ["v2", "past", "time"],
+                    "note": "Förra sommaren = viime kesänä. Lause alkaa aikailmauksella, joten verbi var tulee ennen jag-sanaa (V2).",
+                    "wrong": [
+                        "Förra sommaren jag var i Norge.",
+                        "Förra sommaren är jag i Norge."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Förra sommaren var jag på Island.",
+                            "fi": "Viime kesänä olin Islannissa.",
+                            "w": "på Island",
+                            "d": ["i Island", "till Island", "av Island"]
+                        },
+                        {
+                            "sv": "Förra vintern var jag i Norge.",
+                            "fi": "Viime talvena olin Norjassa.",
+                            "w": "vintern",
+                            "d": ["vinter", "vintrar", "sommar"]
+                        }
+                    ]
+                },
+                {
+                    "id": "norden-s05",
+                    "sv": "Jag tycker om naturen i Norden.",
+                    "fi": "Pidän Pohjoismaiden luonnosta.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "tycker om",
+                            "d": ["tycker att", "tycker på", "tänker om"]
+                        },
+                        {
+                            "w": "naturen",
+                            "d": ["natur", "naturlig", "naturens"]
+                        }
+                    ],
+                    "grammar": ["particle", "definite"],
+                    "note": "tycka om = pitää jostakin (om painotetaan). Huom: tycka att = olla mieltä, että.",
+                    "wrong": [
+                        "Jag tycker att naturen i Norden.",
+                        "Jag tycker om natur i Norden."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag tycker om maten i Norden.",
+                            "fi": "Pidän Pohjoismaiden ruoasta.",
+                            "w": "maten",
+                            "d": ["mat", "maträtt", "matens"]
+                        }
+                    ]
+                },
+                {
+                    "id": "norden-s06",
+                    "sv": "De nordiska länderna har mycket gemensamt.",
+                    "fi": "Pohjoismailla on paljon yhteistä.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "nordiska",
+                            "d": ["nordisk", "nordiskt", "Norden"]
+                        },
+                        { "w": "länderna", "d": ["länder", "landet", "land"] },
+                        {
+                            "w": "gemensamt",
+                            "d": ["gemensam", "gemensamma", "samma"]
+                        }
+                    ],
+                    "grammar": ["adj-def", "definite", "plural"],
+                    "note": "de nordiska länderna = Pohjoismaat (sanatarkasti: ne pohjoismaiset maat). ha mycket gemensamt = olla paljon yhteistä.",
+                    "wrong": [
+                        "De nordiska länder har mycket gemensamt.",
+                        "De nordisk länderna har mycket gemensamt."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "norden-w01",
+                    "sv": "Norden",
+                    "fi": "Pohjola, Pohjoismaat",
+                    "src": "m"
+                },
+                {
+                    "id": "norden-w02",
+                    "sv": "de nordiska länderna",
+                    "fi": "Pohjoismaat",
+                    "src": "m"
+                },
+                {
+                    "id": "norden-w03",
+                    "sv": "Sverige",
+                    "fi": "Ruotsi",
+                    "src": "x"
+                },
+                {
+                    "id": "norden-w04",
+                    "sv": "Norge",
+                    "fi": "Norja",
+                    "src": "x"
+                },
+                {
+                    "id": "norden-w05",
+                    "sv": "Danmark",
+                    "fi": "Tanska",
+                    "src": "x"
+                },
+                {
+                    "id": "norden-w06",
+                    "sv": "Island",
+                    "fi": "Islanti",
+                    "src": "x"
+                }
+            ]
+        },
+        {
+            "id": "norden-l2",
+            "title": "Yhteistyö ja elokuvat",
+            "intro": "Kerro yhteistyöstä pohjoismaisten kollegojen kanssa tai pohjoismaisesta elokuvasta, jonka olet nähnyt.",
+            "sentences": [
+                {
+                    "id": "norden-s07",
+                    "sv": "Jag har samarbetat med kolleger från Sverige.",
+                    "fi": "Olen tehnyt yhteistyötä kollegojen kanssa Ruotsista.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "samarbetat",
+                            "d": ["samarbeta", "samarbete", "samarbetar"]
+                        },
+                        {
+                            "w": "kolleger",
+                            "d": ["kollega", "kollegan", "kollegens"]
+                        },
+                        { "w": "från", "d": ["till", "av", "på"] }
+                    ],
+                    "grammar": ["perfect", "finlandssvenska", "prepositions"],
+                    "note": "samarbeta med = tehdä yhteistyötä jonkun kanssa. Suomenruotsissa monikko on kolleger (Ruotsissa usein kollegor).",
+                    "wrong": [
+                        "Jag har samarbete med kolleger från Sverige.",
+                        "Jag har samarbetat med kolleger till Sverige."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag har samarbetat med kolleger från Danmark.",
+                            "fi": "Olen tehnyt yhteistyötä kollegojen kanssa Tanskasta.",
+                            "w": "Danmark",
+                            "d": ["dansk", "Danmarks", "danska"]
+                        },
+                        {
+                            "sv": "Jag har samarbetat med kolleger från Norge.",
+                            "fi": "Olen tehnyt yhteistyötä kollegojen kanssa Norjasta.",
+                            "w": "Norge",
+                            "d": ["norsk", "Norges", "norska"]
+                        }
+                    ]
+                },
+                {
+                    "id": "norden-s08",
+                    "sv": "Samarbetet fungerade bra.",
+                    "fi": "Yhteistyö toimi hyvin.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Samarbetet",
+                            "a": ["samarbetet"],
+                            "d": ["Samarbete", "Samarbetar", "Samarbeta"]
+                        },
+                        {
+                            "w": "fungerade",
+                            "d": ["fungera", "fungerat", "funktion"]
+                        }
+                    ],
+                    "grammar": ["past", "definite"],
+                    "note": "ett samarbete = yhteistyö → samarbetet = se yhteistyö. fungerade = toimi (imperfekti -de).",
+                    "wrong": [
+                        "Samarbetet fungera bra.",
+                        "Samarbetet bra fungerade."
+                    ]
+                },
+                {
+                    "id": "norden-s09",
+                    "sv": "Vi pratade svenska och engelska på mötena.",
+                    "fi": "Puhuimme ruotsia ja englantia kokouksissa.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "pratade", "d": ["pratar", "prata", "pratat"] },
+                        {
+                            "w": "svenska",
+                            "d": ["svensk", "Sverige", "svenskt"]
+                        },
+                        { "w": "mötena", "d": ["möten", "mötet", "möte"] }
+                    ],
+                    "grammar": ["past", "definite", "plural"],
+                    "note": "prata = puhua. Kielet kirjoitetaan pienellä: svenska, engelska. mötena = ne kokoukset (ett möte → möten → mötena).",
+                    "wrong": [
+                        "Vi pratat svenska och engelska på mötena.",
+                        "Vi pratade Svensk och engelska på mötena."
+                    ]
+                },
+                {
+                    "id": "norden-s10",
+                    "sv": "Jag har sett en nordisk film som heter Jakten.",
+                    "fi": "Olen nähnyt pohjoismaisen elokuvan, jonka nimi on Jahti.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "sett", "d": ["se", "såg", "ser"] },
+                        {
+                            "w": "nordisk",
+                            "d": ["nordiskt", "nordiska", "Norden"]
+                        },
+                        { "w": "heter", "d": ["heta", "hette", "hetat"] }
+                    ],
+                    "grammar": ["perfect", "som", "adj"],
+                    "note": "har sett = olen nähnyt (se, såg, sett). som heter = jonka nimi on. Vaihda tilalle oman elokuvasi nimi.",
+                    "wrong": [
+                        "Jag har sett ett nordisk film som heter Jakten.",
+                        "Jag har se en nordisk film som heter Jakten."
+                    ]
+                },
+                {
+                    "id": "norden-s11",
+                    "sv": "Filmen visar nordisk kultur väl.",
+                    "fi": "Elokuva kuvaa pohjoismaista kulttuuria hyvin.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Filmen",
+                            "a": ["filmen"],
+                            "d": ["Film", "Filmer", "Filmens"]
+                        },
+                        { "w": "visar", "d": ["visa", "visade", "visat"] },
+                        {
+                            "w": "kultur",
+                            "d": ["kulturen", "kulturell", "kulturer"]
+                        }
+                    ],
+                    "grammar": ["present", "definite"],
+                    "note": "visa = näyttää, kuvata. väl = hyvin (vrt. bra). Tehtävänannossa: en film som avbildar nordisk kultur väl.",
+                    "wrong": [
+                        "Film visar nordisk kultur väl.",
+                        "Filmen visa nordisk kultur väl."
+                    ]
+                },
+                {
+                    "id": "norden-s12",
+                    "sv": "Filmen handlar om livet i en liten stad i Danmark.",
+                    "fi": "Elokuva kertoo elämästä pienessä kaupungissa Tanskassa.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "handlar om",
+                            "d": ["handlar på", "handlar av", "handlar till"]
+                        },
+                        { "w": "livet", "d": ["liv", "lever", "levande"] },
+                        { "w": "liten", "d": ["litet", "lilla", "små"] }
+                    ],
+                    "grammar": ["rektio", "adj", "definite"],
+                    "note": "handla om = kertoa jostakin, käsitellä jotakin. en liten stad = pieni kaupunki (liten en-sanalle, litet ett-sanalle).",
+                    "wrong": [
+                        "Filmen handlar på livet i en liten stad i Danmark.",
+                        "Filmen handlar om livet i en litet stad i Danmark."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "norden-w07",
+                    "sv": "samarbeta",
+                    "fi": "tehdä yhteistyötä",
+                    "src": "m"
+                },
+                {
+                    "id": "norden-w08",
+                    "sv": "en kollega",
+                    "fi": "kollega (suomenruotsissa monikko kolleger)",
+                    "src": "m"
+                },
+                {
+                    "id": "norden-w09",
+                    "sv": "avbilda",
+                    "fi": "kuvata, esittää",
+                    "src": "m"
+                },
+                {
+                    "id": "norden-w10",
+                    "sv": "nordisk",
+                    "fi": "pohjoismainen",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "norden-l3",
+            "title": "Kysy muilta",
+            "intro": "Tehtävässä pitää kysyä vähintään kahdelta opiskelijalta kysymys Pohjoismaista. Kysymys alkaa verbillä tai kysymyssanalla.",
+            "sentences": [
+                {
+                    "id": "norden-s13",
+                    "sv": "Har du varit i Norge?",
+                    "fi": "Oletko käynyt Norjassa?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Har",
+                            "a": ["har"],
+                            "d": ["Är", "Ha", "Varit"]
+                        },
+                        { "w": "varit", "d": ["vara", "var", "är"] }
+                    ],
+                    "grammar": ["questions", "perfect"],
+                    "note": "Kyllä/ei-kysymys: verbi ensin. Har du varit...? = Oletko ollut / käynyt...?",
+                    "wrong": ["Du har varit i Norge?", "Är du varit i Norge?"],
+                    "variants": [
+                        {
+                            "sv": "Har du varit på Island?",
+                            "fi": "Oletko käynyt Islannissa?",
+                            "w": "på Island",
+                            "d": ["i Island", "till Island", "av Island"]
+                        },
+                        {
+                            "sv": "Har du varit i Danmark?",
+                            "fi": "Oletko käynyt Tanskassa?",
+                            "w": "Danmark",
+                            "d": ["dansk", "Danmarks", "danska"]
+                        }
+                    ]
+                },
+                {
+                    "id": "norden-s14",
+                    "sv": "Vilket nordiskt land vill du besöka?",
+                    "fi": "Missä pohjoismaassa haluaisit käydä?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Vilket",
+                            "a": ["vilket"],
+                            "d": ["Vilken", "Vilka", "Vad"]
+                        },
+                        {
+                            "w": "nordiskt",
+                            "d": ["nordisk", "nordiska", "Norden"]
+                        },
+                        { "w": "besöka", "d": ["besöker", "besökte", "besök"] }
+                    ],
+                    "grammar": ["questions", "adj", "modal"],
+                    "note": "ett land on ett-sana, siksi vilket ja nordiskt (pääte -t). vill + perusmuoto: vill besöka = haluaa vierailla.",
+                    "wrong": [
+                        "Vilken nordisk land vill du besöka?",
+                        "Vilket nordiskt land du vill besöka?"
+                    ]
+                },
+                {
+                    "id": "norden-s15",
+                    "sv": "Vad tycker du om nordisk kultur?",
+                    "fi": "Mitä mieltä olet pohjoismaisesta kulttuurista?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Vad",
+                            "a": ["vad"],
+                            "d": ["Var", "Vem", "Vilka"]
+                        },
+                        { "w": "tycker", "d": ["tycka", "tyckte", "tänker"] },
+                        {
+                            "w": "kultur",
+                            "d": ["kulturen", "kulturer", "kulturell"]
+                        }
+                    ],
+                    "grammar": ["questions", "opinion"],
+                    "note": "Vad tycker du om...? = Mitä mieltä olet...? Kysymyssanan perään heti verbi.",
+                    "wrong": [
+                        "Vad du tycker om nordisk kultur?",
+                        "Vad tycka du om nordisk kultur?"
+                    ]
+                },
+                {
+                    "id": "norden-s16",
+                    "sv": "Har du samarbetat med nordiska kolleger?",
+                    "fi": "Oletko tehnyt yhteistyötä pohjoismaisten kollegojen kanssa?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "samarbetat",
+                            "d": ["samarbeta", "samarbete", "samarbetar"]
+                        },
+                        {
+                            "w": "nordiska",
+                            "d": ["nordisk", "nordiskt", "Norden"]
+                        }
+                    ],
+                    "grammar": ["questions", "perfect", "adj"],
+                    "note": "nordiska kolleger = pohjoismaiset kollegat (monikko → adjektiivi -a).",
+                    "wrong": [
+                        "Har du samarbetat med nordisk kolleger?",
+                        "Du har samarbetat med nordiska kolleger?"
+                    ]
+                },
+                {
+                    "id": "norden-s17",
+                    "sv": "Vilken nordisk film rekommenderar du?",
+                    "fi": "Minkä pohjoismaisen elokuvan suosittelet?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Vilken",
+                            "a": ["vilken"],
+                            "d": ["Vilket", "Vilka", "Vad"]
+                        },
+                        {
+                            "w": "rekommenderar",
+                            "d": [
+                                "rekommendera",
+                                "rekommenderade",
+                                "rekommendation"
+                            ]
+                        }
+                    ],
+                    "grammar": ["questions", "adj"],
+                    "note": "en film on en-sana → vilken ja nordisk ilman -t:tä. rekommendera = suositella.",
+                    "wrong": [
+                        "Vilket nordiskt film rekommenderar du?",
+                        "Vilken nordisk film du rekommenderar?"
+                    ]
+                },
+                {
+                    "id": "norden-s18",
+                    "sv": "Inled en muntlig diskussion om de nordiska länderna.",
+                    "fi": "Aloita suullinen keskustelu Pohjoismaista.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Inled",
+                            "a": ["inled"],
+                            "d": ["Inleder", "Inleda", "Inledde"]
+                        },
+                        {
+                            "w": "muntlig",
+                            "d": ["muntligt", "muntliga", "skriftlig"]
+                        },
+                        {
+                            "w": "diskussion",
+                            "d": ["diskutera", "diskuterar", "diskussionen"]
+                        }
+                    ],
+                    "grammar": ["imperative", "adj"],
+                    "note": "Tehtävänanto: inleda = aloittaa, Inled = aloita (käsky). muntlig = suullinen.",
+                    "wrong": [
+                        "Inleda en muntlig diskussion om de nordiska länderna.",
+                        "Inled ett muntligt diskussion om de nordiska länderna."
+                    ]
+                },
+                {
+                    "id": "norden-s19",
+                    "sv": "Ställ minst två muntliga frågor som berör Norden.",
+                    "fi": "Esitä vähintään kaksi suullista kysymystä, jotka koskevat Pohjoismaita.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Ställ",
+                            "a": ["ställ"],
+                            "d": ["Ställa", "Ställer", "Ställde"]
+                        },
+                        { "w": "minst", "d": ["mest", "mindre", "mycket"] },
+                        { "w": "berör", "d": ["beröra", "berörde", "berörs"] }
+                    ],
+                    "grammar": ["imperative", "som"],
+                    "note": "ställa en fråga = esittää kysymys. minst = vähintään. som berör = jotka koskevat.",
+                    "wrong": [
+                        "Ställa minst två muntliga frågor som berör Norden.",
+                        "Ställ minst två muntligt frågor som berör Norden."
+                    ]
+                }
+            ]
+        }
+    ],
+    "glossary": {
+        "norden": "Pohjola, Pohjoismaat",
+        "består": "koostuu (perusmuoto bestå); bestå av = koostua jostakin",
+        "av": "-sta, -lta",
+        "består av": "koostuu jostakin",
+        "fem": "viisi",
+        "länder": "maat (monikko sanasta ett land)",
+        "finland": "Suomi",
+        "sverige": "Ruotsi",
+        "norge": "Norja",
+        "danmark": "Tanska",
+        "och": "ja",
+        "island": "Islanti; huom. på Island = Islannissa",
+        "jag": "minä",
+        "har": "on jollakin; perfektin apuverbi (har varit = olen ollut)",
+        "varit": "ollut (perusmuoto vara: är, var, varit)",
+        "i": "-ssa, -ssä",
+        "stockholm": "Tukholma",
+        "köpenhamn": "Kööpenhamina",
+        "oslo": "Oslo",
+        "reykjavik": "Reykjavik",
+        "rest": "matkustanut (perusmuoto resa)",
+        "till": "-lle, johonkin",
+        "många": "monta, monet",
+        "gånger": "kerrat (monikko sanasta en gång); många gånger = monta kertaa",
+        "förra": "viime; förra sommaren = viime kesänä",
+        "sommaren": "kesä (määräinen muoto)",
+        "vintern": "talvi (määräinen muoto)",
+        "var": "oli (perusmuoto vara)",
+        "på": "-lla, -ssa; på Island = Islannissa",
+        "tycker": "pitää, ajattelee (perusmuoto tycka); tycka om = pitää jostakin",
+        "om": "jostakin; tycka om = pitää jostakin",
+        "tycker om": "pitää jostakin",
+        "naturen": "luonto (määräinen muoto sanasta en natur)",
+        "maten": "ruoka (määräinen muoto sanasta en mat)",
+        "de": "ne, he; määräisen monikon edessä: de nordiska länderna",
+        "nordiska": "pohjoismaiset (monikko / määräinen muoto sanasta nordisk)",
+        "länderna": "ne maat (määräinen monikko sanasta ett land)",
+        "mycket": "paljon",
+        "gemensamt": "yhteistä; ha mycket gemensamt = olla paljon yhteistä",
+        "samarbetat": "tehnyt yhteistyötä (perusmuoto samarbeta)",
+        "med": "kanssa",
+        "kolleger": "kollegat (suomenruotsissa kolleger, Ruotsissa usein kollegor)",
+        "från": "-sta, -lta, jostakin",
+        "samarbetet": "se yhteistyö (määräinen muoto sanasta ett samarbete)",
+        "fungerade": "toimi (perusmuoto fungera)",
+        "bra": "hyvin, hyvä",
+        "vi": "me",
+        "pratade": "puhui (perusmuoto prata)",
+        "svenska": "ruotsin kieli; ruotsalainen (monikko)",
+        "engelska": "englannin kieli",
+        "mötena": "ne kokoukset (määräinen monikko sanasta ett möte)",
+        "sett": "nähnyt (perusmuoto se: ser, såg, sett)",
+        "en": "yksi; en-sanojen artikkeli",
+        "nordisk": "pohjoismainen",
+        "film": "elokuva (en film)",
+        "som": "joka, jonka",
+        "heter": "on nimeltään (perusmuoto heta)",
+        "jakten": "Jakten = Jahti (tanskalainen elokuva, alkup. Jagten)",
+        "filmen": "se elokuva (määräinen muoto)",
+        "visar": "näyttää, kuvaa (perusmuoto visa)",
+        "kultur": "kulttuuri",
+        "väl": "hyvin",
+        "handlar": "kertoo jostakin (handla om); myös käy kauppaa",
+        "handlar om": "kertoo jostakin, käsittelee jotakin",
+        "livet": "elämä (määräinen muoto sanasta ett liv)",
+        "liten": "pieni (en-sanalle)",
+        "stad": "kaupunki (en stad)",
+        "du": "sinä",
+        "vilket": "mikä, mikä niistä (ett-sanalle)",
+        "vilken": "mikä, mikä niistä (en-sanalle)",
+        "nordiskt": "pohjoismainen (ett-sanalle)",
+        "land": "maa (ett land)",
+        "vill": "haluaa (perusmuoto vilja)",
+        "besöka": "vierailla, käydä jossakin",
+        "vad": "mitä, mikä",
+        "rekommenderar": "suosittelee (perusmuoto rekommendera)",
+        "inled": "aloita (käsky, perusmuoto inleda)",
+        "muntlig": "suullinen",
+        "diskussion": "keskustelu (en diskussion)",
+        "ställ": "esitä, aseta (käsky, perusmuoto ställa); ställa en fråga = esittää kysymys",
+        "minst": "vähintään",
+        "två": "kaksi",
+        "muntliga": "suulliset (monikko sanasta muntlig)",
+        "frågor": "kysymykset (monikko sanasta en fråga)",
+        "berör": "koskee (perusmuoto beröra)",
+        "de nordiska länderna": "Pohjoismaat",
+        "samarbeta": "tehdä yhteistyötä",
+        "kollega": "kollega, työtoveri (en kollega)",
+        "avbilda": "kuvata, esittää"
+    }
+}

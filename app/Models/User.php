@@ -6,6 +6,7 @@ use Database\Factories\UserFactory;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Attributes\Hidden;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Carbon;
@@ -24,6 +25,30 @@ class User extends Authenticatable
 {
     /** @use HasFactory<UserFactory> */
     use HasFactory, Notifiable;
+
+    /**
+     * @return HasMany<ItemProgress, $this>
+     */
+    public function itemProgress(): HasMany
+    {
+        return $this->hasMany(ItemProgress::class);
+    }
+
+    /**
+     * @return HasMany<LessonProgress, $this>
+     */
+    public function lessonProgress(): HasMany
+    {
+        return $this->hasMany(LessonProgress::class);
+    }
+
+    /**
+     * @return HasMany<StudySession, $this>
+     */
+    public function studySessions(): HasMany
+    {
+        return $this->hasMany(StudySession::class);
+    }
 
     /**
      * Get the attributes that should be cast.

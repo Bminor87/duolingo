@@ -18,15 +18,15 @@ export default function Profile() {
 
     return (
         <>
-            <Head title="Profile settings" />
+            <Head title="Profiili" />
 
-            <h1 className="sr-only">Profile settings</h1>
+            <h1 className="sr-only">Profiili</h1>
 
             <div className="space-y-6">
                 <Heading
                     variant="small"
-                    title="Profile"
-                    description="Update your username"
+                    title="Profiili"
+                    description="Vaihda käyttäjänimesi"
                 />
 
                 <Form
@@ -39,7 +39,7 @@ export default function Profile() {
                     {({ processing, errors }) => (
                         <>
                             <div className="grid gap-2">
-                                <Label htmlFor="username">Username</Label>
+                                <Label htmlFor="username">Käyttäjänimi</Label>
 
                                 <Input
                                     id="username"
@@ -48,7 +48,7 @@ export default function Profile() {
                                     name="username"
                                     required
                                     autoComplete="username"
-                                    placeholder="Username"
+                                    placeholder="Käyttäjänimi"
                                 />
 
                                 <InputError
@@ -62,7 +62,7 @@ export default function Profile() {
                                     disabled={processing}
                                     data-test="update-profile-button"
                                 >
-                                    Save
+                                    Tallenna
                                 </Button>
                             </div>
                         </>
@@ -78,7 +78,7 @@ export default function Profile() {
 Profile.layout = {
     breadcrumbs: [
         {
-            title: 'Profile settings',
+            title: 'Profiili',
             href: edit(),
         },
     ],

@@ -17,7 +17,7 @@ type Props = {
 export default function Login({ status }: Props) {
     return (
         <>
-            <Head title="Log in" />
+            <Head title="Kirjaudu" />
 
             <Form
                 {...store.form()}
@@ -28,7 +28,7 @@ export default function Login({ status }: Props) {
                     <>
                         <div className="grid gap-6">
                             <div className="grid gap-2">
-                                <Label htmlFor="username">Username</Label>
+                                <Label htmlFor="username">Käyttäjänimi</Label>
                                 <Input
                                     id="username"
                                     type="text"
@@ -37,20 +37,20 @@ export default function Login({ status }: Props) {
                                     autoFocus
                                     tabIndex={1}
                                     autoComplete="username"
-                                    placeholder="Username"
+                                    placeholder="Käyttäjänimi"
                                 />
                                 <InputError message={errors.username} />
                             </div>
 
                             <div className="grid gap-2">
-                                <Label htmlFor="password">Password</Label>
+                                <Label htmlFor="password">Salasana</Label>
                                 <PasswordInput
                                     id="password"
                                     name="password"
                                     required
                                     tabIndex={2}
                                     autoComplete="current-password"
-                                    placeholder="Password"
+                                    placeholder="Salasana"
                                 />
                                 <InputError message={errors.password} />
                             </div>
@@ -61,7 +61,7 @@ export default function Login({ status }: Props) {
                                     name="remember"
                                     tabIndex={3}
                                 />
-                                <Label htmlFor="remember">Remember me</Label>
+                                <Label htmlFor="remember">Muista minut</Label>
                             </div>
 
                             <Button
@@ -72,14 +72,14 @@ export default function Login({ status }: Props) {
                                 data-test="login-button"
                             >
                                 {processing && <Spinner />}
-                                Log in
+                                Kirjaudu sisään
                             </Button>
                         </div>
 
                         <div className="text-center text-sm text-muted-foreground">
-                            Don't have an account?{' '}
+                            Eikö sinulla ole tiliä?{' '}
                             <TextLink href={register()} tabIndex={5}>
-                                Sign up
+                                Luo tili
                             </TextLink>
                         </div>
                     </>
@@ -96,6 +96,6 @@ export default function Login({ status }: Props) {
 }
 
 Login.layout = {
-    title: 'Log in to your account',
-    description: 'Enter your username and password below to log in',
+    title: 'Tervetuloa takaisin!',
+    description: 'Kirjaudu sisään käyttäjänimellä ja salasanalla.',
 };

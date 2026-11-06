@@ -1,0 +1,669 @@
+{
+    "id": "internet",
+    "title": "Internet",
+    "subtitle": "Internet",
+    "description": "Selain, hakukone, laajakaista, pilvipalvelut ja verkkokauppa ruotsiksi. Kirjallisessa kokeessa näitä termejä pitää ymmärtää ruotsista suomeksi.",
+    "icon": "globe",
+    "color": "cyan",
+    "exam": ["written"],
+    "source": "Välilehti 4: Tehtävä 8 Internet (fraasit) ja Täytä puuttuvat sanat 3 -harjoitus",
+    "lessons": [
+        {
+            "id": "internet-l1",
+            "title": "Surffailu ja laajakaista",
+            "intro": "Verkossa surffailu, selain ja nettiyhteyden nopeus.",
+            "sentences": [
+                {
+                    "id": "internet-s01",
+                    "sv": "Jag surfar ofta på nätet med min nya webbläsare.",
+                    "fi": "Surfaan usein verkossa uudella verkkoselaimellani.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "webbläsare",
+                            "d": ["webbläsaren", "sökmaskin", "hemsida"]
+                        },
+                        { "w": "nätet", "d": ["nät", "näten", "nätets"] },
+                        { "w": "nya", "d": ["ny", "nytt", "nyare"] }
+                    ],
+                    "grammar": ["adverbs", "adj-def", "definite"],
+                    "note": "på nätet = verkossa (nät = verkko, nätet = se verkko). webb + läsare = verkko + lukija → selain. ofta tulee heti verbin perään.",
+                    "wrong": [
+                        "Jag ofta surfar på nätet med min nya webbläsare.",
+                        "Jag surfar ofta på nätet med min ny webbläsare."
+                    ]
+                },
+                {
+                    "id": "internet-s02",
+                    "sv": "Jag surfar ofta på nätet hemma.",
+                    "fi": "Surfaan usein verkossa kotona.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "surfar", "d": ["surfa", "surfade", "surfat"] },
+                        { "w": "nätet", "d": ["nät", "nätverk", "näten"] }
+                    ],
+                    "grammar": ["present", "adverbs"],
+                    "note": "surfa på nätet = surffata verkossa. Preesens saa -r: jag surfar. hemma = kotona.",
+                    "wrong": [
+                        "Jag ofta surfar på nätet hemma.",
+                        "Jag surfa ofta på nätet hemma."
+                    ]
+                },
+                {
+                    "id": "internet-s03",
+                    "sv": "Jag använder en modern webbläsare när jag jobbar.",
+                    "fi": "Käytän modernia verkkoselainta työskennellessäni.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "webbläsare",
+                            "d": ["webbläsaren", "hemsida", "länk"]
+                        },
+                        {
+                            "w": "modern",
+                            "d": ["modernt", "moderna", "moderne"]
+                        }
+                    ],
+                    "grammar": ["subclause", "adj"],
+                    "note": "när jag jobbar = kun työskentelen (työskennellessäni). webbläsare on en-sana → en modern webbläsare.",
+                    "wrong": [
+                        "Jag använder en modernt webbläsare när jag jobbar.",
+                        "Jag använder en modern webbläsare när jobbar jag."
+                    ]
+                },
+                {
+                    "id": "internet-s04",
+                    "sv": "Hastigheten på bredbandet är mycket bra idag.",
+                    "fi": "Laajakaistan nopeus on tänään todella hyvä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Hastigheten",
+                            "d": ["Hastighet", "Hastigheter", "Hastigt"]
+                        },
+                        {
+                            "w": "bredbandet",
+                            "d": ["bredband", "bredbanden", "bredbandets"]
+                        }
+                    ],
+                    "grammar": ["definite", "compound", "prepositions"],
+                    "note": "hastighet = nopeus. bred + band = leveä + kaista → laajakaista. Hastigheten på bredbandet = laajakaistan nopeus (ruotsi käyttää på-sanaa).",
+                    "wrong": [
+                        "Hastigheten på bredbandet mycket bra är idag.",
+                        "Hastighet på bredbandet är mycket bra idag."
+                    ]
+                },
+                {
+                    "id": "internet-s05",
+                    "sv": "Vi har ett bredband med hög hastighet.",
+                    "fi": "Meillä on laajakaista, jossa on korkea nopeus.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "bredband",
+                            "d": ["bredbandet", "modem", "webbläsare"]
+                        },
+                        { "w": "hög", "d": ["högt", "höga", "högre"] },
+                        {
+                            "w": "hastighet",
+                            "d": ["hastigheten", "hastigheter", "hastigt"]
+                        }
+                    ],
+                    "grammar": ["gender", "adj"],
+                    "note": "bredband on ett-sana → ett bredband. med hög hastighet = suurella nopeudella, nopea.",
+                    "wrong": [
+                        "Vi har en bredband med hög hastighet.",
+                        "Vi har ett bredband med högt hastighet."
+                    ]
+                },
+                {
+                    "id": "internet-s06",
+                    "sv": "Vi har en fast förbindelse i vårt hus.",
+                    "fi": "Meillä on kiinteä yhteys talossamme.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "förbindelse",
+                            "d": ["förbindelsen", "förbindelser", "förbinda"]
+                        },
+                        { "w": "fast", "d": ["fasta", "snabbt", "trådlöst"] },
+                        { "w": "vårt", "d": ["vår", "våra", "vårat"] }
+                    ],
+                    "grammar": ["possessive", "adj"],
+                    "note": "fast förbindelse = kiinteä yhteys. hus (talo) on ett-sana → vårt hus.",
+                    "wrong": [
+                        "Vi har en fast förbindelse i vår hus.",
+                        "Vi har ett fast förbindelse i vårt hus."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "internet-l2",
+            "title": "Hakukone ja linkit",
+            "intro": "Tiedon hakeminen, linkit, kotisivut ja roskaposti.",
+            "sentences": [
+                {
+                    "id": "internet-s07",
+                    "sv": "Jag hittade informationen via en sökmaskin.",
+                    "fi": "Löysin tiedon hakukoneen kautta.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "sökmaskin",
+                            "d": ["sökmaskinen", "webbläsare", "länkar"]
+                        },
+                        { "w": "hittade", "d": ["hittar", "hitta", "hittat"] },
+                        {
+                            "w": "informationen",
+                            "d": [
+                                "information",
+                                "informationer",
+                                "informationet"
+                            ]
+                        }
+                    ],
+                    "grammar": ["past", "compound", "definite"],
+                    "note": "sök + maskin = haku + kone. hitta = löytää, hittade = löysin. via = kautta.",
+                    "wrong": [
+                        "Jag hitta informationen via en sökmaskin.",
+                        "Jag hittade informationen via ett sökmaskin."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag hittade informationen via en hemsida.",
+                            "fi": "Löysin tiedon kotisivun kautta.",
+                            "w": "hemsida",
+                            "d": ["hemsidan", "hemsidor", "länken"]
+                        }
+                    ]
+                },
+                {
+                    "id": "internet-s08",
+                    "sv": "Sök svaret med en sökmaskin på nätet.",
+                    "fi": "Hae vastausta verkon hakukoneella.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "Sök", "d": ["Söker", "Söka", "Sökte"] },
+                        {
+                            "w": "sökmaskin",
+                            "d": ["sökmaskinen", "webbläsare", "länk"]
+                        },
+                        { "w": "svaret", "d": ["svar", "svaren", "svarat"] }
+                    ],
+                    "grammar": ["imperative", "definite"],
+                    "note": "Sök = hae (käskymuoto verbistä söka). svar = vastaus, svaret = se vastaus. med en sökmaskin = hakukoneella.",
+                    "wrong": [
+                        "Söka svaret med en sökmaskin på nätet.",
+                        "Sök svaret med ett sökmaskin på nätet."
+                    ]
+                },
+                {
+                    "id": "internet-s09",
+                    "sv": "Jag klickade på en länk och hamnade på en hemsida.",
+                    "fi": "Klikkasin linkkiä ja päädyin kotisivulle.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "länk", "d": ["länken", "länkar", "hemsida"] },
+                        {
+                            "w": "hemsida",
+                            "d": ["hemsidan", "hemsidor", "webbläsare"]
+                        },
+                        { "w": "hamnade", "d": ["hamnar", "hamna", "hamnat"] }
+                    ],
+                    "grammar": ["past", "prepositions"],
+                    "note": "klicka på = klikata jotain. hamna = päätyä (hamn = satama). hem + sida = koti + sivu.",
+                    "wrong": [
+                        "Jag klickade en länk och hamnade på en hemsida.",
+                        "Jag klickade på en länk och hamna på en hemsida."
+                    ]
+                },
+                {
+                    "id": "internet-s10",
+                    "sv": "Klicka på länken för att öppna dokumentet.",
+                    "fi": "Klikkaa linkkiä avataksesi asiakirjan.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "länken", "d": ["länk", "länkar", "länkarna"] },
+                        {
+                            "w": "Klicka",
+                            "d": ["Klickar", "Klickade", "Klickat"]
+                        },
+                        { "w": "öppna", "d": ["öppnar", "öppnade", "öppen"] }
+                    ],
+                    "grammar": ["imperative", "for-att", "definite"],
+                    "note": "Klicka = klikkaa (käskymuoto). för att öppna = avataksesi (för att = jotta). länken = se linkki.",
+                    "wrong": [
+                        "Klicka på länken för öppna dokumentet.",
+                        "Klickar på länken för att öppna dokumentet."
+                    ]
+                },
+                {
+                    "id": "internet-s11",
+                    "sv": "Jag läste artikeln på en hemsida.",
+                    "fi": "Luin artikkelin (eräältä) kotisivulta.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "hemsida",
+                            "d": ["hemsidan", "hemsidor", "sökmaskin"]
+                        },
+                        { "w": "läste", "d": ["läser", "läsa", "läst"] },
+                        {
+                            "w": "artikeln",
+                            "d": ["artikel", "artiklar", "artikelen"]
+                        }
+                    ],
+                    "grammar": ["past", "definite"],
+                    "note": "läsa = lukea, läste = luin. artikel → artikeln (määräinen muoto). Suomen 'kotisivulta' on ruotsiksi på en hemsida.",
+                    "wrong": [
+                        "Jag läsa artikeln på en hemsida.",
+                        "Jag läste artikeln på ett hemsida."
+                    ]
+                },
+                {
+                    "id": "internet-s12",
+                    "sv": "Kolla din skräppost om du inte hittar mejlet.",
+                    "fi": "Tarkista roskapostisi, jos et löydä sähköpostia.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "skräppost",
+                            "d": ["skräpposten", "mejlet", "länk"]
+                        },
+                        { "w": "mejlet", "d": ["mejl", "mejlen", "mejlar"] },
+                        { "w": "hittar", "d": ["hitta", "hittade", "hittat"] }
+                    ],
+                    "grammar": ["imperative", "subclause", "negation"],
+                    "note": "skräp + post = roska + posti. mejl = sähköposti (tavallinen suomenruotsissa, myös e-post). om = jos. Sivulauseessa inte tulee ennen verbiä: om du inte hittar.",
+                    "wrong": [
+                        "Kolla din skräppost om du hittar inte mejlet.",
+                        "Kolla ditt skräppost om du inte hittar mejlet."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "internet-l3",
+            "title": "Yhteydet ja pilvi",
+            "intro": "Verkkoyhteydet, liittymät ja pilvipalvelut.",
+            "sentences": [
+                {
+                    "id": "internet-s13",
+                    "sv": "Vi har en stabil nätförbindelse på vårt kontor.",
+                    "fi": "Meillä on vakaa verkkoyhteys toimistollamme.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "nätförbindelse",
+                            "d": [
+                                "nätförbindelsen",
+                                "nätförbindelser",
+                                "sökmaskin"
+                            ]
+                        },
+                        {
+                            "w": "stabil",
+                            "d": ["stabilt", "stabila", "stabilare"]
+                        },
+                        {
+                            "w": "kontor",
+                            "d": ["kontoret", "kontorer", "kontors"]
+                        }
+                    ],
+                    "grammar": ["compound", "adj", "possessive"],
+                    "note": "nät + förbindelse = verkko + yhteys. kontor (toimisto) on ett-sana → vårt kontor.",
+                    "wrong": [
+                        "Vi har en stabilt nätförbindelse på vårt kontor.",
+                        "Vi har en stabil nätförbindelse på vår kontor."
+                    ]
+                },
+                {
+                    "id": "internet-s14",
+                    "sv": "Företaget erbjuder en snabb anslutning till internet.",
+                    "fi": "Yritys tarjoaa nopean liittymän internetiin.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "anslutning",
+                            "d": ["anslutningen", "anslutningar", "ansluta"]
+                        },
+                        {
+                            "w": "erbjuder",
+                            "d": ["erbjuda", "erbjöd", "erbjudit"]
+                        },
+                        {
+                            "w": "Företaget",
+                            "d": ["Företag", "Företagen", "Företagets"]
+                        }
+                    ],
+                    "grammar": ["definite", "present", "adj"],
+                    "note": "erbjuda = tarjota. anslutning = liittymä, yhteys (ansluta = liittää). företag = yritys, företaget = se yritys.",
+                    "wrong": [
+                        "Företaget erbjuda en snabb anslutning till internet.",
+                        "Företaget erbjuder ett snabbt anslutning till internet."
+                    ]
+                },
+                {
+                    "id": "internet-s15",
+                    "sv": "Nätförbindelsen fungerar inte på grund av ett fel i modemet.",
+                    "fi": "Verkkoyhteys ei toimi modeemin vian vuoksi.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Nätförbindelsen",
+                            "d": [
+                                "Nätförbindelse",
+                                "Nätförbindelser",
+                                "Sökmaskinen"
+                            ]
+                        },
+                        {
+                            "w": "modemet",
+                            "d": ["modem", "modemen", "modemets"]
+                        },
+                        {
+                            "w": "på grund av",
+                            "d": ["på grund för", "på grunden av", "i grund av"]
+                        }
+                    ],
+                    "grammar": ["negation", "definite", "prepositions"],
+                    "note": "på grund av = jonkin vuoksi. ett fel = vika, virhe. modem on ett-sana → modemet.",
+                    "wrong": [
+                        "Nätförbindelsen inte fungerar på grund av ett fel i modemet.",
+                        "Nätförbindelsen fungerar inte på grund av en fel i modemet."
+                    ]
+                },
+                {
+                    "id": "internet-s16",
+                    "sv": "Företaget använder molntjänster för datalagring.",
+                    "fi": "Yritys käyttää pilvipalveluita tiedon tallentamiseen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "molntjänster",
+                            "d": ["molntjänst", "molntjänsten", "molnet"]
+                        },
+                        {
+                            "w": "datalagring",
+                            "d": ["datalager", "datalagra", "datasäkerhet"]
+                        }
+                    ],
+                    "grammar": ["compound", "plural", "prepositions"],
+                    "note": "moln + tjänster = pilvi + palvelut. data + lagring = data + varastointi → tiedon tallentaminen. för = varten.",
+                    "wrong": [
+                        "Företaget använder molntjänst för datalagring.",
+                        "Företaget använda molntjänster för datalagring."
+                    ]
+                },
+                {
+                    "id": "internet-s17",
+                    "sv": "Alla filer sparas automatiskt i en molntjänst.",
+                    "fi": "Kaikki tiedostot tallennetaan automaattisesti pilvipalveluun.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "sparas", "d": ["sparar", "spara", "sparade"] },
+                        {
+                            "w": "molntjänst",
+                            "d": ["molntjänster", "molntjänsten", "molnet"]
+                        },
+                        {
+                            "w": "automatiskt",
+                            "d": ["automatisk", "automatiska", "automat"]
+                        }
+                    ],
+                    "grammar": ["s-passive", "compound", "adverbs"],
+                    "note": "sparas = tallennetaan (s-passiivi: spara + s). automatiskt = automaattisesti (adverbi saa -t).",
+                    "wrong": [
+                        "Alla filer sparar automatiskt i en molntjänst.",
+                        "Alla filer sparas automatiskt i ett molntjänst."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "internet-l4",
+            "title": "Verkkokauppa ja esineiden internet",
+            "intro": "Blogit, verkkokauppa, teollinen internet ja esineiden internet.",
+            "sentences": [
+                {
+                    "id": "internet-s18",
+                    "sv": "Min blogg handlar om teknik och sociala medier.",
+                    "fi": "Blogini käsittelee tekniikkaa ja sosiaalista mediaa.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "blogg", "d": ["bloggen", "bloggar", "blogga"] },
+                        {
+                            "w": "handlar om",
+                            "d": ["handlar på", "handlar till", "handlar av"]
+                        },
+                        { "w": "medier", "d": ["medierna", "medium", "mediet"] }
+                    ],
+                    "grammar": ["present", "rektio", "plural"],
+                    "note": "handla om = käsitellä jotain, kertoa jostain. sociala medier = sosiaalinen media (ruotsissa monikko). blogg on en-sana → min blogg.",
+                    "wrong": [
+                        "Min blogg handlar på teknik och sociala medier.",
+                        "Mitt blogg handlar om teknik och sociala medier."
+                    ]
+                },
+                {
+                    "id": "internet-s19",
+                    "sv": "Jag köpte telefonen via näthandeln.",
+                    "fi": "Ostin puhelimen verkkokaupan kautta.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "näthandeln",
+                            "d": ["näthandel", "näthandlar", "nätet"]
+                        },
+                        { "w": "köpte", "d": ["köper", "köpa", "köpt"] },
+                        {
+                            "w": "telefonen",
+                            "d": ["telefon", "telefoner", "telefonet"]
+                        }
+                    ],
+                    "grammar": ["past", "compound", "definite"],
+                    "note": "nät + handel = verkko + kauppa. via = kautta. köpa = ostaa, köpte = ostin.",
+                    "wrong": [
+                        "Jag köpa telefonen via näthandeln.",
+                        "Jag köpte telefonet via näthandeln."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag köpte datorn via näthandeln.",
+                            "fi": "Ostin tietokoneen verkkokaupan kautta.",
+                            "w": "datorn",
+                            "d": ["dator", "datoren", "datorer"]
+                        }
+                    ]
+                },
+                {
+                    "id": "internet-s20",
+                    "sv": "Näthandeln har ökat kraftigt de senaste åren.",
+                    "fi": "Verkkokauppa on kasvanut voimakkaasti viime vuosina.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "ökat", "d": ["ökar", "öka", "ökade"] },
+                        {
+                            "w": "kraftigt",
+                            "d": ["kraftig", "kraftiga", "kraft"]
+                        },
+                        {
+                            "w": "Näthandeln",
+                            "d": ["Näthandel", "Näthandlar", "Nätet"]
+                        }
+                    ],
+                    "grammar": ["perfect", "time", "adverbs"],
+                    "note": "har ökat = on kasvanut (perfekti: har + verbi -t). kraftigt = voimakkaasti. de senaste åren = viime vuosina.",
+                    "wrong": [
+                        "Näthandeln har öka kraftigt de senaste åren.",
+                        "Näthandeln ökat har kraftigt de senaste åren."
+                    ]
+                },
+                {
+                    "id": "internet-s21",
+                    "sv": "Industriellt internet och sakernas internet förändrar produktionen.",
+                    "fi": "Teollinen internet ja esineiden internet muuttavat tuotantoa.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "sakernas", "d": ["saker", "sakerna", "saken"] },
+                        {
+                            "w": "förändrar",
+                            "d": ["förändra", "förändrade", "förändring"]
+                        },
+                        {
+                            "w": "produktionen",
+                            "d": ["produktion", "produktioner", "produkten"]
+                        }
+                    ],
+                    "grammar": ["genitive", "present", "definite"],
+                    "note": "sakernas internet = esineiden internet (sak = esine, sakernas = esineiden, genetiivi -s). förändra = muuttaa. industriellt = teollinen.",
+                    "wrong": [
+                        "Industriellt internet och sakerna internet förändrar produktionen.",
+                        "Industriellt internet och sakernas internet förändra produktionen."
+                    ]
+                },
+                {
+                    "id": "internet-s22",
+                    "sv": "Sakernas internet möjliggör att maskiner kommunicerar direkt.",
+                    "fi": "Esineiden internet mahdollistaa koneiden suoran viestinnän.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "möjliggör",
+                            "d": ["möjlig", "möjliggöra", "möjligheter"]
+                        },
+                        {
+                            "w": "kommunicerar",
+                            "d": [
+                                "kommunicera",
+                                "kommunikation",
+                                "kommunicerade"
+                            ]
+                        },
+                        {
+                            "w": "maskiner",
+                            "d": ["maskin", "maskinen", "maskinar"]
+                        }
+                    ],
+                    "grammar": ["subclause", "compound", "genitive"],
+                    "note": "möjlig + göra = mahdollinen + tehdä → mahdollistaa. att = että (sivulause alkaa). maskin = kone, maskiner = koneet.",
+                    "wrong": [
+                        "Sakernas internet möjliggöra att maskiner kommunicerar direkt.",
+                        "Sakernas internet möjliggör att maskiner kommunicera direkt."
+                    ]
+                }
+            ]
+        }
+    ],
+    "glossary": {
+        "jag": "minä",
+        "surfar": "surffaa (surfa = surffata)",
+        "ofta": "usein",
+        "på": "-lla/-llä, -ssa, päällä",
+        "nätet": "verkko, netti (määräinen muoto: nät + et); på nätet = verkossa",
+        "med": "kanssa, -lla/-llä",
+        "min": "minun (en-sanan kanssa)",
+        "nya": "uusi (ny + a omistussanan jälkeen)",
+        "webbläsare": "verkkoselain (webb = verkko + läsare = lukija; en webbläsare)",
+        "hemma": "kotona",
+        "använder": "käyttää (använda = käyttää, preesens)",
+        "en": "yksi; en-sanojen artikkeli",
+        "ett": "yksi; ett-sanojen artikkeli",
+        "modern": "moderni",
+        "när": "kun; milloin",
+        "jobbar": "työskentelee (jobba = tehdä töitä)",
+        "hastigheten": "nopeus (määräinen muoto: hastighet + en)",
+        "hastighet": "nopeus (en hastighet)",
+        "bredbandet": "laajakaista (määräinen muoto: bredband + et)",
+        "bredband": "laajakaista (bred = leveä + band = kaista; ett bredband)",
+        "är": "on (vara = olla)",
+        "mycket": "todella, hyvin; paljon",
+        "bra": "hyvä",
+        "idag": "tänään; nykyään",
+        "vi": "me",
+        "har": "on (jollakin), omistaa (ha = olla jollakin); har ökat = on kasvanut",
+        "hög": "korkea",
+        "fast": "kiinteä",
+        "förbindelse": "yhteys (en förbindelse)",
+        "i": "-ssa/-ssä",
+        "vårt": "meidän (ett-sanan kanssa)",
+        "hus": "talo (ett hus)",
+        "hittade": "löysi (hitta = löytää, imperfekti)",
+        "hittar": "löytää (hitta = löytää)",
+        "informationen": "tieto (määräinen muoto: information + en)",
+        "via": "kautta",
+        "sökmaskin": "hakukone (sök = haku + maskin = kone; en sökmaskin)",
+        "sök": "hae (käskymuoto verbistä söka = hakea)",
+        "svaret": "vastaus (määräinen muoto: svar + et)",
+        "klickade": "klikkasi (klicka = klikata, imperfekti)",
+        "klicka": "klikkaa (käskymuoto; klicka på = klikata jotain)",
+        "länk": "linkki (en länk)",
+        "länken": "linkki (määräinen muoto: länk + en)",
+        "och": "ja",
+        "hamnade": "päätyi (hamna = päätyä)",
+        "hemsida": "kotisivu (hem = koti + sida = sivu; en hemsida)",
+        "för": "varten; för att = jotta, -kseen",
+        "för att": "jotta, -kseen (tarkoitus)",
+        "att": "infinitiivin merkki (vrt. englannin to); myös 'että'",
+        "öppna": "avata",
+        "dokumentet": "asiakirja (määräinen muoto: dokument + et)",
+        "läste": "luki (läsa = lukea, imperfekti)",
+        "artikeln": "artikkeli (määräinen muoto: artikel + n)",
+        "kolla": "tarkista (kolla = tarkistaa, käskymuoto)",
+        "din": "sinun (en-sanan kanssa)",
+        "skräppost": "roskaposti (skräp = roska + post = posti)",
+        "om": "jos; jostakin (handla om)",
+        "du": "sinä",
+        "inte": "ei",
+        "mejlet": "sähköposti, sähköpostiviesti (määräinen muoto: mejl + et)",
+        "stabil": "vakaa",
+        "nätförbindelse": "verkkoyhteys (nät = verkko + förbindelse = yhteys)",
+        "nätförbindelsen": "verkkoyhteys (määräinen muoto)",
+        "kontor": "toimisto (ett kontor)",
+        "företaget": "yritys (määräinen muoto: företag + et)",
+        "erbjuder": "tarjoaa (erbjuda = tarjota)",
+        "snabb": "nopea",
+        "anslutning": "liittymä, yhteys (ansluta = liittää; en anslutning)",
+        "till": "-lle, -ksi; till internet = internetiin",
+        "internet": "internet",
+        "fungerar": "toimii (fungera = toimia)",
+        "på grund av": "jonkin vuoksi, takia",
+        "grund": "perusta; på grund av = vuoksi",
+        "av": "-sta/-stä; på grund av = vuoksi",
+        "fel": "virhe, vika (ett fel)",
+        "modemet": "modeemi (määräinen muoto: modem + et)",
+        "molntjänster": "pilvipalvelut (moln = pilvi + tjänster = palvelut)",
+        "molntjänst": "pilvipalvelu (en molntjänst)",
+        "datalagring": "tiedon tallentaminen (data + lagring = varastointi)",
+        "alla": "kaikki",
+        "filer": "tiedostot (en fil, monikko -er)",
+        "sparas": "tallennetaan (s-passiivi: spara + s)",
+        "automatiskt": "automaattisesti",
+        "blogg": "blogi (en blogg)",
+        "handlar": "käsittelee; ostaa (handla om = käsitellä jotain)",
+        "handlar om": "käsittelee jotain, kertoo jostain",
+        "teknik": "tekniikka",
+        "sociala": "sosiaaliset (social + a monikossa)",
+        "medier": "media (ruotsissa monikko: sociala medier)",
+        "köpte": "osti (köpa = ostaa, imperfekti)",
+        "telefonen": "puhelin (määräinen muoto: telefon + en)",
+        "datorn": "tietokone (määräinen muoto: dator + n)",
+        "näthandeln": "verkkokauppa (määräinen muoto; nät = verkko + handel = kauppa)",
+        "ökat": "kasvanut (öka = kasvaa; har ökat = on kasvanut)",
+        "kraftigt": "voimakkaasti",
+        "de": "ne; de senaste åren = viime vuosina",
+        "senaste": "viimeisin, viime",
+        "åren": "vuodet (määräinen monikko: år → åren)",
+        "de senaste åren": "viime vuosina",
+        "industriellt": "teollinen (ett-muoto: industriell + t)",
+        "sakernas": "esineiden, asioiden (sak = esine; sakernas = genetiivi monikko)",
+        "sakernas internet": "esineiden internet (IoT)",
+        "förändrar": "muuttaa (förändra)",
+        "produktionen": "tuotanto (määräinen muoto: produktion + en)",
+        "möjliggör": "mahdollistaa (möjlig = mahdollinen + göra = tehdä)",
+        "maskiner": "koneet (en maskin, monikko -er)",
+        "kommunicerar": "kommunikoi, viestii (kommunicera)",
+        "direkt": "suoraan"
+    }
+}

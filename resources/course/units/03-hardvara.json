@@ -1,0 +1,871 @@
+{
+    "id": "hardvara",
+    "title": "Laitteisto",
+    "subtitle": "Hårdvara",
+    "description": "Tietokoneen osat ja laitteet ruotsiksi: näppäimistö, näyttö, tulostin, emolevy ja muut. Kirjallisessa kokeessa näitä termejä pitää ymmärtää ruotsista suomeksi.",
+    "icon": "cpu",
+    "color": "sky",
+    "exam": ["written"],
+    "source": "Välilehti 4: Tehtävä 2 Hårdvara (fraasit) ja Täytä puuttuvat sanat -harjoitus",
+    "lessons": [
+        {
+            "id": "hardvara-l1",
+            "title": "Kannettava ja pöytäkone",
+            "intro": "Ensimmäiset laitteistolauseet: kannettava tietokone, näppäimistö, hiiri ja tulostin.",
+            "sentences": [
+                {
+                    "id": "hardvara-s01",
+                    "sv": "Min bärbara dator har dålig prestanda.",
+                    "fi": "Kannettavassa tietokoneessani on huono suorituskyky.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "bärbara",
+                            "d": ["bärbar", "bärbart", "stationär"]
+                        },
+                        {
+                            "w": "prestanda",
+                            "d": ["strömkälla", "högtalare", "sladd"]
+                        }
+                    ],
+                    "grammar": ["possessive", "adj-def"],
+                    "note": "bärbar = kannettava (bära = kantaa). Omistussanan min perässä adjektiivi saa -a-päätteen: min bärbara dator. Ruotsiksi sanotaan 'tietokoneellani on', eli dator har.",
+                    "wrong": [
+                        "Min bärbar dator har dålig prestanda.",
+                        "Min bärbara dator dålig prestanda har."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Min stationära dator har dålig prestanda.",
+                            "fi": "Pöytätietokoneessani on huono suorituskyky.",
+                            "w": "stationära",
+                            "d": ["stationär", "stationärt", "bärbar"]
+                        }
+                    ]
+                },
+                {
+                    "id": "hardvara-s02",
+                    "sv": "Jag behöver ett nytt tangentbord och en mus till min stationära dator.",
+                    "fi": "Tarvitsen uuden näppäimistön ja hiiren pöytätietokoneeseeni.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "tangentbord", "d": ["mus", "skärm", "sladd"] },
+                        { "w": "nytt", "d": ["ny", "nya", "nyt"] },
+                        {
+                            "w": "stationära",
+                            "d": ["stationär", "stationärt", "bärbara"]
+                        }
+                    ],
+                    "grammar": ["gender", "adj", "adj-def"],
+                    "note": "tangentbord on ett-sana, siksi adjektiivi saa -t: ett nytt tangentbord. mus on en-sana: en mus. stationär dator = pöytätietokone (kone pysyy paikallaan).",
+                    "wrong": [
+                        "Jag behöver ett ny tangentbord och en mus till min stationära dator.",
+                        "Jag behöver en nytt tangentbord och en mus till min stationära dator."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag behöver ett nytt tangentbord och en mus till min bärbara dator.",
+                            "fi": "Tarvitsen uuden näppäimistön ja hiiren kannettavaan tietokoneeseeni.",
+                            "w": "bärbara",
+                            "d": ["bärbar", "bärbart", "stationär"]
+                        }
+                    ]
+                },
+                {
+                    "id": "hardvara-s03",
+                    "sv": "Skärmen fungerar inte utan strömkälla.",
+                    "fi": "Näyttö ei toimi ilman virtalähdettä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Skärmen",
+                            "d": ["Skärm", "Skärmet", "Sladden"]
+                        },
+                        {
+                            "w": "strömkälla",
+                            "d": ["högtalare", "processor", "minne"]
+                        },
+                        {
+                            "w": "fungerar",
+                            "d": ["fungera", "fungerade", "fungerat"]
+                        }
+                    ],
+                    "grammar": ["definite", "negation", "prepositions"],
+                    "note": "skärm = näyttö, skärmen = se näyttö (määräinen muoto). ström + källa = virta + lähde. inte tulee verbin perään: fungerar inte = ei toimi.",
+                    "wrong": [
+                        "Skärmen inte fungerar utan strömkälla.",
+                        "Skärm fungerar inte utan strömkälla."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Datorn fungerar inte utan strömkälla.",
+                            "fi": "Tietokone ei toimi ilman virtalähdettä.",
+                            "w": "Datorn",
+                            "d": ["Dator", "Datoren", "Datorns"]
+                        }
+                    ]
+                },
+                {
+                    "id": "hardvara-s04",
+                    "sv": "Min kollega köpte en ny surfplatta.",
+                    "fi": "Kollegani osti uuden tabletin.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "surfplatta",
+                            "d": ["surfplattan", "tangentbord", "nätverk"]
+                        },
+                        { "w": "köpte", "d": ["köper", "köpt", "köpa"] }
+                    ],
+                    "grammar": ["past", "adj", "gender"],
+                    "note": "surf + platta = 'surffauslevy' eli tabletti. köpte on köpa-verbin imperfekti (osti).",
+                    "wrong": [
+                        "Min kollega köpa en ny surfplatta.",
+                        "Min kollega köpte ett nytt surfplatta."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Min kollega köpte en ny skrivare.",
+                            "fi": "Kollegani osti uuden tulostimen.",
+                            "w": "skrivare",
+                            "d": ["skrivaren", "skrivar", "surfplatta"]
+                        }
+                    ]
+                },
+                {
+                    "id": "hardvara-s05",
+                    "sv": "Den här skrivaren är inte trådlös, så vi måste använda en sladd.",
+                    "fi": "Tämä tulostin ei ole langaton, joten meidän täytyy käyttää johtoa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "skrivaren",
+                            "d": ["skrivare", "skrivarna", "skrivaret"]
+                        },
+                        {
+                            "w": "trådlös",
+                            "d": ["trådlöst", "trådlösa", "sönder"]
+                        },
+                        { "w": "sladd", "d": ["sladden", "mus", "nätverk"] }
+                    ],
+                    "grammar": ["adj-def", "negation", "conjunctions"],
+                    "note": "den här + määräinen muoto = tämä: den här skrivaren = tämä tulostin. trådlös = langaton (tråd = lanka, -lös = -ton). så = joten.",
+                    "wrong": [
+                        "Den här skrivaren inte är trådlös, så vi måste använda en sladd.",
+                        "Den här skrivaren är inte trådlös, så vi måste att använda en sladd."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hardvara-l2",
+            "title": "Koneen sisällä",
+            "intro": "Mitä tietokoneen sisällä on: prosessori, emolevy ja keskusyksikkö.",
+            "sentences": [
+                {
+                    "id": "hardvara-s06",
+                    "sv": "Processorn sitter fast på moderkortet inne i centralenheten.",
+                    "fi": "Prosessori on kiinni emolevyssä keskusyksikön sisällä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "moderkortet",
+                            "d": ["moderkort", "moderkorten", "skärmen"]
+                        },
+                        {
+                            "w": "centralenheten",
+                            "d": ["centralenhet", "centralenheter", "skrivaren"]
+                        },
+                        {
+                            "w": "Processorn",
+                            "d": ["Processor", "Processoren", "Sladden"]
+                        }
+                    ],
+                    "grammar": ["definite", "compound", "prepositions"],
+                    "note": "sitta fast = olla kiinni. moder + kort = emo + levy (äiti + kortti). central + enhet = keskus + yksikkö. Kaikki laitteet ovat määräisessä muodossa (-n, -et, -en).",
+                    "wrong": [
+                        "Processorn fast sitter på moderkortet inne i centralenheten.",
+                        "Processor sitter fast på moderkortet inne i centralenheten."
+                    ]
+                },
+                {
+                    "id": "hardvara-s07",
+                    "sv": "Jag sparade filerna på ett USB-minne.",
+                    "fi": "Tallensin tiedostot muistitikulle.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "sparade", "d": ["sparar", "spara", "sparat"] },
+                        {
+                            "w": "USB-minne",
+                            "d": ["USB-minnet", "hårddisk", "skärm"]
+                        },
+                        { "w": "filerna", "d": ["filen", "filernas", "filern"] }
+                    ],
+                    "grammar": ["past", "plural", "definite"],
+                    "note": "spara = tallentaa, sparade = tallensin. fil = tiedosto, filer = tiedostoja, filerna = ne tiedostot. USB-minne = muistitikku (minne = muisti).",
+                    "wrong": [
+                        "Jag sparat filerna på ett USB-minne.",
+                        "Jag sparade filerna på en USB-minne."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag sparade bilderna på ett USB-minne.",
+                            "fi": "Tallensin kuvat muistitikulle.",
+                            "w": "bilderna",
+                            "d": ["bilder", "bilden", "bildena"]
+                        }
+                    ]
+                },
+                {
+                    "id": "hardvara-s08",
+                    "sv": "Vi använder ett trådlöst nätverk hemma.",
+                    "fi": "Käytämme kotona langatonta verkkoa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "trådlöst",
+                            "d": ["trådlös", "trådlösa", "trådlösen"]
+                        },
+                        { "w": "nätverk", "d": ["nätverket", "sladd", "kabel"] }
+                    ],
+                    "grammar": ["adj", "gender"],
+                    "note": "nätverk (verkko) on ett-sana, siksi adjektiivi saa -t: ett trådlöst nätverk. hemma = kotona.",
+                    "wrong": [
+                        "Vi använder en trådlös nätverk hemma.",
+                        "Vi använder ett trådlös nätverk hemma."
+                    ]
+                },
+                {
+                    "id": "hardvara-s09",
+                    "sv": "Mina hörlurar är sönder, så jag lyssnar via högtalare.",
+                    "fi": "Kuulokkeeni ovat rikki, joten kuuntelen kaiuttimien kautta.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "hörlurar",
+                            "d": ["hörlur", "hörlurarna", "mikrofoner"]
+                        },
+                        {
+                            "w": "sönder",
+                            "d": ["trådlös", "snabba", "stationära"]
+                        },
+                        {
+                            "w": "högtalare",
+                            "d": ["hörlurar", "mikrofon", "skärm"]
+                        }
+                    ],
+                    "grammar": ["possessive", "plural", "conjunctions"],
+                    "note": "hörlurar = kuulokkeet (monikko, siksi mina). sönder = rikki. hög + talare = 'kovaa puhuja' eli kaiutin. via = kautta.",
+                    "wrong": [
+                        "Min hörlurar är sönder, så jag lyssnar via högtalare.",
+                        "Mina hörlurar sönder är, så jag lyssnar via högtalare."
+                    ]
+                },
+                {
+                    "id": "hardvara-s10",
+                    "sv": "Moderkortet sitter inuti datorn och alla delar är kopplade till den.",
+                    "fi": "Emolevy sijaitsee tietokoneen sisällä, ja kaikki osat on liitetty siihen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Moderkortet",
+                            "d": ["Moderkort", "Moderkorten", "Skärmen"]
+                        },
+                        {
+                            "w": "kopplade",
+                            "d": ["kopplad", "kopplat", "koppla"]
+                        },
+                        { "w": "datorn", "d": ["dator", "datoren", "datorns"] }
+                    ],
+                    "grammar": ["definite", "participle", "prepositions"],
+                    "note": "inuti = sisällä. kopplade = liitetyt; monikossa (alla delar) pääte on -de. till den = siihen (den viittaa emolevyyn).",
+                    "wrong": [
+                        "Moderkortet sitter inuti datorn och alla delar är kopplad till den.",
+                        "Moderkortet inuti datorn sitter och alla delar är kopplade till den."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hardvara-l3",
+            "title": "Muisti ja tallennus",
+            "intro": "Kosketusnäyttö, kovalevy, muistikortti ja muistitikku.",
+            "sentences": [
+                {
+                    "id": "hardvara-s11",
+                    "sv": "Min bärbara dator har en stor pekskärm och den väger bara ett kilo.",
+                    "fi": "Minun kannettavalla tietokoneellani on iso kosketusnäyttö, ja se painaa vain kilon.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "pekskärm",
+                            "d": ["pekskärmen", "tangentbord", "skrivare"]
+                        },
+                        { "w": "väger", "d": ["väga", "vägde", "väg"] }
+                    ],
+                    "grammar": ["compound", "adj", "possessive"],
+                    "note": "pek + skärm = kosketus + näyttö (peka = osoittaa). väga = painaa. den viittaa tietokoneeseen, koska dator on en-sana.",
+                    "wrong": [
+                        "Min bärbara dator har ett stort pekskärm och den väger bara ett kilo.",
+                        "Min bärbar dator har en stor pekskärm och den väger bara ett kilo."
+                    ]
+                },
+                {
+                    "id": "hardvara-s12",
+                    "sv": "Jag installerade en ny hårddisk i min dator för att få bättre prestanda.",
+                    "fi": "Asensin uuden kovalevyn tietokoneeseeni saadakseni paremman suorituskyvyn.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "hårddisk",
+                            "d": ["hårddisken", "moderkort", "minneskort"]
+                        },
+                        {
+                            "w": "prestanda",
+                            "d": ["skärm", "strömkälla", "sladd"]
+                        },
+                        { "w": "bättre", "d": ["bra", "bäst", "bättra"] }
+                    ],
+                    "grammar": ["past", "for-att", "comparison"],
+                    "note": "hård + disk = kova + levy. för att få = saadakseni (för att = jotta). bättre = parempi (bra → bättre → bäst).",
+                    "wrong": [
+                        "Jag installerade en ny hårddisk i min dator för få bättre prestanda.",
+                        "Jag installerade ett nytt hårddisk i min dator för att få bättre prestanda."
+                    ]
+                },
+                {
+                    "id": "hardvara-s13",
+                    "sv": "Ett minneskort är ofta litet och används i mobiltelefoner och kameror.",
+                    "fi": "Muistikortti on usein pieni ja sitä käytetään kännyköissä ja kameroissa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "minneskort",
+                            "d": ["hårddisk", "minne", "moderkortet"]
+                        },
+                        { "w": "litet", "d": ["liten", "lite", "små"] },
+                        {
+                            "w": "används",
+                            "d": ["använder", "använda", "använd"]
+                        }
+                    ],
+                    "grammar": ["s-passive", "adj", "compound"],
+                    "note": "minnes + kort = muisti + kortti. litet = pieni ett-sanan kanssa (liten → litet). används = käytetään (s-passiivi: använda + s).",
+                    "wrong": [
+                        "Ett minneskort är ofta liten och används i mobiltelefoner och kameror.",
+                        "Ett minneskort ofta är litet och används i mobiltelefoner och kameror."
+                    ]
+                },
+                {
+                    "id": "hardvara-s14",
+                    "sv": "Jag kopierade bilderna till ett USB-minne för säkerhets skull.",
+                    "fi": "Kopioin kuvat muistitikulle varmuuden vuoksi.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "kopierade",
+                            "d": ["kopierar", "kopiera", "kopierat"]
+                        },
+                        {
+                            "w": "bilderna",
+                            "d": ["bilder", "bilden", "bildena"]
+                        },
+                        {
+                            "w": "USB-minne",
+                            "d": ["USB-minnet", "hårddisk", "skrivare"]
+                        }
+                    ],
+                    "grammar": ["past", "definite", "plural"],
+                    "note": "för säkerhets skull = varmuuden vuoksi (kiinteä sanonta, opettele kokonaisena). bild = kuva, bilderna = ne kuvat.",
+                    "wrong": [
+                        "Jag kopiera bilderna till ett USB-minne för säkerhets skull.",
+                        "Jag kopierade bilderna till en USB-minne för säkerhets skull."
+                    ]
+                },
+                {
+                    "id": "hardvara-s15",
+                    "sv": "Min dator har ett minne med 16 GB och en snabb processor.",
+                    "fi": "Tietokoneessani on 16 gigatavua muistia ja nopea prosessori.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "minne", "d": ["minnet", "minnen", "skärm"] },
+                        { "w": "snabb", "d": ["snabbt", "snabba", "snabbare"] },
+                        {
+                            "w": "processor",
+                            "d": ["processorn", "processorer", "sladd"]
+                        }
+                    ],
+                    "grammar": ["gender", "adj"],
+                    "note": "minne = muisti (ett minne). snabb = nopea. GB = gigabyte eli gigatavu.",
+                    "wrong": [
+                        "Min dator har en minne med 16 GB och en snabb processor.",
+                        "Min dator har ett minne med 16 GB och en snabbt processor."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hardvara-l4",
+            "title": "Tulostin ja kuulokkeet",
+            "intro": "Lauseita, joissa on sivulause (eftersom, när, så) – ja tärkeitä laitesanoja.",
+            "sentences": [
+                {
+                    "id": "hardvara-s16",
+                    "sv": "För att skriva behöver jag ett tangentbord.",
+                    "fi": "Kirjoittaakseni tarvitsen näppäimistön.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "tangentbord",
+                            "d": ["tangentbordet", "mus", "skärm"]
+                        },
+                        { "w": "behöver", "d": ["behov", "behöva", "behövde"] }
+                    ],
+                    "grammar": ["for-att", "v2", "gender"],
+                    "note": "Lause alkaa sanoilla För att skriva, joten verbi behöver tulee ennen subjektia jag (V2-sääntö). tangent + bord = näppäin + pöytä.",
+                    "wrong": [
+                        "För att skriva jag behöver ett tangentbord.",
+                        "För att skriva behöver jag en tangentbord."
+                    ]
+                },
+                {
+                    "id": "hardvara-s17",
+                    "sv": "Jag kan inte skriva ut dokumentet eftersom skrivaren inte fungerar.",
+                    "fi": "En voi tulostaa asiakirjaa, koska tulostin ei toimi.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "skrivaren",
+                            "d": ["skrivare", "skrivarna", "skannern"]
+                        },
+                        {
+                            "w": "skriva ut",
+                            "d": ["skriva in", "skriva om", "skriva på"]
+                        },
+                        { "w": "eftersom", "d": ["så", "men", "och"] }
+                    ],
+                    "grammar": ["particle", "subclause", "negation"],
+                    "note": "skriva ut = tulostaa (skriva = kirjoittaa, ut = ulos). skrivare = tulostin. eftersom = koska. Sivulauseessa inte tulee ennen verbiä: eftersom skrivaren inte fungerar.",
+                    "wrong": [
+                        "Jag kan inte skriva ut dokumentet eftersom skrivaren fungerar inte.",
+                        "Jag inte kan skriva ut dokumentet eftersom skrivaren inte fungerar."
+                    ]
+                },
+                {
+                    "id": "hardvara-s18",
+                    "sv": "Vi har ett trådlöst nätverk hemma, så du behöver ingen kabel.",
+                    "fi": "Meillä on langaton verkko kotona, joten et tarvitse kaapelia.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "kabel", "d": ["kabeln", "nätverk", "skärmen"] },
+                        {
+                            "w": "trådlöst",
+                            "d": ["trådlös", "trådlösa", "stationärt"]
+                        },
+                        { "w": "ingen", "d": ["inget", "inga", "inte"] }
+                    ],
+                    "grammar": ["adj", "negation", "conjunctions"],
+                    "note": "ingen = ei yhtään (en-sanan kanssa; ett-sanan kanssa inget). kabel ja sladd tarkoittavat molemmat johtoa tai kaapelia.",
+                    "wrong": [
+                        "Vi har ett trådlöst nätverk hemma, så du behöver inget kabel.",
+                        "Vi har ett trådlös nätverk hemma, så du behöver ingen kabel."
+                    ]
+                },
+                {
+                    "id": "hardvara-s19",
+                    "sv": "Jag använder hörlurar när jag vill lyssna på musik utan att störa andra.",
+                    "fi": "Käytän kuulokkeita, kun haluan kuunnella musiikkia häiritsemättä muita.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "hörlurar",
+                            "d": ["hörlur", "högtalare", "mikrofon"]
+                        },
+                        { "w": "störa", "d": ["stör", "störde", "störd"] }
+                    ],
+                    "grammar": ["subclause", "att-inf", "modal"],
+                    "note": "utan att + perusmuoto = -matta/-mättä: utan att störa = häiritsemättä. vill lyssna: apuverbin vill perään ei tule att.",
+                    "wrong": [
+                        "Jag använder hörlurar när jag vill att lyssna på musik utan att störa andra.",
+                        "Jag använder hörlurar när vill jag lyssna på musik utan att störa andra."
+                    ]
+                },
+                {
+                    "id": "hardvara-s20",
+                    "sv": "Strömkällan ger ström till alla komponenter i datorn.",
+                    "fi": "Virtalähde antaa virtaa kaikille tietokoneen osille.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Strömkällan",
+                            "d": ["Strömkälla", "Strömkällor", "Högtalaren"]
+                        },
+                        {
+                            "w": "komponenter",
+                            "d": ["komponent", "komponenten", "komponentet"]
+                        }
+                    ],
+                    "grammar": ["compound", "definite", "plural"],
+                    "note": "ström + källa = virta + lähde. komponent = osa, komponentti; monikko komponenter. i datorn = tietokoneessa (tässä: tietokoneen).",
+                    "wrong": [
+                        "Strömkällan ger ström till alla komponent i datorn.",
+                        "Strömkällan ström ger till alla komponenter i datorn."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "hardvara-w01",
+                    "sv": "en pekskärm",
+                    "fi": "kosketusnäyttö",
+                    "src": "m"
+                },
+                {
+                    "id": "hardvara-w02",
+                    "sv": "ett minneskort",
+                    "fi": "muistikortti",
+                    "src": "m"
+                },
+                {
+                    "id": "hardvara-w03",
+                    "sv": "ett USB-minne",
+                    "fi": "muistitikku",
+                    "src": "m"
+                },
+                {
+                    "id": "hardvara-w04",
+                    "sv": "hörlurar",
+                    "fi": "kuulokkeet",
+                    "src": "m",
+                    "note": "Monikko. Yksikkö on en hörlur."
+                },
+                {
+                    "id": "hardvara-w05",
+                    "sv": "en högtalare",
+                    "fi": "kaiutin",
+                    "src": "m"
+                },
+                {
+                    "id": "hardvara-w06",
+                    "sv": "prestanda",
+                    "fi": "suorituskyky",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "hardvara-l5",
+            "title": "Laitteet ja sanasto",
+            "intro": "Viimeiset laitteistolauseet ja koko aiheen tärkeimmät sanat kertauksena.",
+            "sentences": [
+                {
+                    "id": "hardvara-s21",
+                    "sv": "Med en skanner kan man skanna dokument.",
+                    "fi": "Skannerilla voi skannata asiakirjoja.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "skanner",
+                            "d": ["skannern", "skrivare", "skanna"]
+                        },
+                        {
+                            "w": "skanna",
+                            "d": ["skannar", "skannade", "skanner"]
+                        }
+                    ],
+                    "grammar": ["man", "modal", "v2"],
+                    "note": "man = yleinen tekijä (suomeksi 'voi' ilman subjektia). Lause alkaa sanoilla Med en skanner, joten verbi kan tulee ennen man-sanaa.",
+                    "wrong": [
+                        "Med en skanner man kan skanna dokument.",
+                        "Med en skanner kan man att skanna dokument."
+                    ]
+                },
+                {
+                    "id": "hardvara-s22",
+                    "sv": "En processor är en viktig del av datorn och behandlar all information.",
+                    "fi": "Prosessori on tärkeä osa tietokonetta ja käsittelee kaiken tiedon.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "processor",
+                            "d": ["processorn", "hårddisk", "skärm"]
+                        },
+                        {
+                            "w": "behandlar",
+                            "d": ["behandla", "behandlade", "behandlat"]
+                        },
+                        { "w": "viktig", "d": ["viktigt", "viktiga", "vikt"] }
+                    ],
+                    "grammar": ["present", "adj", "prepositions"],
+                    "note": "behandla = käsitellä. en del av = osa jotakin. del on en-sana, siksi en viktig del.",
+                    "wrong": [
+                        "En processor är ett viktigt del av datorn och behandlar all information.",
+                        "En processor är en viktig del av datorn och behandla all information."
+                    ]
+                },
+                {
+                    "id": "hardvara-s23",
+                    "sv": "Jag talade på mötet med hjälp av en mikrofon och hörde alla via en högtalare.",
+                    "fi": "Puhuin kokouksessa mikrofonin avulla ja kuulin kaikki kaiuttimen kautta.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "mikrofon",
+                            "d": ["mikrofonen", "högtalare", "skärm"]
+                        },
+                        {
+                            "w": "högtalare",
+                            "d": ["högtalaren", "mikrofon", "tangentbord"]
+                        },
+                        {
+                            "w": "med hjälp av",
+                            "d": [
+                                "med hjälp på",
+                                "med hjälp till",
+                                "med hjälpa av"
+                            ]
+                        }
+                    ],
+                    "grammar": ["past", "prepositions"],
+                    "note": "med hjälp av = jonkin avulla. via = kautta. talade ja hörde ovat imperfektejä (tala = puhua, höra = kuulla). på mötet = kokouksessa.",
+                    "wrong": [
+                        "Jag talade på mötet med hjälp på en mikrofon och hörde alla via en högtalare.",
+                        "Jag tala på mötet med hjälp av en mikrofon och hörde alla via en högtalare."
+                    ]
+                },
+                {
+                    "id": "hardvara-s24",
+                    "sv": "Det finns både stationära datorer och bärbara datorer beroende på behov.",
+                    "fi": "On olemassa sekä pöytätietokoneita että kannettavia tietokoneita tarpeen mukaan.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "stationära",
+                            "d": ["stationär", "stationärt", "stationäre"]
+                        },
+                        {
+                            "w": "bärbara",
+                            "d": ["bärbar", "bärbart", "bärbare"]
+                        },
+                        { "w": "datorer", "d": ["datorn", "dator", "datorar"] }
+                    ],
+                    "grammar": ["det-finns", "plural", "adj"],
+                    "note": "det finns = on olemassa. både ... och ... = sekä ... että .... Monikossa adjektiivi saa -a: stationära datorer. beroende på behov = tarpeen mukaan.",
+                    "wrong": [
+                        "Det finns både stationär datorer och bärbara datorer beroende på behov.",
+                        "Det är både stationära datorer och bärbara datorer beroende på behov."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "hardvara-w07",
+                    "sv": "ett tangentbord",
+                    "fi": "näppäimistö",
+                    "src": "m"
+                },
+                {
+                    "id": "hardvara-w08",
+                    "sv": "en mus",
+                    "fi": "hiiri",
+                    "src": "m"
+                },
+                {
+                    "id": "hardvara-w09",
+                    "sv": "en skärm",
+                    "fi": "näyttö",
+                    "src": "m"
+                },
+                {
+                    "id": "hardvara-w10",
+                    "sv": "en surfplatta",
+                    "fi": "tabletti",
+                    "src": "m"
+                },
+                {
+                    "id": "hardvara-w11",
+                    "sv": "en skrivare",
+                    "fi": "tulostin",
+                    "src": "m"
+                },
+                {
+                    "id": "hardvara-w12",
+                    "sv": "en sladd",
+                    "fi": "johto",
+                    "src": "m"
+                },
+                {
+                    "id": "hardvara-w13",
+                    "sv": "ett moderkort",
+                    "fi": "emolevy",
+                    "src": "m"
+                },
+                {
+                    "id": "hardvara-w14",
+                    "sv": "en centralenhet",
+                    "fi": "keskusyksikkö",
+                    "src": "m"
+                },
+                {
+                    "id": "hardvara-w15",
+                    "sv": "en hårddisk",
+                    "fi": "kovalevy",
+                    "src": "m"
+                },
+                {
+                    "id": "hardvara-w16",
+                    "sv": "en strömkälla",
+                    "fi": "virtalähde",
+                    "src": "m"
+                }
+            ]
+        }
+    ],
+    "glossary": {
+        "min": "minun (en-sanan kanssa)",
+        "bärbara": "kannettava (bärbar + -a omistussanan tai määräisen muodon jälkeen)",
+        "dator": "tietokone (en dator)",
+        "datorn": "tietokone (määräinen muoto: dator + n)",
+        "datorer": "tietokoneet, tietokoneita (dator monikossa)",
+        "har": "on (jollakin), omistaa (ha = olla jollakin)",
+        "dålig": "huono",
+        "prestanda": "suorituskyky",
+        "jag": "minä",
+        "behöver": "tarvitsee (behöva = tarvita)",
+        "ett": "yksi; ett-sanojen artikkeli",
+        "en": "yksi; en-sanojen artikkeli",
+        "nytt": "uusi (ny + t, ett-sanan kanssa)",
+        "ny": "uusi (en-sanan kanssa)",
+        "tangentbord": "näppäimistö (tangent = näppäin + bord = pöytä; ett tangentbord)",
+        "och": "ja",
+        "mus": "hiiri (en mus)",
+        "till": "-lle, -ksi, varten",
+        "stationära": "paikallaan oleva (stationär + -a); stationär dator = pöytätietokone",
+        "skärmen": "näyttö (määräinen muoto: skärm + en)",
+        "skärm": "näyttö (en skärm)",
+        "fungerar": "toimii (fungera = toimia)",
+        "inte": "ei",
+        "utan": "ilman",
+        "utan att": "-matta/-mättä (utan att störa = häiritsemättä)",
+        "strömkälla": "virtalähde (ström = virta + källa = lähde)",
+        "strömkällan": "virtalähde (määräinen muoto: strömkälla + n)",
+        "kollega": "kollega, työtoveri",
+        "köpte": "osti (köpa = ostaa, imperfekti)",
+        "surfplatta": "tabletti (surfa = surffata + platta = levy)",
+        "den": "se (en-sanasta); den här = tämä",
+        "här": "täällä; den här = tämä",
+        "den här": "tämä (perään määräinen muoto: den här skrivaren)",
+        "skrivaren": "tulostin (määräinen muoto: skrivare + n)",
+        "skrivare": "tulostin (en skrivare; skriva = kirjoittaa)",
+        "är": "on (vara = olla)",
+        "trådlös": "langaton (tråd = lanka + -lös = -ton)",
+        "trådlöst": "langaton (ett-sanan kanssa: trådlös + t)",
+        "så": "joten; niin",
+        "vi": "me",
+        "måste": "täytyy",
+        "använda": "käyttää (perusmuoto)",
+        "sladd": "johto (en sladd)",
+        "processorn": "prosessori (määräinen muoto: processor + n)",
+        "processor": "prosessori (en processor)",
+        "sitter": "istuu; sijaitsee (sitta = istua)",
+        "fast": "kiinni; sitta fast = olla kiinni",
+        "sitter fast": "on kiinni",
+        "på": "-lla/-llä, -ssa, päällä",
+        "moderkortet": "emolevy (määräinen muoto: moderkort + et)",
+        "moderkort": "emolevy (moder = äiti + kort = kortti; ett moderkort)",
+        "inne": "sisällä",
+        "i": "-ssa/-ssä",
+        "centralenheten": "keskusyksikkö (määräinen muoto: centralenhet + en)",
+        "centralenhet": "keskusyksikkö (central = keskus + enhet = yksikkö)",
+        "sparade": "tallensi (spara = tallentaa, imperfekti)",
+        "filerna": "tiedostot (määräinen monikko: fil → filer → filerna)",
+        "usb-minne": "muistitikku (USB + minne = muisti)",
+        "använder": "käyttää (använda = käyttää, preesens)",
+        "används": "käytetään (s-passiivi: använda + s)",
+        "nätverk": "verkko (ett nätverk)",
+        "hemma": "kotona",
+        "mina": "minun (monikon kanssa)",
+        "hörlurar": "kuulokkeet (monikko; en hörlur)",
+        "sönder": "rikki",
+        "lyssnar": "kuuntelee (lyssna = kuunnella)",
+        "lyssna": "kuunnella",
+        "via": "kautta",
+        "högtalare": "kaiutin (hög = kova + talare = puhuja)",
+        "inuti": "sisällä",
+        "alla": "kaikki",
+        "delar": "osat (en del = osa, monikko delar)",
+        "del": "osa (en del)",
+        "kopplade": "liitetyt, kytketyt (koppla = kytkeä; monikkomuoto)",
+        "stor": "iso, suuri",
+        "pekskärm": "kosketusnäyttö (peka = osoittaa + skärm = näyttö)",
+        "väger": "painaa (väga = painaa)",
+        "bara": "vain",
+        "kilo": "kilo",
+        "installerade": "asensi (installera = asentaa, imperfekti)",
+        "hårddisk": "kovalevy (hård = kova + disk = levy; en hårddisk)",
+        "för": "varten; för att = jotta, -kseen",
+        "för att": "jotta, -kseen (tarkoitus)",
+        "att": "infinitiivin merkki (vrt. englannin to); myös 'että'",
+        "få": "saada",
+        "bättre": "parempi (bra → bättre → bäst)",
+        "minneskort": "muistikortti (minne = muisti + s + kort = kortti; ett minneskort)",
+        "ofta": "usein",
+        "litet": "pieni (ett-sanan kanssa: liten → litet)",
+        "mobiltelefoner": "matkapuhelimet (en mobiltelefon, monikko -er)",
+        "kameror": "kamerat (en kamera, monikko -or)",
+        "kopierade": "kopioi (kopiera = kopioida, imperfekti)",
+        "bilderna": "kuvat (määräinen monikko: bild → bilder → bilderna)",
+        "säkerhets": "turvallisuuden (säkerhet + s); för säkerhets skull = varmuuden vuoksi",
+        "skull": "vuoksi; för säkerhets skull = varmuuden vuoksi",
+        "för säkerhets skull": "varmuuden vuoksi",
+        "med": "kanssa, -lla/-llä",
+        "gb": "gigatavu (gigabyte)",
+        "snabb": "nopea",
+        "minne": "muisti (ett minne)",
+        "för att skriva": "kirjoittaakseen",
+        "skriva": "kirjoittaa",
+        "kan": "voi, osaa (kunna)",
+        "ut": "ulos; skriva ut = tulostaa",
+        "skriva ut": "tulostaa",
+        "dokumentet": "asiakirja (määräinen muoto: dokument + et)",
+        "dokument": "asiakirja, asiakirjat (ett dokument; monikko sama)",
+        "eftersom": "koska",
+        "ingen": "ei yhtään (en-sanan kanssa)",
+        "kabel": "kaapeli (en kabel)",
+        "du": "sinä",
+        "när": "kun; milloin",
+        "vill": "haluaa (vilja = haluta)",
+        "musik": "musiikki",
+        "störa": "häiritä",
+        "andra": "muut; toinen",
+        "ger": "antaa (ge = antaa)",
+        "ström": "virta, sähkö",
+        "komponenter": "komponentit, osat (en komponent, monikko -er)",
+        "skanner": "skanneri (en skanner)",
+        "man": "yleinen tekijä ('voi', 'ihminen')",
+        "skanna": "skannata",
+        "viktig": "tärkeä",
+        "av": "-sta/-stä, jonkin (en del av = osa jotakin)",
+        "behandlar": "käsittelee (behandla = käsitellä)",
+        "all": "kaikki (yksikössä: all information = kaikki tieto)",
+        "information": "tieto, informaatio",
+        "talade": "puhui (tala = puhua, imperfekti)",
+        "mötet": "kokous (määräinen muoto: möte + t); på mötet = kokouksessa",
+        "hjälp": "apu; med hjälp av = avulla",
+        "med hjälp av": "jonkin avulla",
+        "mikrofon": "mikrofoni (en mikrofon)",
+        "hörde": "kuuli (höra = kuulla, imperfekti)",
+        "det": "se; det finns = on olemassa",
+        "finns": "on olemassa (finnas)",
+        "det finns": "on olemassa",
+        "både": "sekä; både ... och = sekä ... että",
+        "beroende": "riippuen; beroende på = jonkin mukaan",
+        "beroende på": "jostakin riippuen, jonkin mukaan",
+        "behov": "tarve, tarpeet",
+        "stationär": "paikallaan oleva; stationär dator = pöytätietokone",
+        "stationärt": "paikallaan oleva (ett-sanan kanssa)",
+        "bärbar": "kannettava",
+        "skrivbordet": "työpöytä (määräinen muoto)",
+        "bilder": "kuvat (en bild, monikko -er)"
+    }
+}

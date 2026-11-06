@@ -1,0 +1,1419 @@
+{
+    "id": "foretag",
+    "title": "Yritykset",
+    "subtitle": "Företag i din egen bransch",
+    "description": "Opit kuvailemaan yritystä ja sen toimintaa Eldhestar-tekstin ja suomalaisten yritysten sanaston avulla. Auttaa yritystehtävissä (Eldhestar ja Finska företag).",
+    "icon": "building-2",
+    "color": "rose",
+    "exam": ["assignment"],
+    "source": "Eldhestar-esite (Välkommen till Eldhestar – Volcano horses) ja sen sanastodiat (Företag i din egen bransch) sekä Finska företag -sanalista, jonka ruotsinkieliset vastineet ovat lisämateriaalia.",
+    "lessons": [
+        {
+            "id": "foretag-l1",
+            "title": "Eldhestar: tila ja toiminta",
+            "intro": "Eldhestar on islantilainen hevostila ja hotelli. Tekstin sanoilla voi kuvailla mitä tahansa yritystä.",
+            "sentences": [
+                {
+                    "id": "foretag-s01",
+                    "sv": "Det här är Eldhestars gård.",
+                    "fi": "Tämä on Eldhestarin tila.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "gård", "d": ["gården", "gårdar", "hotell"] },
+                        {
+                            "w": "Eldhestars",
+                            "d": ["Eldhestar", "Eldhestaren", "Eldhestarna"]
+                        }
+                    ],
+                    "grammar": ["genitive", "gender"],
+                    "note": "Eldhestars gård = Eldhestarin tila (omistus -s ilman heittomerkkiä). Det här är = tämä on.",
+                    "wrong": [
+                        "Det här är Eldhestar gård.",
+                        "Det här är Eldhestars gården."
+                    ]
+                },
+                {
+                    "id": "foretag-s02",
+                    "sv": "Vår verksamhet har utvecklats sedan 1986.",
+                    "fi": "Toimintamme on kehittynyt vuodesta 1986.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "verksamhet",
+                            "d": ["verksamheter", "verksam", "verkstad"]
+                        },
+                        {
+                            "w": "utvecklats",
+                            "d": ["utvecklat", "utvecklas", "utveckla"]
+                        },
+                        { "w": "sedan", "d": ["efter", "för", "till"] }
+                    ],
+                    "grammar": ["perfect", "s-passive", "possessive"],
+                    "note": "har utvecklats = on kehittynyt (perfekti + s-passiivi). sedan + vuosiluku = vuodesta lähtien.",
+                    "wrong": [
+                        "Vårt verksamhet har utvecklats sedan 1986.",
+                        "Vår verksamhet har utveckla sedan 1986."
+                    ]
+                },
+                {
+                    "id": "foretag-s03",
+                    "sv": "Gården ligger i hjärtat av Islands sydvästra landsbygd.",
+                    "fi": "Tila sijaitsee Islannin lounaisen maaseudun sydämessä.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "ligger", "d": ["ligga", "låg", "legat"] },
+                        {
+                            "w": "hjärtat",
+                            "d": ["hjärta", "hjärtan", "hjärtats"]
+                        },
+                        {
+                            "w": "landsbygd",
+                            "d": ["landskap", "land", "landsbygden"]
+                        }
+                    ],
+                    "grammar": ["genitive", "definite"],
+                    "note": "ligga = sijaita. i hjärtat av = jonkin sydämessä. Islands = Islannin (genetiivi -s).",
+                    "wrong": [
+                        "Gården ligga i hjärtat av Islands sydvästra landsbygd.",
+                        "Gården ligger i hjärtat av Island sydvästra landsbygd."
+                    ]
+                },
+                {
+                    "id": "foretag-s04",
+                    "sv": "Gården ligger intill Islands huvudväg.",
+                    "fi": "Tila sijaitsee Islannin päätien vieressä.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "intill", "d": ["inne", "inom", "till"] },
+                        {
+                            "w": "huvudväg",
+                            "d": ["huvudvägen", "huvudstad", "väg"]
+                        }
+                    ],
+                    "grammar": ["prepositions", "compound"],
+                    "note": "intill = vieressä, tuntumassa. huvud (pää) + väg (tie) = päätie.",
+                    "wrong": [
+                        "Gården ligger inom Islands huvudväg.",
+                        "Gården ligga intill Islands huvudväg."
+                    ]
+                },
+                {
+                    "id": "foretag-s05",
+                    "sv": "Våra gäster kan uppleva en mångfaldig och fascinerande natur.",
+                    "fi": "Vieraamme voivat kokea monimuotoisen ja kiehtovan luonnon.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "gäster", "d": ["gäst", "gästen", "gästerna"] },
+                        {
+                            "w": "uppleva",
+                            "d": ["upplever", "upplevde", "upplevelse"]
+                        },
+                        {
+                            "w": "mångfaldig",
+                            "d": ["mångfaldigt", "mångfaldiga", "många"]
+                        }
+                    ],
+                    "grammar": ["modal", "adj", "possessive"],
+                    "note": "kan + perusmuoto: kan uppleva = voivat kokea. en natur → mångfaldig (en-sana, ei -t:tä).",
+                    "wrong": [
+                        "Våra gäster kan upplever en mångfaldig och fascinerande natur.",
+                        "Våra gäster kan uppleva en mångfaldigt och fascinerande natur."
+                    ]
+                },
+                {
+                    "id": "foretag-s06",
+                    "sv": "Området kring vulkanen Hengill erbjuder vackra dalar.",
+                    "fi": "Hengill-tulivuoren ympäristö tarjoaa kauniita laaksoja.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "erbjuder",
+                            "d": ["erbjuda", "erbjöd", "erbjudande"]
+                        },
+                        { "w": "dalar", "d": ["dal", "dalen", "dalarna"] },
+                        { "w": "kring", "d": ["kryss", "kort", "till"] }
+                    ],
+                    "grammar": ["present", "plural", "adj"],
+                    "note": "erbjuda = tarjota. en dal → dalar (monikko). vackra = kauniit (monikko -a).",
+                    "wrong": [
+                        "Området kring vulkanen Hengill erbjuda vackra dalar.",
+                        "Området kring vulkanen Hengill erbjuder vackert dalar."
+                    ]
+                },
+                {
+                    "id": "foretag-s07",
+                    "sv": "Detta återspeglas i vårt namn.",
+                    "fi": "Tämä heijastuu nimessämme.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "återspeglas",
+                            "d": ["återspeglar", "återspegla", "speglar"]
+                        },
+                        { "w": "vårt", "d": ["vår", "våra", "oss"] }
+                    ],
+                    "grammar": ["s-passive", "possessive"],
+                    "note": "återspegla = heijastaa, återspeglas = heijastuu (s-passiivi). ett namn → vårt namn.",
+                    "wrong": [
+                        "Detta återspeglas i vår namn.",
+                        "Detta återspegla i vårt namn."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "foretag-w01",
+                    "sv": "en gård",
+                    "fi": "maatila",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w02",
+                    "sv": "en verksamhet",
+                    "fi": "(yritys)toiminta",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w03",
+                    "sv": "utveckla",
+                    "fi": "kehittää",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w04",
+                    "sv": "ett nöje",
+                    "fi": "nautinto, huvi",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w05",
+                    "sv": "en landsbygd",
+                    "fi": "maaseutu",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w06",
+                    "sv": "intill",
+                    "fi": "vieressä, tuntumassa",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w07",
+                    "sv": "mångfaldig",
+                    "fi": "moninainen",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w08",
+                    "sv": "erbjuda",
+                    "fi": "tarjota",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w09",
+                    "sv": "en dal",
+                    "fi": "laakso",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w10",
+                    "sv": "återspegla",
+                    "fi": "heijastaa",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "foretag-l2",
+            "title": "Eldhestar: palvelut",
+            "intro": "Miten yritys kuvaa palvelujaan ja asiakkaitaan?",
+            "sentences": [
+                {
+                    "id": "foretag-s08",
+                    "sv": "Våra gäster ges möjlighet att koppla av i en vacker och fridfull omgivning.",
+                    "fi": "Vieraillemme annetaan mahdollisuus rentoutua kauniissa ja rauhallisessa ympäristössä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "koppla av",
+                            "d": ["koppla in", "koppla på", "koppla till"]
+                        },
+                        {
+                            "w": "fridfull",
+                            "d": ["fridfullt", "fridfulla", "fri"]
+                        },
+                        {
+                            "w": "omgivning",
+                            "d": ["omgiven", "omgivningar", "område"]
+                        }
+                    ],
+                    "grammar": ["s-passive", "particle", "adj"],
+                    "note": "ges = annetaan (s-passiivi sanasta ge). koppla av = rentoutua (partikkeliverbi).",
+                    "wrong": [
+                        "Våra gäster ges möjlighet att koppla in i en vacker och fridfull omgivning.",
+                        "Våra gäster ges möjlighet att koppla av i en vackert och fridfull omgivning."
+                    ]
+                },
+                {
+                    "id": "foretag-s09",
+                    "sv": "På kvällen kan du njuta av god logi, mat och dryck.",
+                    "fi": "Illalla voit nauttia hyvästä majoituksesta, ruoasta ja juomasta.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "njuta av",
+                            "d": ["njuta på", "njuta med", "njuta till"]
+                        },
+                        { "w": "logi", "d": ["logik", "loggar", "lager"] },
+                        { "w": "kan", "d": ["kunna", "kan att", "kunde att"] }
+                    ],
+                    "grammar": ["v2", "rektio", "modal"],
+                    "note": "njuta av = nauttia jostakin (aina av). logi = majoitus. På kvällen + kan + du (V2).",
+                    "wrong": [
+                        "På kvällen du kan njuta av god logi, mat och dryck.",
+                        "På kvällen kan du njuta på god logi, mat och dryck."
+                    ]
+                },
+                {
+                    "id": "foretag-s10",
+                    "sv": "Vi vill ge eftertryck på personlig service och säkerhet.",
+                    "fi": "Haluamme korostaa henkilökohtaista palvelua ja turvallisuutta.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "ge eftertryck på",
+                            "d": [
+                                "ge eftertryck av",
+                                "ta eftertryck på",
+                                "ge efter på"
+                            ]
+                        },
+                        {
+                            "w": "säkerhet",
+                            "d": ["säker", "säkert", "säkerheten"]
+                        },
+                        {
+                            "w": "personlig",
+                            "d": ["personligt", "personliga", "person"]
+                        }
+                    ],
+                    "grammar": ["modal", "particle"],
+                    "note": "ge eftertryck på = korostaa. vill + perusmuoto: vill ge = haluaa antaa.",
+                    "wrong": [
+                        "Vi vill att ge eftertryck på personlig service och säkerhet.",
+                        "Vi vill ger eftertryck på personlig service och säkerhet."
+                    ]
+                },
+                {
+                    "id": "foretag-s11",
+                    "sv": "Vi erbjuder turer för både oerfarna och erfarna ryttare.",
+                    "fi": "Tarjoamme ratsastusretkiä sekä kokemattomille että kokeneille ratsastajille.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "oerfarna",
+                            "d": ["oerfaren", "oerfaret", "erfarenhet"]
+                        },
+                        { "w": "både", "d": ["båda", "bara", "även"] },
+                        {
+                            "w": "erbjuder",
+                            "d": ["erbjuda", "erbjöd", "erbjudit"]
+                        }
+                    ],
+                    "grammar": ["conjunctions", "adj"],
+                    "note": "både... och... = sekä... että... oerfaren = kokematon (o- = epä-), monikossa oerfarna.",
+                    "wrong": [
+                        "Vi erbjuder turer för båda oerfarna och erfarna ryttare.",
+                        "Vi erbjuder turer för både oerfaren och erfarna ryttare."
+                    ]
+                },
+                {
+                    "id": "foretag-s12",
+                    "sv": "De flesta av våra turer passar alla nivåer.",
+                    "fi": "Useimmat retkistämme sopivat kaikille tasoille.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "flesta", "d": ["fler", "mesta", "flera"] },
+                        { "w": "passar", "d": ["passa", "passade", "pass"] },
+                        { "w": "nivåer", "d": ["nivå", "nivån", "nivåns"] }
+                    ],
+                    "grammar": ["plural", "present"],
+                    "note": "de flesta = useimmat. passa = sopia. en nivå → nivåer (monikko).",
+                    "wrong": [
+                        "De flesta av våra turer passa alla nivåer.",
+                        "De flesta av våra turer passar alla nivå."
+                    ]
+                },
+                {
+                    "id": "foretag-s13",
+                    "sv": "Hotell Eldhestar är ett mysigt landsbygdshotell med en lyxig atmosfär.",
+                    "fi": "Hotel Eldhestar on kotoisa maaseutuhotelli, jossa on ylellinen tunnelma.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "mysigt", "d": ["mysig", "mysiga", "mys"] },
+                        {
+                            "w": "landsbygdshotell",
+                            "d": ["landsbygd", "landskap", "hotellet"]
+                        },
+                        { "w": "lyxig", "d": ["lyxigt", "lyxiga", "lyx"] }
+                    ],
+                    "grammar": ["adj", "gender", "compound"],
+                    "note": "ett hotell on ett-sana → mysigt (-t). en atmosfär on en-sana → lyxig (ei -t:tä).",
+                    "wrong": [
+                        "Hotell Eldhestar är ett mysig landsbygdshotell med en lyxig atmosfär.",
+                        "Hotell Eldhestar är en mysigt landsbygdshotell med en lyxig atmosfär."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "foretag-w11",
+                    "sv": "koppla av",
+                    "fi": "rentoutua",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w12",
+                    "sv": "fridfull",
+                    "fi": "rauhaisa",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w13",
+                    "sv": "en omgivning",
+                    "fi": "ympäristö",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w14",
+                    "sv": "logi",
+                    "fi": "majoitus",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w15",
+                    "sv": "ge eftertryck",
+                    "fi": "korostaa",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w16",
+                    "sv": "säkerhet",
+                    "fi": "turvallisuus",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w17",
+                    "sv": "oerfaren",
+                    "fi": "kokematon",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w18",
+                    "sv": "en nivå",
+                    "fi": "taso",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w19",
+                    "sv": "mysig",
+                    "fi": "kotoisa",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w20",
+                    "sv": "inbjudande",
+                    "fi": "kutsuva",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "foretag-l3",
+            "title": "Eldhestar: hotelli",
+            "intro": "Hotellin kuvaus: sisustus, palkinnot ja maisema.",
+            "sentences": [
+                {
+                    "id": "foretag-s14",
+                    "sv": "Det finns 37 rum, en varmt inbjudande restaurang samt traditionella badtunnor.",
+                    "fi": "Siellä on 37 huonetta, lämpimän kutsuva ravintola sekä perinteisiä paljuja.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Det finns",
+                            "a": ["det finns"],
+                            "d": ["Det är", "Det har", "Det blir"]
+                        },
+                        {
+                            "w": "inbjudande",
+                            "d": ["inbjuda", "inbjudan", "bjuder"]
+                        },
+                        {
+                            "w": "badtunnor",
+                            "d": ["badtunna", "badtunnan", "bad"]
+                        }
+                    ],
+                    "grammar": ["det-finns", "plural", "conjunctions"],
+                    "note": "det finns = on olemassa, siellä on. samt = sekä (virallinen). en badtunna → badtunnor (palju, monikko -or).",
+                    "wrong": [
+                        "Det är 37 rum, en varmt inbjudande restaurang samt traditionella badtunnor.",
+                        "Det finns 37 rum, en varmt inbjudande restaurang samt traditionellt badtunnor."
+                    ]
+                },
+                {
+                    "id": "foretag-s15",
+                    "sv": "Badtunnorna ger ett avslappnande bad vid slutet av dagen.",
+                    "fi": "Paljut tarjoavat rentouttavan kylvyn päivän päätteeksi.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "avslappnande",
+                            "d": ["avslappnad", "avslappning", "slappna"]
+                        },
+                        { "w": "slutet", "d": ["slut", "sluta", "slutar"] }
+                    ],
+                    "grammar": ["definite", "participle"],
+                    "note": "avslappnande = rentouttava (-ande = -va). vid slutet av dagen = päivän päätteeksi.",
+                    "wrong": [
+                        "Badtunnorna ger en avslappnande bad vid slutet av dagen.",
+                        "Badtunnorna ger ett avslappnande bad på slutet av dagen."
+                    ]
+                },
+                {
+                    "id": "foretag-s16",
+                    "sv": "Hotellets inredning är inspirerad av färger och material från den isländska naturen.",
+                    "fi": "Hotellin sisustus on saanut inspiraationsa islantilaisen luonnon väreistä ja materiaaleista.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "inredning",
+                            "d": ["inredningen", "inreda", "inredde"]
+                        },
+                        {
+                            "w": "inspirerad",
+                            "d": ["inspirerar", "inspiration", "inspirera"]
+                        },
+                        {
+                            "w": "isländska",
+                            "d": ["isländsk", "isländskt", "Island"]
+                        }
+                    ],
+                    "grammar": ["genitive", "participle", "adj-def"],
+                    "note": "Hotellets = hotellin (genetiivi -s). inspirerad av = jostakin inspiroitunut. den isländska naturen = se islantilainen luonto.",
+                    "wrong": [
+                        "Hotellet inredning är inspirerad av färger och material från den isländska naturen.",
+                        "Hotellets inredning är inspirerad av färger och material från den isländsk naturen."
+                    ]
+                },
+                {
+                    "id": "foretag-s17",
+                    "sv": "Det byggdes enligt ekologiska riktlinjer.",
+                    "fi": "Se rakennettiin ekologisten ohjeiden mukaisesti.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "byggdes", "d": ["bygger", "bygga", "byggt"] },
+                        { "w": "enligt", "d": ["enkel", "eller", "emot"] },
+                        {
+                            "w": "riktlinjer",
+                            "d": ["riktlinje", "riktning", "linjer"]
+                        }
+                    ],
+                    "grammar": ["s-passive", "past"],
+                    "note": "byggdes = rakennettiin (imperfekti + s-passiivi). enligt = mukaan, mukaisesti.",
+                    "wrong": [
+                        "Det byggde enligt ekologiska riktlinjer.",
+                        "Det byggdes enligt ekologiskt riktlinjer."
+                    ]
+                },
+                {
+                    "id": "foretag-s18",
+                    "sv": "Det är det första hotellet på Island som belönades med ett certifikat från Nordic Swan.",
+                    "fi": "Se on Islannin ensimmäinen hotelli, joka palkittiin Joutsenmerkki-sertifikaatilla.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "belönades",
+                            "d": ["belönar", "belöna", "belöning"]
+                        },
+                        {
+                            "w": "certifikat",
+                            "d": [
+                                "certifikatet",
+                                "certifiering",
+                                "certifikater"
+                            ]
+                        },
+                        { "w": "första", "d": ["förste", "först", "förra"] }
+                    ],
+                    "grammar": ["s-passive", "som", "adj-def"],
+                    "note": "belöna = palkita, belönades = palkittiin. som = joka. Nordic Swan = Joutsenmerkki.",
+                    "wrong": [
+                        "Det är det första hotellet på Island som belönade med ett certifikat från Nordic Swan.",
+                        "Det är det första hotellet på Island som belönades med en certifikat från Nordic Swan."
+                    ]
+                },
+                {
+                    "id": "foretag-s19",
+                    "sv": "Gästerna upplever ett varierande och beundransvärt vackert landskap.",
+                    "fi": "Vieraat kokevat vaihtelevan ja ihailtavan kauniin maiseman.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "beundransvärt",
+                            "d": ["beundransvärd", "beundrare", "beundra"]
+                        },
+                        {
+                            "w": "landskap",
+                            "d": ["landskapet", "landsbygd", "land"]
+                        }
+                    ],
+                    "grammar": ["adj", "gender"],
+                    "note": "ett landskap on ett-sana, siksi adjektiiveissa -t: beundransvärt vackert. Tekstissä: ...ger våra gäster upplevelsen av ett varierande och beundransvärt vackert landskap.",
+                    "wrong": [
+                        "Gästerna upplever en varierande och beundransvärt vackert landskap.",
+                        "Gästerna upplever ett varierande och beundransvärd vacker landskap."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "foretag-w21",
+                    "sv": "en badtunna",
+                    "fi": "palju",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w22",
+                    "sv": "avslappnande",
+                    "fi": "rentouttava",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w23",
+                    "sv": "en inredning",
+                    "fi": "sisustus",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w24",
+                    "sv": "genuin",
+                    "fi": "aito, alkuperäinen",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w25",
+                    "sv": "bygga",
+                    "fi": "rakentaa",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w26",
+                    "sv": "en riktlinje",
+                    "fi": "ohje, suuntaviiva",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w27",
+                    "sv": "belöna",
+                    "fi": "palkita",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w28",
+                    "sv": "ett certifikat",
+                    "fi": "sertifikaatti",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w29",
+                    "sv": "beundransvärd",
+                    "fi": "ihailtava",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w30",
+                    "sv": "ett landskap",
+                    "fi": "maisema",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "foretag-l4",
+            "title": "Konferenssit ja suosio",
+            "intro": "Eldhestarin viimeiset sanat ja ensimmäiset Finska företag -tehtävän sanat.",
+            "sentences": [
+                {
+                    "id": "foretag-s20",
+                    "sv": "Hotell Eldhestar är en attraktiv konferensanläggning.",
+                    "fi": "Hotel Eldhestar on viehättävä konferenssipaikka.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "attraktiv",
+                            "d": ["attraktivt", "attraktiva", "attraktion"]
+                        },
+                        {
+                            "w": "konferensanläggning",
+                            "d": ["konferens", "anläggningar", "konferensen"]
+                        }
+                    ],
+                    "grammar": ["adj", "compound"],
+                    "note": "konferens + anläggning (rakennus, laitos) = konferenssipaikka. en anläggning → attraktiv (ei -t:tä).",
+                    "wrong": [
+                        "Hotell Eldhestar är ett attraktiv konferensanläggning.",
+                        "Hotell Eldhestar är en attraktivt konferensanläggning."
+                    ]
+                },
+                {
+                    "id": "foretag-s21",
+                    "sv": "Omgiven av fridfull natur finner du avskildhet och lugn.",
+                    "fi": "Rauhallisen luonnon ympäröimänä löydät eristyneisyyttä ja rauhaa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Omgiven",
+                            "a": ["omgiven"],
+                            "d": ["Omgivning", "Omger", "Omgivna"]
+                        },
+                        { "w": "finner", "d": ["finna", "fann", "finns"] },
+                        {
+                            "w": "avskildhet",
+                            "d": ["avskild", "avsked", "avstånd"]
+                        }
+                    ],
+                    "grammar": ["v2", "participle"],
+                    "note": "Omgiven av = jonkin ympäröimänä. Lause alkaa sillä, joten verbi finner tulee ennen du-sanaa (V2).",
+                    "wrong": [
+                        "Omgiven av fridfull natur du finner avskildhet och lugn.",
+                        "Omgiven av fridfull natur finns du avskildhet och lugn."
+                    ]
+                },
+                {
+                    "id": "foretag-s22",
+                    "sv": "Finnair är ett populärt flygbolag.",
+                    "fi": "Finnair on suosittu lentoyhtiö.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "populärt",
+                            "d": ["populär", "populära", "popularitet"]
+                        },
+                        {
+                            "w": "flygbolag",
+                            "d": ["flygbolaget", "flygplats", "flyg"]
+                        }
+                    ],
+                    "grammar": ["adj", "gender", "compound"],
+                    "note": "ett bolag = yhtiö (ett-sana) → ett populärt flygbolag. flyg (lento) + bolag (yhtiö).",
+                    "wrong": [
+                        "Finnair är ett populär flygbolag.",
+                        "Finnair är en populärt flygbolag."
+                    ]
+                },
+                {
+                    "id": "foretag-s23",
+                    "sv": "Lappland är ett populärt resmål.",
+                    "fi": "Lappi on suosittu matkakohde.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "resmål", "d": ["resa", "resenär", "resor"] },
+                        {
+                            "w": "populärt",
+                            "d": ["populär", "populära", "populärare"]
+                        }
+                    ],
+                    "grammar": ["adj", "gender"],
+                    "note": "ett resmål = matkakohde (resa = matka, mål = kohde, tavoite).",
+                    "wrong": [
+                        "Lappland är en populärt resmål.",
+                        "Lappland är ett populära resmål."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Lappland är ett förstklassigt resmål.",
+                            "fi": "Lappi on ensiluokkainen matkakohde.",
+                            "w": "förstklassigt",
+                            "d": ["förstklassig", "förstklassiga", "första"]
+                        }
+                    ]
+                },
+                {
+                    "id": "foretag-s24",
+                    "sv": "Företaget utnyttjar ny teknik i sin verksamhet.",
+                    "fi": "Yritys hyödyntää uutta tekniikkaa toiminnassaan.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "utnyttjar",
+                            "d": ["utnyttja", "utnyttjade", "nytta"]
+                        },
+                        { "w": "sin", "d": ["sitt", "sina", "hans"] }
+                    ],
+                    "grammar": ["possessive", "present"],
+                    "note": "utnyttja = hyödyntää. sin verksamhet = sen oma toiminta (sin, koska omistaja on lauseen subjekti).",
+                    "wrong": [
+                        "Företaget utnyttjar ny teknik i sitt verksamhet.",
+                        "Företaget utnyttja ny teknik i sin verksamhet."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "foretag-w31",
+                    "sv": "attraktiv",
+                    "fi": "viehättävä",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w32",
+                    "sv": "en anläggning",
+                    "fi": "rakennus, laitos",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w33",
+                    "sv": "omgiven",
+                    "fi": "ympäröimä",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w34",
+                    "sv": "avskildhet",
+                    "fi": "eristyneisyys",
+                    "src": "m"
+                },
+                {
+                    "id": "foretag-w35",
+                    "sv": "förstklassig",
+                    "fi": "ensiluokkainen",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w36",
+                    "sv": "ett bolag",
+                    "fi": "yhtiö",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w37",
+                    "sv": "ett flygbolag",
+                    "fi": "lentoyhtiö",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w38",
+                    "sv": "populär",
+                    "fi": "suosittu",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w39",
+                    "sv": "ett resmål",
+                    "fi": "matkakohde",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w40",
+                    "sv": "utnyttja",
+                    "fi": "hyödyntää",
+                    "src": "x"
+                }
+            ]
+        },
+        {
+            "id": "foretag-l5",
+            "title": "Asiakkaat ja edut",
+            "intro": "Finska företag -tehtävän sanoja: kanta-asiakkaat, pisteet ja alennukset.",
+            "sentences": [
+                {
+                    "id": "foretag-s25",
+                    "sv": "Som stamkund får du rabatt på alla köp.",
+                    "fi": "Kanta-asiakkaana saat alennusta kaikista ostoksista.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "stamkund",
+                            "d": ["stamkunder", "kund", "kunden"]
+                        },
+                        {
+                            "w": "rabatt",
+                            "d": ["rabatter", "rabatten", "pris"]
+                        },
+                        { "w": "köp", "d": ["köpa", "köper", "köpte"] }
+                    ],
+                    "grammar": ["v2", "som"],
+                    "note": "Som stamkund = kanta-asiakkaana (som = -na). Lause alkaa sillä, joten verbi får tulee ennen du-sanaa.",
+                    "wrong": [
+                        "Som stamkund du får rabatt på alla köp.",
+                        "Som stamkund får du rabatt på alla köpa."
+                    ]
+                },
+                {
+                    "id": "foretag-s26",
+                    "sv": "Medlemmarna samlar poäng när de handlar.",
+                    "fi": "Jäsenet keräävät pisteitä, kun he tekevät ostoksia.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Medlemmarna",
+                            "a": ["medlemmarna"],
+                            "d": ["Medlem", "Medlemmar", "Medlemmen"]
+                        },
+                        { "w": "samlar", "d": ["samla", "samlade", "samling"] },
+                        { "w": "poäng", "d": ["poängen", "punkt", "pris"] }
+                    ],
+                    "grammar": ["definite", "plural", "subclause"],
+                    "note": "en medlem → medlemmar → medlemmarna (ne jäsenet). en poäng, monikko poäng (sama). handla = tehdä ostoksia.",
+                    "wrong": [
+                        "Medlemmarna samla poäng när de handlar.",
+                        "Medlemmarna samlar poäng när handlar de."
+                    ]
+                },
+                {
+                    "id": "foretag-s27",
+                    "sv": "Butiken har ett specialerbjudande den här veckan.",
+                    "fi": "Kaupalla on erikoistarjous tällä viikolla.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "specialerbjudande",
+                            "d": ["erbjuda", "special", "erbjuder"]
+                        },
+                        { "w": "veckan", "d": ["vecka", "veckor", "veckans"] }
+                    ],
+                    "grammar": ["gender", "time", "compound"],
+                    "note": "ett erbjudande = tarjous (ett-sana) → ett specialerbjudande. den här veckan = tällä viikolla.",
+                    "wrong": [
+                        "Butiken har en specialerbjudande den här veckan.",
+                        "Butiken har ett specialerbjudande den här vecka."
+                    ]
+                },
+                {
+                    "id": "foretag-s28",
+                    "sv": "Fazer är ett finskt familjeföretag som grundades år 1891.",
+                    "fi": "Fazer on suomalainen perheyritys, joka perustettiin vuonna 1891.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "familjeföretag",
+                            "d": ["familj", "företagare", "familjen"]
+                        },
+                        {
+                            "w": "grundades",
+                            "d": ["grundade", "grundar", "grunda"]
+                        },
+                        { "w": "finskt", "d": ["finsk", "finska", "Finland"] }
+                    ],
+                    "grammar": ["s-passive", "som", "adj"],
+                    "note": "grunda = perustaa, grundades = perustettiin (s-passiivi). ett företag → finskt (-t).",
+                    "wrong": [
+                        "Fazer är ett finsk familjeföretag som grundades år 1891.",
+                        "Fazer är ett finskt familjeföretag som grundade år 1891."
+                    ]
+                },
+                {
+                    "id": "foretag-s29",
+                    "sv": "Företaget har lång erfarenhet av kundservice.",
+                    "fi": "Yrityksellä on pitkä kokemus asiakaspalvelusta.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "erfarenhet",
+                            "d": ["erfaren", "erfarenheter", "erfarna"]
+                        },
+                        { "w": "av", "d": ["på", "med", "till"] },
+                        { "w": "lång", "d": ["långt", "långa", "länge"] }
+                    ],
+                    "grammar": ["rektio", "adj"],
+                    "note": "erfarenhet av = kokemus jostakin (aina av). en erfarenhet → lång (ei -t:tä).",
+                    "wrong": [
+                        "Företaget har lång erfarenhet på kundservice.",
+                        "Företaget har långt erfarenhet av kundservice."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "foretag-w41",
+                    "sv": "ett specialerbjudande",
+                    "fi": "erikoistarjous",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w42",
+                    "sv": "en medlem",
+                    "fi": "jäsen",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w43",
+                    "sv": "samla",
+                    "fi": "kerätä",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w44",
+                    "sv": "en poäng",
+                    "fi": "piste",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w45",
+                    "sv": "ett köp",
+                    "fi": "ostos",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w46",
+                    "sv": "en stamkund",
+                    "fi": "kanta-asiakas",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w47",
+                    "sv": "en rabatt",
+                    "fi": "alennus",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w48",
+                    "sv": "ett familjeföretag",
+                    "fi": "perheyritys",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w49",
+                    "sv": "grunda",
+                    "fi": "perustaa",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w50",
+                    "sv": "en erfarenhet",
+                    "fi": "kokemus",
+                    "src": "x"
+                }
+            ]
+        },
+        {
+            "id": "foretag-l6",
+            "title": "Tuotteet ja kehitys",
+            "intro": "Finska företag -tehtävän loput sanat ja lause omasta alastasi.",
+            "sentences": [
+                {
+                    "id": "foretag-s30",
+                    "sv": "Företaget har ett brett sortiment i olika priskategorier.",
+                    "fi": "Yrityksellä on laaja valikoima eri hintakategorioissa.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "sortiment",
+                            "d": ["sorter", "sortimentet", "sort"]
+                        },
+                        { "w": "brett", "d": ["bred", "breda", "bredd"] },
+                        {
+                            "w": "priskategorier",
+                            "d": ["priskategori", "pris", "kategorin"]
+                        }
+                    ],
+                    "grammar": ["adj", "gender", "plural"],
+                    "note": "ett sortiment = valikoima (ett-sana) → brett (bred + t). en priskategori → priskategorier.",
+                    "wrong": [
+                        "Företaget har en bred sortiment i olika priskategorier.",
+                        "Företaget har ett bred sortiment i olika priskategorier."
+                    ]
+                },
+                {
+                    "id": "foretag-s31",
+                    "sv": "Kvalitet och hållbar tillverkning är viktiga för oss.",
+                    "fi": "Laatu ja kestävä valmistus ovat meille tärkeitä.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Kvalitet",
+                            "a": ["kvalitet"],
+                            "d": ["Kvantitet", "Kvalificerad", "Kval"]
+                        },
+                        {
+                            "w": "hållbar",
+                            "d": ["hållbart", "hållbara", "håller"]
+                        },
+                        {
+                            "w": "tillverkning",
+                            "d": ["tillverka", "tillverkar", "verkning"]
+                        }
+                    ],
+                    "grammar": ["adj"],
+                    "note": "hållbar = kestävä. tillverkning = valmistus. Kaksi asiaa → monikko viktiga.",
+                    "wrong": [
+                        "Kvalitet och hållbar tillverkning är viktigt för oss.",
+                        "Kvalitet och hållbart tillverkning är viktiga för oss."
+                    ]
+                },
+                {
+                    "id": "foretag-s32",
+                    "sv": "Företaget lanserar en ny produkt nästa år.",
+                    "fi": "Yritys lanseeraa uuden tuotteen ensi vuonna.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "lanserar",
+                            "d": ["lansera", "lanserade", "lansering"]
+                        },
+                        {
+                            "w": "produkt",
+                            "d": ["produkten", "produkter", "producera"]
+                        },
+                        { "w": "nästa", "d": ["förra", "näst", "nära"] }
+                    ],
+                    "grammar": ["present", "time"],
+                    "note": "lansera = lanseerata. nästa år = ensi vuonna (tulevaisuus preesensillä + aikailmauksella).",
+                    "wrong": [
+                        "Företaget lansera en ny produkt nästa år.",
+                        "Företaget lanserar ett ny produkt nästa år."
+                    ]
+                },
+                {
+                    "id": "foretag-s33",
+                    "sv": "Vi satsar mycket på produktutveckling.",
+                    "fi": "Panostamme paljon tuotekehitykseen.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "satsar", "d": ["satsa", "satsade", "sats"] },
+                        { "w": "på", "d": ["av", "i", "till"] },
+                        {
+                            "w": "produktutveckling",
+                            "d": ["produkt", "utvecklare", "utvecklar"]
+                        }
+                    ],
+                    "grammar": ["rektio", "compound"],
+                    "note": "satsa på = panostaa johonkin (aina på). produkt + utveckling = tuotekehitys.",
+                    "wrong": [
+                        "Vi satsar mycket i produktutveckling.",
+                        "Vi satsa mycket på produktutveckling."
+                    ]
+                },
+                {
+                    "id": "foretag-s34",
+                    "sv": "Företaget har ett dotterbolag i Sverige.",
+                    "fi": "Yrityksellä on tytäryhtiö Ruotsissa.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "dotterbolag",
+                            "d": ["dotter", "bolaget", "dotterbolagen"]
+                        },
+                        {
+                            "w": "Sverige",
+                            "d": ["svensk", "svenska", "Sveriges"]
+                        }
+                    ],
+                    "grammar": ["gender", "compound"],
+                    "note": "dotter (tytär) + bolag (yhtiö) = tytäryhtiö, ett-sana.",
+                    "wrong": [
+                        "Företaget har en dotterbolag i Sverige.",
+                        "Företaget har ett dotterbolag på Sverige."
+                    ]
+                },
+                {
+                    "id": "foretag-s35",
+                    "sv": "Jag vill jobba på ett företag som utvecklar digitala tjänster.",
+                    "fi": "Haluan työskennellä yrityksessä, joka kehittää digitaalisia palveluja.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "jobba", "d": ["jobbar", "jobb", "att jobba"] },
+                        {
+                            "w": "utvecklar",
+                            "d": ["utveckla", "utvecklare", "utveckling"]
+                        },
+                        {
+                            "w": "tjänster",
+                            "d": ["tjänst", "tjänsten", "tjänar"]
+                        }
+                    ],
+                    "grammar": ["modal", "som", "adj"],
+                    "note": "vill + perusmuoto (ei att). som utvecklar = joka kehittää. Vaihda loppuun oma alasi.",
+                    "wrong": [
+                        "Jag vill att jobba på ett företag som utvecklar digitala tjänster.",
+                        "Jag vill jobba på ett företag som utvecklar digital tjänster."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag vill jobba på ett företag som utvecklar mobilapplikationer.",
+                            "fi": "Haluan työskennellä yrityksessä, joka kehittää mobiilisovelluksia.",
+                            "w": "mobilapplikationer",
+                            "d": ["mobilapplikation", "mobil", "applicera"]
+                        }
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "foretag-w51",
+                    "sv": "tillverkning",
+                    "fi": "valmistus",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w52",
+                    "sv": "ett sortiment",
+                    "fi": "valikoima",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w53",
+                    "sv": "hållbar",
+                    "fi": "kestävä",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w54",
+                    "sv": "en priskategori",
+                    "fi": "hintakategoria",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w55",
+                    "sv": "lansera",
+                    "fi": "lanseerata",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w56",
+                    "sv": "kvalitet",
+                    "fi": "laatu",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w57",
+                    "sv": "produktutveckling",
+                    "fi": "tuotekehitys",
+                    "src": "x"
+                },
+                {
+                    "id": "foretag-w58",
+                    "sv": "ett dotterbolag",
+                    "fi": "tytäryhtiö",
+                    "src": "x"
+                }
+            ]
+        }
+    ],
+    "glossary": {
+        "det": "se, tämä",
+        "här": "tässä; det här = tämä",
+        "det här": "tämä",
+        "är": "on (perusmuoto vara)",
+        "eldhestars": "Eldhestarin (genetiivi)",
+        "eldhestar": "Eldhestar (islantilainen hevostila ja hotelli)",
+        "gård": "maatila (en gård)",
+        "gården": "se tila (määräinen muoto)",
+        "vår": "meidän (en-sanalle)",
+        "vårt": "meidän (ett-sanalle)",
+        "våra": "meidän (monikolle)",
+        "verksamhet": "(yritys)toiminta (en verksamhet)",
+        "har": "on jollakin; perfektin apuverbi",
+        "utvecklats": "kehittynyt (perfekti + s-passiivi sanasta utveckla)",
+        "utveckla": "kehittää",
+        "sedan": "lähtien, jälkeen",
+        "ligger": "sijaitsee (perusmuoto ligga)",
+        "i": "-ssa, -ssä",
+        "hjärtat": "sydän (määräinen muoto sanasta ett hjärta)",
+        "av": "-sta; i hjärtat av = jonkin sydämessä",
+        "islands": "Islannin (genetiivi)",
+        "island": "Islanti",
+        "sydvästra": "lounainen (määräinen muoto)",
+        "landsbygd": "maaseutu (en landsbygd)",
+        "intill": "vieressä, tuntumassa",
+        "huvudväg": "päätie (en huvudväg)",
+        "gäster": "vieraat (monikko sanasta en gäst)",
+        "gästerna": "ne vieraat (määräinen monikko)",
+        "kan": "voi (perusmuoto kunna)",
+        "uppleva": "kokea",
+        "upplever": "kokee (perusmuoto uppleva)",
+        "en": "yksi; en-sanojen artikkeli",
+        "ett": "yksi; ett-sanojen artikkeli",
+        "mångfaldig": "moninainen, monimuotoinen",
+        "och": "ja",
+        "fascinerande": "kiehtova",
+        "natur": "luonto (en natur)",
+        "naturen": "se luonto (määräinen muoto)",
+        "området": "alue (määräinen muoto sanasta ett område)",
+        "kring": "ympärillä, ympärillä oleva",
+        "vulkanen": "tulivuori (määräinen muoto sanasta en vulkan)",
+        "hengill": "Hengill (tulivuori Islannissa)",
+        "erbjuder": "tarjoaa (perusmuoto erbjuda)",
+        "erbjuda": "tarjota",
+        "vackra": "kauniit (monikko sanasta vacker)",
+        "dalar": "laaksot (monikko sanasta en dal)",
+        "dal": "laakso (en dal)",
+        "detta": "tämä",
+        "återspeglas": "heijastuu (s-passiivi sanasta återspegla)",
+        "återspegla": "heijastaa",
+        "namn": "nimi (ett namn)",
+        "ges": "annetaan (s-passiivi sanasta ge)",
+        "möjlighet": "mahdollisuus",
+        "att": "infinitiivin merkki (vrt. englannin to)",
+        "koppla": "kytkeä; koppla av = rentoutua",
+        "koppla av": "rentoutua",
+        "vacker": "kaunis",
+        "fridfull": "rauhaisa, rauhallinen",
+        "omgivning": "ympäristö (en omgivning)",
+        "på": "-lla, -ssa; jonkin päällä",
+        "kvällen": "ilta (määräinen muoto); på kvällen = illalla",
+        "du": "sinä",
+        "njuta": "nauttia; njuta av = nauttia jostakin",
+        "njuta av": "nauttia jostakin",
+        "god": "hyvä",
+        "logi": "majoitus",
+        "mat": "ruoka",
+        "dryck": "juoma",
+        "vi": "me",
+        "vill": "haluaa (perusmuoto vilja)",
+        "ge": "antaa",
+        "eftertryck": "painokkuus; ge eftertryck på = korostaa",
+        "ge eftertryck på": "korostaa jotakin",
+        "ge eftertryck": "korostaa",
+        "personlig": "henkilökohtainen",
+        "service": "palvelu",
+        "säkerhet": "turvallisuus",
+        "turer": "retket (monikko sanasta en tur)",
+        "för": "varten, -lle",
+        "både": "sekä; både... och... = sekä... että...",
+        "oerfarna": "kokemattomat (monikko sanasta oerfaren)",
+        "oerfaren": "kokematon",
+        "erfarna": "kokeneet (monikko sanasta erfaren)",
+        "ryttare": "ratsastaja(t) (en ryttare, monikko sama)",
+        "de": "ne, he; de flesta = useimmat",
+        "flesta": "useimmat; de flesta = useimmat",
+        "passar": "sopii (perusmuoto passa)",
+        "alla": "kaikki",
+        "nivåer": "tasot (monikko sanasta en nivå)",
+        "nivå": "taso (en nivå)",
+        "hotell": "hotelli (ett hotell)",
+        "mysigt": "kotoisa (ett-sanalle)",
+        "mysig": "kotoisa",
+        "landsbygdshotell": "maaseutuhotelli (ett)",
+        "med": "kanssa, -lla; jossa on",
+        "lyxig": "ylellinen",
+        "atmosfär": "tunnelma (en atmosfär)",
+        "finns": "on olemassa (det finns = jossakin on)",
+        "det finns": "on olemassa, jossakin on",
+        "rum": "huone (ett rum, monikko sama)",
+        "varmt": "lämpimästi, lämpimän",
+        "inbjudande": "kutsuva",
+        "restaurang": "ravintola (en restaurang)",
+        "samt": "sekä (virallinen)",
+        "traditionella": "perinteiset (monikko sanasta traditionell)",
+        "badtunnor": "paljut (monikko sanasta en badtunna)",
+        "badtunnorna": "ne paljut (määräinen monikko)",
+        "badtunna": "palju (en badtunna)",
+        "ger": "antaa (perusmuoto ge)",
+        "avslappnande": "rentouttava",
+        "bad": "kylpy (ett bad)",
+        "vid": "-lla, luona; vid slutet av = lopussa",
+        "slutet": "loppu (määräinen muoto sanasta ett slut)",
+        "dagen": "päivä (määräinen muoto)",
+        "hotellets": "hotellin (genetiivi)",
+        "inredning": "sisustus (en inredning)",
+        "inspirerad": "inspiroitunut; inspirerad av = jostakin inspiraationsa saanut",
+        "färger": "värit (monikko sanasta en färg)",
+        "material": "materiaali(t) (ett material)",
+        "från": "-sta, jostakin",
+        "den": "se (määräisen adjektiivin edessä en-sanoilla)",
+        "isländska": "islantilainen (määräinen muoto)",
+        "byggdes": "rakennettiin (s-passiivi sanasta bygga)",
+        "bygga": "rakentaa",
+        "enligt": "mukaan, mukaisesti",
+        "ekologiska": "ekologiset (monikko sanasta ekologisk)",
+        "riktlinjer": "ohjeet, suuntaviivat (monikko sanasta en riktlinje)",
+        "riktlinje": "ohje, suuntaviiva (en riktlinje)",
+        "första": "ensimmäinen",
+        "hotellet": "se hotelli (määräinen muoto)",
+        "som": "joka; -na (som stamkund = kanta-asiakkaana)",
+        "belönades": "palkittiin (s-passiivi sanasta belöna)",
+        "belöna": "palkita",
+        "certifikat": "sertifikaatti (ett certifikat)",
+        "nordic": "Nordic Swan = Joutsenmerkki",
+        "swan": "Nordic Swan = Joutsenmerkki",
+        "varierande": "vaihteleva",
+        "beundransvärt": "ihailtavan (ett-sanalle)",
+        "beundransvärd": "ihailtava",
+        "vackert": "kaunis (ett-sanalle)",
+        "landskap": "maisema (ett landskap)",
+        "attraktiv": "viehättävä, houkutteleva",
+        "konferensanläggning": "konferenssipaikka (en)",
+        "anläggning": "rakennus, laitos (en anläggning)",
+        "omgiven": "ympäröimä; omgiven av = jonkin ympäröimänä",
+        "finner": "löytää (perusmuoto finna)",
+        "avskildhet": "eristyneisyys, rauha muilta",
+        "lugn": "rauha; rauhallinen",
+        "finnair": "Finnair (suomalainen lentoyhtiö)",
+        "populärt": "suosittu (ett-sanalle)",
+        "populär": "suosittu",
+        "flygbolag": "lentoyhtiö (ett flygbolag)",
+        "lappland": "Lappi",
+        "resmål": "matkakohde (ett resmål)",
+        "förstklassigt": "ensiluokkainen (ett-sanalle)",
+        "förstklassig": "ensiluokkainen",
+        "företaget": "se yritys (määräinen muoto sanasta ett företag)",
+        "företag": "yritys (ett företag)",
+        "utnyttjar": "hyödyntää (perusmuoto utnyttja)",
+        "utnyttja": "hyödyntää",
+        "ny": "uusi",
+        "teknik": "tekniikka",
+        "sin": "oma (en-sanalle, kun omistaja on subjekti)",
+        "bolag": "yhtiö (ett bolag)",
+        "stamkund": "kanta-asiakas (en stamkund)",
+        "får": "saa (perusmuoto få)",
+        "rabatt": "alennus (en rabatt)",
+        "köp": "ostos(ket) (ett köp, monikko sama)",
+        "medlemmarna": "ne jäsenet (määräinen monikko sanasta en medlem)",
+        "medlem": "jäsen (en medlem)",
+        "samlar": "kerää (perusmuoto samla)",
+        "samla": "kerätä",
+        "poäng": "piste(et) (en poäng, monikko sama)",
+        "när": "kun",
+        "handlar": "tekee ostoksia (perusmuoto handla)",
+        "butiken": "se kauppa (määräinen muoto sanasta en butik)",
+        "specialerbjudande": "erikoistarjous (ett specialerbjudande)",
+        "veckan": "viikko (määräinen muoto); den här veckan = tällä viikolla",
+        "fazer": "Fazer (suomalainen yritys)",
+        "finskt": "suomalainen (ett-sanalle)",
+        "familjeföretag": "perheyritys (ett familjeföretag)",
+        "grundades": "perustettiin (s-passiivi sanasta grunda)",
+        "grunda": "perustaa",
+        "år": "vuosi; år 1891 = vuonna 1891",
+        "lång": "pitkä",
+        "erfarenhet": "kokemus (en erfarenhet); erfarenhet av = kokemus jostakin",
+        "kundservice": "asiakaspalvelu",
+        "brett": "laaja (ett-sanalle, perusmuoto bred)",
+        "sortiment": "valikoima (ett sortiment)",
+        "olika": "eri, erilaisia",
+        "priskategorier": "hintakategoriat (monikko sanasta en priskategori)",
+        "priskategori": "hintakategoria (en priskategori)",
+        "kvalitet": "laatu",
+        "hållbar": "kestävä",
+        "tillverkning": "valmistus",
+        "viktiga": "tärkeät (monikko sanasta viktig)",
+        "oss": "meille, meitä",
+        "lanserar": "lanseeraa (perusmuoto lansera)",
+        "lansera": "lanseerata",
+        "produkt": "tuote (en produkt)",
+        "nästa": "seuraava, ensi; nästa år = ensi vuonna",
+        "satsar": "panostaa (perusmuoto satsa); satsa på = panostaa johonkin",
+        "mycket": "paljon",
+        "produktutveckling": "tuotekehitys",
+        "dotterbolag": "tytäryhtiö (ett dotterbolag)",
+        "sverige": "Ruotsi",
+        "jag": "minä",
+        "jobba": "työskennellä",
+        "utvecklar": "kehittää (perusmuoto utveckla)",
+        "digitala": "digitaaliset (monikko sanasta digital)",
+        "tjänster": "palvelut (monikko sanasta en tjänst)",
+        "mobilapplikationer": "mobiilisovellukset (monikko sanasta en mobilapplikation)",
+        "nöje": "nautinto, huvi (ett nöje)",
+        "genuin": "aito, alkuperäinen"
+    }
+}

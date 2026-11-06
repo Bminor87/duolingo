@@ -1,0 +1,3120 @@
+{
+    "id": "it-konsult",
+    "title": "Tulevaisuuden it-konsultti",
+    "subtitle": "Detta krävs av framtidens it-konsult",
+    "description": "Kirjallisen kokeen tärkein artikkeli: mitä tulevaisuuden it-konsultilta vaaditaan. Opettele ymmärtämään sen lauseet ja sanasto ruotsista suomeksi.",
+    "icon": "rocket",
+    "color": "amber",
+    "exam": ["written"],
+    "source": "Välilehti 4, tehtävä 15: Techtidningenin artikkeli \"Detta krävs av framtidens it-konsult\" ja sen Ordhjälp-sanastot (Inledning, Sofia Boström, Elin Toft, Ylva Berg).",
+    "lessons": [
+        {
+            "id": "it-konsult-l1",
+            "title": "Johdanto: mitä vaaditaan?",
+            "intro": "Artikkelin alku. Kirjallisessa kokeessa kysytään paljon tämän artikkelin sanastoa, joten opettele ymmärtämään lauseet.",
+            "sentences": [
+                {
+                    "id": "it-konsult-s01",
+                    "sv": "Detta krävs av framtidens it-konsult.",
+                    "fi": "Tätä vaaditaan tulevaisuuden it-konsultilta.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "krävs",
+                            "d": ["kräver", "krävde", "kravet"]
+                        },
+                        {
+                            "w": "framtidens",
+                            "d": ["framtiden", "framtid", "framtids"]
+                        }
+                    ],
+                    "grammar": ["s-passive", "genitive"],
+                    "note": "krävs = vaaditaan (kräva = vaatia + -s = passiivi). framtidens = tulevaisuuden: framtid + en (määräinen muoto) + s (genetiivi).",
+                    "wrong": [
+                        "Detta kräver av framtidens it-konsult.",
+                        "Detta krävs av framtiden it-konsult."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s02",
+                    "sv": "Vad kommer egentligen krävas för att bli en av framtidens vassaste it-konsulter?",
+                    "fi": "Mitä oikeastaan tullaan vaatimaan, jotta voi tulla yhdeksi tulevaisuuden terävimmistä it-konsulteista?",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "egentligen",
+                            "d": ["ständigt", "nästan", "därav"]
+                        },
+                        {
+                            "w": "vassaste",
+                            "d": ["vass", "vassare", "vassast"]
+                        }
+                    ],
+                    "grammar": ["questions", "future", "comparison"],
+                    "note": "kommer ... krävas = tullaan vaatimaan (tulevaisuus). en av = yksi joukosta. vassaste = terävin (vass = terävä, -aste = superlatiivi määräisessä muodossa).",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s03",
+                    "sv": "Techtidningen tog kontakt med konsultexperterna Sofia Boström, Elin Toft och Ylva Berg.",
+                    "fi": "Techtidningen otti yhteyttä konsulttiasiantuntijoihin Sofia Boströmiin, Elin Toftiin ja Ylva Bergiin.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "tog",
+                            "d": ["tar", "tagit", "ta"]
+                        },
+                        {
+                            "w": "kontakt",
+                            "d": ["fördel", "syn", "takt"]
+                        }
+                    ],
+                    "grammar": ["past", "particle", "compound"],
+                    "note": "ta kontakt med = ottaa yhteyttä. tog on verbin ta (ottaa) imperfekti: otti. konsult + experterna = konsulttiasiantuntijat (määräinen monikko).",
+                    "wrong": [
+                        "Techtidningen tog kontakt till konsultexperterna Sofia Boström, Elin Toft och Ylva Berg.",
+                        "Techtidningen tagit kontakt med konsultexperterna Sofia Boström, Elin Toft och Ylva Berg."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s04",
+                    "sv": "De ger sina bästa tips på eftertraktade och underskattade kompetenser.",
+                    "fi": "He antavat parhaat vinkkinsä halutuista ja aliarvostetuista osaamisalueista.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "eftertraktade",
+                            "d": ["eftertraktad", "eftertraktat", "eftertrakta"]
+                        },
+                        {
+                            "w": "underskattade",
+                            "d": ["underskattad", "underskattat", "underskatta"]
+                        }
+                    ],
+                    "grammar": ["participle", "possessive", "plural"],
+                    "note": "eftertraktade = halutut, underskattade = aliarvostetut. Ne ovat verbeistä tehtyjä adjektiiveja, ja monikossa niiden pääte on -de. sina = omat (monikko).",
+                    "wrong": [
+                        "De ger sina bästa tips på eftertraktad och underskattad kompetenser.",
+                        "De sina bästa tips ger på eftertraktade och underskattade kompetenser."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s05",
+                    "sv": "Kompetenserna kan även leda till en högre lön.",
+                    "fi": "Nämä osaamisalueet voivat myös johtaa korkeampaan palkkaan.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "leda",
+                            "d": ["leder", "ledde", "lett"]
+                        },
+                        {
+                            "w": "högre",
+                            "d": ["hög", "högt", "högsta"]
+                        }
+                    ],
+                    "grammar": ["modal", "comparison", "definite"],
+                    "note": "kan + perusmuoto: kan leda = voi johtaa. leda till = johtaa johonkin. högre = korkeampi (hög = korkea). även = myös.",
+                    "wrong": [
+                        "Kompetenserna kan även leder till en högre lön.",
+                        "Kompetenserna kan även leda till ett högre lön."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s06",
+                    "sv": "Hur skapar man sig en fördel i dagens tuffa marknad?",
+                    "fi": "Miten ihminen luo itselleen etua nykypäivän kovilla markkinoilla?",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "fördel",
+                            "d": ["lön", "framtid", "rörelse"]
+                        },
+                        {
+                            "w": "tuffa",
+                            "d": ["tuff", "tufft", "tuffast"]
+                        }
+                    ],
+                    "grammar": ["man", "questions", "reflexive"],
+                    "note": "man = ihminen yleensä. skapa sig = luoda itselleen. dagens = tämän päivän (dag + ens). tuffa saa -a-päätteen, koska edessä on genetiivi dagens.",
+                    "wrong": [
+                        "Hur man skapar sig en fördel i dagens tuffa marknad?",
+                        "Hur skapar man sig ett fördel i dagens tuffa marknad?"
+                    ],
+                    "variants": []
+                }
+            ],
+            "words": [
+                {
+                    "id": "it-konsult-w01",
+                    "sv": "egentligen",
+                    "fi": "oikeastaan",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w02",
+                    "sv": "en framtid",
+                    "fi": "tulevaisuus",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w03",
+                    "sv": "ta kontakt med",
+                    "fi": "ottaa yhteyttä (tog kontakt med = otti yhteyttä)",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w04",
+                    "sv": "eftertraktade och underskattade kompetenser",
+                    "fi": "haluttuja ja aliarvostettuja taitoja",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w05",
+                    "sv": "kan leda till",
+                    "fi": "voi johtaa johonkin",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w06",
+                    "sv": "en högre lön",
+                    "fi": "korkeampi palkka",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w07",
+                    "sv": "en fördel",
+                    "fi": "etu",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "it-konsult-l2",
+            "title": "Johdanto: ala muuttuu jatkuvasti",
+            "sentences": [
+                {
+                    "id": "it-konsult-s07",
+                    "sv": "It-branschen är som alltid under ständig rörelse.",
+                    "fi": "It-ala on kuten aina jatkuvassa liikkeessä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "ständig",
+                            "d": ["ständigt", "snabb", "tuff"]
+                        },
+                        {
+                            "w": "rörelse",
+                            "d": ["framtid", "lön", "fördel"]
+                        }
+                    ],
+                    "grammar": ["definite", "adj"],
+                    "note": "ständig rörelse = jatkuva liike. under = alla, tässä 'jonkin tilassa'. som alltid = kuten aina. It-branschen = it-ala (määräinen muoto).",
+                    "wrong": [
+                        "It-branschen som alltid är under ständig rörelse.",
+                        "It-bransch är som alltid under ständig rörelse."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s08",
+                    "sv": "Nya tekniker och krav växer fram på nästan daglig basis.",
+                    "fi": "Uusia tekniikoita ja vaatimuksia syntyy lähes päivittäin.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "växer",
+                            "d": ["växte", "växa", "vuxit"]
+                        },
+                        {
+                            "w": "krav",
+                            "d": ["fördelar", "löner", "tips"]
+                        },
+                        {
+                            "w": "daglig",
+                            "d": ["dagligt", "dagliga", "ständigt"]
+                        }
+                    ],
+                    "grammar": ["particle", "adj", "plural"],
+                    "note": "växa fram = kasvaa esiin, syntyä (partikkeliverbi). på daglig basis = päivittäin. krav = vaatimus; monikko on sama: krav.",
+                    "wrong": [
+                        "Nya tekniker och krav fram växer på nästan daglig basis.",
+                        "Ny tekniker och krav växer fram på nästan daglig basis."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s09",
+                    "sv": "Därav är det viktigt att som verksam i branschen alltid kunna skapa sig de fördelarna man kan.",
+                    "fi": "Siksi on tärkeää, että alalla toimivana voi aina luoda itselleen ne edut, jotka voi.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "verksam",
+                            "d": ["verksamhet", "verkligt", "värdefull"]
+                        },
+                        {
+                            "w": "fördelarna",
+                            "d": ["fördelar", "fördelen", "fördel"]
+                        }
+                    ],
+                    "grammar": ["v2", "att-inf", "som"],
+                    "note": "Därav = siksi. Lause alkaa sanalla Därav, joten verbi är tulee toiseksi ja det vasta sen jälkeen. som verksam i branschen = alalla toimivana.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s10",
+                    "sv": "Techtidningen har pratat med tre experter från några av Sveriges ledande konsultbolag.",
+                    "fi": "Techtidningen on puhunut kolmen asiantuntijan kanssa, jotka ovat eräistä Ruotsin johtavista konsulttiyrityksistä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "ledande",
+                            "d": ["leda", "ledare", "ledde"]
+                        },
+                        {
+                            "w": "konsultbolag",
+                            "d": ["konsulter", "konsultbolaget", "marknader"]
+                        }
+                    ],
+                    "grammar": ["perfect", "genitive", "compound"],
+                    "note": "har pratat = on puhunut (perfekti). Sveriges = Ruotsin (genetiivi -s). ledande = johtava. konsult + bolag = konsulttiyritys.",
+                    "wrong": [
+                        "Techtidningen har pratar med tre experter från några av Sveriges ledande konsultbolag.",
+                        "Techtidningen har pratat med tre experter från några av Sverige ledande konsultbolag."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s11",
+                    "sv": "De ger sin syn på frågan.",
+                    "fi": "He antavat näkökulmansa asiaan.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "syn",
+                            "d": ["tips", "krav", "lön"]
+                        },
+                        {
+                            "w": "frågan",
+                            "d": ["fråga", "frågor", "frågorna"]
+                        }
+                    ],
+                    "grammar": ["possessive", "definite"],
+                    "note": "ge sin syn på = antaa näkökulmansa johonkin. frågan = kysymys, asia (fråga + n = määräinen muoto).",
+                    "wrong": [
+                        "De ger sitt syn på frågan.",
+                        "De sin syn ger på frågan."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s12",
+                    "sv": "Sofia Boström är operativ chef inom Digital Services på Sweco.",
+                    "fi": "Sofia Boström on operatiivinen johtaja Digital Services -yksikössä Swecolla.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "chef",
+                            "d": ["kund", "partner", "utförare"]
+                        },
+                        {
+                            "w": "operativ",
+                            "d": ["operativt", "operativa", "operation"]
+                        }
+                    ],
+                    "grammar": ["prepositions", "present"],
+                    "note": "chef = johtaja, esihenkilö (lausutaan 'sheef'). inom = jonkin sisällä, jollakin alalla.",
+                    "wrong": [
+                        "Sofia Boström operativ chef är inom Digital Services på Sweco.",
+                        "Sofia Boström är operativt chef inom Digital Services på Sweco."
+                    ],
+                    "variants": []
+                }
+            ],
+            "words": [
+                {
+                    "id": "it-konsult-w08",
+                    "sv": "ständig rörelse",
+                    "fi": "jatkuva liike",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w09",
+                    "sv": "nya tekniker och krav",
+                    "fi": "uusia tekniikoita ja vaatimuksia",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w10",
+                    "sv": "växer fram",
+                    "fi": "kasvaa esiin, syntyy, kehittyy",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w11",
+                    "sv": "som verksam i branschen",
+                    "fi": "alalla toimivana",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w12",
+                    "sv": "Sveriges ledande konsultbolag",
+                    "fi": "Ruotsin johtava konsulttiyritys",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w13",
+                    "sv": "ger syn på frågan",
+                    "fi": "antaa näkökulman asiaan",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "it-konsult-l3",
+            "title": "Sofia Boström: viisi osaamisaluetta",
+            "intro": "Sofia Boström (Sweco) kertoo, mitä tulevaisuuden it-konsultin pitää osata.",
+            "sentences": [
+                {
+                    "id": "it-konsult-s13",
+                    "sv": "Om du skulle lista fem kompetenser som en person på it-marknaden borde ha med sig i sin portfölj, vilka är det?",
+                    "fi": "Jos listaisit viisi osaamisaluetta, jotka it-markkinoilla toimivalla henkilöllä pitäisi olla mukanaan portfoliossaan, mitkä ne ovat?",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "lista",
+                            "d": ["listar", "listade", "listat"]
+                        },
+                        {
+                            "w": "portfölj",
+                            "d": ["portföljen", "lön", "marknad"]
+                        }
+                    ],
+                    "grammar": ["skulle", "som", "questions"],
+                    "note": "Om du skulle lista = jos listaisit. borde = pitäisi. ha med sig = olla mukana. Sama kysymys esitetään kaikille kolmelle asiantuntijalle.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s14",
+                    "sv": "Det handlar om att vara en problemlösare som kan navigera i en ständigt föränderlig teknisk miljö.",
+                    "fi": "Kyse on siitä, että on ongelmanratkaisija, joka osaa navigoida jatkuvasti muuttuvassa teknisessä ympäristössä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "problemlösare",
+                            "d": [
+                                "kravanalytiker",
+                                "tjänstedesigner",
+                                "utförare"
+                            ]
+                        },
+                        {
+                            "w": "föränderlig",
+                            "d": ["föränderligt", "föränderliga", "förändring"]
+                        }
+                    ],
+                    "grammar": ["compound", "som", "att-inf"],
+                    "note": "Det handlar om = kyse on. problem + lösare = ongelman + ratkaisija. ständigt föränderlig = jatkuvasti muuttuva.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s15",
+                    "sv": "Det handlar inte bara om att kunna ta till sig nya verktyg och tekniker i en rasande takt.",
+                    "fi": "Kyse ei ole vain siitä, että osaa omaksua uusia työkaluja ja tekniikoita hurjaa vauhtia.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "verktyg",
+                            "d": ["verktyget", "verktygen", "lösningar"]
+                        },
+                        {
+                            "w": "rasande",
+                            "d": ["rasa", "rasar", "rasade"]
+                        },
+                        {
+                            "w": "ta till sig",
+                            "d": ["ta med sig", "ta sig in", "ta över"]
+                        }
+                    ],
+                    "grammar": ["particle", "negation"],
+                    "note": "ta till sig = omaksua. i en rasande takt = hurjaa vauhtia (rasande = raivoava, takt = tahti). inte bara ... utan också = ei vain ... vaan myös.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s16",
+                    "sv": "Det handlar också om att kritiskt kunna granska och förbättra kod.",
+                    "fi": "Kyse on myös siitä, että osaa kriittisesti tarkastaa ja parantaa koodia.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "granska",
+                            "d": ["granskar", "granskat", "granskning"]
+                        },
+                        {
+                            "w": "förbättra",
+                            "d": ["förbättrar", "förbättring", "bättre"]
+                        }
+                    ],
+                    "grammar": ["att-inf", "adverbs"],
+                    "note": "granska = tarkastaa, förbättra = parantaa (bättre = parempi). Artikkelissa: '...utan också om att kritiskt kunna granska och förbättra kod'.",
+                    "wrong": [
+                        "Det handlar också om att kritiskt kunna granskar och förbättra kod.",
+                        "Det handlar också på att kritiskt kunna granska och förbättra kod."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s17",
+                    "sv": "Dessutom kommer förmågan att effektivt hantera och implementera AI-tjänster att vara helt avgörande.",
+                    "fi": "Lisäksi kyky hallita ja ottaa käyttöön tekoälypalveluita tehokkaasti tulee olemaan täysin ratkaiseva.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "förmågan",
+                            "d": ["förmåga", "förmågor", "förmågorna"]
+                        },
+                        {
+                            "w": "avgörande",
+                            "d": ["avgör", "avgjort", "avgöra"]
+                        },
+                        {
+                            "w": "implementera",
+                            "d": [
+                                "implementerar",
+                                "implementering",
+                                "implementerade"
+                            ]
+                        }
+                    ],
+                    "grammar": ["future", "v2", "att-inf"],
+                    "note": "Dessutom = lisäksi. kommer ... att vara = tulee olemaan. förmåga = kyky, förmågan = se kyky. helt avgörande = täysin ratkaiseva.",
+                    "variants": []
+                }
+            ],
+            "words": [
+                {
+                    "id": "it-konsult-w14",
+                    "sv": "fem kompetenser",
+                    "fi": "viisi osaamisaluetta",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w15",
+                    "sv": "på it-marknaden",
+                    "fi": "it-markkinoilla",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w16",
+                    "sv": "molnkompetens",
+                    "fi": "pilviosaaminen",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w17",
+                    "sv": "hantering av databearbetningsverktyg",
+                    "fi": "tiedonkäsittelytyökalujen hallinta",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w18",
+                    "sv": "informationssäkerhet",
+                    "fi": "tietoturva",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w19",
+                    "sv": "en problemlösare",
+                    "fi": "ongelmanratkaisija",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w20",
+                    "sv": "en ständigt föränderlig teknisk miljö",
+                    "fi": "jatkuvasti muuttuva tekninen ympäristö",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w21",
+                    "sv": "ta till sig nya verktyg och tekniker",
+                    "fi": "omaksua uusia työkaluja ja tekniikoita",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w22",
+                    "sv": "i en rasande takt",
+                    "fi": "hurjaa vauhtia",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w23",
+                    "sv": "granska och förbättra",
+                    "fi": "tarkastaa ja parantaa",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "it-konsult-l4",
+            "title": "Sofia Boström: silta tekniikan ja toiminnan välillä",
+            "sentences": [
+                {
+                    "id": "it-konsult-s18",
+                    "sv": "Finns det någon kompetens som du anser är underskattad eller förbisedd?",
+                    "fi": "Onko jokin osaamisalue, jota pidät aliarvostettuna tai huomiotta jätettynä?",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "underskattad",
+                            "d": [
+                                "underskattade",
+                                "underskatta",
+                                "underskattat"
+                            ]
+                        },
+                        {
+                            "w": "förbisedd",
+                            "d": ["förbisedda", "förbise", "föränderlig"]
+                        },
+                        {
+                            "w": "anser",
+                            "d": ["anse", "ansåg", "ansett"]
+                        }
+                    ],
+                    "grammar": ["det-finns", "questions", "participle"],
+                    "note": "Finns det = onko olemassa. anser = pitää jonakin, olla mieltä. underskattad = aliarvostettu, förbisedd = huomiotta jätetty.",
+                    "wrong": [
+                        "Det finns någon kompetens som du anser är underskattad eller förbisedd?",
+                        "Finns det något kompetens som du anser är underskattad eller förbisedd?"
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s19",
+                    "sv": "En underskattad och ibland förbisedd kompetens är förmågan att agera som en brygga mellan teknik och verksamhet.",
+                    "fi": "Aliarvostettu ja joskus huomiotta jätetty osaamisalue on kyky toimia siltana tekniikan ja toiminnan välillä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "brygga",
+                            "d": ["bryggor", "partner", "chef"]
+                        },
+                        {
+                            "w": "agera",
+                            "d": ["agerar", "agerade", "agerat"]
+                        },
+                        {
+                            "w": "verksamhet",
+                            "d": ["verksam", "marknad", "affär"]
+                        }
+                    ],
+                    "grammar": ["som", "att-inf", "participle"],
+                    "note": "agera som = toimia jonakin (som = -na). en brygga mellan X och Y = silta X:n ja Y:n välillä. verksamhet = (yrityksen) toiminta, liiketoiminta.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s20",
+                    "sv": "Här talar vi om roller som exempelvis kravanalytiker och tjänstedesigner.",
+                    "fi": "Tässä puhumme rooleista kuten esimerkiksi vaatimusanalyytikko ja palvelumuotoilija.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "kravanalytiker",
+                            "d": ["problemlösare", "utförare", "konsulter"]
+                        },
+                        {
+                            "w": "roller",
+                            "d": ["roll", "rollen", "rollerna"]
+                        },
+                        {
+                            "w": "talar",
+                            "d": ["tala", "talade", "talat"]
+                        }
+                    ],
+                    "grammar": ["v2", "compound"],
+                    "note": "Här talar vi: lause alkaa sanalla Här, joten verbi talar tulee ennen subjektia vi. krav + analytiker = vaatimus + analyytikko. tjänste + designer = palvelu + suunnittelija.",
+                    "wrong": [
+                        "Här vi talar om roller som exempelvis kravanalytiker och tjänstedesigner.",
+                        "Här talar vi om roll som exempelvis kravanalytiker och tjänstedesigner."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s21",
+                    "sv": "Dessa roller är helt avgörande för att säkerställa att de tekniska lösningarna faktiskt möter verksamhetens verkliga behov.",
+                    "fi": "Nämä roolit ovat täysin ratkaisevia sen varmistamiseksi, että tekniset ratkaisut todella vastaavat toiminnan todellisia tarpeita.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "säkerställa",
+                            "d": ["säkerställer", "säkerställde", "säkerhet"]
+                        },
+                        {
+                            "w": "behov",
+                            "d": ["behöver", "behövs", "mål"]
+                        },
+                        {
+                            "w": "möter",
+                            "d": ["möta", "mötte", "möten"]
+                        }
+                    ],
+                    "grammar": ["for-att", "adj-def", "genitive"],
+                    "note": "för att säkerställa = varmistaakseen. säker + ställa = varma + asettaa. möter behov = vastaa tarpeisiin (möta = kohdata). verksamhetens = toiminnan (genetiivi -s).",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s22",
+                    "sv": "Det handlar om att förstå affärsmål, översätta dem till tekniska krav och designa tjänster som är användarvänliga och effektiva.",
+                    "fi": "Kyse on siitä, että ymmärtää liiketoiminnan tavoitteet, kääntää ne teknisiksi vaatimuksiksi ja suunnittelee palveluita, jotka ovat käyttäjäystävällisiä ja tehokkaita.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "affärsmål",
+                            "d": ["affärsnytta", "mervärde", "ledarskap"]
+                        },
+                        {
+                            "w": "användarvänliga",
+                            "d": [
+                                "användarvänlig",
+                                "användarvänligt",
+                                "användare"
+                            ]
+                        },
+                        {
+                            "w": "översätta",
+                            "d": ["översätter", "översatte", "översättning"]
+                        }
+                    ],
+                    "grammar": ["compound", "adj", "som"],
+                    "note": "affärs + mål = liiketoiminta + tavoite. översätta till = kääntää joksikin. användar + vänlig = käyttäjä + ystävällinen; -a koska tjänster on monikko.",
+                    "variants": []
+                }
+            ],
+            "words": [
+                {
+                    "id": "it-konsult-w24",
+                    "sv": "en förmåga",
+                    "fi": "kyky",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w25",
+                    "sv": "hantera och implementera AI-tjänster",
+                    "fi": "hallita ja ottaa käyttöön tekoälypalveluita",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w26",
+                    "sv": "helt avgörande",
+                    "fi": "täysin ratkaiseva",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w27",
+                    "sv": "underskattad eller förbisedd",
+                    "fi": "aliarvostettu tai huomiotta jätetty",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w28",
+                    "sv": "agera",
+                    "fi": "toimia",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w29",
+                    "sv": "en brygga mellan teknik och verksamhet",
+                    "fi": "silta tekniikan ja toiminnan välillä",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w30",
+                    "sv": "en kravanalytiker",
+                    "fi": "vaatimusanalyytikko, Business Analyst",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w31",
+                    "sv": "en tjänstedesigner",
+                    "fi": "palvelumuotoilija",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w32",
+                    "sv": "säkerställa",
+                    "fi": "varmistaa",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w33",
+                    "sv": "de tekniska lösningarna",
+                    "fi": "tekniset ratkaisut",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "it-konsult-l5",
+            "title": "Sofia Boström: arvoa ja parempi palkka",
+            "sentences": [
+                {
+                    "id": "it-konsult-s23",
+                    "sv": "Utan denna koppling riskerar vi att bygga system som inte löser rätt problem.",
+                    "fi": "Ilman tätä yhteyttä vaarana on, että rakennamme järjestelmiä, jotka eivät ratkaise oikeita ongelmia.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "koppling",
+                            "d": ["brygga", "fördel", "takt"]
+                        },
+                        {
+                            "w": "löser",
+                            "d": ["löste", "lösa", "lösning"]
+                        }
+                    ],
+                    "grammar": ["subclause", "negation", "som"],
+                    "note": "Utan = ilman. riskerar vi = meillä on riski (verbi toisena, koska lause alkaa Utan...). Sivulauseessa inte tulee ennen verbiä: som inte löser = jotka eivät ratkaise.",
+                    "wrong": [
+                        "Utan denna koppling vi riskerar att bygga system som inte löser rätt problem.",
+                        "Utan denna koppling riskerar vi att bygga system som löser inte rätt problem."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s24",
+                    "sv": "Vi riskerar att bygga system som inte skapar tillräckligt värde för organisationen.",
+                    "fi": "Vaarana on, että rakennamme järjestelmiä, jotka eivät luo tarpeeksi arvoa organisaatiolle.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "värde",
+                            "d": ["värdet", "värdefull", "värden"]
+                        },
+                        {
+                            "w": "tillräckligt",
+                            "d": ["tillräcklig", "tillräckliga", "ständigt"]
+                        }
+                    ],
+                    "grammar": ["subclause", "negation", "definite"],
+                    "note": "skapa värde = luoda arvoa. tillräckligt = tarpeeksi. organisationen = organisaatio (määräinen muoto). Artikkelin pitkästä lauseesta lyhennetty.",
+                    "wrong": [
+                        "Vi riskerar att bygga system som skapar inte tillräckligt värde för organisationen.",
+                        "Vi riskerar att bygger system som inte skapar tillräckligt värde för organisationen."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s25",
+                    "sv": "Vilka kompetenser leder enligt dig till möjligheten till en högre lön?",
+                    "fi": "Mitkä osaamisalueet johtavat mielestäsi mahdollisuuteen saada korkeampaa palkkaa?",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "enligt",
+                            "d": ["utan", "mellan", "inom"]
+                        },
+                        {
+                            "w": "möjligheten",
+                            "d": ["möjlighet", "möjligheter", "möjligt"]
+                        }
+                    ],
+                    "grammar": ["questions", "rektio"],
+                    "note": "enligt dig = sinun mielestäsi (enligt = jonkin mukaan). leda till = johtaa johonkin. Sama kysymys esitetään kaikille asiantuntijoille.",
+                    "wrong": [
+                        "Vilka kompetenser enligt dig leder till möjligheten till en högre lön?",
+                        "Vilken kompetenser leder enligt dig till möjligheten till en högre lön?"
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s26",
+                    "sv": "Jag skulle säga it-arkitektur och molnutveckling med it-säkerhetskompetens.",
+                    "fi": "Sanoisin it-arkkitehtuuri ja pilvikehitys yhdistettynä it-tietoturvaosaamiseen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "molnutveckling",
+                            "d": [
+                                "plattformsutveckling",
+                                "integration",
+                                "ledarskap"
+                            ]
+                        },
+                        {
+                            "w": "skulle",
+                            "d": ["skulla", "ska", "skall"]
+                        }
+                    ],
+                    "grammar": ["skulle", "opinion", "compound"],
+                    "note": "Jag skulle säga = sanoisin. moln + utveckling = pilvi + kehitys. it-säkerhets + kompetens = it-tietoturva + osaaminen.",
+                    "wrong": [
+                        "Jag skulle säger it-arkitektur och molnutveckling med it-säkerhetskompetens.",
+                        "Skulle jag säga it-arkitektur och molnutveckling med it-säkerhetskompetens."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s27",
+                    "sv": "De som kan leda den agila resan får ofta en högre lön.",
+                    "fi": "Ne, jotka osaavat johtaa ketterää prosessia, saavat usein korkeampaa palkkaa.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "agila",
+                            "d": ["agil", "agilt", "agilare"]
+                        },
+                        {
+                            "w": "resan",
+                            "d": ["resa", "resor", "resorna"]
+                        },
+                        {
+                            "w": "leda",
+                            "d": ["leder", "ledde", "ledare"]
+                        }
+                    ],
+                    "grammar": ["som", "adj-def", "modal"],
+                    "note": "Artikkelissa: 'även de som kan leda den agila resan'. leda den agila resan = johtaa ketterää prosessia (resa = matka). agila saa -a-päätteen, koska puhutaan siitä tietystä matkasta.",
+                    "wrong": [
+                        "De som kan leda den agil resan får ofta en högre lön.",
+                        "De som kan leder den agila resan får ofta en högre lön."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s28",
+                    "sv": "Mitt bästa tips till dig som vill skaffa dig en fördel på marknaden är att ständigt vara nyfiken och villig att lära dig nya saker.",
+                    "fi": "Paras vinkkini sinulle, joka haluat hankkia itsellesi etua markkinoilla, on olla jatkuvasti utelias ja halukas oppimaan uusia asioita.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "nyfiken",
+                            "d": ["nyfikenhet", "nyfikna", "rädd"]
+                        },
+                        {
+                            "w": "villig",
+                            "d": ["villigt", "villiga", "vilja"]
+                        }
+                    ],
+                    "grammar": ["att-inf", "reflexive", "som"],
+                    "note": "skaffa dig = hankkia itsellesi. vara nyfiken = olla utelias. villig att lära dig = halukas oppimaan. ständigt = jatkuvasti.",
+                    "variants": []
+                }
+            ],
+            "words": [
+                {
+                    "id": "it-konsult-w34",
+                    "sv": "möter",
+                    "fi": "kohtaavat (möta = kohdata)",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w35",
+                    "sv": "verksamhetens verkliga behov",
+                    "fi": "toiminnan todelliset tarpeet",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w36",
+                    "sv": "förstå affärsmål",
+                    "fi": "ymmärtää liiketoiminnan tavoitteet",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w37",
+                    "sv": "översätta till",
+                    "fi": "kääntää joksikin, jollekin kielelle",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w38",
+                    "sv": "användarvänlig",
+                    "fi": "käyttäjäystävällinen",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w39",
+                    "sv": "utan denna koppling",
+                    "fi": "ilman tätä yhteyttä",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w40",
+                    "sv": "inte löser rätt problem",
+                    "fi": "ei ratkaise oikeita ongelmia",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w41",
+                    "sv": "skapa värde",
+                    "fi": "luoda arvoa",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w42",
+                    "sv": "leda den agila resan",
+                    "fi": "johtaa ketterää prosessia",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w43",
+                    "sv": "vara nyfiken",
+                    "fi": "olla utelias",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "it-konsult-l6",
+            "title": "Sofia Boström: laaja osaaminen",
+            "sentences": [
+                {
+                    "id": "it-konsult-s29",
+                    "sv": "Vad är ditt bästa tips till en person i it-branschen som vill ge sig själv en fördel på marknaden?",
+                    "fi": "Mikä on paras vinkkisi it-alalla toimivalle henkilölle, joka haluaa antaa itselleen etua markkinoilla?",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "tips",
+                            "d": ["tipsen", "syn", "krav"]
+                        },
+                        {
+                            "w": "fördel",
+                            "d": ["fördelar", "fördelen", "lön"]
+                        }
+                    ],
+                    "grammar": ["questions", "reflexive", "som"],
+                    "note": "ge sig själv = antaa itselleen. på marknaden = markkinoilla. Sama kysymys esitetään kaikille asiantuntijoille.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s30",
+                    "sv": "Snarare än att försöka bli den djupaste experten inom ett smalt fält, försök att lära dig lite om mycket.",
+                    "fi": "Sen sijaan, että yrittäisit tulla syvimmäksi asiantuntijaksi kapealla alueella, yritä oppia vähän paljosta.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "smalt",
+                            "d": ["smal", "smala", "brett"]
+                        },
+                        {
+                            "w": "djupaste",
+                            "d": ["djup", "djupare", "djupt"]
+                        }
+                    ],
+                    "grammar": ["comparison", "imperative", "adj"],
+                    "note": "snarare än = ennemmin kuin, sen sijaan että. djupaste = syvin. ett smalt fält = kapea alue (ett-sana, siksi smal + t). försök = yritä (käskymuoto).",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s31",
+                    "sv": "Att ha en bred förståelse för olika teknologier, metoder och trender gör dig mer mångsidig och anpassningsbar.",
+                    "fi": "Laaja ymmärrys eri teknologioista, menetelmistä ja trendeistä tekee sinusta monipuolisemman ja sopeutuvaisemman.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "bred",
+                            "d": ["brett", "breda", "smal"]
+                        },
+                        {
+                            "w": "mångsidig",
+                            "d": ["mångsidigt", "mångsidiga", "nyfiken"]
+                        },
+                        {
+                            "w": "anpassningsbar",
+                            "d": [
+                                "anpassningsbart",
+                                "anpassningsbara",
+                                "anpassa"
+                            ]
+                        }
+                    ],
+                    "grammar": ["comparison", "adj", "att-inf"],
+                    "note": "en bred förståelse = laaja ymmärrys. mer mångsidig = monipuolisempi (pitkissä sanoissa: mer + adjektiivi). anpassningsbar = sopeutuvainen.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s32",
+                    "sv": "Den breda kompetensen och en ständig vilja att utvecklas är en oslagbar kombination.",
+                    "fi": "Laaja osaaminen ja jatkuva halu kehittyä ovat lyömätön yhdistelmä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "breda",
+                            "d": ["bred", "brett", "bredare"]
+                        },
+                        {
+                            "w": "oslagbar",
+                            "d": ["oslagbart", "oslagbara", "underskattad"]
+                        },
+                        {
+                            "w": "utvecklas",
+                            "d": ["utvecklar", "utveckling", "utvecklade"]
+                        }
+                    ],
+                    "grammar": ["adj-def", "s-passive", "att-inf"],
+                    "note": "den breda kompetensen = se laaja osaaminen (määräinen: den + -a + -en). utvecklas = kehittyä (s-loppuinen verbi). oslagbar = lyömätön (o- = epä-, slå = lyödä).",
+                    "wrong": [
+                        "Den bred kompetensen och en ständig vilja att utvecklas är en oslagbar kombination.",
+                        "Den breda kompetensen och en ständig vilja att utvecklar är en oslagbar kombination."
+                    ],
+                    "variants": []
+                }
+            ],
+            "words": [
+                {
+                    "id": "it-konsult-w44",
+                    "sv": "vara villig att lära sig nya saker",
+                    "fi": "olla halukas oppimaan uusia asioita",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w45",
+                    "sv": "snarare än",
+                    "fi": "ennemmin kuin",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w46",
+                    "sv": "den djupaste experten",
+                    "fi": "syvimmän tason asiantuntija",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w47",
+                    "sv": "inom ett smalt fält",
+                    "fi": "kapealla alueella",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w48",
+                    "sv": "en bred förståelse",
+                    "fi": "laaja ymmärrys",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w49",
+                    "sv": "mångsidig",
+                    "fi": "monipuolinen",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w50",
+                    "sv": "anpassningsbar",
+                    "fi": "sopeutuvainen, sopeutumiskykyinen",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w51",
+                    "sv": "vilja att utvecklas",
+                    "fi": "halu kehittyä",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w52",
+                    "sv": "en oslagbar kombination",
+                    "fi": "lyömätön yhdistelmä",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "it-konsult-l7",
+            "title": "Elin Toft: halutuimmat osaamisalueet",
+            "intro": "Elin Toft (Castra) listaa viisi tämän päivän halutuinta osaamisaluetta.",
+            "sentences": [
+                {
+                    "id": "it-konsult-s33",
+                    "sv": "Elin Toft är koncernchef på Castra.",
+                    "fi": "Elin Toft on Castran konsernijohtaja.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "koncernchef",
+                            "d": ["kund", "partner", "konsult"]
+                        }
+                    ],
+                    "grammar": ["compound", "present"],
+                    "note": "koncern + chef = konserni + johtaja. på Castra = Castralla, Castrassa.",
+                    "wrong": [
+                        "Elin Toft koncernchef är på Castra.",
+                        "Elin Toft har koncernchef på Castra."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s34",
+                    "sv": "Utan någon inbördes ordning skulle jag säga att dessa fem är de mest eftertraktade idag.",
+                    "fi": "Ilman mitään keskinäistä järjestystä sanoisin, että nämä viisi ovat tänään halutuimmat.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "eftertraktade",
+                            "d": [
+                                "eftertraktad",
+                                "eftertraktat",
+                                "underskattade"
+                            ]
+                        },
+                        {
+                            "w": "ordning",
+                            "d": ["ordningen", "ordna", "område"]
+                        }
+                    ],
+                    "grammar": ["comparison", "skulle", "subclause"],
+                    "note": "Utan någon inbördes ordning = ilman mitään keskinäistä järjestystä. de mest eftertraktade = halutuimmat (mest = eniten). Lause alkaa Utan..., joten verbi skulle tulee ennen sanaa jag.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s35",
+                    "sv": "Helhetstänk och systemförståelse krävs för att bygga skalbara, stabila och sammanhängande lösningar.",
+                    "fi": "Kokonaisuuden hahmottamista ja järjestelmäymmärrystä vaaditaan, jotta voidaan rakentaa skaalautuvia, vakaita ja yhtenäisiä ratkaisuja.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Helhetstänk",
+                            "d": ["Helhetsgrepp", "Mervärde", "Ledarskap"]
+                        },
+                        {
+                            "w": "krävs",
+                            "d": ["kräver", "krävde", "krav"]
+                        },
+                        {
+                            "w": "skalbara",
+                            "d": ["skalbar", "skalbart", "smala"]
+                        }
+                    ],
+                    "grammar": ["s-passive", "for-att", "compound"],
+                    "note": "helhets + tänk = kokonaisuus + ajattelu. system + förståelse = järjestelmä + ymmärrys. krävs = vaaditaan. skalbar = skaalautuva.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s36",
+                    "sv": "Informations- och cybersäkerhet är affärskritiskt i allt fler verksamheter.",
+                    "fi": "Tieto- ja kyberturvallisuus on liiketoiminnan kannalta kriittistä yhä useammissa organisaatioissa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "affärskritiskt",
+                            "d": [
+                                "affärskritiska",
+                                "affärsnytta",
+                                "affärssystem"
+                            ],
+                            "a": ["affärskritisk"]
+                        },
+                        {
+                            "w": "fler",
+                            "d": ["flest", "färre", "få"]
+                        }
+                    ],
+                    "grammar": ["compound", "comparison", "adj"],
+                    "note": "Informations- och cybersäkerhet = informationssäkerhet och cybersäkerhet; viiva säästää toistoa (vrt. tieto- ja kyberturvallisuus). affärs + kritisk = liiketoiminnan kannalta kriittinen. allt fler = yhä useampi.",
+                    "wrong": [
+                        "Informations- och cybersäkerhet affärskritiskt är i allt fler verksamheter.",
+                        "Informations- och cybersäkerhet är affärskritiskt i allt flest verksamheter."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s37",
+                    "sv": "Automatisering och programmeringskunskap behövs för att effektivisera, kvalitetssäkra och skapa mervärde i varje leverans.",
+                    "fi": "Automatisointia ja ohjelmointiosaamista tarvitaan tehostamiseen, laadunvarmistukseen ja lisäarvon luomiseen jokaisessa toimituksessa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "mervärde",
+                            "d": ["mervärdet", "värdefull", "affärsnytta"]
+                        },
+                        {
+                            "w": "leverans",
+                            "d": ["leveranser", "leverera", "levererar"]
+                        },
+                        {
+                            "w": "effektivisera",
+                            "d": ["effektiv", "effektivt", "effektiviserar"]
+                        }
+                    ],
+                    "grammar": ["for-att", "s-passive", "compound"],
+                    "note": "behövs = tarvitaan (s-passiivi). mer + värde = lisä + arvo. kvalitets + säkra = laatu + varmistaa. leverans = toimitus.",
+                    "variants": []
+                }
+            ],
+            "words": [
+                {
+                    "id": "it-konsult-w53",
+                    "sv": "plattformsutveckling",
+                    "fi": "alustakehitys",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w54",
+                    "sv": "integrationsutveckling",
+                    "fi": "integraatiokehitys",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w55",
+                    "sv": "helhetstänk",
+                    "fi": "kokonaisuuden hahmottaminen",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w56",
+                    "sv": "systemförståelse",
+                    "fi": "järjestelmäymmärrys",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w57",
+                    "sv": "cybersäkerhet",
+                    "fi": "kyberturvallisuus",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w58",
+                    "sv": "affärskritisk",
+                    "fi": "liiketoiminnan kannalta kriittinen",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w59",
+                    "sv": "AI (artificiell intelligens)",
+                    "fi": "tekoäly",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w60",
+                    "sv": "maskininlärning",
+                    "fi": "koneoppiminen",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w61",
+                    "sv": "storskaliga språkmodeller",
+                    "fi": "suuret kielimallit",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "it-konsult-l8",
+            "title": "Elin Toft: kokonaisote",
+            "sentences": [
+                {
+                    "id": "it-konsult-s38",
+                    "sv": "Vad måste framtidens it-konsult kunna?",
+                    "fi": "Mitä tulevaisuuden it-konsultin täytyy osata?",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "måste",
+                            "d": ["vill", "får", "brukar"]
+                        },
+                        {
+                            "w": "kunna",
+                            "d": ["kan", "kunde", "kunnat"]
+                        }
+                    ],
+                    "grammar": ["questions", "modal", "genitive"],
+                    "note": "Vad måste ... kunna? = Mitä täytyy osata? kunna = osata (kan = osaa). Sama kysymys esitetään kaikille asiantuntijoille.",
+                    "wrong": [
+                        "Vad framtidens it-konsult måste kunna?",
+                        "Vad måste framtidens it-konsult kan?"
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Vad måste framtidens it-konsult förstå?",
+                            "fi": "Mitä tulevaisuuden it-konsultin täytyy ymmärtää?",
+                            "w": "förstå",
+                            "d": ["förstår", "förstod", "förståelse"]
+                        }
+                    ]
+                },
+                {
+                    "id": "it-konsult-s39",
+                    "sv": "Att bygga en spetskompetens inom något av dessa områden är ett starkt recept för en framgångsrik it-karriär.",
+                    "fi": "Erityisosaamisen rakentaminen jollakin näistä alueista on vahva resepti menestyksekkääseen it-uraan.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "spetskompetens",
+                            "d": ["helhetsgrepp", "mervärde", "leverans"]
+                        },
+                        {
+                            "w": "framgångsrik",
+                            "d": ["framgångsrikt", "framgångsrika", "framgång"]
+                        }
+                    ],
+                    "grammar": ["att-inf", "adj", "compound"],
+                    "note": "spets + kompetens = kärki + osaaminen eli erityis- tai huippuosaaminen. framgångsrik = menestyksekäs (framgång = menestys).",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s40",
+                    "sv": "Framtidens it-konsult behöver vara mer än bara tekniskt kunnig.",
+                    "fi": "Tulevaisuuden it-konsultin täytyy olla enemmän kuin vain teknisesti taitava.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "kunnig",
+                            "d": ["kunnigt", "kunniga", "kunskap"]
+                        },
+                        {
+                            "w": "tekniskt",
+                            "d": ["teknisk", "tekniska", "teknik"]
+                        }
+                    ],
+                    "grammar": ["modal", "genitive", "comparison"],
+                    "note": "behöver vara = täytyy olla (ei att-sanaa). tekniskt kunnig = teknisesti taitava; -t tekee adjektiivista adverbin.",
+                    "wrong": [
+                        "Framtidens it-konsult behöver att vara mer än bara tekniskt kunnig.",
+                        "Framtidens it-konsult behöver vara mer än bara teknisk kunnig."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s41",
+                    "sv": "Du måste kunna ta ett helhetsgrepp och förstå affären.",
+                    "fi": "Sinun täytyy osata ottaa kokonaisote ja ymmärtää liiketoimintaa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "helhetsgrepp",
+                            "d": ["helhetstänk", "spetskompetens", "mervärde"]
+                        },
+                        {
+                            "w": "affären",
+                            "d": ["affär", "affärer", "affärsmål"]
+                        }
+                    ],
+                    "grammar": ["modal", "definite"],
+                    "note": "ta ett helhetsgrepp = ottaa kokonaisote (helhet + grepp = kokonaisuus + ote). affären = liiketoiminta (määräinen muoto).",
+                    "wrong": [
+                        "Du måste kunna ta en helhetsgrepp och förstå affären.",
+                        "Du måste kunna tar ett helhetsgrepp och förstå affären."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s42",
+                    "sv": "Du måste vara en strategisk partner snarare än enbart utförare.",
+                    "fi": "Sinun täytyy olla strateginen kumppani ennemmin kuin pelkkä toteuttaja.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "strategisk",
+                            "d": ["strategiskt", "strategiska", "strategi"]
+                        },
+                        {
+                            "w": "utförare",
+                            "d": ["kund", "chef", "expert"]
+                        }
+                    ],
+                    "grammar": ["modal", "adj"],
+                    "note": "snarare än = ennemmin kuin. enbart = pelkästään. utförare = toteuttaja (utföra = suorittaa).",
+                    "wrong": [
+                        "Du måste vara en strategiskt partner snarare än enbart utförare.",
+                        "Du måste är en strategisk partner snarare än enbart utförare."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s43",
+                    "sv": "Det måste även finnas en automatiseringsförmåga.",
+                    "fi": "Myös kyvyn automatisoida täytyy löytyä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "automatiseringsförmåga",
+                            "d": [
+                                "automatisering",
+                                "automatiskt",
+                                "kommunikationsförmåga"
+                            ]
+                        },
+                        {
+                            "w": "finnas",
+                            "d": ["finns", "fanns", "funnits"]
+                        }
+                    ],
+                    "grammar": ["det-finns", "modal", "compound"],
+                    "note": "Det måste finnas = täytyy olla olemassa. automatiserings + förmåga = automatisointi + kyky.",
+                    "wrong": [
+                        "Det måste även finns en automatiseringsförmåga.",
+                        "Det måste även finnas ett automatiseringsförmåga."
+                    ],
+                    "variants": []
+                }
+            ],
+            "words": [
+                {
+                    "id": "it-konsult-w62",
+                    "sv": "datadriven utveckling",
+                    "fi": "dataohjattu kehitys",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w63",
+                    "sv": "automatisering",
+                    "fi": "automatisointi",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w64",
+                    "sv": "programmeringskunskap",
+                    "fi": "ohjelmointiosaaminen",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w65",
+                    "sv": "ett mervärde",
+                    "fi": "lisäarvo",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w66",
+                    "sv": "en leverans",
+                    "fi": "toimitus",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w67",
+                    "sv": "en spetskompetens",
+                    "fi": "erityisosaaminen, huippuosaaminen",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w68",
+                    "sv": "ett helhetsgrepp",
+                    "fi": "kokonaisote",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w69",
+                    "sv": "en strategisk partner",
+                    "fi": "strateginen kumppani",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w70",
+                    "sv": "automatiseringsförmåga",
+                    "fi": "kyky automatisoida",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "it-konsult-l9",
+            "title": "Elin Toft: luottamus ja viestintä",
+            "sentences": [
+                {
+                    "id": "it-konsult-s44",
+                    "sv": "Att förstå hur man kan skapa värde genom att effektivisera processer blir avgörande.",
+                    "fi": "Ratkaisevaksi tulee ymmärtää, miten arvoa voidaan luoda tehostamalla prosesseja.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "effektivisera",
+                            "d": ["effektiv", "effektivt", "effektiviserar"]
+                        },
+                        {
+                            "w": "processer",
+                            "d": ["process", "processen", "processerna"]
+                        }
+                    ],
+                    "grammar": ["man", "att-inf", "subclause"],
+                    "note": "genom att + verbi = tekemällä jotain (genom att effektivisera = tehostamalla). blir avgörande = tulee ratkaisevaksi.",
+                    "wrong": [
+                        "Att förstå hur man kan skapa värde genom att effektiviserar processer blir avgörande.",
+                        "Att förstå hur kan man skapa värde genom att effektivisera processer blir avgörande."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s45",
+                    "sv": "Konsulten bör också ha förmåga till snabb inlärning.",
+                    "fi": "Konsultilla pitäisi myös olla kyky oppia nopeasti.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "inlärning",
+                            "d": ["lära", "lärare", "inlärd"]
+                        },
+                        {
+                            "w": "snabb",
+                            "d": ["snabbt", "snabba", "snabbare"]
+                        }
+                    ],
+                    "grammar": ["modal", "rektio"],
+                    "note": "bör = pitäisi. förmåga till snabb inlärning = kyky nopeaan oppimiseen (inlärning = oppiminen).",
+                    "wrong": [
+                        "Konsulten bör också har förmåga till snabb inlärning.",
+                        "Konsulten bör också ha förmåga till snabbt inlärning."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s46",
+                    "sv": "Konsulten bör kunna omfamna ny teknik och vara nyfiken, snarare än rädd, för förändring.",
+                    "fi": "Konsultin pitäisi osata ottaa uusi teknologia vastaan ja suhtautua muutokseen uteliaasti eikä pelokkaasti.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "omfamna",
+                            "d": ["omfamnar", "omfamnade", "omfamning"]
+                        },
+                        {
+                            "w": "rädd",
+                            "d": ["rädda", "rätt", "nyfikenhet"]
+                        }
+                    ],
+                    "grammar": ["modal", "adj"],
+                    "note": "omfamna = syleillä, ottaa avosylin vastaan. nyfiken för = utelias jonkin suhteen, rädd för = peloissaan jostakin. förändring = muutos.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s47",
+                    "sv": "En viktig aspekt är också förmågan att kommunicera och skapa förtroende.",
+                    "fi": "Tärkeä näkökohta on myös kyky viestiä ja luoda luottamusta.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "förtroende",
+                            "d": ["förtroendet", "förståelse", "framgång"]
+                        },
+                        {
+                            "w": "kommunicera",
+                            "d": [
+                                "kommunikation",
+                                "kommunicerar",
+                                "kommunikativa"
+                            ]
+                        }
+                    ],
+                    "grammar": ["att-inf", "adverbs"],
+                    "note": "skapa förtroende = luoda luottamusta. kommunicera = viestiä, kommunikoida. aspekt = näkökohta.",
+                    "wrong": [
+                        "En viktig aspekt är också förmågan att kommunicerar och skapa förtroende.",
+                        "Ett viktig aspekt är också förmågan att kommunicera och skapa förtroende."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s48",
+                    "sv": "Förmågan att ställa rätt krav utifrån användarens perspektiv är avgörande men glöms ofta bort.",
+                    "fi": "Kyky asettaa oikeat vaatimukset käyttäjän näkökulmasta on ratkaiseva, mutta se unohtuu usein.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "perspektiv",
+                            "d": ["perspektivet", "krav", "värde"]
+                        },
+                        {
+                            "w": "glöms",
+                            "d": ["glömmer", "glömde", "glömt"]
+                        }
+                    ],
+                    "grammar": ["s-passive", "particle", "genitive"],
+                    "note": "ställa krav = asettaa vaatimuksia (tästä sana kravställning = vaatimusten määrittely). utifrån = jonkin pohjalta. glöms bort = unohdetaan (glömma bort = unohtaa, -s = passiivi).",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s49",
+                    "sv": "Att våga vara först med nya tekniker är ett bra sätt att få en inofficiell expertroll i teamet.",
+                    "fi": "Uskallus olla ensimmäinen uusien tekniikoiden kanssa on hyvä tapa saada epävirallinen asiantuntijarooli tiimissä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "inofficiell",
+                            "d": ["inofficiellt", "inofficiella", "officiell"]
+                        },
+                        {
+                            "w": "våga",
+                            "d": ["vågar", "vågade", "mod"]
+                        }
+                    ],
+                    "grammar": ["att-inf", "adj", "compound"],
+                    "note": "våga = uskaltaa. ett bra sätt att = hyvä tapa (tehdä jotain). in + officiell = epä + virallinen. expert + roll = asiantuntija + rooli.",
+                    "variants": []
+                }
+            ],
+            "words": [
+                {
+                    "id": "it-konsult-w71",
+                    "sv": "effektivisera processer",
+                    "fi": "tehostaa prosesseja",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w72",
+                    "sv": "förmåga till snabb inlärning",
+                    "fi": "kyky oppia nopeasti",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w73",
+                    "sv": "omfamna ny teknik",
+                    "fi": "ottaa uusi teknologia vastaan",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w74",
+                    "sv": "kommunicera",
+                    "fi": "kommunikoida, viestiä",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w75",
+                    "sv": "skapa förtroende",
+                    "fi": "luoda luottamusta",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w76",
+                    "sv": "kravställning",
+                    "fi": "vaatimusten määrittely",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w77",
+                    "sv": "användarens perspektiv",
+                    "fi": "käyttäjän näkökulma",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w78",
+                    "sv": "en inofficiell expertroll",
+                    "fi": "epävirallinen asiantuntijarooli",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "it-konsult-l10",
+            "title": "Elin Toft: mistä parempi palkka?",
+            "sentences": [
+                {
+                    "id": "it-konsult-s50",
+                    "sv": "Kommunikativa färdigheter är ofta avgörande för långsiktig framgång.",
+                    "fi": "Viestintätaidot ovat usein ratkaisevia pitkäaikaisen menestyksen kannalta.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "långsiktig",
+                            "d": ["långsiktigt", "långsiktiga", "långsam"]
+                        },
+                        {
+                            "w": "färdigheter",
+                            "d": ["färdighet", "färdig", "färdigheten"]
+                        }
+                    ],
+                    "grammar": ["adj", "plural", "adverbs"],
+                    "note": "kommunikativa färdigheter = viestintätaidot (-a, koska monikko). lång + siktig = pitkä + tähtäin, eli pitkäaikainen. framgång = menestys.",
+                    "wrong": [
+                        "Kommunikativ färdigheter är ofta avgörande för långsiktig framgång.",
+                        "Kommunikativa färdigheter ofta är avgörande för långsiktig framgång."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s51",
+                    "sv": "Informationssäkerhet är ett område där efterfrågan ofta överstiger tillgång.",
+                    "fi": "Tietoturva on alue, jolla kysyntä ylittää usein tarjonnan.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "efterfrågan",
+                            "d": ["efterfråga", "eftertraktad", "tillgången"]
+                        },
+                        {
+                            "w": "överstiger",
+                            "d": ["översteg", "överstiga", "översätter"]
+                        }
+                    ],
+                    "grammar": ["subclause", "compound"],
+                    "note": "efterfrågan = kysyntä, tillgång = tarjonta. överstiger = ylittää. där = jossa; sivulauseessa ofta tulee ennen verbiä.",
+                    "wrong": [
+                        "Informationssäkerhet är ett område där efterfrågan överstiger ofta tillgång.",
+                        "Informationssäkerhet är en område där efterfrågan ofta överstiger tillgång."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s52",
+                    "sv": "Arkitektroller värderas högt eftersom de kombinerar teknisk fördjupning med strategiskt ansvar och helhetsperspektiv.",
+                    "fi": "Arkkitehtirooleja arvostetaan korkealle, koska niissä yhdistyvät tekninen syväosaaminen, strateginen vastuu ja kokonaisnäkemys.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "värderas",
+                            "d": ["värderar", "värdera", "värde"]
+                        },
+                        {
+                            "w": "kombinerar",
+                            "d": ["kombination", "kombinera", "kombinerade"]
+                        }
+                    ],
+                    "grammar": ["s-passive", "subclause", "compound"],
+                    "note": "värderas högt = arvostetaan korkealle (värdera + s = passiivi). eftersom = koska. fördjupning = syventyminen. helhets + perspektiv = kokonaisnäkemys.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s53",
+                    "sv": "I grunden handlar det om att kombinera teknisk spets med affärsnytta och kommunikation.",
+                    "fi": "Pohjimmiltaan kyse on teknisen erikoisosaamisen yhdistämisestä liiketoimintahyötyyn ja viestintään.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "affärsnytta",
+                            "d": ["affärsmål", "mervärde", "affärssystem"]
+                        },
+                        {
+                            "w": "spets",
+                            "d": ["spetsen", "spetsar", "spetsig"]
+                        }
+                    ],
+                    "grammar": ["v2", "att-inf", "compound"],
+                    "note": "I grunden = pohjimmiltaan. Lause alkaa I grunden, joten verbi handlar tulee ennen sanaa det. teknisk spets = tekninen erikoisosaaminen. affärs + nytta = liiketoiminta + hyöty.",
+                    "wrong": [
+                        "I grunden det handlar om att kombinera teknisk spets med affärsnytta och kommunikation.",
+                        "I grunden handlar det om att kombinerar teknisk spets med affärsnytta och kommunikation."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s54",
+                    "sv": "De konsulter som kan det blir ofta oumbärliga.",
+                    "fi": "Konsulteista, jotka osaavat sen, tulee usein korvaamattomia.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "oumbärliga",
+                            "d": ["oumbärlig", "oumbärligt", "underskattade"]
+                        },
+                        {
+                            "w": "blir",
+                            "d": ["bli", "blev", "blivit"]
+                        }
+                    ],
+                    "grammar": ["som", "adj", "plural"],
+                    "note": "oumbärlig = korvaamaton (o- = epä-, umbära = olla ilman). blir = tulee joksikin. -a, koska konsulter on monikko.",
+                    "wrong": [
+                        "De konsulter som kan det blir ofta oumbärlig.",
+                        "De konsulter som kan det ofta blir oumbärliga."
+                    ],
+                    "variants": []
+                }
+            ],
+            "words": [
+                {
+                    "id": "it-konsult-w79",
+                    "sv": "kommunikativa färdigheter",
+                    "fi": "viestintätaidot",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w80",
+                    "sv": "långsiktig framgång",
+                    "fi": "pitkäaikainen menestys",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w81",
+                    "sv": "molnspecialisering",
+                    "fi": "pilviosaamiseen erikoistuminen",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w82",
+                    "sv": "certifieringar",
+                    "fi": "sertifikaatit",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w83",
+                    "sv": "affärssystemkompetens",
+                    "fi": "liiketoimintajärjestelmäosaaminen",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w84",
+                    "sv": "verksamhetsförståelse",
+                    "fi": "toiminnan ymmärrys",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w85",
+                    "sv": "arkitektroller",
+                    "fi": "arkkitehtiroolit",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w86",
+                    "sv": "en lösningsarkitekt",
+                    "fi": "ratkaisuarkkitehti",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "it-konsult-l11",
+            "title": "Elin Toft: parhaat vinkit",
+            "sentences": [
+                {
+                    "id": "it-konsult-s55",
+                    "sv": "Satsa på långsiktig utveckling snarare än kortsiktig lön.",
+                    "fi": "Panosta pitkäaikaiseen kehitykseen ennemmin kuin lyhytaikaiseen palkkaan.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Satsa",
+                            "d": ["Satsar", "Satsade", "Satsning"]
+                        },
+                        {
+                            "w": "långsiktig",
+                            "d": ["långsiktigt", "långsiktiga", "långsam"]
+                        }
+                    ],
+                    "grammar": ["imperative", "adj"],
+                    "note": "Satsa på = panosta johonkin (käskymuoto). lång-/kortsiktig = pitkä-/lyhytaikainen. snarare än = ennemmin kuin.",
+                    "wrong": [
+                        "Satsar på långsiktig utveckling snarare än kortsiktig lön.",
+                        "Satsa på långsiktigt utveckling snarare än kortsiktig lön."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s56",
+                    "sv": "Välj arbetsgivare och uppdrag som ger utrymme att lära, testa nytt och utvecklas.",
+                    "fi": "Valitse työnantajia ja toimeksiantoja, jotka antavat tilaa oppia, kokeilla uutta ja kehittyä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "utrymme",
+                            "d": ["utrymmen", "förtroende", "mod"]
+                        },
+                        {
+                            "w": "Välj",
+                            "d": ["Välja", "Väljer", "Valde"]
+                        }
+                    ],
+                    "grammar": ["imperative", "som", "att-inf"],
+                    "note": "välj = valitse (välja → välj). utrymme = tila. uppdrag = toimeksianto. testa nytt = kokeilla uutta.",
+                    "wrong": [
+                        "Väljer arbetsgivare och uppdrag som ger utrymme att lära, testa nytt och utvecklas.",
+                        "Välj arbetsgivare och uppdrag som ger utrymme att lära, testa nytt och utvecklar."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s57",
+                    "sv": "Rätt kompetens kommer ge dig goda löneutvecklingsmöjligheter över tid.",
+                    "fi": "Oikea osaaminen antaa sinulle ajan myötä hyvät palkkakehitysmahdollisuudet.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "löneutvecklingsmöjligheter",
+                            "d": ["karriärutveckling", "lön", "löneutveckling"]
+                        },
+                        {
+                            "w": "goda",
+                            "d": ["god", "gott", "godare"]
+                        }
+                    ],
+                    "grammar": ["future", "compound", "adj"],
+                    "note": "kommer ge = tulee antamaan (kommer att ge; att jää puheessa usein pois). löne + utvecklings + möjligheter = palkka + kehitys + mahdollisuudet. över tid = ajan myötä.",
+                    "wrong": [
+                        "Rätt kompetens kommer ger dig goda löneutvecklingsmöjligheter över tid.",
+                        "Rätt kompetens kommer ge dig god löneutvecklingsmöjligheter över tid."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s58",
+                    "sv": "Ha modet att vara nyfiken.",
+                    "fi": "Uskalla olla utelias.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "modet",
+                            "d": ["mod", "modig", "modigt"]
+                        },
+                        {
+                            "w": "nyfiken",
+                            "d": ["nyfikenhet", "nyfikna", "nyfiket"]
+                        }
+                    ],
+                    "grammar": ["imperative", "att-inf"],
+                    "note": "ha modet att = uskaltaa (mod = rohkeus, modet = se rohkeus). Ha on käskymuoto verbistä ha.",
+                    "wrong": [
+                        "Ha modet vara nyfiken.",
+                        "Har modet att vara nyfiken."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Ha modet att testa nytt.",
+                            "fi": "Uskalla kokeilla uutta.",
+                            "w": "testa",
+                            "d": ["testar", "testade", "test"]
+                        }
+                    ]
+                },
+                {
+                    "id": "it-konsult-s59",
+                    "sv": "Ny teknik innebär nya möjligheter, inte bara hot.",
+                    "fi": "Uusi teknologia tarkoittaa uusia mahdollisuuksia, ei vain uhkia.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "möjligheter",
+                            "d": ["möjlighet", "möjligheten", "förmågor"]
+                        },
+                        {
+                            "w": "innebär",
+                            "d": ["innebära", "innebar", "inneburit"]
+                        }
+                    ],
+                    "grammar": ["plural", "negation", "adj"],
+                    "note": "innebär = merkitsee, tarkoittaa. ett hot = uhka; monikko on sama: hot.",
+                    "wrong": [
+                        "Ny teknik innebär ny möjligheter, inte bara hot.",
+                        "Nytt teknik innebär nya möjligheter, inte bara hot."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s60",
+                    "sv": "Se dig själv som en partner till kunden – en som skapar värde, inte bara levererar timmar.",
+                    "fi": "Näe itsesi asiakkaan kumppanina – sellaisena, joka luo arvoa eikä vain toimita tunteja.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "partner",
+                            "d": ["utförare", "chef", "kund"]
+                        },
+                        {
+                            "w": "levererar",
+                            "d": ["leverera", "leverans", "levererade"]
+                        }
+                    ],
+                    "grammar": ["imperative", "som", "reflexive"],
+                    "note": "se dig själv som = näe itsesi jonakin. leverera timmar = toimittaa tunteja, eli myydä pelkkiä työtunteja.",
+                    "variants": []
+                }
+            ],
+            "words": [
+                {
+                    "id": "it-konsult-w87",
+                    "sv": "en systemarkitekt",
+                    "fi": "järjestelmäarkkitehti",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w88",
+                    "sv": "nischad äldre teknik",
+                    "fi": "tietylle sektorille suunnattu vanhempi tekniikka",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w89",
+                    "sv": "teknisk spets",
+                    "fi": "tekninen erikoisosaaminen, huippuosaaminen",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w90",
+                    "sv": "affärsnytta",
+                    "fi": "liiketoimintahyöty",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w91",
+                    "sv": "löneutvecklingsmöjligheter",
+                    "fi": "palkkakehitysmahdollisuudet",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w92",
+                    "sv": "ha modet att vara nyfiken",
+                    "fi": "uskaltaa olla utelias",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w93",
+                    "sv": "se sig själv som en partner",
+                    "fi": "nähdä itsensä kumppanina",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w94",
+                    "sv": "leverera timmar",
+                    "fi": "toimittaa tunteja",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "it-konsult-l12",
+            "title": "Ylva Berg: uteliaisuus ja yhteistyö",
+            "intro": "Ylva Berg (CIO, Afry) korostaa ihmisen taitoja tekniikan rinnalla.",
+            "sentences": [
+                {
+                    "id": "it-konsult-s61",
+                    "sv": "I en bransch som utvecklas i rasande takt är det avgörande att ständigt vilja lära sig nytt och ligga steget före.",
+                    "fi": "Alalla, joka kehittyy hurjaa vauhtia, on ratkaisevaa haluta jatkuvasti oppia uutta ja olla askeleen edellä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "steget",
+                            "d": ["steg", "stegen", "takten"]
+                        },
+                        {
+                            "w": "utvecklas",
+                            "d": ["utvecklar", "utveckling", "utvecklade"]
+                        },
+                        {
+                            "w": "rasande",
+                            "d": ["rasa", "rasar", "rasade"]
+                        }
+                    ],
+                    "grammar": ["v2", "som", "s-passive"],
+                    "note": "Lause alkaa pitkällä alulla (I en bransch som...), joten verbi är tulee ennen sanaa det. ligga steget före = olla askeleen edellä. lära sig nytt = oppia uutta.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s62",
+                    "sv": "Att kunna arbeta i team, lyssna in andra och sätta gemensamma mål före egna är en styrka som bygger förtroende och skapar bättre resultat.",
+                    "fi": "Kyky työskennellä tiimissä, kuunnella muita ja asettaa yhteiset tavoitteet omien edelle on vahvuus, joka rakentaa luottamusta ja luo parempia tuloksia.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "gemensamma",
+                            "d": ["gemensam", "gemensamt", "egna"]
+                        },
+                        {
+                            "w": "förtroende",
+                            "d": ["förtroendet", "förståelse", "framgång"]
+                        }
+                    ],
+                    "grammar": ["att-inf", "som", "comparison"],
+                    "note": "lyssna in andra = kuunnella muita (tarkasti). gemensamma mål = yhteiset tavoitteet. före egna = omien edelle. bättre = parempi.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s63",
+                    "sv": "En djup expertis inom ett område kombinerat med bred förståelse för angränsande discipliner gör en konsult mer anpassningsbar och värdefull i olika sammanhang.",
+                    "fi": "Syvä asiantuntemus yhdellä alueella yhdistettynä laajaan ymmärrykseen lähialoista tekee konsultista sopeutumiskykyisemmän ja arvokkaamman erilaisissa yhteyksissä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "djup",
+                            "d": ["djupt", "djupa", "smal"]
+                        },
+                        {
+                            "w": "sammanhang",
+                            "d": ["sammanhanget", "område", "samarbete"]
+                        }
+                    ],
+                    "grammar": ["comparison", "adj", "compound"],
+                    "note": "Tämä kuvaa T-muotoista osaamisprofiilia: syvä osaaminen (T:n pystyviiva) + laaja ymmärrys (vaakaviiva). angränsande = viereinen. sammanhang = yhteys, konteksti.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s64",
+                    "sv": "När AI kan generera kod på löpande band blir det mänskliga tänkandet en allt viktigare konkurrensfördel.",
+                    "fi": "Kun tekoäly voi tuottaa koodia liukuhihnalta, ihmisen ajattelusta tulee yhä tärkeämpi kilpailuetu.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "konkurrensfördel",
+                            "d": [
+                                "konkurrensfördelar",
+                                "konkurrens",
+                                "mervärde"
+                            ]
+                        },
+                        {
+                            "w": "mänskliga",
+                            "d": ["mänsklig", "mänskligt", "människa"]
+                        }
+                    ],
+                    "grammar": ["subclause", "v2", "comparison"],
+                    "note": "på löpande band = liukuhihnalta, jatkuvasti. Sivulause När... on lauseen alussa, joten verbi blir tulee heti sen jälkeen. konkurrens + fördel = kilpailu + etu.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s65",
+                    "sv": "Förmågan att sätta sig in i kundens perspektiv är central för att skapa relevanta och hållbara lösningar.",
+                    "fi": "Kyky asettua asiakkaan näkökulmaan on keskeinen, jotta voidaan luoda olennaisia ja kestäviä ratkaisuja.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "hållbara",
+                            "d": ["hållbar", "hållbart", "hålla"]
+                        },
+                        {
+                            "w": "kundens",
+                            "d": ["kund", "kunden", "kunder"]
+                        }
+                    ],
+                    "grammar": ["genitive", "reflexive", "for-att"],
+                    "note": "sätta sig in i = perehtyä, asettua johonkin. kundens = asiakkaan (genetiivi -s). relevanta = olennaiset, hållbara = kestävät.",
+                    "variants": []
+                }
+            ],
+            "words": [
+                {
+                    "id": "it-konsult-w95",
+                    "sv": "nyfikenhet",
+                    "fi": "uteliaisuus",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w96",
+                    "sv": "vetgirighet",
+                    "fi": "tiedonjano",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w97",
+                    "sv": "prestigelöshet",
+                    "fi": "vaatimattomuus (ei arvovaltakysymyksiä)",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w98",
+                    "sv": "samarbetsförmåga",
+                    "fi": "yhteistyökyky",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w99",
+                    "sv": "gemensamma mål",
+                    "fi": "yhteiset tavoitteet",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w100",
+                    "sv": "T-shaped kompetensprofil",
+                    "fi": "T:n muotoinen osaamisprofiili",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w101",
+                    "sv": "djup expertis",
+                    "fi": "syvä asiantuntemus",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w102",
+                    "sv": "abstrakt tänkande",
+                    "fi": "abstrakti ajattelu",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w103",
+                    "sv": "tydlig kommunikation",
+                    "fi": "selkeä viestintä",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w104",
+                    "sv": "en konkurrensfördel",
+                    "fi": "kilpailuetu",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "it-konsult-l13",
+            "title": "Ylva Berg: tekniikka ja ihmistaidot",
+            "sentences": [
+                {
+                    "id": "it-konsult-s66",
+                    "sv": "Framtidens it-konsult behöver kombinera teknisk spets med mänsklig skicklighet.",
+                    "fi": "Tulevaisuuden it-konsultin täytyy yhdistää tekninen huippuosaaminen ja inhimillinen taitavuus.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "skicklighet",
+                            "d": ["skicklig", "skickliga", "skickligt"]
+                        },
+                        {
+                            "w": "mänsklig",
+                            "d": ["mänskliga", "mänskligt", "människa"]
+                        }
+                    ],
+                    "grammar": ["modal", "genitive", "adj"],
+                    "note": "kombinera X med Y = yhdistää X ja Y. mänsklig = inhimillinen (människa = ihminen). skicklighet = taitavuus (skicklig = taitava).",
+                    "wrong": [
+                        "Framtidens it-konsult behöver kombinerar teknisk spets med mänsklig skicklighet.",
+                        "Framtiden it-konsult behöver kombinera teknisk spets med mänsklig skicklighet."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s67",
+                    "sv": "Att ta ansvar för sin egen kompetensutveckling och vara proaktiv i att utforska nya teknologier är en hygienfaktor.",
+                    "fi": "Vastuun ottaminen oman osaamisen kehittämisestä ja ennakoiva uusien teknologioiden tutkiminen on itsestäänselvyys.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "ansvar",
+                            "d": ["ansvarig", "ansvara", "ansvaret"]
+                        },
+                        {
+                            "w": "egen",
+                            "d": ["eget", "egna", "sitt"]
+                        }
+                    ],
+                    "grammar": ["att-inf", "possessive", "compound"],
+                    "note": "ta ansvar för = ottaa vastuu jostakin. sin egen = oma (en-sana). kompetens + utveckling = osaamisen kehittäminen. hygienfaktor = hygieniatekijä, eli asia jonka pitää olla kunnossa.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s68",
+                    "sv": "Du behöver också förstå marknadstrender, domänspecifika utmaningar och kunna sätta tekniken i ett större sammanhang.",
+                    "fi": "Sinun täytyy myös ymmärtää markkinatrendejä ja toimialakohtaisia haasteita sekä osata asettaa tekniikka laajempaan yhteyteen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "utmaningar",
+                            "d": ["utmaning", "utmaningen", "utmana"]
+                        },
+                        {
+                            "w": "större",
+                            "d": ["stor", "stort", "störst"]
+                        }
+                    ],
+                    "grammar": ["modal", "comparison", "compound"],
+                    "note": "utmaningar = haasteet. ett större sammanhang = suurempi yhteys, laajempi kokonaisuus (större = suurempi). marknads + trender = markkina + trendit.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s69",
+                    "sv": "Det är där det verkliga värdet uppstår.",
+                    "fi": "Juuri siellä todellinen arvo syntyy.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "verkliga",
+                            "d": ["verklig", "verkligt", "verkligen"]
+                        },
+                        {
+                            "w": "uppstår",
+                            "d": ["uppstod", "uppstå", "uppstått"]
+                        }
+                    ],
+                    "grammar": ["adj-def", "subclause"],
+                    "note": "det verkliga värdet = se todellinen arvo (määräinen: det + -a + -et). uppstå = syntyä.",
+                    "wrong": [
+                        "Det är där det verklig värdet uppstår.",
+                        "Det är där uppstår det verkliga värdet."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s70",
+                    "sv": "Förmågan att lyssna aktivt är en ofta förbisedd men avgörande kompetens.",
+                    "fi": "Kyky kuunnella aktiivisesti on usein huomiotta jätetty mutta ratkaiseva osaamisalue.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "aktivt",
+                            "d": ["aktiv", "aktiva", "aktivitet"]
+                        },
+                        {
+                            "w": "förbisedd",
+                            "d": ["förbisedda", "förbise", "förbisett"]
+                        }
+                    ],
+                    "grammar": ["participle", "att-inf", "adj"],
+                    "note": "lyssna aktivt = kuunnella aktiivisesti (-t tekee adjektiivista adverbin). förbisedd = huomiotta jätetty.",
+                    "wrong": [
+                        "Förmågan att lyssna aktiv är en ofta förbisedd men avgörande kompetens.",
+                        "Förmågan att lyssnar aktivt är en ofta förbisedd men avgörande kompetens."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s71",
+                    "sv": "Det är lätt att gå direkt på lösning.",
+                    "fi": "On helppoa mennä suoraan ratkaisuun.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "lätt",
+                            "d": ["lätta", "lättare", "lättast"]
+                        },
+                        {
+                            "w": "lösning",
+                            "d": ["lösa", "löser", "löste"]
+                        }
+                    ],
+                    "grammar": ["det-finns", "att-inf"],
+                    "note": "Det är lätt att... = on helppoa... (ruotsissa tarvitaan subjekti det). gå direkt på = mennä suoraan johonkin. Jatko artikkelissa: att verkligen förstå problemet är avgörande.",
+                    "wrong": [
+                        "Är lätt att gå direkt på lösning.",
+                        "Det är lätt att går direkt på lösning."
+                    ],
+                    "variants": []
+                }
+            ],
+            "words": [
+                {
+                    "id": "it-konsult-w105",
+                    "sv": "kund- och värdefokus",
+                    "fi": "asiakas- ja arvolähtöisyys",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w106",
+                    "sv": "relevanta lösningar",
+                    "fi": "olennaiset ratkaisut",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w107",
+                    "sv": "hållbara lösningar",
+                    "fi": "kestävät ratkaisut",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w108",
+                    "sv": "mänsklig skicklighet",
+                    "fi": "inhimillinen taitavuus",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w109",
+                    "sv": "ta ansvar för sin utveckling",
+                    "fi": "ottaa vastuu omasta kehityksestään",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w110",
+                    "sv": "marknadstrender",
+                    "fi": "markkinatrendit",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w111",
+                    "sv": "utmaningar",
+                    "fi": "haasteet",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w112",
+                    "sv": "ett större sammanhang",
+                    "fi": "suurempi yhteys, laajempi kokonaisuus",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w113",
+                    "sv": "lyssna aktivt",
+                    "fi": "kuunnella aktiivisesti",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "it-konsult-l14",
+            "title": "Ylva Berg: ota vastuu kehityksestäsi",
+            "sentences": [
+                {
+                    "id": "it-konsult-s72",
+                    "sv": "Kombinationen av teknisk spets, affärsförståelse och kommunikationsförmåga är ofta det som möjliggör större ansvar, ledarskap och därmed högre ersättning.",
+                    "fi": "Teknisen huippuosaamisen, liiketoimintaosaamisen ja viestintätaitojen yhdistelmä on usein se, mikä mahdollistaa suuremman vastuun, johtajuuden ja siten korkeamman palkan.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "affärsförståelse",
+                            "d": ["affärsnytta", "affärsmål", "affärssystem"]
+                        },
+                        {
+                            "w": "ersättning",
+                            "d": ["ersätta", "ansvar", "värde"]
+                        },
+                        {
+                            "w": "möjliggör",
+                            "d": ["möjlighet", "möjliggöra", "möjligt"]
+                        }
+                    ],
+                    "grammar": ["compound", "comparison", "som"],
+                    "note": "möjlig + gör = mahdollinen + tekee, eli mahdollistaa. därmed = siten. ersättning = korvaus, palkkio (tässä palkka). ledarskap = johtajuus.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s73",
+                    "sv": "Att kunna tänka i arkitektur, se helheter och abstrahera komplexa samband är också starka drivkrafter för karriärutveckling.",
+                    "fi": "Kyky ajatella arkkitehtuurin kautta, nähdä kokonaisuuksia ja abstrahoida monimutkaisia yhteyksiä ovat myös vahvoja urakehityksen vauhdittajia.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "helheter",
+                            "d": ["helhet", "helheten", "helhetsgrepp"]
+                        },
+                        {
+                            "w": "karriärutveckling",
+                            "d": ["karriär", "karriären", "karriärer"]
+                        }
+                    ],
+                    "grammar": ["att-inf", "compound", "plural"],
+                    "note": "se helheter = nähdä kokonaisuuksia. driv + krafter = käyttö + voimat, eli vauhdittajat. karriär + utveckling = urakehitys.",
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s74",
+                    "sv": "Ta ansvar för din egen utveckling.",
+                    "fi": "Ota vastuu omasta kehityksestäsi.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "ansvar",
+                            "d": ["ansvarig", "ansvara", "ansvaret"]
+                        },
+                        {
+                            "w": "egen",
+                            "d": ["eget", "egna", "sin"]
+                        }
+                    ],
+                    "grammar": ["imperative", "possessive"],
+                    "note": "Ta = ota (käskymuoto verbistä ta). din egen = oma (din = sinun, egen = oma). utveckling = kehitys.",
+                    "wrong": [
+                        "Tar ansvar för din egen utveckling.",
+                        "Ta ansvar för ditt egen utveckling."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Ta ansvar för din egen karriär.",
+                            "fi": "Ota vastuu omasta urastasi.",
+                            "w": "karriär",
+                            "d": [
+                                "karriären",
+                                "karriärer",
+                                "karriärutvecklingen"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "it-konsult-s75",
+                    "sv": "Vänta inte på att någon annan ska tala om vad du ska lära dig.",
+                    "fi": "Älä odota, että joku muu kertoo sinulle, mitä sinun pitää oppia.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Vänta",
+                            "d": ["Väntar", "Väntade", "Väntan"]
+                        },
+                        {
+                            "w": "tala",
+                            "d": ["talar", "talade", "tal"]
+                        }
+                    ],
+                    "grammar": ["imperative", "negation", "particle"],
+                    "note": "Vänta inte = älä odota (kielto tulee käskyn perään). tala om = kertoa (partikkeliverbi). lära dig = oppia (refleksiivi).",
+                    "wrong": [
+                        "Inte vänta på att någon annan ska tala om vad du ska lära dig.",
+                        "Vänta inte på att någon annan ska talar om vad du ska lära dig."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s76",
+                    "sv": "Var nyfiken, testa nytt och håll dig uppdaterad.",
+                    "fi": "Ole utelias, kokeile uutta ja pysy ajan tasalla.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "uppdaterad",
+                            "d": ["uppdatera", "uppdaterat", "uppdatering"]
+                        },
+                        {
+                            "w": "håll",
+                            "d": ["hålla", "håller", "höll"]
+                        }
+                    ],
+                    "grammar": ["imperative", "reflexive"],
+                    "note": "Var = ole (käskymuoto verbistä vara). håll dig uppdaterad = pysy ajan tasalla (hålla sig = pitää itsensä).",
+                    "wrong": [
+                        "Vara nyfiken, testa nytt och håll dig uppdaterad.",
+                        "Var nyfiken, testa nytt och håll dig uppdaterat."
+                    ],
+                    "variants": []
+                },
+                {
+                    "id": "it-konsult-s77",
+                    "sv": "Teknik är inte ett mål i sig – det är ett medel för att lösa verkliga problem.",
+                    "fi": "Teknologia ei ole päämäärä sinänsä – se on keino ratkaista todellisia ongelmia.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "medel",
+                            "d": ["medlem", "metod", "mitt"]
+                        },
+                        {
+                            "w": "verkliga",
+                            "d": ["verklig", "verkligt", "verkligen"]
+                        }
+                    ],
+                    "grammar": ["negation", "for-att", "adj"],
+                    "note": "ett mål i sig = päämäärä sinänsä. ett medel = keino, väline. lösa verkliga problem = ratkaista todellisia ongelmia. Artikkelin viimeinen lause.",
+                    "variants": []
+                }
+            ],
+            "words": [
+                {
+                    "id": "it-konsult-w114",
+                    "sv": "affärsförståelse",
+                    "fi": "liiketoimintaosaaminen",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w115",
+                    "sv": "kommunikationsförmåga",
+                    "fi": "viestintätaidot",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w116",
+                    "sv": "större ansvar",
+                    "fi": "suurempi vastuu",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w117",
+                    "sv": "ledarskap",
+                    "fi": "johtajuus",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w118",
+                    "sv": "arkitektur",
+                    "fi": "arkkitehtuuri",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w119",
+                    "sv": "se helheter",
+                    "fi": "nähdä kokonaisuuksia",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w120",
+                    "sv": "karriärutveckling",
+                    "fi": "urakehitys",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w121",
+                    "sv": "testa nytt",
+                    "fi": "kokeilla uutta",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w122",
+                    "sv": "hålla sig uppdaterad",
+                    "fi": "pysyä ajan tasalla",
+                    "src": "m"
+                },
+                {
+                    "id": "it-konsult-w123",
+                    "sv": "lösa verkliga problem",
+                    "fi": "ratkaista todellisia ongelmia",
+                    "src": "m"
+                }
+            ]
+        }
+    ],
+    "glossary": {
+        "abstrahera": "abstrahoida, yleistää",
+        "abstrakt": "abstrakti",
+        "affären": "liiketoiminta (affär = kauppa, liiketoiminta; -en = määräinen muoto)",
+        "affärsförståelse": "liiketoimintaosaaminen (affärs + förståelse = liiketoiminta + ymmärrys)",
+        "affärskritisk": "liiketoiminnan kannalta kriittinen",
+        "affärskritiskt": "liiketoiminnan kannalta kriittinen (-t-pääte)",
+        "affärsmål": "liiketoiminnan tavoite (affärs + mål)",
+        "affärsnytta": "liiketoimintahyöty (affärs + nytta = liiketoiminta + hyöty)",
+        "affärssystemkompetens": "liiketoimintajärjestelmäosaaminen (affärs + system + kompetens)",
+        "agera": "toimia",
+        "agila": "ketterä (agil; -a määräisessä muodossa)",
+        "ai": "tekoäly (AI = artificiell intelligens)",
+        "ai-tjänster": "tekoälypalvelut (AI + tjänster)",
+        "aktivt": "aktiivisesti (aktiv = aktiivinen, -t = adverbi)",
+        "allt": "kaikki; allt fler = yhä useampi, allt viktigare = yhä tärkeämpi",
+        "alltid": "aina",
+        "andra": "muut, toiset",
+        "angränsande": "viereinen, lähi- (angränsa = rajoittua johonkin)",
+        "annan": "muu, toinen (någon annan = joku muu)",
+        "anpassningsbar": "sopeutuvainen, sopeutumiskykyinen (anpassa = sopeuttaa)",
+        "anser": "pitää jonakin, on mieltä (anse = katsoa, pitää)",
+        "ansvar": "vastuu (ett ansvar)",
+        "användarens": "käyttäjän (användare = käyttäjä; -ens = määräinen genetiivi)",
+        "användarvänlig": "käyttäjäystävällinen (användar + vänlig)",
+        "användarvänliga": "käyttäjäystävälliset (monikko)",
+        "arbeta": "työskennellä",
+        "arbetsgivare": "työnantaja(t)",
+        "arkitektroller": "arkkitehtiroolit (arkitekt + roller)",
+        "arkitektur": "arkkitehtuuri",
+        "artificiell": "keinotekoinen, keino-",
+        "aspekt": "näkökohta (en aspekt)",
+        "att": "infinitiivin merkki (vrt. engl. to) tai 'että'",
+        "automatisering": "automatisointi",
+        "automatiseringsförmåga": "kyky automatisoida (automatiserings + förmåga)",
+        "av": "-sta/-stä, jonkun toimesta; en av = yksi joukosta",
+        "avgörande": "ratkaiseva (avgöra = ratkaista)",
+        "band": "nauha, hihna; på löpande band = liukuhihnalta, jatkuvasti",
+        "bara": "vain",
+        "basis": "perusta; på daglig basis = päivittäin",
+        "behov": "tarve, tarpeet (ett behov, monikko sama)",
+        "behöver": "tarvitsee, täytyy (behöva)",
+        "behövs": "tarvitaan (s-passiivi verbistä behöva)",
+        "berg": "Berg (sukunimi; berg = vuori)",
+        "bli": "tulla joksikin",
+        "blir": "tulee joksikin (bli)",
+        "borde": "pitäisi",
+        "bort": "pois; glömma bort = unohtaa",
+        "boström": "Boström (sukunimi)",
+        "bra": "hyvä",
+        "bransch": "ala, toimiala (en bransch)",
+        "branschen": "ala (määräinen muoto: bransch + en)",
+        "bred": "laaja, leveä",
+        "breda": "laaja (määräinen muoto: den breda)",
+        "brygga": "silta, laituri (en brygga)",
+        "bygga": "rakentaa",
+        "bygger": "rakentaa (preesens)",
+        "bästa": "paras (määräinen muoto: mitt bästa tips)",
+        "bättre": "parempi (bra → bättre → bäst)",
+        "bör": "pitäisi, tulisi (böra)",
+        "castra": "Castra (konsulttiyritys)",
+        "central": "keskeinen",
+        "certifieringar": "sertifikaatit, sertifioinnit (en certifiering)",
+        "chef": "johtaja, esihenkilö (lausutaan 'sheef')",
+        "cybersäkerhet": "kyberturvallisuus (cyber + säkerhet)",
+        "dagens": "tämän päivän, nykypäivän (dag = päivä + ens)",
+        "daglig": "päivittäinen",
+        "databearbetningsverktyg": "tiedonkäsittelytyökalut (data + bearbetning + verktyg)",
+        "datadriven": "dataohjattu",
+        "de": "he, ne; myös monikon artikkeli (de tekniska lösningarna)",
+        "dem": "heitä, niitä, ne",
+        "den": "se; määräinen artikkeli en-sanoille (den breda kompetensen)",
+        "denna": "tämä (en-sana)",
+        "designa": "suunnitella",
+        "dessa": "nämä",
+        "dessutom": "lisäksi",
+        "det": "se; myös muodollinen subjekti (det är = on)",
+        "det handlar om": "kyse on",
+        "detta": "tämä",
+        "dig": "sinua, sinut, itsesi (du → dig)",
+        "digital": "digitaalinen",
+        "din": "sinun (en-sana)",
+        "direkt": "suoraan",
+        "discipliner": "tieteenalat, osa-alueet (en disciplin)",
+        "ditt": "sinun (ett-sana: ditt tips)",
+        "djup": "syvä",
+        "djupaste": "syvin (djup → djupare → djupast; määräinen: den djupaste)",
+        "domänspecifika": "toimialakohtaiset (domän + specifik)",
+        "drivkrafter": "liikkeellepanevat voimat, vauhdittajat (driv + krafter)",
+        "du": "sinä",
+        "där": "siellä, jossa",
+        "därav": "siksi, tästä johtuen",
+        "därmed": "siten, näin ollen",
+        "effektiva": "tehokkaat (effektiv, monikko)",
+        "effektivisera": "tehostaa",
+        "effektivt": "tehokkaasti",
+        "efterfrågan": "kysyntä (efterfråga = kysyä, kysyntä)",
+        "eftersom": "koska",
+        "eftertraktade": "halutut, kysytyt (eftertraktad; monikko -de)",
+        "egen": "oma (en-sana)",
+        "egentligen": "oikeastaan",
+        "egna": "omat (monikko)",
+        "elin": "Elin (etunimi)",
+        "eller": "tai",
+        "en": "yksi; epämääräinen artikkeli en-sanoille",
+        "enbart": "pelkästään, ainoastaan",
+        "enligt": "jonkun mukaan; enligt dig = mielestäsi",
+        "ersättning": "korvaus, palkkio, palkka",
+        "ett": "yksi; epämääräinen artikkeli ett-sanoille",
+        "exempelvis": "esimerkiksi",
+        "experten": "asiantuntija (määräinen muoto: expert + en)",
+        "experter": "asiantuntijat (en expert, monikko)",
+        "expertis": "asiantuntemus",
+        "expertroll": "asiantuntijarooli (expert + roll)",
+        "faktiskt": "itse asiassa, todella",
+        "fem": "viisi",
+        "finnas": "olla olemassa (det måste finnas = täytyy olla)",
+        "finns": "on olemassa (finns det = onko)",
+        "fler": "useampi, enemmän (allt fler = yhä useampi)",
+        "fram": "esiin, eteenpäin; växa fram = kehittyä, syntyä",
+        "framgång": "menestys (en framgång)",
+        "framgångsrik": "menestyksekäs (framgång + rik)",
+        "framtid": "tulevaisuus",
+        "framtidens": "tulevaisuuden (framtid + en + s)",
+        "frågan": "kysymys, asia (fråga + n, määräinen muoto)",
+        "från": "-sta/-stä, jostakin",
+        "fält": "kenttä, alue (ett fält)",
+        "färdigheter": "taidot (en färdighet)",
+        "få": "saada; myös: harva, vähän (det finns få = on vähän)",
+        "får": "saa (få)",
+        "för": "varten, jollekin; för att = jotta",
+        "förbisedd": "huomiotta jätetty (förbise = jättää huomiotta)",
+        "förbättra": "parantaa (bättre = parempi)",
+        "fördel": "etu (en fördel)",
+        "fördelarna": "edut (määräinen monikko: fördel → fördelar → fördelarna)",
+        "fördjupning": "syventyminen, syväosaaminen",
+        "före": "ennen, edelle; ligga steget före = olla askeleen edellä",
+        "förmåga": "kyky (en förmåga)",
+        "förmågan": "kyky (määräinen muoto: förmåga + n)",
+        "först": "ensimmäinen, ensin",
+        "förstå": "ymmärtää",
+        "förståelse": "ymmärrys",
+        "försök": "yritä (käskymuoto verbistä försöka)",
+        "försöka": "yrittää",
+        "förtroende": "luottamus (ett förtroende)",
+        "föränderlig": "muuttuva (förändra = muuttaa)",
+        "förändring": "muutos (en förändring)",
+        "ge": "antaa",
+        "gemensamma": "yhteiset (gemensam = yhteinen)",
+        "generera": "tuottaa, generoida",
+        "genom": "kautta, läpi; genom att + verbi = tekemällä",
+        "ger": "antaa (ge)",
+        "glöms": "unohdetaan (glömma = unohtaa; -s = passiivi)",
+        "goda": "hyvät (god = hyvä; monikko)",
+        "granska": "tarkastaa, arvioida",
+        "grunden": "pohja (määräinen muoto); i grunden = pohjimmiltaan",
+        "gå": "mennä, kävellä",
+        "gör": "tekee (göra)",
+        "ha": "olla jollakin, omistaa; myös käskymuoto: Ha! = Pidä! / Ole!",
+        "handlar": "käsittelee; det handlar om = kyse on (handla)",
+        "hantera": "hallita, käsitellä",
+        "hantering": "hallinta, käsittely",
+        "har": "on jollakin; myös perfektin apuverbi (har pratat = on puhunut)",
+        "helheter": "kokonaisuudet (en helhet)",
+        "helhetsgrepp": "kokonaisote (helhet + grepp = kokonaisuus + ote)",
+        "helhetsperspektiv": "kokonaisnäkemys (helhet + perspektiv)",
+        "helhetstänk": "kokonaisuuden hahmottaminen (helhet + tänk = kokonaisuus + ajattelu)",
+        "helt": "täysin, kokonaan",
+        "hot": "uhka, uhat (ett hot, monikko sama)",
+        "hur": "miten, kuinka",
+        "hygienfaktor": "hygieniatekijä: asia, jonka on oltava kunnossa",
+        "här": "täällä, tässä",
+        "håll": "pidä (käskymuoto verbistä hålla); håll dig uppdaterad = pysy ajan tasalla",
+        "hålla": "pitää; hålla sig uppdaterad = pysyä ajan tasalla",
+        "hållbara": "kestävät (hållbar = kestävä)",
+        "högre": "korkeampi (hög → högre → högst)",
+        "högt": "korkealle, korkealla (hög + t)",
+        "i": "-ssa/-ssä, sisällä",
+        "i en rasande takt": "hurjaa vauhtia",
+        "ibland": "joskus",
+        "idag": "tänään, nykyään",
+        "implementera": "ottaa käyttöön, toteuttaa",
+        "in": "sisään; lyssna in = kuunnella tarkasti, sätta sig in i = perehtyä",
+        "inbördes": "keskinäinen",
+        "informations-": "tieto- (Informations- och cybersäkerhet = informationssäkerhet och cybersäkerhet)",
+        "informationssäkerhet": "tietoturva (information + s + säkerhet)",
+        "inlärning": "oppiminen",
+        "innebär": "merkitsee, tarkoittaa (innebära)",
+        "inofficiell": "epävirallinen (in- = epä-)",
+        "inom": "jonkin sisällä, jollakin alalla",
+        "inte": "ei",
+        "integrationsutveckling": "integraatiokehitys (integration + s + utveckling)",
+        "intelligens": "älykkyys",
+        "it-arkitektur": "it-arkkitehtuuri",
+        "it-branschen": "it-ala (määräinen muoto: it-bransch + en)",
+        "it-karriär": "it-ura",
+        "it-konsult": "it-konsultti",
+        "it-konsulter": "it-konsultit (monikko)",
+        "it-marknaden": "it-markkinat (määräinen muoto)",
+        "it-säkerhetskompetens": "it-tietoturvaosaaminen (it-säkerhet + s + kompetens)",
+        "jag": "minä",
+        "kan": "voi, osaa (kunna)",
+        "karriär": "ura (en karriär)",
+        "karriärutveckling": "urakehitys (karriär + utveckling)",
+        "kod": "koodi",
+        "kombination": "yhdistelmä (en kombination)",
+        "kombinationen": "yhdistelmä (määräinen muoto)",
+        "kombinera": "yhdistää",
+        "kombinerar": "yhdistää (preesens)",
+        "kombinerat": "yhdistettynä",
+        "kommer": "tulee; kommer att + verbi = tulevaisuus",
+        "kommunicera": "viestiä, kommunikoida",
+        "kommunikation": "viestintä",
+        "kommunikationsförmåga": "viestintätaidot, viestintäkyky (kommunikation + s + förmåga)",
+        "kommunikativa": "viestinnälliset (kommunikativ; monikko -a)",
+        "kompetens": "osaaminen, pätevyys (en kompetens)",
+        "kompetensen": "osaaminen (määräinen muoto)",
+        "kompetenser": "osaamisalueet, taidot (monikko)",
+        "kompetenserna": "ne osaamisalueet (määräinen monikko)",
+        "kompetensprofil": "osaamisprofiili (kompetens + profil)",
+        "kompetensutveckling": "osaamisen kehittäminen (kompetens + utveckling)",
+        "komplexa": "monimutkaiset (komplex)",
+        "koncernchef": "konsernijohtaja (koncern + chef)",
+        "konkurrensfördel": "kilpailuetu (konkurrens + fördel)",
+        "konsult": "konsultti",
+        "konsultbolag": "konsulttiyritys, -yritykset (konsult + bolag; ett bolag)",
+        "konsulten": "konsultti (määräinen muoto)",
+        "konsulter": "konsultit (monikko)",
+        "konsultexperterna": "konsulttiasiantuntijat (konsult + experter + na)",
+        "kontakt": "yhteys; ta kontakt med = ottaa yhteyttä",
+        "koppling": "yhteys, kytkentä (en koppling)",
+        "kortsiktig": "lyhytaikainen, lyhytnäköinen (kort + siktig)",
+        "krav": "vaatimus, vaatimukset (ett krav, monikko sama)",
+        "kravanalytiker": "vaatimusanalyytikko (krav + analytiker)",
+        "kravställning": "vaatimusten määrittely (krav + ställning)",
+        "kritiskt": "kriittisesti",
+        "krävas": "vaatia (passiivi: krävas = tulla vaadituksi)",
+        "krävs": "vaaditaan (kräva + s)",
+        "kund-": "asiakas- (kund- och värdefokus = kundfokus och värdefokus)",
+        "kunden": "asiakas (määräinen muoto)",
+        "kundens": "asiakkaan (kund + en + s)",
+        "kunna": "osata, voida (perusmuoto; kan = osaa)",
+        "kunnig": "taitava, asiantunteva",
+        "kvalitetssäkra": "laadunvarmistaa (kvalitet + s + säkra)",
+        "leda": "johtaa",
+        "ledande": "johtava",
+        "ledarskap": "johtajuus",
+        "leder": "johtaa (preesens)",
+        "leverans": "toimitus (en leverans)",
+        "leverera": "toimittaa",
+        "levererar": "toimittaa (preesens)",
+        "ligga": "olla, sijaita (makuulla); ligga steget före = olla askeleen edellä",
+        "ligga steget före": "olla askeleen edellä",
+        "lista": "listata; myös: lista",
+        "lite": "vähän",
+        "lyssna": "kuunnella",
+        "lära": "oppia, opettaa; lära sig = oppia",
+        "lätt": "helppo, helppoa",
+        "långsiktig": "pitkäaikainen, pitkäjänteinen (lång + siktig)",
+        "lön": "palkka (en lön)",
+        "löneutvecklingsmöjligheter": "palkkakehitysmahdollisuudet (löne + utvecklings + möjligheter)",
+        "löpande": "juokseva; på löpande band = liukuhihnalta",
+        "lösa": "ratkaista",
+        "löser": "ratkaisee (lösa)",
+        "lösning": "ratkaisu (en lösning)",
+        "lösningar": "ratkaisut (monikko)",
+        "lösningarna": "ne ratkaisut (määräinen monikko)",
+        "lösningsarkitekt": "ratkaisuarkkitehti (lösning + s + arkitekt)",
+        "man": "ihminen yleensä (vrt. passiivi: man kan = voidaan)",
+        "marknad": "markkinat (en marknad)",
+        "marknaden": "markkinat (määräinen muoto); på marknaden = markkinoilla",
+        "marknadstrender": "markkinatrendit (marknad + s + trender)",
+        "maskininlärning": "koneoppiminen (maskin + inlärning)",
+        "med": "kanssa, -lla/-llä",
+        "medel": "keino, väline (ett medel)",
+        "mellan": "välillä, välissä",
+        "men": "mutta",
+        "mer": "enemmän, -mpi (mer mångsidig = monipuolisempi)",
+        "mervärde": "lisäarvo (mer + värde)",
+        "mest": "eniten, -in (de mest eftertraktade = halutuimmat)",
+        "metoder": "menetelmät (en metod)",
+        "miljö": "ympäristö (en miljö)",
+        "mitt": "minun (ett-sana: mitt tips)",
+        "modet": "rohkeus (ett mod, määräinen: modet)",
+        "molnkompetens": "pilviosaaminen (moln + kompetens)",
+        "molnspecialisering": "pilviosaamiseen erikoistuminen (moln + specialisering)",
+        "molnutveckling": "pilvikehitys (moln + utveckling)",
+        "mycket": "paljon, hyvin",
+        "mänsklig": "inhimillinen (människa = ihminen)",
+        "mänskliga": "inhimillinen (määräinen muoto: det mänskliga tänkandet)",
+        "mål": "tavoite, päämäärä (ett mål, monikko sama)",
+        "mångsidig": "monipuolinen",
+        "måste": "täytyy",
+        "möjliggör": "mahdollistaa (möjlig + göra)",
+        "möjligheten": "mahdollisuus (määräinen muoto)",
+        "möjligheter": "mahdollisuudet (en möjlighet)",
+        "möter": "kohtaa, vastaa johonkin (möta)",
+        "navigera": "navigoida, suunnistaa",
+        "nischad": "tietylle alalle erikoistunut, kapea-alainen",
+        "ny": "uusi",
+        "nya": "uudet (monikko tai määräinen muoto)",
+        "nyfiken": "utelias",
+        "nyfikenhet": "uteliaisuus",
+        "nytt": "uutta (ny + tt); testa nytt = kokeilla uutta",
+        "när": "kun; milloin",
+        "nästan": "melkein, lähes",
+        "någon": "joku, jokin (en-sana)",
+        "något": "jokin (ett-sana: något av dessa områden)",
+        "några": "jotkut, muutamat, eräät",
+        "och": "ja",
+        "också": "myös",
+        "ofta": "usein",
+        "olika": "eri, erilaiset",
+        "om": "jos; -sta, jostakin (handla om = käsitellä)",
+        "omfamna": "syleillä, ottaa avosylin vastaan",
+        "område": "alue (ett område)",
+        "områden": "alueet (monikko)",
+        "operativ": "operatiivinen",
+        "ordning": "järjestys",
+        "organisationen": "organisaatio (määräinen muoto)",
+        "oslagbar": "lyömätön (o- = epä-, slå = lyödä)",
+        "oumbärliga": "korvaamattomat (oumbärlig; o- = epä-)",
+        "partner": "kumppani",
+        "person": "henkilö",
+        "perspektiv": "näkökulma (ett perspektiv)",
+        "plattformsutveckling": "alustakehitys (plattform + s + utveckling)",
+        "portfölj": "portfolio, salkku",
+        "pratat": "puhunut (prata = puhua; har pratat = on puhunut)",
+        "prestigelöshet": "vaatimattomuus, ei arvovaltakysymyksiä (prestige + lös + het)",
+        "proaktiv": "ennakoiva, aloitteellinen",
+        "problem": "ongelma, ongelmat (ett problem, monikko sama)",
+        "problemlösare": "ongelmanratkaisija (problem + lösare)",
+        "processer": "prosessit (en process)",
+        "programmeringskunskap": "ohjelmointiosaaminen (programmering + s + kunskap)",
+        "på": "-lla/-llä, päällä",
+        "på löpande band": "liukuhihnalta, jatkuvasti",
+        "rasande": "raivoava, hurja; i en rasande takt = hurjaa vauhtia",
+        "recept": "resepti (ett recept)",
+        "relevanta": "olennaiset, merkitykselliset",
+        "resan": "matka (määräinen muoto: resa + n); leda den agila resan = johtaa ketterää prosessia",
+        "resultat": "tulos, tulokset (ett resultat, monikko sama)",
+        "riskerar": "riskeeraa, on vaarassa (riskera)",
+        "roller": "roolit (en roll)",
+        "rädd": "peloissaan, pelokas",
+        "rätt": "oikea, oikein",
+        "rörelse": "liike (en rörelse)",
+        "saker": "asiat (en sak)",
+        "samarbetsförmåga": "yhteistyökyky (samarbete + s + förmåga)",
+        "samband": "yhteys, riippuvuussuhde (ett samband)",
+        "sammanhang": "yhteys, konteksti (ett sammanhang)",
+        "sammanhängande": "yhtenäinen",
+        "satsa": "panostaa (satsa på = panostaa johonkin)",
+        "se": "nähdä; Se! = Näe! (käskymuoto)",
+        "services": "services (engl. palvelut, yksikön nimessä)",
+        "sig": "itsensä, itselleen (refleksiivi)",
+        "sin": "oma (en-sana; viittaa subjektiin)",
+        "sina": "omat (monikko; viittaa subjektiin)",
+        "själv": "itse",
+        "ska": "pitää, aikoo (tulevaisuus)",
+        "skaffa": "hankkia",
+        "skalbara": "skaalautuvat (skalbar)",
+        "skapa": "luoda",
+        "skapar": "luo (skapa)",
+        "skicklighet": "taitavuus (skicklig = taitava)",
+        "skulle": "-isi- (konditionaali): jag skulle säga = sanoisin",
+        "smalt": "kapea (smal + t, koska ett fält)",
+        "snabb": "nopea",
+        "snarare": "pikemmin; snarare än = ennemmin kuin",
+        "snarare än": "ennemmin kuin",
+        "sofia": "Sofia (etunimi)",
+        "som": "joka; kuten; -na (agera som = toimia jonakin)",
+        "spets": "kärki; teknisk spets = tekninen huippuosaaminen",
+        "spetskompetens": "erityisosaaminen, huippuosaaminen (spets + kompetens)",
+        "språkmodeller": "kielimallit (språk + modeller)",
+        "stabila": "vakaat (stabil)",
+        "starka": "vahvat (stark, monikko)",
+        "starkt": "vahva (stark + t, koska ett recept)",
+        "steget": "askel (määräinen muoto: ett steg → steget)",
+        "storskaliga": "suuren mittakaavan, suuret (stor + skalig)",
+        "strategisk": "strateginen",
+        "strategiskt": "strateginen (-t, koska ett ansvar)",
+        "styrka": "vahvuus (en styrka)",
+        "ställa": "asettaa; ställa krav = asettaa vaatimuksia",
+        "ständig": "jatkuva",
+        "ständigt": "jatkuvasti",
+        "större": "suurempi (stor → större → störst)",
+        "sveriges": "Ruotsin (Sverige + s, genetiivi)",
+        "sweco": "Sweco (konsulttiyritys)",
+        "syn": "näkemys, näkökulma; ge sin syn på = antaa näkökulmansa",
+        "system": "järjestelmä(t) (ett system, monikko sama)",
+        "systemarkitekt": "järjestelmäarkkitehti",
+        "systemförståelse": "järjestelmäymmärrys (system + förståelse)",
+        "säga": "sanoa",
+        "säkerställa": "varmistaa (säker + ställa)",
+        "sätt": "tapa (ett sätt)",
+        "sätta": "asettaa, laittaa; sätta sig in i = perehtyä",
+        "t-shaped": "T:n muotoinen (engl.)",
+        "ta": "ottaa; Ta! = Ota! (käskymuoto)",
+        "ta kontakt med": "ottaa yhteyttä",
+        "ta till sig": "omaksua",
+        "takt": "tahti, vauhti",
+        "tala": "puhua; tala om = kertoa",
+        "tala om": "kertoa",
+        "talar": "puhuu (tala)",
+        "team": "tiimi",
+        "teamet": "tiimi (määräinen muoto: ett team → teamet)",
+        "techtidningen": "Techtidningen (lehti; tidning = lehti)",
+        "teknik": "tekniikka, teknologia",
+        "tekniken": "tekniikka (määräinen muoto)",
+        "tekniker": "tekniikat (monikko)",
+        "teknisk": "tekninen",
+        "tekniska": "tekniset (monikko tai määräinen muoto)",
+        "tekniskt": "teknisesti",
+        "teknologier": "teknologiat (en teknologi)",
+        "testa": "testata, kokeilla",
+        "tid": "aika; över tid = ajan myötä",
+        "till": "-lle, -ksi, luo",
+        "tillgång": "tarjonta, saatavuus",
+        "tillräckligt": "tarpeeksi, riittävästi",
+        "timmar": "tunnit (en timme)",
+        "tips": "vinkki, vinkit (ett tips, monikko sama)",
+        "tjänstedesigner": "palvelumuotoilija (tjänst + e + designer)",
+        "tjänster": "palvelut (en tjänst)",
+        "toft": "Toft (sukunimi)",
+        "tog": "otti (ta → tog)",
+        "tre": "kolme",
+        "trender": "trendit (en trend)",
+        "tuffa": "kova (tuff; -a genetiivin dagens jälkeen)",
+        "tydlig": "selkeä",
+        "tänka": "ajatella",
+        "tänkande": "ajattelu (ett tänkande)",
+        "tänkandet": "ajattelu (määräinen muoto)",
+        "under": "alla, aikana; under ständig rörelse = jatkuvassa liikkeessä",
+        "underskattad": "aliarvostettu (underskatta = aliarvioida)",
+        "underskattade": "aliarvostetut (monikko)",
+        "uppdaterad": "päivitetty, ajan tasalla",
+        "uppdrag": "toimeksianto, tehtävä (ett uppdrag, monikko sama)",
+        "uppstår": "syntyy (uppstå)",
+        "utan": "ilman; vaan (inte bara ... utan också = ei vain ... vaan myös)",
+        "utforska": "tutkia",
+        "utförare": "toteuttaja, suorittaja (utföra = suorittaa)",
+        "utifrån": "jonkin pohjalta, lähtökohdasta",
+        "utmaningar": "haasteet (en utmaning)",
+        "utrymme": "tila (ett utrymme)",
+        "utvecklas": "kehittyä (s-verbi)",
+        "utveckling": "kehitys",
+        "vad": "mitä, mikä",
+        "var": "ole (käskymuoto verbistä vara); myös: missä",
+        "vara": "olla",
+        "varje": "jokainen, joka",
+        "vassaste": "terävin (vass = terävä)",
+        "verkliga": "todelliset (verklig = todellinen)",
+        "verksam": "toimiva, aktiivinen; som verksam i branschen = alalla toimivana",
+        "verksamhet": "toiminta, liiketoiminta (en verksamhet)",
+        "verksamhetens": "toiminnan (verksamhet + en + s)",
+        "verksamheter": "organisaatiot, toiminnot (monikko)",
+        "verksamhetsförståelse": "toiminnan ymmärrys (verksamhet + s + förståelse)",
+        "verktyg": "työkalu(t) (ett verktyg, monikko sama)",
+        "vetgirighet": "tiedonjano",
+        "vi": "me",
+        "viktig": "tärkeä",
+        "viktigare": "tärkeämpi",
+        "viktigt": "tärkeää (viktig + t)",
+        "vilja": "halu; myös verbi: haluta",
+        "vilka": "mitkä, ketkä",
+        "vill": "haluaa (vilja)",
+        "villig": "halukas",
+        "välj": "valitse (käskymuoto verbistä välja)",
+        "vänta": "odottaa; Vänta! = Odota!",
+        "värde": "arvo (ett värde)",
+        "värdefokus": "arvolähtöisyys (värde + fokus)",
+        "värdefull": "arvokas",
+        "värderas": "arvostetaan (värdera + s)",
+        "värdet": "arvo (määräinen muoto)",
+        "växer": "kasvaa (växa); växer fram = syntyy",
+        "våga": "uskaltaa",
+        "ylva": "Ylva (etunimi)",
+        "äldre": "vanhempi (gammal → äldre)",
+        "än": "kuin (vertailussa: mer än = enemmän kuin)",
+        "är": "on, ovat (vara)",
+        "även": "myös",
+        "över": "yli; över tid = ajan myötä",
+        "överstiger": "ylittää (överstiga)",
+        "översätta": "kääntää (kieleltä toiselle)"
+    }
+}

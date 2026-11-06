@@ -1,0 +1,154 @@
+{
+    "v2": {
+        "title": "Verbi aina toisena",
+        "body": "Ruotsin päälauseessa **taipuva verbi on aina toisella paikalla**. Ensimmäisellä paikalla voi olla subjekti tai jokin muu sana.\n- **Jag studerar** till it-tradenom. (minä + verbi)\n- **I mitt jobb har jag** lärt mig att prioritera. (aikaa/paikkaa kertova alku → verbi → vasta sitten subjekti)\nJos lause alkaa jollain muulla kuin subjektilla, subjekti siirtyy verbin perään. Tämä on ruotsin tärkein sanajärjestyssääntö."
+    },
+    "present": {
+        "title": "Preesens: -r loppuun",
+        "body": "Preesens (nykyhetki) tehdään yleensä lisäämällä verbiin **-r**. Muoto on **sama kaikissa persoonissa**, eli ei tarvitse opetella taivutusta.\n- jobba → jag/du/vi **jobbar** (työskentelen, työskentelet, työskentelemme)\n- studera → **studerar** (opiskelee)\n- Epäsäännöllisiä: vara → **är** (olla), ha → **har** (olla jollakin)."
+    },
+    "past": {
+        "title": "Imperfekti: menneisyys",
+        "body": "Imperfekti kertoo, mitä tapahtui. Tavallisin pääte on **-de** tai **-te**.\n- installera → **installerade** (asensin)\n- spara → **sparade** (tallensin)\n- köpa → **köpte** (osti)\n- logga ut → **loggade ut** (kirjauduin ulos)\nMuoto on taas sama kaikissa persoonissa."
+    },
+    "perfect": {
+        "title": "Perfekti: har + verbi",
+        "body": "Perfekti tehdään sanalla **har** + verbin **supiinimuoto** (usein pääte **-t**).\n- Jag **har jobbat** som försäljare. = Olen työskennellyt myyjänä.\n- Jag **har avlagt** studentexamen. = Olen suorittanut ylioppilastutkinnon.\n- Näthandeln **har ökat**. = Verkkokauppa on kasvanut.\nSuomen \"olen tehnyt\" = ruotsin \"jag har gjort\"."
+    },
+    "future": {
+        "title": "Tulevaisuus: kommer att / ska",
+        "body": "Ruotsissa tulevaisuutta voi ilmaista näin:\n- **kommer att** + verbi: Vi **kommer att gå igenom** planeringen. = Käymme läpi suunnitelman.\n- **ska** + verbi (aikomus, sopimus): Vad **ska** du lära dig? = Mitä sinun pitää/aiot oppia?\n- Usein myös pelkkä preesens + aikailmaus: Jag **blir färdig nästa höst**. = Valmistun ensi syksynä."
+    },
+    "modal": {
+        "title": "Apuverbi + perusmuoto",
+        "body": "Apuverbien (**kan, måste, vill, ska, bör/borde, behöver**) perään tulee verbin perusmuoto **ilman att-sanaa**.\n- Jag **måste uppdatera** drivrutinen. = Minun täytyy päivittää ajuri.\n- Jag **vill jobba** inom it-branschen. = Haluan työskennellä it-alalla.\n- Du **borde läsa** användarvillkoren. = Sinun pitäisi lukea käyttöehdot.\nMuista: kan = voi/osaa, måste = täytyy, vill = haluaa, borde = pitäisi."
+    },
+    "att-inf": {
+        "title": "att + perusmuoto",
+        "body": "**att** on infinitiivin merkki, vähän kuin englannin \"to\". Sitä käytetään monen sanan perässä.\n- Det är viktigt **att säkerhetskopiera**. = On tärkeää varmuuskopioida.\n- Jag är intresserad av **att jobba** som it-konsult. = Olen kiinnostunut työskentelemään it-konsulttina.\nHuom! Apuverbien (kan, måste, vill...) perään att-sanaa EI tule.\nToinen **att** tarkoittaa \"että\": Jag tycker **att** det är intressant."
+    },
+    "for-att": {
+        "title": "för att = jotta, -kseen",
+        "body": "**för att** + perusmuoto kertoo tarkoituksen: miksi jotain tehdään.\n- Jag använder ett kalkylprogram **för att göra** budgeten. = Käytän taulukkolaskentaohjelmaa budjetin tekemiseen.\n- Använd tvåfaktorsautentisering **för att skydda** din information. = ...suojataksesi tietosi.\nSuomeksi usein -kseen, -kseni, jotta tai -maan."
+    },
+    "gender": {
+        "title": "en- ja ett-sanat",
+        "body": "Jokainen substantiivi on joko **en-sana** tai **ett-sana**. Sitä ei voi päätellä merkityksestä, se pitää opetella sanan mukana.\n- **en** dator (tietokone), **en** skärm (näyttö), **en** molntjänst (pilvipalvelu)\n- **ett** tangentbord (näppäimistö), **ett** nätverk (verkko), **ett** lösenord (salasana)\nNoin 3/4 sanoista on en-sanoja. Sanasta riippuu esim. adjektiivin ja määräisen muodon pääte."
+    },
+    "definite": {
+        "title": "Määräinen muoto: pääte sanan loppuun",
+        "body": "Suomessa ei ole artikkeleita, mutta ruotsissa \"se tietty\" asia merkitään **päätteellä**.\n- en dator → dator**n** (se tietokone)\n- en skärm → skärm**en** (se näyttö)\n- ett nätverk → nätverk**et** (se verkko)\n- ett företag → företag**et** (se yritys)\nMonikossa: filer → filer**na** (ne tiedostot).\nKun suomeksi sanotaan \"Näyttö ei toimi\", ruotsiksi on \"Skärm**en** fungerar inte\", koska puhutaan tietystä näytöstä."
+    },
+    "plural": {
+        "title": "Monikko",
+        "body": "Monikon päätteitä on useita. Yleisimmät:\n- **-or**: a-loppuiset en-sanat: en programvara → programvar**or**, en brygga → brygg**or**\n- **-ar**: en sladd → sladd**ar**, en hörlur → hörlur**ar**\n- **-er**: en dator → dator**er**, en fil → fil**er**, en tjänst → tjänst**er**, en kund → kund**er**\n- **-n**: vokaaliin päättyvät ett-sanat: ett minne → minne**n**\n- **ei päätettä**: konsonanttiin päättyvät ett-sanat: ett företag → två företag, ett lösenord → lösenord\nPääte ei ole aina pääteltävissä, joten opettele monikko lauseista."
+    },
+    "adj": {
+        "title": "Adjektiivi mukautuu",
+        "body": "Adjektiivi saa päätteen sen mukaan, mitä se kuvaa:\n- en-sana: en **ny** surfplatta (uusi tabletti)\n- ett-sana: ett **nytt** tangentbord (uusi näppäimistö) → **-t**\n- monikko: **nya** tekniker (uusia tekniikoita) → **-a**\nSama kun adjektiivi on verbin perässä: Lösenordet är **starkt**. Filerna är **viktiga**."
+    },
+    "adj-def": {
+        "title": "Adjektiivi + määräinen muoto",
+        "body": "Kun adjektiivi kuvaa \"sitä tiettyä\" asiaa, adjektiivi saa päätteen **-a** ja eteen tulee usein **den / det / de**.\n- **den** senast**e** version**en** = se viimeisin versio\n- **den** ny**a** app**en** = se uusi sovellus\n- **de** teknisk**a** lösning**arna** = ne tekniset ratkaisut\nMyös omistussanan perässä adjektiivi saa -a: **min bärbara** dator (minun kannettava tietokoneeni)."
+    },
+    "possessive": {
+        "title": "Omistussanat: min, mitt, mina",
+        "body": "Omistussana mukautuu sanaan, jota se kuvaa:\n- **min** dator (en-sana), **mitt** jobb (ett-sana), **mina** hörlurar (monikko)\n- **din / ditt / dina** = sinun\n- **vår / vårt / våra** = meidän\n- **sin / sitt / sina** = oma (kun omistaja on lauseen subjekti): Det är viktigt att säkerhetskopiera **sina** filer.\nSuomen pääte -ni, -si jne. tulee siis ruotsissa erillisenä sanana eteen."
+    },
+    "negation": {
+        "title": "Kielto: inte, aldrig",
+        "body": "Kieltosana **inte** (ei) tai **aldrig** (ei koskaan) tulee päälauseessa **verbin perään**.\n- Skärmen fungerar **inte**. = Näyttö ei toimi.\n- Jag är **inte** så intresserad av... = En ole niin kiinnostunut...\nKäskyssä kielto tulee verbin perään: Dela **inte**..., Öppna **aldrig**...\nSivulauseessa kielto tulee **ennen** verbiä: ...om du **inte hittar** mejlet."
+    },
+    "questions": {
+        "title": "Kysymykset",
+        "body": "**Kyllä/ei-kysymys**: verbi lauseen alkuun.\n- **Kan** du logga in? = Voitko kirjautua sisään?\n- **Har** ni testat användargränssnittet? = Oletteko testanneet käyttöliittymää?\n**Kysymyssana + verbi**:\n- **Vad** studerar du? = Mitä opiskelet?\n- **Varför** söker du det här jobbet? = Miksi haet tätä työtä?\n- **Vilka** är dina styrkor? = Mitkä ovat vahvuutesi?\nKysymyssanoja: vad = mitä, varför = miksi, vilken/vilka = mikä/mitkä, hur = miten, var = missä, när = milloin."
+    },
+    "imperative": {
+        "title": "Käskymuoto",
+        "body": "Useimmissa verbeissä käskymuoto on **sama kuin perusmuoto** (installera, öppna, dela, klicka). Joissakin lyhyissä verbeissä lopun -a putoaa pois (läsa → **läs**, köpa → **köp**).\n- **Installera** alltid ett antivirusprogram. = Asenna aina...\n- **Öppna** aldrig filer... = Älä koskaan avaa...\n- **Dela** inte... = Älä jaa...\n- **Läs** alltid användarvillkoren. (läsa → läs)\n- **Klicka** på länken. = Klikkaa linkkiä."
+    },
+    "reflexive": {
+        "title": "Refleksiivi: sig, mig, dig",
+        "body": "Jotkut verbit vaativat \"itsensä\"-sanan. Se vaihtuu persoonan mukaan:\n- jag → **mig**, du → **dig**, han/hon/man → **sig**, vi → **oss**, ni → **er**, de → **sig**\n- Du måste registrera **dig**. = Sinun täytyy rekisteröityä.\n- Jag loggade ut **mig**. = Kirjauduin ulos.\n- Var så god och sätt **dig**. = Ole hyvä ja istu.\n- ...lära **sig** nya saker = oppia uusia asioita.\nSuomessa tällaista sanaa ei usein ole, joten se unohtuu helposti."
+    },
+    "s-passive": {
+        "title": "s-passiivi: tekijä ei näy",
+        "body": "Kun verbin loppuun lisätään **-s**, saadaan passiivi (\"tehdään\", \"-taan\").\n- Alla filer **sparas** automatiskt. = Kaikki tiedostot tallennetaan automaattisesti.\n- Spotify **lanseras** 2008. = Spotify lanseerataan 2008.\n- Detta **krävs** av... = Tätä vaaditaan...\n- Arkitektroller **värderas** högt. = Arkkitehtirooleja arvostetaan korkealle."
+    },
+    "particle": {
+        "title": "Partikkeliverbit",
+        "body": "Osa verbeistä tarvitsee pienen lisäsanan, joka muuttaa merkitystä. Lisäsana **painotetaan** puheessa.\n- logga **in** = kirjautua sisään, logga **ut** = kirjautua ulos\n- samla **in** data = kerätä dataa\n- gå **igenom** = käydä läpi\n- bryta sig **in** = murtautua sisään\n- ta **till sig** = omaksua\nOpettele nämä aina pareina."
+    },
+    "rektio": {
+        "title": "Mikä prepositio sanan perään?",
+        "body": "Monen sanan perään tulee aina tietty prepositio. Ne pitää opetella pareina, koska suomessa vastaava asia ilmaistaan sijapäätteellä.\n- intresserad **av** = kiinnostunut jostakin\n- erfarenhet **av** = kokemusta jostakin\n- van **vid** = tottunut johonkin\n- bra **på** = hyvä jossakin\n- förmåga **att** = kyky tehdä jotain\n- jobba **som** = työskennellä jonakin\n- studera **till** = opiskella joksikin"
+    },
+    "compound": {
+        "title": "Yhdyssanat",
+        "body": "Ruotsissa, kuten suomessa, sanoja liitetään yhteen. Pitkä sana on helppo ymmärtää, kun sen pilkkoo osiin.\n- program**vara** + **utveckling** = programvaruutveckling (ohjelmistokehitys)\n- **säkerhet** + **s** + kopiera = säkerhetskopiera (varmuuskopioida)\n- **moln** + **tjänst** = molntjänst (pilvipalvelu)\nVäliin tulee joskus **-s-** tai vokaali muuttuu (programvara → programvaru-). Viimeinen osa kertoo, mikä sana on kyseessä ja onko se en- vai ett-sana."
+    },
+    "subclause": {
+        "title": "Sivulause",
+        "body": "Sivulause alkaa sanalla kuten **att** (että), **som** (joka), **eftersom** (koska), **när** (kun), **om** (jos), **innan** (ennen kuin).\nSivulauseessa sanajärjestys on suora: subjekti + (inte) + verbi.\n- ...**eftersom skrivaren inte fungerar**. = ...koska tulostin ei toimi.\n- ...**när jag vill lyssna** på musik. = ...kun haluan kuunnella musiikkia.\n- ...**innan du registrerar** dig. = ...ennen kuin rekisteröidyt."
+    },
+    "som": {
+        "title": "som: joka / -na",
+        "body": "**som** on kaksi tärkeää merkitystä:\n1. **joka, jotka** (relatiivipronomini): filer **som** innehåller skadlig programvara = tiedostot, **jotka** sisältävät haittaohjelmia\n2. **-na, jonakin**: Jag jobbar **som** försäljare. = Työskentelen myyjä**nä**. Jag är intresserad av att jobba **som** it-konsult."
+    },
+    "det-finns": {
+        "title": "det finns / det är",
+        "body": "**det finns** = on olemassa (englannin \"there is\").\n- **Det finns** både stationära och bärbara datorer. = On olemassa sekä pöytä- että kannettavia tietokoneita.\n**det är** + adjektiivi = on jotakin.\n- **Det är viktigt** att säkerhetskopiera. = On tärkeää varmuuskopioida.\nRuotsissa lauseessa pitää aina olla subjekti, siksi alkuun tulee \"det\", vaikka suomessa sitä ei ole."
+    },
+    "comparison": {
+        "title": "Vertailu",
+        "body": "Lyhyet adjektiivit: **-are** (komparatiivi) ja **-ast** (superlatiivi).\n- snabb → snabb**are** (nopeampi) → snabb**ast**\n- hög → **högre** (korkeampi), bra → **bättre** (parempi), djup → djup**aste** (syvin)\nPitkät sanat: **mer** ja **mest**.\n- **mer** användarvänlig = käyttäjäystävällisempi\n- det **mest** använda kalkylprogrammet = käytetyin taulukkolaskentaohjelma"
+    },
+    "man": {
+        "title": "man = yleinen tekijä",
+        "body": "**man** tarkoittaa \"ihminen yleensä\". Suomessa vastaava on usein passiivi tai yksikön 3. persoona ilman subjektia.\n- När **man** söker jobb... = Kun **haetaan** työtä / kun **hakee** työtä...\n- Med en skanner kan **man** skanna dokument. = Skannerilla **voi** skannata asiakirjoja."
+    },
+    "opinion": {
+        "title": "Mielipide ja kuvailu",
+        "body": "Hyödyllisiä aloituksia, joiden perään tulee tavallinen lause:\n- Jag **tycker att**... = Mielestäni...\n- Jag **skulle säga att** jag är... = Sanoisin, että olen...\n- **Andra säger att** jag är... = Muut sanovat, että olen...\n- Jag **skulle beskriva mig som**... = Kuvailisin itseäni...\nNäillä saat suullisessa kokeessa vastaukseen pituutta."
+    },
+    "skulle": {
+        "title": "skulle = -isi-",
+        "body": "**skulle** + perusmuoto vastaa suomen konditionaalia (-isi-).\n- Jag **skulle säga**... = Sanoisin...\n- Din hjälp **skulle vara** väldigt uppskattad. = Apusi olisi todella arvostettua.\n- Varför **skulle** vi anställa dig? = Miksi palkkaisimme sinut?"
+    },
+    "time": {
+        "title": "Aikailmaukset",
+        "body": "- **nästa höst / nästa vår** = ensi syksynä / ensi keväänä\n- **om ett år** = vuoden kuluttua (om + aika = kuluttua)\n- **i framtiden** = tulevaisuudessa\n- **på tisdag kl 10** = tiistaina klo 10\n- **varje vecka** = joka viikko\n- **regelbundet** = säännöllisesti\n- **de senaste åren** = viime vuosina"
+    },
+    "email": {
+        "title": "Sähköpostin fraasit",
+        "body": "Ruotsalainen työsähköposti on lyhyt ja ystävällinen.\n- Aloitus: **Hej Anna**, (myös virallisemmin **Hej**)\n- Lopetus: **Med vänliga hälsningar** = Ystävällisin terveisin, lyhyemmin **Hälsningar** = Terveisin\n- **Tack på förhand** = Kiitos etukäteen\n- **Vänligen granska**... = Tarkistathan...\n- **Ser fram emot**... = Odotan innolla..."
+    },
+    "finlandssvenska": {
+        "title": "Suomenruotsi",
+        "body": "Kurssi käyttää **suomenruotsia**, eli Suomessa puhuttua ruotsia. Osa sanoista on erilaisia kuin Ruotsissa:\n- **yrkeshögskola** = ammattikorkeakoulu (Ruotsissa ei ole)\n- **tradenom, restonom** = tradenomi, restonomi\n- **studentexamen** = ylioppilastutkinto\n- **andra stadiet** = toinen aste\n- **e-post / mejl** = sähköposti\nKäytä näitä, älä riikinruotsalaisia vastineita."
+    },
+    "pronouns": {
+        "title": "Persoonapronominit",
+        "body": "- **jag** (minä) → **mig** (minua/minut)\n- **du** (sinä) → **dig** (sinua)\n- **han / hon** (hän, mies / nainen) → **honom / henne**\n- **vi** (me) → **oss** (meitä)\n- **ni** (te) → **er** (teitä)\n- **de** (he) → **dem** (heitä)\nHuom: **de** lausutaan usein \"dom\"."
+    },
+    "prepositions": {
+        "title": "Tavallisimmat prepositiot",
+        "body": "Ruotsi käyttää prepositioita siellä, missä suomi käyttää sijapäätteitä.\n- **på** = -lla/-llä, -ssa (på Haaga-Helia, på nätet, på mötet)\n- **i** = -ssa/-ssä (i datorn, i teamet)\n- **inom** = jonkin alalla (inom it-branschen)\n- **med** = kanssa, -lla (med hjälp av = avulla)\n- **av** = -sta (en av de bästa = yksi parhaista)\n- **för** = varten, jollekin\n- **till** = -lle, -ksi\n- **utan** = ilman\n- **via** = kautta"
+    },
+    "adverbs": {
+        "title": "Ofta, alltid, också...",
+        "body": "Lyhyet määreet kuten **också** (myös), **ofta** (usein), **alltid** (aina), **aldrig** (ei koskaan), **redan** (jo), **verkligen** (todella) tulevat päälauseessa yleensä **heti verbin perään**.\n- Jag surfar **ofta** på nätet.\n- Jag är **också** intresserad av digitala tjänster.\n- Installera **alltid** ett antivirusprogram."
+    },
+    "conjunctions": {
+        "title": "Sidesanat",
+        "body": "Rinnastavat sanat eivät muuta sanajärjestystä:\n- **och** = ja\n- **men** = mutta\n- **så** = joten (Mina hörlurar är sönder, **så** jag lyssnar via högtalare.)\n- **eller** = tai\n- **samt** = sekä (virallinen)\n- **både... och...** = sekä... että..."
+    },
+    "genitive": {
+        "title": "Genetiivi: -s",
+        "body": "Omistus ilmaistaan lisäämällä sanan loppuun **-s** (ilman heittomerkkiä).\n- **Sveriges** ledande konsultbolag = Ruotsin johtavat konsulttiyritykset\n- **kundens** perspektiv = asiakkaan näkökulma\n- **Applikationens** inställningar = sovelluksen asetukset\nSuomen genetiivin -n vastaa siis ruotsin -s."
+    },
+    "participle": {
+        "title": "Partisiipit adjektiiveina",
+        "body": "Monet kuvailevat sanat on tehty verbeistä. Ne taipuvat kuin adjektiivit.\n- underskatta (aliarvioida) → **underskattad** (aliarvostettu)\n- efterfråga → **eftertraktad** (haluttu)\n- intressera → **intresserad** (kiinnostunut)\n- motivera → **motiverad** (motivoitunut)\nMonikossa ja määräisessä muodossa pääte on **-de**: eftertraktade kompetenser."
+    }
+}

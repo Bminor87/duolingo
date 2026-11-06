@@ -1,0 +1,634 @@
+{
+    "id": "intervju",
+    "title": "Työhaastattelu",
+    "subtitle": "Anställningsintervju",
+    "description": "Opit tyypilliset työhaastattelun kysymykset ja mallivastaukset. Suullinen loppukeskustelu muistuttaa haastattelua, joten nämä kannattaa osata ulkoa.",
+    "icon": "briefcase",
+    "color": "blue",
+    "exam": ["oral"],
+    "source": "Työhaastattelu, suullinen harjoitus (Anställningsintervju – typiska frågor och några svar). Mallivastaukset kysymyksiin 10–12 on koottu kurssin sanastosta.",
+    "lessons": [
+        {
+            "id": "intervju-l1",
+            "title": "Haastattelu alkaa",
+            "intro": "Haastattelija toivottaa tervetulleeksi ja pyytää kertomaan itsestäsi. Opettele sekä kysymykset että vastaukset.",
+            "sentences": [
+                {
+                    "id": "intervju-s01",
+                    "sv": "Hej och välkommen! Var så god och sätt dig.",
+                    "fi": "Hei ja tervetuloa! Ole hyvä ja istu.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "välkommen",
+                            "d": ["välkomna", "välkommet", "välkomst"]
+                        },
+                        { "w": "sätt", "d": ["sitt", "sätta", "sätter"] },
+                        { "w": "dig", "d": ["du", "mig", "din"] }
+                    ],
+                    "grammar": ["imperative", "reflexive"],
+                    "note": "'sätt dig' = istu (sanatarkasti 'aseta itsesi'). 'Var så god' = ole hyvä.",
+                    "wrong": [
+                        "Hej och välkommen! Var så god och sätt du.",
+                        "Hej och välkommen! Var så god och sätter dig."
+                    ]
+                },
+                {
+                    "id": "intervju-s02",
+                    "sv": "Om du först berättar lite om dig själv.",
+                    "fi": "Jos kerrot aluksi vähän itsestäsi.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "berättar",
+                            "d": ["berätta", "berättat", "berättelse"]
+                        },
+                        { "w": "först", "d": ["första", "förr", "fast"] },
+                        { "w": "själv", "d": ["själva", "självt", "själen"] }
+                    ],
+                    "grammar": ["subclause", "reflexive"],
+                    "note": "Kohtelias pyyntö: 'Om du...' = Jos (sinä)... 'om dig själv' = itsestäsi.",
+                    "wrong": [
+                        "Om du först berätta lite om dig själv.",
+                        "Om du först berättar lite om du själv."
+                    ]
+                },
+                {
+                    "id": "intervju-s03",
+                    "sv": "Jag studerar till it-tradenom på Haaga-Helia och blir färdig nästa höst.",
+                    "fi": "Opiskelen Haaga-Heliassa it-tradenomiksi ja valmistun ensi syksynä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "studerar",
+                            "d": ["studera", "studerat", "studerande"]
+                        },
+                        { "w": "blir", "d": ["bli", "blev", "blivit"] },
+                        {
+                            "w": "färdig",
+                            "d": ["färdiga", "färdigt", "färdighet"]
+                        }
+                    ],
+                    "grammar": ["present", "rektio", "time"],
+                    "note": "Kaksi lausetta yhdistetty 'och'-sanalla: subjekti 'jag' koskee molempia, joten sitä ei toisteta.",
+                    "wrong": [
+                        "Jag studerar till it-tradenom på Haaga-Helia och bli färdig nästa höst.",
+                        "Jag studerar som it-tradenom på Haaga-Helia och blir färdig nästa höst."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag studerar till tradenom på Haaga-Helia och blir färdig nästa höst.",
+                            "fi": "Opiskelen Haaga-Heliassa tradenomiksi ja valmistun ensi syksynä.",
+                            "w": "tradenom",
+                            "d": ["restonom", "försäljare", "programmerare"]
+                        },
+                        {
+                            "sv": "Jag studerar till restonom på Haaga-Helia och blir färdig nästa höst.",
+                            "fi": "Opiskelen Haaga-Heliassa restonomiksi ja valmistun ensi syksynä.",
+                            "w": "restonom",
+                            "d": ["tradenom", "försäljare", "systemexpert"]
+                        }
+                    ]
+                },
+                {
+                    "id": "intervju-s04",
+                    "sv": "Varför söker du det här jobbet?",
+                    "fi": "Miksi haet tätä työtä?",
+                    "src": "m",
+                    "keys": [
+                        { "w": "Varför", "d": ["Vad", "Vilka", "Var"] },
+                        { "w": "söker", "d": ["söka", "sökt", "sök"] },
+                        { "w": "jobbet", "d": ["jobb", "jobben", "jobbar"] }
+                    ],
+                    "grammar": ["questions", "definite"],
+                    "note": "'det här jobbet' = tämä työ. 'det här' + määräinen muoto (jobb + et).",
+                    "wrong": [
+                        "Varför du söker det här jobbet?",
+                        "Varför söker du det här jobb?"
+                    ]
+                },
+                {
+                    "id": "intervju-s05",
+                    "sv": "Den här arbetsuppgiften låter intressant och jag vill få mera arbetserfarenhet från den här branschen.",
+                    "fi": "Tämä työtehtävä kuulostaa mielenkiintoiselta ja haluan saada lisää työkokemusta tältä alalta.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "arbetsuppgiften",
+                            "d": [
+                                "arbetsuppgift",
+                                "arbetsuppgifter",
+                                "uppgiften"
+                            ]
+                        },
+                        { "w": "låter", "d": ["låta", "lät", "ser"] },
+                        {
+                            "w": "arbetserfarenhet",
+                            "d": [
+                                "arbetserfarenheter",
+                                "erfaren",
+                                "arbetsgivare"
+                            ]
+                        }
+                    ],
+                    "grammar": ["adj-def", "modal", "compound"],
+                    "note": "'låter intressant' = kuulostaa kiinnostavalta. 'den här' + määräinen muoto = tämä. 'mera' = lisää."
+                },
+                {
+                    "id": "intervju-s06",
+                    "sv": "Det här jobbet låter intressant eftersom jag är intresserad av programvaruutveckling.",
+                    "fi": "Tämä työ kuulostaa kiinnostavalta, koska olen kiinnostunut ohjelmistokehityksestä.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "eftersom", "d": ["efter", "så", "men"] },
+                        {
+                            "w": "intressant",
+                            "d": ["intresserad", "intressanta", "intresse"]
+                        },
+                        {
+                            "w": "intresserad",
+                            "d": ["intressant", "intresserat", "intresse"]
+                        }
+                    ],
+                    "grammar": ["subclause", "rektio"],
+                    "note": "'eftersom' = koska. Sen jälkeen tulee sivulause, jossa sanajärjestys on suora: 'eftersom jag är'.",
+                    "wrong": [
+                        "Det här jobbet låter intressant eftersom är jag intresserad av programvaruutveckling.",
+                        "Det här jobbet låter intresserad eftersom jag är intressant av programvaruutveckling."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Det här jobbet låter intressant eftersom jag är intresserad av digitala tjänster.",
+                            "fi": "Tämä työ kuulostaa kiinnostavalta, koska olen kiinnostunut digitaalisista palveluista.",
+                            "w": "digitala tjänster",
+                            "d": [
+                                "digital tjänst",
+                                "digitalt tjänster",
+                                "digitala tjänsten"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "intervju-l2",
+            "title": "Kokemus ja vahvuudet",
+            "intro": "Seuraavaksi kysytään työkokemuksesta ja vahvuuksista. Vastaa lyhyesti ja varmasti.",
+            "sentences": [
+                {
+                    "id": "intervju-s07",
+                    "sv": "Berätta lite om din arbetserfarenhet.",
+                    "fi": "Kerro vähän työkokemuksestasi.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Berätta",
+                            "d": ["Berättar", "Berättade", "Berättelse"]
+                        },
+                        { "w": "din", "d": ["ditt", "dina", "dig"] },
+                        {
+                            "w": "arbetserfarenhet",
+                            "d": [
+                                "arbetserfarenheten",
+                                "arbetsgivare",
+                                "erfaren"
+                            ]
+                        }
+                    ],
+                    "grammar": ["imperative", "possessive"],
+                    "note": "'Berätta' on käskymuoto: kerro. 'arbetserfarenhet' on en-sana, siksi 'din'.",
+                    "wrong": [
+                        "Berättar lite om din arbetserfarenhet.",
+                        "Berätta lite om ditt arbetserfarenhet."
+                    ]
+                },
+                {
+                    "id": "intervju-s08",
+                    "sv": "Jag har jobbat vid sidan av mina studier ett år som försäljare och inom kundtjänst.",
+                    "fi": "Olen työskennellyt opintojeni ohessa vuoden myyjänä ja asiakaspalvelussa.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "jobbat", "d": ["jobbar", "jobba", "jobbade"] },
+                        {
+                            "w": "vid sidan av",
+                            "d": [
+                                "på sidan av",
+                                "vid sidan om av",
+                                "bredvid av"
+                            ]
+                        },
+                        { "w": "kundtjänst", "d": ["kund", "kunden", "tjänst"] }
+                    ],
+                    "grammar": ["perfect", "som", "prepositions"],
+                    "note": "'vid sidan av mina studier' = opintojeni ohessa (sanatarkasti 'opintojeni vieressä'). 'kundtjänst' = asiakaspalvelu."
+                },
+                {
+                    "id": "intervju-s09",
+                    "sv": "Jag har jobbat som programmerare vid sidan av mina studier.",
+                    "fi": "Olen työskennellyt ohjelmoijana opintojeni ohessa.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "programmerare",
+                            "d": ["programmering", "programmera", "program"]
+                        },
+                        {
+                            "w": "studier",
+                            "d": ["studie", "studera", "studerande"]
+                        }
+                    ],
+                    "grammar": ["perfect", "som"],
+                    "note": "Sama rakenne kuin mallivastauksessa, mutta it-alan ammatilla. Vaihda oma työsi tilalle.",
+                    "wrong": [
+                        "Jag har jobba som programmerare vid sidan av mina studier.",
+                        "Jag har jobbat som en programmerare vid sidan av mina studier."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag har jobbat som försäljare vid sidan av mina studier.",
+                            "fi": "Olen työskennellyt myyjänä opintojeni ohessa.",
+                            "w": "försäljare",
+                            "d": ["försäljning", "sälja", "programmering"]
+                        }
+                    ]
+                },
+                {
+                    "id": "intervju-s10",
+                    "sv": "Vilka är dina styrkor?",
+                    "fi": "Mitkä ovat vahvuutesi?",
+                    "src": "m",
+                    "keys": [
+                        { "w": "Vilka", "d": ["Vilken", "Vad", "Varför"] },
+                        {
+                            "w": "styrkor",
+                            "d": ["styrka", "starka", "styrkan"]
+                        },
+                        { "w": "dina", "d": ["din", "ditt", "dig"] }
+                    ],
+                    "grammar": ["questions", "possessive", "plural"],
+                    "note": "'Vilka' = mitkä (monikko). Yksikössä 'vilken' (mikä).",
+                    "wrong": [
+                        "Vilka dina styrkor är?",
+                        "Vilken är dina styrkor?"
+                    ]
+                },
+                {
+                    "id": "intervju-s11",
+                    "sv": "Jag är pålitlig, flexibel och motiverad.",
+                    "fi": "Olen luotettava, joustava ja motivoitunut.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "pålitlig",
+                            "d": ["pålitliga", "punktlig", "pålitligt"]
+                        },
+                        {
+                            "w": "flexibel",
+                            "d": ["flexibla", "flexibelt", "flitig"]
+                        },
+                        {
+                            "w": "motiverad",
+                            "d": ["motiverade", "motivera", "motivation"]
+                        }
+                    ],
+                    "grammar": ["adj", "participle"],
+                    "note": "Kolme ominaisuutta: helppo muistaa. 'motiverad' on tehty verbistä 'motivera' (partisiippi).",
+                    "wrong": [
+                        "Jag är pålitliga, flexibla och motiverade.",
+                        "Jag har pålitlig, flexibel och motiverad."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag är noggrann, flexibel och motiverad.",
+                            "fi": "Olen tarkka, joustava ja motivoitunut.",
+                            "w": "noggrann",
+                            "d": ["noggranna", "nyfiken", "noggrant"]
+                        }
+                    ]
+                },
+                {
+                    "id": "intervju-s12",
+                    "sv": "Jag är nyfiken och villig att lära mig nya saker.",
+                    "fi": "Olen utelias ja halukas oppimaan uusia asioita.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "nyfiken",
+                            "d": ["nyfikna", "nyfikenhet", "noggrann"]
+                        },
+                        { "w": "villig", "d": ["vill", "villiga", "villigt"] },
+                        { "w": "mig", "d": ["jag", "sig", "min"] }
+                    ],
+                    "grammar": ["att-inf", "reflexive"],
+                    "note": "'lära mig' = oppia (minä). Refleksiivi vaihtuu persoonan mukaan: jag → mig.",
+                    "wrong": [
+                        "Jag är nyfiken och villig att lära sig nya saker.",
+                        "Jag är nyfiken och villig att lära mig ny saker."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "intervju-l3",
+            "title": "Kehitys ja motivaatio",
+            "intro": "Vaikeimmat kysymykset: mitä haluat kehittää, miksi sinut pitäisi palkata ja mikä sinua motivoi. Vastaukset on koottu kurssin sanastosta.",
+            "sentences": [
+                {
+                    "id": "intervju-s13",
+                    "sv": "Vilken egenskap vill du utveckla hos dig?",
+                    "fi": "Mitä ominaisuutta haluat kehittää itsessäsi?",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "egenskap",
+                            "d": ["egenskaper", "egen", "egenskapen"]
+                        },
+                        {
+                            "w": "utveckla",
+                            "d": ["utvecklar", "utveckling", "utvecklat"]
+                        },
+                        { "w": "hos", "d": ["av", "på", "med"] }
+                    ],
+                    "grammar": ["questions", "modal"],
+                    "note": "'Vilken' = mikä (yksikkö). 'hos dig' = sinussa, sinun luonasi.",
+                    "wrong": [
+                        "Vilken egenskap du vill utveckla hos dig?",
+                        "Vilken egenskap vill du att utveckla hos dig?"
+                    ]
+                },
+                {
+                    "id": "intervju-s14",
+                    "sv": "Jag vill utveckla min förmåga att prioritera.",
+                    "fi": "Haluan kehittää kykyäni priorisoida.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "utveckla",
+                            "d": ["utvecklar", "utveckling", "utvecklat"]
+                        },
+                        {
+                            "w": "förmåga",
+                            "d": ["förmågor", "möjlighet", "förmågan"]
+                        },
+                        {
+                            "w": "prioritera",
+                            "d": ["prioriterar", "prioritet", "prioriterat"]
+                        }
+                    ],
+                    "grammar": ["modal", "att-inf", "possessive"],
+                    "note": "'vill utveckla' = haluan kehittää (apuverbi + perusmuoto). 'förmåga att' = kyky tehdä jotain.",
+                    "wrong": [
+                        "Jag vill att utveckla min förmåga att prioritera.",
+                        "Jag vill utveckla mitt förmåga att prioritera."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag vill utveckla min förmåga att kommunicera.",
+                            "fi": "Haluan kehittää kykyäni viestiä.",
+                            "w": "kommunicera",
+                            "d": [
+                                "kommunikation",
+                                "kommunicerar",
+                                "kommunikativ"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "intervju-s15",
+                    "sv": "Varför skulle vi anställa dig?",
+                    "fi": "Miksi palkkaisimme sinut?",
+                    "src": "m",
+                    "keys": [
+                        { "w": "skulle", "d": ["ska", "skall", "skulla"] },
+                        {
+                            "w": "anställa",
+                            "d": ["anställer", "anställd", "anställning"]
+                        }
+                    ],
+                    "grammar": ["questions", "skulle"],
+                    "note": "'skulle' + perusmuoto = konditionaali: palkkaisimme. 'anställa' = palkata, ottaa töihin.",
+                    "wrong": [
+                        "Varför vi skulle anställa dig?",
+                        "Varför skulle vi anställer dig?"
+                    ]
+                },
+                {
+                    "id": "intervju-s16",
+                    "sv": "Jag kan hjälpa ert team att skapa användarvänliga digitala tjänster.",
+                    "fi": "Voin auttaa tiimiänne luomaan käyttäjäystävällisiä digitaalisia palveluita.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "hjälpa", "d": ["hjälper", "hjälp", "hjälpte"] },
+                        { "w": "skapa", "d": ["skapar", "skapat", "skapelse"] },
+                        {
+                            "w": "användarvänliga",
+                            "d": [
+                                "användarvänlig",
+                                "användare",
+                                "användarvänligt"
+                            ]
+                        }
+                    ],
+                    "grammar": ["modal", "att-inf", "adj"],
+                    "note": "'ert team' = teidän tiiminne ('team' on ett-sana, siksi 'ert'). 'användarvänliga' saa -a, koska 'tjänster' on monikko.",
+                    "wrong": [
+                        "Jag kan att hjälpa ert team att skapa användarvänliga digitala tjänster.",
+                        "Jag kan hjälpa ert team att skapa användarvänlig digitala tjänster."
+                    ]
+                },
+                {
+                    "id": "intervju-s17",
+                    "sv": "Jag har erfarenhet av projektarbete och jag är van vid att jobba i team.",
+                    "fi": "Minulla on kokemusta projektityöstä ja olen tottunut työskentelemään tiimissä.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "erfarenhet",
+                            "d": ["erfarenheter", "erfaren", "erfarenheten"]
+                        },
+                        {
+                            "w": "projektarbete",
+                            "d": ["projektchef", "projekt", "projektarbetet"]
+                        },
+                        { "w": "van", "d": ["vana", "vant", "vanlig"] }
+                    ],
+                    "grammar": ["rektio", "conjunctions"],
+                    "note": "Kaksi kurssin valmista fraasia yhdistetty: 'erfarenhet av' ja 'van vid att'.",
+                    "wrong": [
+                        "Jag har erfarenhet på projektarbete och jag är van vid att jobba i team.",
+                        "Jag har erfarenhet av projektarbete och jag är van på att jobba i team."
+                    ]
+                },
+                {
+                    "id": "intervju-s18",
+                    "sv": "Vad motiverar dig?",
+                    "fi": "Mikä motivoi sinua?",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "motiverar",
+                            "d": ["motivera", "motiverad", "motivation"]
+                        },
+                        { "w": "Vad", "d": ["Varför", "Vilka", "Var"] }
+                    ],
+                    "grammar": ["questions", "pronouns"],
+                    "note": "'Vad' = mikä/mitä. 'dig' = sinua (du-sanan objektimuoto).",
+                    "wrong": ["Vad motiverar du?", "Vad motivera dig?"]
+                },
+                {
+                    "id": "intervju-s19",
+                    "sv": "Det motiverar mig att lösa verkliga problem.",
+                    "fi": "Minua motivoi ratkaista todellisia ongelmia.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "lösa", "d": ["löser", "löst", "lösning"] },
+                        {
+                            "w": "verkliga",
+                            "d": ["verklig", "verkligt", "verkligen"]
+                        },
+                        {
+                            "w": "problem",
+                            "d": ["problemet", "problems", "problemlösare"]
+                        }
+                    ],
+                    "grammar": ["att-inf", "pronouns", "adj"],
+                    "note": "'lösa verkliga problem' on kurssin artikkelista. 'problem' on ett-sana, ja monikko on sama 'problem'.",
+                    "wrong": [
+                        "Det motiverar jag att lösa verkliga problem.",
+                        "Det motiverar mig att löser verkliga problem."
+                    ]
+                },
+                {
+                    "id": "intervju-s20",
+                    "sv": "Nya utmaningar motiverar mig.",
+                    "fi": "Uudet haasteet motivoivat minua.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "utmaningar",
+                            "d": ["utmaning", "utmaningen", "utmana"]
+                        },
+                        { "w": "Nya", "d": ["Ny", "Nytt", "Nyare"] }
+                    ],
+                    "grammar": ["adj", "plural"],
+                    "note": "'utmaningar' = haasteet (en utmaning). Monikon takia adjektiivi 'nya'.",
+                    "wrong": [
+                        "Ny utmaningar motiverar mig.",
+                        "Nya utmaningar motivera mig."
+                    ]
+                }
+            ]
+        }
+    ],
+    "glossary": {
+        "hej": "hei",
+        "och": "ja",
+        "välkommen": "tervetuloa",
+        "var": "ole (käsky, vara); missä",
+        "så": "niin; joten",
+        "god": "hyvä; var så god = ole hyvä",
+        "var så god": "ole hyvä",
+        "sätt": "aseta (käsky, sätta); sätt dig = istu",
+        "dig": "sinua, itseäsi",
+        "om": "jos; -sta (om dig = sinusta)",
+        "du": "sinä",
+        "först": "ensin, aluksi",
+        "berättar": "kertoo (perusmuoto berätta)",
+        "lite": "vähän",
+        "själv": "itse; om dig själv = itsestäsi",
+        "jag": "minä",
+        "studerar": "opiskelee (perusmuoto studera)",
+        "till": "-ksi, -lle",
+        "it-tradenom": "it-tradenomi",
+        "tradenom": "tradenomi (suomenruotsin sana)",
+        "restonom": "restonomi (suomenruotsin sana)",
+        "på": "-ssa, -lla",
+        "haaga-helia": "Haaga-Helia (koulun nimi)",
+        "blir": "tulee joksikin (bli färdig = valmistua)",
+        "färdig": "valmis",
+        "nästa": "seuraava, ensi",
+        "höst": "syksy",
+        "varför": "miksi",
+        "söker": "hakee (perusmuoto söka)",
+        "det": "se; det här = tämä",
+        "här": "täällä; det här = tämä",
+        "jobbet": "työ (määräinen muoto: jobb + et)",
+        "den": "se; den här = tämä (en-sana)",
+        "arbetsuppgiften": "työtehtävä (määräinen muoto: arbetsuppgift + en)",
+        "låter": "kuulostaa (perusmuoto låta)",
+        "intressant": "kiinnostava, mielenkiintoinen",
+        "vill": "haluaa (perusmuoto vilja)",
+        "få": "saada",
+        "mera": "lisää, enemmän",
+        "arbetserfarenhet": "työkokemus",
+        "från": "-sta, -lta",
+        "branschen": "ala (määräinen muoto: bransch + en)",
+        "eftersom": "koska",
+        "är": "on, olen (perusmuoto vara)",
+        "intresserad": "kiinnostunut",
+        "av": "-sta; intresserad av = kiinnostunut jostakin",
+        "programvaruutveckling": "ohjelmistokehitys",
+        "digitala": "digitaaliset",
+        "tjänster": "palvelut (en tjänst)",
+        "berätta": "kerro (käsky); kertoa",
+        "din": "sinun (en-sanan kanssa)",
+        "har": "on jollakin; perfektin apuverbi",
+        "jobbat": "työskennellyt (perusmuoto jobba)",
+        "vid": "luona, vieressä",
+        "sidan": "sivu, puoli (määräinen muoto: sida + n)",
+        "vid sidan av": "jonkin ohessa, ohella",
+        "mina": "minun (monikko)",
+        "studier": "opinnot",
+        "ett": "yksi; ett-sanojen artikkeli",
+        "år": "vuosi, vuotta",
+        "som": "jona, -na; joka",
+        "försäljare": "myyjä",
+        "inom": "jonkin alalla, sisällä",
+        "kundtjänst": "asiakaspalvelu",
+        "programmerare": "ohjelmoija",
+        "vilka": "mitkä (monikko)",
+        "dina": "sinun (monikko)",
+        "styrkor": "vahvuudet (en styrka)",
+        "pålitlig": "luotettava",
+        "flexibel": "joustava",
+        "motiverad": "motivoitunut",
+        "noggrann": "tarkka, huolellinen",
+        "nyfiken": "utelias",
+        "villig": "halukas",
+        "att": "infinitiivin merkki; että",
+        "lära": "opettaa; lära sig = oppia",
+        "mig": "minua, itseäni",
+        "nya": "uudet, uusia (ny + a)",
+        "saker": "asiat (en sak)",
+        "vilken": "mikä (yksikkö)",
+        "egenskap": "ominaisuus",
+        "utveckla": "kehittää",
+        "hos": "luona, -ssa (hos dig = sinussa)",
+        "min": "minun (en-sanan kanssa)",
+        "förmåga": "kyky",
+        "prioritera": "priorisoida",
+        "kommunicera": "viestiä, kommunikoida",
+        "skulle": "-isi- (konditionaali)",
+        "vi": "me",
+        "anställa": "palkata, ottaa töihin",
+        "kan": "voi, osaa",
+        "hjälpa": "auttaa",
+        "ert": "teidän (ett-sanan kanssa)",
+        "team": "tiimi (ett team)",
+        "skapa": "luoda",
+        "användarvänliga": "käyttäjäystävälliset (användarvänlig + a)",
+        "erfarenhet": "kokemus",
+        "projektarbete": "projektityö",
+        "van": "tottunut (van vid = tottunut johonkin)",
+        "jobba": "työskennellä",
+        "i": "-ssa, -ssä",
+        "vad": "mikä, mitä",
+        "motiverar": "motivoi (perusmuoto motivera)",
+        "lösa": "ratkaista",
+        "verkliga": "todelliset (verklig + a)",
+        "problem": "ongelma, ongelmat (ett problem)",
+        "utmaningar": "haasteet (en utmaning = haaste)"
+    }
+}

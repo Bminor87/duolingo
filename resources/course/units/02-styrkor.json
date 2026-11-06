@@ -1,0 +1,1470 @@
+{
+    "id": "styrkor",
+    "title": "Vahvuudet ja ominaisuudet",
+    "subtitle": "Mina styrkor",
+    "description": "Opit kuvailemaan itseäsi työntekijänä: vahvuudet, osaaminen, kokemus ja kielitaito. Suullisessa keskustelussa kysytään aina, millainen olet työntekijänä.",
+    "icon": "sparkles",
+    "color": "violet",
+    "exam": ["oral", "assignment"],
+    "source": "Diat \"Viktiga ord och fraser när du söker jobb\" (erfarenhet och kompetens, språkkunskaper, styrkor, beskriv dig själv) ja välilehden 2 tehtävä 5 (Mina goda egenskaper).",
+    "lessons": [
+        {
+            "id": "styrkor-l1",
+            "title": "Olen luotettava",
+            "intro": "Rakenne 'Jag är + ominaisuus' on helppo: vaihda vain adjektiivi. Opettele ensin yleisimmät vahvuudet.",
+            "sentences": [
+                {
+                    "id": "styrkor-s01",
+                    "sv": "Jag är flexibel och ärlig.",
+                    "fi": "Olen joustava ja rehellinen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "flexibel",
+                            "d": ["flexibla", "flexibelt", "flexibilitet"]
+                        },
+                        { "w": "ärlig", "d": ["ärliga", "ärligt", "ärlighet"] }
+                    ],
+                    "grammar": ["present", "adj"],
+                    "note": "Kun puhut itsestäsi (en ihminen), adjektiivi on perusmuodossa ilman päätettä.",
+                    "wrong": [
+                        "Jag är flexibla och ärliga.",
+                        "Jag har flexibel och ärlig."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag är noggrann och ärlig.",
+                            "fi": "Olen tarkka ja rehellinen.",
+                            "w": "noggrann",
+                            "d": ["noggranna", "nyfiken", "noggrannt"]
+                        },
+                        {
+                            "sv": "Jag är pålitlig och ärlig.",
+                            "fi": "Olen luotettava ja rehellinen.",
+                            "w": "pålitlig",
+                            "d": ["pålitliga", "punktlig", "flitig"]
+                        },
+                        {
+                            "sv": "Jag är punktlig och ärlig.",
+                            "fi": "Olen täsmällinen ja rehellinen.",
+                            "w": "punktlig",
+                            "d": ["pålitlig", "punktliga", "positiv"]
+                        }
+                    ]
+                },
+                {
+                    "id": "styrkor-s02",
+                    "sv": "Jag är nyfiken och positiv.",
+                    "fi": "Olen utelias ja positiivinen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "nyfiken",
+                            "d": ["nyfikna", "nyfikenhet", "noggrann"]
+                        },
+                        {
+                            "w": "positiv",
+                            "d": ["positiva", "positivt", "punktlig"]
+                        }
+                    ],
+                    "grammar": ["present", "adj"],
+                    "note": "'nyfiken' = utelias. Uteliaisuus on tärkeä it-alan ominaisuus kurssin artikkelin mukaan.",
+                    "wrong": [
+                        "Jag är nyfikna och positiva.",
+                        "Jag nyfiken är och positiv."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag är effektiv och positiv.",
+                            "fi": "Olen tehokas ja positiivinen.",
+                            "w": "effektiv",
+                            "d": ["effektiva", "flitig", "effektivt"]
+                        },
+                        {
+                            "sv": "Jag är flitig och positiv.",
+                            "fi": "Olen ahkera ja positiivinen.",
+                            "w": "flitig",
+                            "d": ["flitiga", "effektiv", "flexibel"]
+                        }
+                    ]
+                },
+                {
+                    "id": "styrkor-s03",
+                    "sv": "Jag är självständig och punktlig.",
+                    "fi": "Olen itsenäinen ja täsmällinen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "självständig",
+                            "d": ["självständiga", "själv", "självständigt"]
+                        },
+                        {
+                            "w": "punktlig",
+                            "d": ["punktliga", "pålitlig", "positiv"]
+                        }
+                    ],
+                    "grammar": ["present", "compound"],
+                    "note": "'självständig' = själv (itse) + ständig. Tarkoittaa itsenäistä.",
+                    "wrong": [
+                        "Jag är självständiga och punktliga.",
+                        "Jag är självständig och punktligt."
+                    ]
+                },
+                {
+                    "id": "styrkor-s04",
+                    "sv": "Andra säger att jag är effektiv.",
+                    "fi": "Muut sanovat, että olen tehokas.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "säger", "d": ["säga", "sagt", "sägs"] },
+                        {
+                            "w": "effektiv",
+                            "d": ["effektiva", "effektivt", "effektivitet"]
+                        },
+                        { "w": "Andra", "d": ["Annan", "Andras", "Annat"] }
+                    ],
+                    "grammar": ["opinion", "subclause"],
+                    "note": "'Andra säger att...' = Muut sanovat, että... Hyvä tapa kehua itseään vaatimattomasti.",
+                    "wrong": [
+                        "Andra säga att jag är effektiv.",
+                        "Andra säger att är jag effektiv."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Andra säger att jag är pålitlig.",
+                            "fi": "Muut sanovat, että olen luotettava.",
+                            "w": "pålitlig",
+                            "d": ["pålitliga", "effektiv", "punktlig"]
+                        },
+                        {
+                            "sv": "Andra säger att jag är noggrann.",
+                            "fi": "Muut sanovat, että olen tarkka.",
+                            "w": "noggrann",
+                            "d": ["noggranna", "nyfiken", "noggrannhet"]
+                        }
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "styrkor-w01",
+                    "sv": "pålitlig",
+                    "fi": "luotettava",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w02",
+                    "sv": "flexibel",
+                    "fi": "joustava",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w03",
+                    "sv": "noggrann",
+                    "fi": "tarkka",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w04",
+                    "sv": "nyfiken",
+                    "fi": "utelias",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w05",
+                    "sv": "effektiv",
+                    "fi": "tehokas",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w06",
+                    "sv": "flitig",
+                    "fi": "ahkera",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w07",
+                    "sv": "ärlig",
+                    "fi": "rehellinen",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w08",
+                    "sv": "positiv",
+                    "fi": "positiivinen",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w09",
+                    "sv": "punktlig",
+                    "fi": "täsmällinen",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w10",
+                    "sv": "självständig",
+                    "fi": "itsenäinen",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "styrkor-l2",
+            "title": "Sanoisin, että olen...",
+            "intro": "Lisää vahvuuksia ja kaksi hyödyllistä aloitusta: 'Jag skulle säga att...' ja 'Jag tycker att...'.",
+            "sentences": [
+                {
+                    "id": "styrkor-s05",
+                    "sv": "Jag är målmedveten och beslutsam.",
+                    "fi": "Olen määrätietoinen ja päättäväinen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "målmedveten",
+                            "d": ["målmedvetna", "mål", "målmedvetet"]
+                        },
+                        {
+                            "w": "beslutsam",
+                            "d": ["beslutsamma", "beslut", "besluta"]
+                        }
+                    ],
+                    "grammar": ["adj", "compound"],
+                    "note": "'målmedveten' = mål (tavoite) + medveten (tietoinen) = määrätietoinen.",
+                    "wrong": [
+                        "Jag är målmedvetna och beslutsamma.",
+                        "Jag är målmedveten och beslut."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag är ambitiös och beslutsam.",
+                            "fi": "Olen kunnianhimoinen ja päättäväinen.",
+                            "w": "ambitiös",
+                            "d": ["ambitiösa", "analytisk", "ambition"]
+                        },
+                        {
+                            "sv": "Jag är analytisk och beslutsam.",
+                            "fi": "Olen analyyttinen ja päättäväinen.",
+                            "w": "analytisk",
+                            "d": ["analytiska", "analys", "ambitiös"]
+                        }
+                    ]
+                },
+                {
+                    "id": "styrkor-s06",
+                    "sv": "Jag är serviceinriktad och stresstålig.",
+                    "fi": "Olen palveluhenkinen ja kestän stressiä hyvin.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "serviceinriktad",
+                            "d": ["serviceinriktade", "service", "inriktning"]
+                        },
+                        {
+                            "w": "stresstålig",
+                            "d": ["stresståliga", "stress", "stressad"]
+                        }
+                    ],
+                    "grammar": ["compound", "adj"],
+                    "note": "'stresstålig' = stress + tålig (kestävä). Suomeksi sanotaan usein 'kestän stressiä hyvin'.",
+                    "wrong": [
+                        "Jag är serviceinriktade och stresståliga.",
+                        "Jag serviceinriktad är och stresstålig."
+                    ]
+                },
+                {
+                    "id": "styrkor-s07",
+                    "sv": "Jag skulle säga att jag är strukturerad och tålmodig.",
+                    "fi": "Sanoisin, että olen järjestelmällinen ja kärsivällinen.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "skulle", "d": ["ska", "skall", "skulla"] },
+                        {
+                            "w": "strukturerad",
+                            "d": ["strukturerade", "struktur", "strukturera"]
+                        },
+                        {
+                            "w": "tålmodig",
+                            "d": ["tålmodiga", "tålamod", "tålig"]
+                        }
+                    ],
+                    "grammar": ["skulle", "opinion"],
+                    "note": "'Jag skulle säga att...' = Sanoisin, että... 'skulle' tekee lauseesta kohteliaan (-isi-).",
+                    "wrong": [
+                        "Jag skulle säger att jag är strukturerad och tålmodig.",
+                        "Jag skulle säga att är jag strukturerad och tålmodig."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag skulle säga att jag är samarbetsvillig och tålmodig.",
+                            "fi": "Sanoisin, että olen yhteistyökykyinen ja kärsivällinen.",
+                            "w": "samarbetsvillig",
+                            "d": ["samarbetsvilliga", "samarbete", "samarbeta"]
+                        },
+                        {
+                            "sv": "Jag skulle säga att jag är utåtriktad och tålmodig.",
+                            "fi": "Sanoisin, että olen ulospäinsuuntautunut ja kärsivällinen.",
+                            "w": "utåtriktad",
+                            "d": ["utåtriktade", "inriktad", "utåt"]
+                        }
+                    ]
+                },
+                {
+                    "id": "styrkor-s08",
+                    "sv": "Jag tycker att jag är tolerant.",
+                    "fi": "Mielestäni olen suvaitsevainen.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "tycker", "d": ["tycka", "tyckt", "tycks"] },
+                        {
+                            "w": "tolerant",
+                            "d": ["toleranta", "tolerans", "tålig"]
+                        }
+                    ],
+                    "grammar": ["opinion", "subclause"],
+                    "note": "'Jag tycker att' = mielestäni. Että-lauseessa sanajärjestys on suora: 'att jag är'.",
+                    "wrong": [
+                        "Jag tycker att är jag tolerant.",
+                        "Jag tycka att jag är tolerant."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag tycker att jag är stresstålig.",
+                            "fi": "Mielestäni kestän stressiä hyvin.",
+                            "w": "stresstålig",
+                            "d": ["stresståliga", "stress", "tolerant"]
+                        }
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "styrkor-w11",
+                    "sv": "ambitiös",
+                    "fi": "kunnianhimoinen",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w12",
+                    "sv": "analytisk",
+                    "fi": "analyyttinen",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w13",
+                    "sv": "beslutsam",
+                    "fi": "päättäväinen",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w14",
+                    "sv": "målmedveten",
+                    "fi": "määrätietoinen",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w15",
+                    "sv": "samarbetsvillig",
+                    "fi": "yhteistyökykyinen",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w16",
+                    "sv": "strukturerad",
+                    "fi": "järjestelmällinen",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w17",
+                    "sv": "stresstålig",
+                    "fi": "kestää stressiä hyvin",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w18",
+                    "sv": "tålmodig",
+                    "fi": "kärsivällinen",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w19",
+                    "sv": "utåtriktad",
+                    "fi": "ulospäinsuuntautunut",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w20",
+                    "sv": "serviceinriktad",
+                    "fi": "palveluhenkinen",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "styrkor-l3",
+            "title": "Olen tiimipelaaja",
+            "intro": "Ammatillisia vahvuuksia. Huomaa: 'Jag är lagspelare' ilman en-sanaa, kun kerrot roolistasi.",
+            "sentences": [
+                {
+                    "id": "styrkor-s09",
+                    "sv": "Jag är lagspelare.",
+                    "fi": "Olen tiimipelaaja.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "lagspelare",
+                            "d": ["lagspel", "laget", "spelare"]
+                        }
+                    ],
+                    "grammar": ["compound"],
+                    "note": "'lagspelare' = lag (joukkue) + spelare (pelaaja). Rooleista puhuttaessa en-sana jää usein pois.",
+                    "wrong": ["Jag har lagspelare.", "Jag lagspelare är."],
+                    "variants": [
+                        {
+                            "sv": "Jag är problemlösare.",
+                            "fi": "Olen ongelmanratkaisija.",
+                            "w": "problemlösare",
+                            "d": ["problem", "problemlösning", "lösare"]
+                        },
+                        {
+                            "sv": "Jag är initiativtagare.",
+                            "fi": "Olen aloitteentekijä.",
+                            "w": "initiativtagare",
+                            "d": ["initiativ", "initiativrik", "tagare"]
+                        }
+                    ]
+                },
+                {
+                    "id": "styrkor-s10",
+                    "sv": "Jag skulle beskriva mig som kreativ.",
+                    "fi": "Kuvailisin itseäni luovaksi.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "beskriva",
+                            "d": ["beskriver", "beskrev", "beskrivit"]
+                        },
+                        { "w": "mig", "d": ["jag", "min", "sig"] },
+                        {
+                            "w": "kreativ",
+                            "d": ["kreativa", "kreativt", "kreativitet"]
+                        }
+                    ],
+                    "grammar": ["skulle", "reflexive", "som"],
+                    "note": "'beskriva mig som' = kuvailla itseäni jonakin. 'mig' = minua/itseäni.",
+                    "wrong": [
+                        "Jag skulle beskriva jag som kreativ.",
+                        "Jag skulle beskriver mig som kreativ."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag skulle beskriva mig som innovativ.",
+                            "fi": "Kuvailisin itseäni kekseliääksi.",
+                            "w": "innovativ",
+                            "d": ["innovativa", "innovation", "initiativrik"]
+                        },
+                        {
+                            "sv": "Jag skulle beskriva mig som företagsam.",
+                            "fi": "Kuvailisin itseäni yritteliääksi.",
+                            "w": "företagsam",
+                            "d": ["företag", "företagsamma", "företagare"]
+                        }
+                    ]
+                },
+                {
+                    "id": "styrkor-s11",
+                    "sv": "Mina styrkor är att jag är initiativrik och språkkunnig.",
+                    "fi": "Vahvuuteni ovat, että olen aloitekykyinen ja kielitaitoinen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "styrkor",
+                            "d": ["styrka", "styrkan", "starka"]
+                        },
+                        {
+                            "w": "initiativrik",
+                            "d": [
+                                "initiativrika",
+                                "initiativ",
+                                "initiativtagare"
+                            ]
+                        },
+                        {
+                            "w": "språkkunnig",
+                            "d": ["språkkunskaper", "språk", "språkkunniga"]
+                        }
+                    ],
+                    "grammar": ["possessive", "plural", "subclause"],
+                    "note": "'Mina styrkor' = vahvuuteni (monikko, siksi 'mina'). Yksikkö on 'en styrka'.",
+                    "wrong": [
+                        "Min styrkor är att jag är initiativrik och språkkunnig.",
+                        "Mina styrkor är att är jag initiativrik och språkkunnig."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Mina styrkor är att jag är systematisk och språkkunnig.",
+                            "fi": "Vahvuuteni ovat, että olen systemaattinen ja kielitaitoinen.",
+                            "w": "systematisk",
+                            "d": ["systematiska", "system", "strukturerat"]
+                        }
+                    ]
+                },
+                {
+                    "id": "styrkor-s12",
+                    "sv": "Jag har rätt attityd.",
+                    "fi": "Minulla on oikea asenne.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "rätt", "d": ["rätta", "rättigt", "fel"] },
+                        {
+                            "w": "attityd",
+                            "d": ["attityden", "attityder", "aktivitet"]
+                        }
+                    ],
+                    "grammar": ["present"],
+                    "note": "'Jag har' = minulla on. Suomen 'minulla on' on ruotsiksi aina 'jag har'.",
+                    "wrong": ["Jag är rätt attityd.", "Mig har rätt attityd."]
+                },
+                {
+                    "id": "styrkor-s13",
+                    "sv": "Jag har förmåga att lyssna på andra.",
+                    "fi": "Minulla on kyky kuunnella muita.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "förmåga",
+                            "d": ["förmågor", "förmågan", "möjlig"]
+                        },
+                        { "w": "lyssna", "d": ["lyssnar", "lyssnade", "höra"] },
+                        { "w": "på", "d": ["till", "av", "med"] }
+                    ],
+                    "grammar": ["att-inf", "rektio"],
+                    "note": "'förmåga att' + verbi = kyky tehdä jotain. 'lyssna på' = kuunnella jotakin, prepositio 'på' on pakollinen.",
+                    "wrong": [
+                        "Jag har förmåga lyssna på andra.",
+                        "Jag har förmåga att lyssna till andra."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "styrkor-w21",
+                    "sv": "en lagspelare",
+                    "fi": "tiimipelaaja",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w22",
+                    "sv": "en problemlösare",
+                    "fi": "ongelmanratkaisija",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w23",
+                    "sv": "en initiativtagare",
+                    "fi": "aloitteentekijä",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w24",
+                    "sv": "initiativrik",
+                    "fi": "aloitekykyinen",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w25",
+                    "sv": "innovativ",
+                    "fi": "kekseliäs, innovatiivinen",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w26",
+                    "sv": "företagsam",
+                    "fi": "yritteliäs",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w27",
+                    "sv": "språkkunnig",
+                    "fi": "kielitaitoinen",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w28",
+                    "sv": "systematisk",
+                    "fi": "systemaattinen",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w29",
+                    "sv": "kreativ",
+                    "fi": "luova",
+                    "src": "m"
+                },
+                {
+                    "id": "styrkor-w30",
+                    "sv": "motiverad",
+                    "fi": "motivoitunut",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "styrkor-l4",
+            "title": "Osaamiseni",
+            "intro": "Rakenne 'Jag har + osaaminen' kertoo, mitä sinulla on: kokemusta, kykyä, taitoja.",
+            "sentences": [
+                {
+                    "id": "styrkor-s14",
+                    "sv": "Jag har erfarenhet av branschen.",
+                    "fi": "Minulla on kokemusta alasta.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "erfarenhet",
+                            "d": ["erfarenheter", "erfaren", "erfarenheten"]
+                        },
+                        { "w": "av", "d": ["på", "med", "för"] },
+                        {
+                            "w": "branschen",
+                            "d": ["bransch", "branscher", "branschens"]
+                        }
+                    ],
+                    "grammar": ["rektio", "definite"],
+                    "note": "'erfarenhet av' = kokemusta jostakin. Suomen -sta = ruotsin 'av'.",
+                    "wrong": [
+                        "Jag har erfarenhet på branschen.",
+                        "Jag är erfarenhet av branschen."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag har erfarenhet av projektarbete.",
+                            "fi": "Minulla on kokemusta projektityöstä.",
+                            "w": "projektarbete",
+                            "d": [
+                                "projektarbetet",
+                                "projektchef",
+                                "projekt arbete"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "styrkor-s15",
+                    "sv": "Jag har förmåga att jobba i olika team.",
+                    "fi": "Minulla on kyky työskennellä erilaisissa tiimeissä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "förmåga",
+                            "d": ["förmågor", "möjlighet", "förmågan"]
+                        },
+                        { "w": "olika", "d": ["olik", "andra", "olikt"] },
+                        { "w": "team", "d": ["teamet", "teamen", "lag"] }
+                    ],
+                    "grammar": ["att-inf", "rektio"],
+                    "note": "'olika' = erilaisia, eri. Sana ei taivu. 'team' on ett-sana, ja monikko on myös 'team'.",
+                    "wrong": [
+                        "Jag har förmåga jobba i olika team.",
+                        "Jag har förmåga att jobbar i olika team."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag har förmåga att fatta beslut.",
+                            "fi": "Minulla on kyky tehdä päätöksiä.",
+                            "w": "fatta beslut",
+                            "d": ["göra beslut", "fatta besluta", "ta beslutet"]
+                        }
+                    ]
+                },
+                {
+                    "id": "styrkor-s16",
+                    "sv": "Jag har god organisationsförmåga.",
+                    "fi": "Minulla on hyvä organisointikyky.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "god", "d": ["gott", "goda", "bra på"] },
+                        {
+                            "w": "organisationsförmåga",
+                            "d": [
+                                "organisation",
+                                "organisera",
+                                "organisationer"
+                            ]
+                        }
+                    ],
+                    "grammar": ["adj", "compound"],
+                    "note": "'organisationsförmåga' = organisation + s + förmåga (kyky). 'förmåga' on en-sana, siksi 'god' ilman -t.",
+                    "wrong": [
+                        "Jag har gott organisationsförmåga.",
+                        "Jag är god organisationsförmåga."
+                    ]
+                },
+                {
+                    "id": "styrkor-s17",
+                    "sv": "Jag har företagaranda.",
+                    "fi": "Minussa on yrittäjähenkisyyttä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "företagaranda",
+                            "d": ["företagare", "företagsam", "företag"]
+                        }
+                    ],
+                    "grammar": ["compound"],
+                    "note": "'företagaranda' = företagare (yrittäjä) + anda (henki). Suomeksi 'minussa on', ruotsiksi silti 'jag har'.",
+                    "wrong": ["Jag är företagaranda.", "Mig har företagaranda."]
+                },
+                {
+                    "id": "styrkor-s18",
+                    "sv": "Jag har utmärkta språkkunskaper både i tal och skrift.",
+                    "fi": "Minulla on erinomainen kielitaito sekä suullisesti että kirjallisesti.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "utmärkta",
+                            "d": ["utmärkt", "utmärkande", "märkta"]
+                        },
+                        {
+                            "w": "språkkunskaper",
+                            "d": ["språkkunskap", "språkkunnig", "språket"]
+                        },
+                        { "w": "både", "d": ["båda", "bägge", "också"] }
+                    ],
+                    "grammar": ["adj", "conjunctions", "plural"],
+                    "note": "'språkkunskaper' on monikko, siksi adjektiivi saa -a-päätteen: 'utmärkta'. 'både... och...' = sekä... että...",
+                    "wrong": [
+                        "Jag har utmärkt språkkunskaper både i tal och skrift.",
+                        "Jag har utmärkta språkkunskaper båda i tal och skrift."
+                    ]
+                },
+                {
+                    "id": "styrkor-s19",
+                    "sv": "Jag har goda datorkunskaper.",
+                    "fi": "Minulla on hyvät tietotekniset taidot.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "goda", "d": ["god", "gott", "bra på"] },
+                        {
+                            "w": "datorkunskaper",
+                            "d": ["datorkunskap", "datorer", "dataspel"]
+                        }
+                    ],
+                    "grammar": ["adj", "plural", "compound"],
+                    "note": "'goda' on 'god'-sanan monikko. 'datorkunskaper' = dator (tietokone) + kunskaper (tiedot).",
+                    "wrong": [
+                        "Jag har god datorkunskaper.",
+                        "Jag har goda datorkunskap."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag har goda IT-kunskaper.",
+                            "fi": "Minulla on hyvät IT-taidot.",
+                            "w": "IT-kunskaper",
+                            "d": ["IT-kunskap", "IT-stöd", "IT-kunnig"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "styrkor-l5",
+            "title": "Olen tottunut tiimityöhön",
+            "intro": "'Jag är van vid att...' = olen tottunut... ja 'Jag är beredd att...' = olen valmis... Näillä kuvaat itseäsi työntekijänä.",
+            "sentences": [
+                {
+                    "id": "styrkor-s20",
+                    "sv": "Jag är van vid att jobba i team.",
+                    "fi": "Olen tottunut työskentelemään tiimissä.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "van", "d": ["vana", "vanlig", "vant"] },
+                        { "w": "vid", "d": ["på", "av", "med"] },
+                        { "w": "team", "d": ["teamet", "lag", "teamen"] }
+                    ],
+                    "grammar": ["rektio", "att-inf"],
+                    "note": "'van vid' = tottunut johonkin. Perään 'att' + verbi: van vid att jobba = tottunut työskentelemään.",
+                    "wrong": [
+                        "Jag är van på att jobba i team.",
+                        "Jag är van vid jobba i team."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag är van vid att jobba i grupp.",
+                            "fi": "Olen tottunut työskentelemään ryhmässä.",
+                            "w": "grupp",
+                            "d": ["gruppen", "grupper", "team"]
+                        }
+                    ]
+                },
+                {
+                    "id": "styrkor-s21",
+                    "sv": "Jag är beredd att ta ansvar.",
+                    "fi": "Olen valmis ottamaan vastuuta.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "beredd", "d": ["beredda", "berett", "bered"] },
+                        {
+                            "w": "ansvar",
+                            "d": ["ansvaret", "ansvarig", "ansvara"]
+                        }
+                    ],
+                    "grammar": ["att-inf"],
+                    "note": "'ta ansvar' = ottaa vastuuta. 'beredd att' = valmis tekemään jotain.",
+                    "wrong": [
+                        "Jag är beredd ta ansvar.",
+                        "Jag är beredd att tar ansvar."
+                    ]
+                },
+                {
+                    "id": "styrkor-s22",
+                    "sv": "Jag är villig att resa.",
+                    "fi": "Olen halukas matkustamaan.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "villig", "d": ["villiga", "vill", "villigt"] },
+                        { "w": "resa", "d": ["reser", "reste", "resan"] }
+                    ],
+                    "grammar": ["att-inf"],
+                    "note": "'villig att' = halukas tekemään jotain. Älä sekoita: 'vill' = haluaa (apuverbi).",
+                    "wrong": ["Jag är villig resa.", "Jag är villig att reser."]
+                },
+                {
+                    "id": "styrkor-s23",
+                    "sv": "Jag är lagspelare och resultatinriktad.",
+                    "fi": "Olen tiimipelaaja ja tuloshakuinen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "resultatinriktad",
+                            "d": [
+                                "resultat",
+                                "resultatinriktade",
+                                "serviceinriktad"
+                            ]
+                        },
+                        {
+                            "w": "lagspelare",
+                            "d": ["lagspel", "laget", "spelaren"]
+                        }
+                    ],
+                    "grammar": ["compound"],
+                    "note": "'resultatinriktad' = resultat (tulos) + inriktad (suuntautunut) = tuloshakuinen.",
+                    "wrong": [
+                        "Jag har lagspelare och resultatinriktad.",
+                        "Jag är lagspelare och resultatinriktade."
+                    ]
+                },
+                {
+                    "id": "styrkor-s24",
+                    "sv": "Jag kan engagera mina medarbetare.",
+                    "fi": "Osaan innostaa kanssatyöntekijöitäni.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "engagera",
+                            "d": ["engagerar", "engagerad", "engagemang"]
+                        },
+                        {
+                            "w": "medarbetare",
+                            "d": ["medarbetaren", "arbetare", "medarbete"]
+                        },
+                        { "w": "mina", "d": ["min", "mitt", "mig"] }
+                    ],
+                    "grammar": ["modal", "possessive"],
+                    "note": "'kan' (osaa, voi) on apuverbi: perään perusmuoto 'engagera' ilman att-sanaa. 'medarbetare' = työkaveri, sama muoto monikossa.",
+                    "wrong": [
+                        "Jag kan att engagera mina medarbetare.",
+                        "Jag kan engagerar mina medarbetare."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "styrkor-l6",
+            "title": "Mitä olen oppinut työssä",
+            "intro": "Pidempiä lauseita työkokemuksesta. Huomaa V2: kun lause alkaa 'I mitt jobb', verbi tulee ennen 'jag'-sanaa.",
+            "sentences": [
+                {
+                    "id": "styrkor-s25",
+                    "sv": "I mitt jobb har jag lärt mig att prioritera.",
+                    "fi": "Työssäni olen oppinut priorisoimaan.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "mitt", "d": ["min", "mina", "mig"] },
+                        { "w": "lärt", "d": ["lär", "lärde", "lära"] },
+                        {
+                            "w": "prioritera",
+                            "d": ["prioriterar", "prioritet", "prioriterat"]
+                        }
+                    ],
+                    "grammar": ["v2", "perfect", "reflexive"],
+                    "note": "'lära sig' = oppia (sanatarkasti 'opettaa itselleen'). Perfekti: jag har lärt mig. 'jobb' on ett-sana, siksi 'mitt'.",
+                    "wrong": [
+                        "I mitt jobb jag har lärt mig att prioritera.",
+                        "I min jobb har jag lärt mig att prioritera."
+                    ]
+                },
+                {
+                    "id": "styrkor-s26",
+                    "sv": "Mitt jobb kräver sociala färdigheter.",
+                    "fi": "Työni vaatii sosiaalisia taitoja.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "kräver", "d": ["kräva", "krävs", "krav"] },
+                        {
+                            "w": "sociala",
+                            "d": ["social", "socialt", "socialen"]
+                        },
+                        {
+                            "w": "färdigheter",
+                            "d": ["färdighet", "färdig", "färdiga"]
+                        }
+                    ],
+                    "grammar": ["present", "adj", "possessive"],
+                    "note": "'färdigheter' = taidot (monikko), siksi adjektiivi saa -a: 'sociala'.",
+                    "wrong": [
+                        "Min jobb kräver sociala färdigheter.",
+                        "Mitt jobb kräver social färdigheter."
+                    ]
+                },
+                {
+                    "id": "styrkor-s27",
+                    "sv": "Jag är bra på att organisera arbetet under press.",
+                    "fi": "Olen hyvä organisoimaan työtä paineen alla.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "bra", "d": ["god", "bättre", "bäst"] },
+                        { "w": "på", "d": ["av", "vid", "med"] },
+                        { "w": "press", "d": ["pressen", "stress", "tryck"] }
+                    ],
+                    "grammar": ["rektio", "att-inf"],
+                    "note": "'bra på' = hyvä jossakin. 'under press' = paineen alla.",
+                    "wrong": [
+                        "Jag är bra av att organisera arbetet under press.",
+                        "Jag är bra på organisera arbetet under press."
+                    ]
+                },
+                {
+                    "id": "styrkor-s28",
+                    "sv": "I mitt nuvarande jobb har jag lärt mig att hantera helheter.",
+                    "fi": "Nykyisessä työssäni olen oppinut hallitsemaan kokonaisuuksia.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "nuvarande",
+                            "d": ["nu", "nuvarandet", "framtida"]
+                        },
+                        {
+                            "w": "hantera",
+                            "d": ["hanterar", "hanterat", "hantering"]
+                        },
+                        { "w": "helheter", "d": ["helhet", "helheten", "hela"] }
+                    ],
+                    "grammar": ["v2", "perfect"],
+                    "note": "'nuvarande' = nykyinen. 'hantera helheter' = hallita kokonaisuuksia. Taas V2: 'har jag'.",
+                    "wrong": [
+                        "I mitt nuvarande jobb jag har lärt mig att hantera helheter.",
+                        "I mitt nuvarande jobb har jag lärt mig att hanterar helheter."
+                    ]
+                },
+                {
+                    "id": "styrkor-s29",
+                    "sv": "Jag är van vid att använda olika program, från textredigering och bildbehandling till applikationer för sociala medier.",
+                    "fi": "Olen tottunut käyttämään erilaisia ohjelmia tekstinkäsittelystä ja kuvankäsittelystä sosiaalisen median sovelluksiin.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "använda",
+                            "d": ["använder", "använd", "användare"]
+                        },
+                        {
+                            "w": "bildbehandling",
+                            "d": ["bild", "behandling", "bildbehandlare"]
+                        },
+                        {
+                            "w": "applikationer",
+                            "d": [
+                                "applikation",
+                                "applikationen",
+                                "applikationers"
+                            ]
+                        }
+                    ],
+                    "grammar": ["rektio", "compound", "prepositions"],
+                    "note": "'från ... till ...' = jostakin johonkin. 'bildbehandling' = bild (kuva) + behandling (käsittely)."
+                }
+            ]
+        },
+        {
+            "id": "styrkor-l7",
+            "title": "Kielitaitoni",
+            "intro": "Kielitaidosta kysytään usein. Kielten nimet kirjoitetaan ruotsissa pienellä alkukirjaimella.",
+            "sentences": [
+                {
+                    "id": "styrkor-s30",
+                    "sv": "Jag har finska som modersmål.",
+                    "fi": "Suomi on äidinkieleni.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "finska", "d": ["finsk", "finskan", "Finland"] },
+                        {
+                            "w": "modersmål",
+                            "d": ["modersmålet", "moder", "språket"]
+                        }
+                    ],
+                    "grammar": ["som", "compound"],
+                    "note": "Sanatarkasti 'minulla on suomi äidinkielenä'. 'modersmål' = moder (äiti) + s + mål (kieli).",
+                    "wrong": [
+                        "Jag har finska till modersmål.",
+                        "Jag är finska som modersmål."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag har svenska som modersmål.",
+                            "fi": "Ruotsi on äidinkieleni.",
+                            "w": "svenska",
+                            "d": ["svensk", "Sverige", "finska"]
+                        }
+                    ]
+                },
+                {
+                    "id": "styrkor-s31",
+                    "sv": "Jag talar flytande engelska.",
+                    "fi": "Puhun sujuvaa englantia.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "talar", "d": ["tala", "talat", "talade"] },
+                        { "w": "flytande", "d": ["flytt", "flyter", "flytta"] },
+                        {
+                            "w": "engelska",
+                            "d": ["engelsk", "England", "engelskan"]
+                        }
+                    ],
+                    "grammar": ["present"],
+                    "note": "'flytande' = sujuva (sanatarkasti 'virtaava'). Kielen nimi: engelska, svenska, finska.",
+                    "wrong": [
+                        "Jag tala flytande engelska.",
+                        "Jag talar flytande Engelska."
+                    ]
+                },
+                {
+                    "id": "styrkor-s32",
+                    "sv": "Mina kunskaper i svenska är utmärkta.",
+                    "fi": "Ruotsin kielen taitoni on erinomainen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "kunskaper",
+                            "d": ["kunskap", "kunnig", "kunskapen"]
+                        },
+                        {
+                            "w": "utmärkta",
+                            "d": ["utmärkt", "utmärkande", "märkta"]
+                        },
+                        { "w": "i", "d": ["av", "på", "för"] }
+                    ],
+                    "grammar": ["adj", "plural", "possessive"],
+                    "note": "Ruotsissa 'tiedot' ovat monikossa: 'mina kunskaper', siksi adjektiivi 'utmärkta' (-a).",
+                    "wrong": [
+                        "Mina kunskaper i svenska är utmärkt.",
+                        "Min kunskaper i svenska är utmärkta."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Mina kunskaper i tyska är goda.",
+                            "fi": "Saksan kielen taitoni on hyvä.",
+                            "w": "goda",
+                            "d": ["god", "gott", "bra på"]
+                        }
+                    ]
+                },
+                {
+                    "id": "styrkor-s33",
+                    "sv": "Jag klarar mig på franska.",
+                    "fi": "Selviän ranskan kielellä.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "klarar", "d": ["klara", "klarat", "klar"] },
+                        { "w": "mig", "d": ["jag", "sig", "min"] }
+                    ],
+                    "grammar": ["reflexive", "prepositions"],
+                    "note": "'klara sig' = selvitä. Refleksiivi vaihtuu: jag klarar mig, du klarar dig.",
+                    "wrong": [
+                        "Jag klarar på franska.",
+                        "Jag klarar jag på franska."
+                    ]
+                },
+                {
+                    "id": "styrkor-s34",
+                    "sv": "Jag har studerat ryska i tre år.",
+                    "fi": "Olen opiskellut venäjää kolme vuotta.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "studerat",
+                            "d": ["studerar", "studera", "studerade"]
+                        },
+                        { "w": "ryska", "d": ["rysk", "Ryssland", "ryskan"] }
+                    ],
+                    "grammar": ["perfect", "time"],
+                    "note": "'i tre år' = kolme vuotta (kesto). Perfekti: har studerat.",
+                    "wrong": [
+                        "Jag har studerar ryska i tre år.",
+                        "Jag studerat har ryska i tre år."
+                    ]
+                },
+                {
+                    "id": "styrkor-s35",
+                    "sv": "Jag kan också tala spanska.",
+                    "fi": "Osaan puhua myös espanjaa.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "tala", "d": ["talar", "talat", "att tala"] },
+                        {
+                            "w": "spanska",
+                            "d": ["spansk", "Spanien", "spanskan"]
+                        }
+                    ],
+                    "grammar": ["modal", "adverbs"],
+                    "note": "'kan' + perusmuoto: 'kan tala' = osaa puhua. 'också' tulee heti apuverbin perään.",
+                    "wrong": [
+                        "Jag kan att tala spanska.",
+                        "Jag också kan tala spanska."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag kan också tala japanska.",
+                            "fi": "Osaan puhua myös japania.",
+                            "w": "japanska",
+                            "d": ["japansk", "Japan", "japanskan"]
+                        },
+                        {
+                            "sv": "Jag kan också tala kinesiska.",
+                            "fi": "Osaan puhua myös kiinaa.",
+                            "w": "kinesiska",
+                            "d": ["kinesisk", "Kina", "kinesiskan"]
+                        }
+                    ]
+                },
+                {
+                    "id": "styrkor-s36",
+                    "sv": "Jag är van vid att använda olika språk både i tal och skrift.",
+                    "fi": "Olen tottunut käyttämään eri kieliä sekä suullisesti että kirjallisesti.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "språk",
+                            "d": ["språket", "språken", "språkkunnig"]
+                        },
+                        { "w": "tal", "d": ["tala", "talet", "talar"] },
+                        {
+                            "w": "skrift",
+                            "d": ["skriva", "skriften", "skrivit"]
+                        }
+                    ],
+                    "grammar": ["rektio", "conjunctions"],
+                    "note": "'i tal och skrift' = puheessa ja kirjoituksessa, eli suullisesti ja kirjallisesti.",
+                    "wrong": [
+                        "Jag är van på att använda olika språk både i tal och skrift.",
+                        "Jag är van vid att använder olika språk både i tal och skrift."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "styrkor-l8",
+            "title": "Kolme vahvinta puoltani",
+            "intro": "Tehtävä 5: kerro kolme vahvinta puoltasi ja mitä ominaisuuksia alasi asiantuntijalta vaaditaan. Lauseet on koottu kurssin sanastosta.",
+            "sentences": [
+                {
+                    "id": "styrkor-s37",
+                    "sv": "Mina tre starkaste sidor är att jag är noggrann, nyfiken och samarbetsvillig.",
+                    "fi": "Kolme vahvinta puoltani ovat, että olen tarkka, utelias ja yhteistyökykyinen.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "starkaste",
+                            "d": ["stark", "starkare", "styrka"]
+                        },
+                        { "w": "sidor", "d": ["sida", "sidan", "sidorna"] },
+                        {
+                            "w": "samarbetsvillig",
+                            "d": ["samarbetsvilliga", "samarbete", "samarbeta"]
+                        }
+                    ],
+                    "grammar": ["comparison", "adj-def", "plural"],
+                    "note": "'starkaste' = vahvin (stark → starkare → starkast). Omistussanan perässä superlatiivi saa -e: 'mina starkaste sidor'.",
+                    "wrong": [
+                        "Min tre starkaste sidor är att jag är noggrann, nyfiken och samarbetsvillig.",
+                        "Mina tre starkaste sidor är att är jag noggrann, nyfiken och samarbetsvillig."
+                    ]
+                },
+                {
+                    "id": "styrkor-s38",
+                    "sv": "Jag har fått beröm för att jag är pålitlig.",
+                    "fi": "Olen saanut kehuja siitä, että olen luotettava.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "fått", "d": ["få", "får", "fick"] },
+                        { "w": "beröm", "d": ["berömd", "berömma", "rykte"] },
+                        {
+                            "w": "pålitlig",
+                            "d": ["pålitliga", "pålitligt", "punktlig"]
+                        }
+                    ],
+                    "grammar": ["perfect", "subclause"],
+                    "note": "'få beröm för' = saada kehuja jostakin. Perfekti: har fått (få → fått).",
+                    "wrong": [
+                        "Jag har få beröm för att jag är pålitlig.",
+                        "Jag har fått beröm för att är jag pålitlig."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag har fått beröm för att jag är flitig.",
+                            "fi": "Olen saanut kehuja siitä, että olen ahkera.",
+                            "w": "flitig",
+                            "d": ["flitiga", "flexibel", "flitigt"]
+                        }
+                    ]
+                },
+                {
+                    "id": "styrkor-s39",
+                    "sv": "Jag har erfarenhet av ett jobb där det är viktigt att vara noggrann.",
+                    "fi": "Minulla on kokemusta työstä, jossa on tärkeää olla tarkka.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "där", "d": ["som", "var", "det"] },
+                        { "w": "viktigt", "d": ["viktig", "viktiga", "vikt"] },
+                        {
+                            "w": "noggrann",
+                            "d": ["noggranna", "noggrant", "nyfiken"]
+                        }
+                    ],
+                    "grammar": ["det-finns", "subclause", "rektio"],
+                    "note": "'där' = jossa. 'det är viktigt att...' = on tärkeää... 'viktigt' saa -t, koska subjekti on 'det'.",
+                    "wrong": [
+                        "Jag har erfarenhet av ett jobb där det är viktig att vara noggrann.",
+                        "Jag har erfarenhet på ett jobb där det är viktigt att vara noggrann."
+                    ]
+                },
+                {
+                    "id": "styrkor-s40",
+                    "sv": "En expert i min bransch måste vara nyfiken och noggrann.",
+                    "fi": "Alani asiantuntijan täytyy olla utelias ja tarkka.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "expert",
+                            "d": ["expertis", "experter", "experten"]
+                        },
+                        {
+                            "w": "bransch",
+                            "d": ["branschen", "branscher", "brygga"]
+                        },
+                        { "w": "måste", "d": ["måsta", "mås", "måstet"] }
+                    ],
+                    "grammar": ["modal", "possessive"],
+                    "note": "'måste vara' = täytyy olla. Apuverbin perään perusmuoto ilman att-sanaa.",
+                    "wrong": [
+                        "En expert i min bransch måste att vara nyfiken och noggrann.",
+                        "En expert i mitt bransch måste vara nyfiken och noggrann."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "En expert i min bransch måste vara analytisk och noggrann.",
+                            "fi": "Alani asiantuntijan täytyy olla analyyttinen ja tarkka.",
+                            "w": "analytisk",
+                            "d": ["analytiska", "analys", "ambitiös"]
+                        }
+                    ]
+                },
+                {
+                    "id": "styrkor-s41",
+                    "sv": "En expert i min bransch behöver god samarbetsförmåga.",
+                    "fi": "Alani asiantuntija tarvitsee hyvää yhteistyökykyä.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "behöver", "d": ["behöva", "behov", "behövt"] },
+                        {
+                            "w": "samarbetsförmåga",
+                            "d": ["samarbetsvillig", "samarbete", "samarbeta"]
+                        }
+                    ],
+                    "grammar": ["present", "compound"],
+                    "note": "'samarbetsförmåga' = samarbete (yhteistyö) + s + förmåga (kyky). Sana on kurssin artikkelista.",
+                    "wrong": [
+                        "En expert i min bransch behöva god samarbetsförmåga.",
+                        "En expert i min bransch behöver gott samarbetsförmåga."
+                    ]
+                },
+                {
+                    "id": "styrkor-s42",
+                    "sv": "Det är också viktigt att vara villig att lära sig nya saker.",
+                    "fi": "On myös tärkeää olla halukas oppimaan uusia asioita.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "villig", "d": ["vill", "villiga", "villigt"] },
+                        { "w": "sig", "d": ["mig", "sin", "se"] },
+                        { "w": "nya", "d": ["ny", "nytt", "nyare"] }
+                    ],
+                    "grammar": ["det-finns", "att-inf", "reflexive"],
+                    "note": "'lära sig' = oppia. Kun puhutaan yleisesti (ei kenestäkään tietystä), refleksiivi on 'sig'. 'nya saker' = uusia asioita.",
+                    "wrong": [
+                        "Det är också viktigt att vara villig att lära nya saker.",
+                        "Det är också viktigt att vara villig att lära sig ny saker."
+                    ]
+                }
+            ]
+        }
+    ],
+    "glossary": {
+        "jag": "minä",
+        "är": "on, olen (perusmuoto vara)",
+        "flexibel": "joustava",
+        "och": "ja",
+        "ärlig": "rehellinen",
+        "noggrann": "tarkka, huolellinen",
+        "pålitlig": "luotettava",
+        "punktlig": "täsmällinen",
+        "nyfiken": "utelias",
+        "positiv": "positiivinen",
+        "effektiv": "tehokas",
+        "flitig": "ahkera",
+        "självständig": "itsenäinen",
+        "andra": "muut; toinen",
+        "säger": "sanoo (perusmuoto säga)",
+        "att": "että; infinitiivin merkki (att jobba = työskennellä)",
+        "målmedveten": "määrätietoinen",
+        "beslutsam": "päättäväinen",
+        "ambitiös": "kunnianhimoinen",
+        "analytisk": "analyyttinen",
+        "samarbetsvillig": "yhteistyökykyinen, yhteistyöhaluinen",
+        "strukturerad": "järjestelmällinen, jäsennelty",
+        "stresstålig": "stressiä kestävä",
+        "tålmodig": "kärsivällinen",
+        "utåtriktad": "ulospäinsuuntautunut",
+        "serviceinriktad": "palveluhenkinen",
+        "skulle": "-isi- (Jag skulle säga = sanoisin)",
+        "säga": "sanoa",
+        "tycker": "on mieltä (Jag tycker att = mielestäni)",
+        "tolerant": "suvaitsevainen",
+        "lagspelare": "tiimipelaaja (lag = joukkue, spelare = pelaaja)",
+        "problemlösare": "ongelmanratkaisija",
+        "initiativtagare": "aloitteentekijä",
+        "en": "yksi; en-sanojen artikkeli",
+        "beskriva": "kuvailla",
+        "mig": "minua, itseäni",
+        "som": "jona, -na; joka",
+        "kreativ": "luova",
+        "innovativ": "kekseliäs, innovatiivinen",
+        "företagsam": "yritteliäs",
+        "mina": "minun (monikko)",
+        "styrkor": "vahvuudet (en styrka = vahvuus)",
+        "initiativrik": "aloitekykyinen",
+        "språkkunnig": "kielitaitoinen",
+        "systematisk": "systemaattinen",
+        "har": "on jollakin; perfektin apuverbi",
+        "rätt": "oikea",
+        "attityd": "asenne",
+        "förmåga": "kyky",
+        "lyssna": "kuunnella (lyssna på = kuunnella jotakin)",
+        "på": "-lla, -ssa; päällä",
+        "motiverad": "motivoitunut",
+        "erfarenhet": "kokemus",
+        "av": "-sta; erfarenhet av = kokemusta jostakin",
+        "branschen": "ala (määräinen muoto: bransch + en)",
+        "projektarbete": "projektityö",
+        "jobba": "työskennellä",
+        "i": "-ssa, -ssä",
+        "olika": "eri, erilaiset",
+        "team": "tiimi (ett team, monikko team)",
+        "fatta": "tehdä (päätös); käsittää",
+        "beslut": "päätös, päätökset (ett beslut)",
+        "fatta beslut": "tehdä päätöksiä",
+        "god": "hyvä (en-sanan kanssa)",
+        "organisationsförmåga": "organisointikyky",
+        "företagaranda": "yrittäjähenkisyys (företagare = yrittäjä, anda = henki)",
+        "utmärkta": "erinomaiset (utmärkt + a monikossa)",
+        "språkkunskaper": "kielitaito (monikko: kieli-tiedot)",
+        "både": "sekä (både ... och = sekä ... että)",
+        "tal": "puhe; i tal = suullisesti",
+        "skrift": "kirjoitus; i skrift = kirjallisesti",
+        "goda": "hyvät (god + a monikossa)",
+        "datorkunskaper": "tietotekniset taidot (dator = tietokone)",
+        "it-kunskaper": "IT-taidot",
+        "van": "tottunut (van vid = tottunut johonkin)",
+        "vid": "luona, ääressä; van vid = tottunut johonkin",
+        "grupp": "ryhmä",
+        "beredd": "valmis (beredd att = valmis tekemään)",
+        "ta": "ottaa",
+        "ansvar": "vastuu",
+        "villig": "halukas",
+        "resa": "matkustaa; matka",
+        "resultatinriktad": "tuloshakuinen",
+        "kan": "voi, osaa (perusmuoto kunna)",
+        "engagera": "innostaa, sitouttaa",
+        "medarbetare": "työtoveri, kanssatyöntekijä",
+        "mitt": "minun (ett-sanan kanssa)",
+        "jobb": "työ (ett jobb)",
+        "lärt": "oppinut (lära sig = oppia)",
+        "prioritera": "priorisoida",
+        "kräver": "vaatii (perusmuoto kräva)",
+        "sociala": "sosiaaliset (social + a)",
+        "färdigheter": "taidot (en färdighet = taito)",
+        "bra": "hyvä; hyvin (bra på = hyvä jossakin)",
+        "organisera": "organisoida, järjestää",
+        "arbetet": "työ (määräinen muoto: arbete + t)",
+        "under": "alla, aikana",
+        "press": "paine; under press = paineen alla",
+        "nuvarande": "nykyinen",
+        "hantera": "hallita, käsitellä",
+        "helheter": "kokonaisuudet (en helhet = kokonaisuus)",
+        "använda": "käyttää",
+        "program": "ohjelma, ohjelmat (ett program)",
+        "från": "-sta, -lta",
+        "textredigering": "tekstinkäsittely, tekstin muokkaus",
+        "bildbehandling": "kuvankäsittely",
+        "till": "-lle, -ksi; asti",
+        "applikationer": "sovellukset (en applikation = sovellus)",
+        "för": "varten, jollekin",
+        "medier": "media (ett medium, monikko medier)",
+        "finska": "suomi (kieli); suomalainen",
+        "svenska": "ruotsi (kieli)",
+        "modersmål": "äidinkieli",
+        "talar": "puhuu (perusmuoto tala)",
+        "flytande": "sujuva (sanatarkasti virtaava)",
+        "engelska": "englanti (kieli)",
+        "kunskaper": "tiedot, taidot (en kunskap)",
+        "tyska": "saksa (kieli)",
+        "klarar": "selviää (klara sig = selvitä)",
+        "franska": "ranska (kieli)",
+        "studerat": "opiskellut (perusmuoto studera)",
+        "ryska": "venäjä (kieli)",
+        "tre": "kolme",
+        "år": "vuosi, vuotta",
+        "också": "myös",
+        "tala": "puhua",
+        "spanska": "espanja (kieli)",
+        "japanska": "japani (kieli)",
+        "kinesiska": "kiina (kieli)",
+        "språk": "kieli, kielet (ett språk)",
+        "starkaste": "vahvimmat (stark → starkare → starkast)",
+        "sidor": "puolet (en sida = puoli, sivu)",
+        "fått": "saanut (perusmuoto få)",
+        "beröm": "kehu, kiitos",
+        "där": "jossa; siellä",
+        "det": "se; muodollinen subjekti (det är viktigt = on tärkeää)",
+        "viktigt": "tärkeää (viktig + t)",
+        "vara": "olla",
+        "expert": "asiantuntija",
+        "min": "minun (en-sanan kanssa)",
+        "bransch": "ala, toimiala",
+        "måste": "täytyy",
+        "behöver": "tarvitsee (perusmuoto behöva)",
+        "samarbetsförmåga": "yhteistyökyky",
+        "lära": "opettaa; lära sig = oppia",
+        "sig": "itseään, itsensä (lära sig = oppia)",
+        "nya": "uudet, uusia (ny + a)",
+        "saker": "asiat, tavarat (en sak)"
+    }
+}

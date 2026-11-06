@@ -2,6 +2,8 @@
 
 namespace App\Http\Middleware;
 
+use App\Course\Course;
+use App\Course\LearnerOverview;
 use Illuminate\Http\Request;
 use Inertia\Middleware;
 
@@ -42,6 +44,9 @@ class HandleInertiaRequests extends Middleware
                 'user' => $request->user(),
             ],
             'sidebarOpen' => ! $request->hasCookie('sidebar_state') || $request->cookie('sidebar_state') === 'true',
+            'learner' => fn (): ?array => $request->user() === null || $request->isMethod('post')
+                ? null
+                : (new LearnerOverview(app(Course::class), $request->user()))->header(),
         ];
     }
 }

@@ -1,0 +1,748 @@
+{
+    "id": "e-post",
+    "title": "Sähköpostit",
+    "subtitle": "Att skriva e-post",
+    "description": "Opit lyhyiden työsähköpostien valmiit fraasit: esittäytyminen, avunpyyntö, kokouskutsu, valmistumisilmoitus ja kiitos. Auttaa tehtävässä 17.",
+    "icon": "mail",
+    "color": "orange",
+    "exam": ["assignment"],
+    "source": "Tehtävä 17 \"Att skriva e-post, modeller\": viisi mallisähköpostia. Lisäksi muutama yleinen sähköpostifraasi.",
+    "lessons": [
+        {
+            "id": "e-post-l1",
+            "title": "Esittäytyminen ja kiitos",
+            "intro": "Kaksi mallisähköpostia: aloitusviesti uudelle kollegalle ja kiitos avusta.",
+            "sentences": [
+                {
+                    "id": "e-post-s01",
+                    "sv": "Hej Anna",
+                    "fi": "Hei Anna",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Hej",
+                            "a": ["hej"],
+                            "d": ["Hejdå", "Tack", "Hälsningar"]
+                        }
+                    ],
+                    "grammar": ["email"],
+                    "note": "Hej + nimi on tavallisin tervehdys myös työsähköpostissa.",
+                    "wrong": ["Hejdå Anna", "Tack Anna"]
+                },
+                {
+                    "id": "e-post-s02",
+                    "sv": "Jag börjar på företag X som systemutvecklare.",
+                    "fi": "Aloitan yritys X:llä järjestelmäkehittäjänä.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "börjar", "d": ["börja", "började", "börjat"] },
+                        { "w": "som", "d": ["till", "av", "för"] },
+                        {
+                            "w": "systemutvecklare",
+                            "d": ["systemutveckling", "system", "utvecklar"]
+                        }
+                    ],
+                    "grammar": ["som", "present"],
+                    "note": "börja på = aloittaa jossakin (työpaikassa). som = -na: som systemutvecklare = järjestelmäkehittäjänä.",
+                    "wrong": [
+                        "Jag börjar på företag X till systemutvecklare.",
+                        "Jag börja på företag X som systemutvecklare."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag börjar på företag X som programmerare.",
+                            "fi": "Aloitan yritys X:llä ohjelmoijana.",
+                            "w": "programmerare",
+                            "d": [
+                                "programmerar",
+                                "programmering",
+                                "programmera"
+                            ]
+                        },
+                        {
+                            "sv": "Jag börjar på företag X som it-konsult.",
+                            "fi": "Aloitan yritys X:llä it-konsulttina.",
+                            "w": "it-konsult",
+                            "d": [
+                                "it-konsulten",
+                                "it-branschen",
+                                "it-konsulter"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "e-post-s03",
+                    "sv": "Ser fram emot att arbeta tillsammans med dig.",
+                    "fi": "Odotan innolla yhteistyötä kanssasi.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Ser fram emot",
+                            "a": ["ser fram emot"],
+                            "d": [
+                                "Ser fram till",
+                                "Ser emot fram",
+                                "Ser framåt emot"
+                            ]
+                        },
+                        {
+                            "w": "tillsammans",
+                            "d": ["samman", "samarbete", "tillbaka"]
+                        },
+                        { "w": "dig", "d": ["du", "din", "mig"] }
+                    ],
+                    "grammar": ["email", "particle", "att-inf"],
+                    "note": "se fram emot = odottaa innolla. Sähköpostissa jag-sana jätetään usein pois (Ser fram emot...). med dig = kanssasi (du → dig).",
+                    "wrong": [
+                        "Ser fram emot att arbetar tillsammans med dig.",
+                        "Ser fram emot att arbeta tillsammans med du."
+                    ]
+                },
+                {
+                    "id": "e-post-s04",
+                    "sv": "Hoppas vi kan lära oss mycket av varandra.",
+                    "fi": "Toivottavasti voimme oppia paljon toisiltamme.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Hoppas",
+                            "a": ["hoppas"],
+                            "d": ["Hoppar", "Hopp", "Hoppade"]
+                        },
+                        { "w": "oss", "d": ["vi", "sig", "våra"] },
+                        { "w": "varandra", "d": ["andra", "varje", "varann"] }
+                    ],
+                    "grammar": ["reflexive", "modal"],
+                    "note": "Hoppas = toivottavasti (lyhyt muoto lauseesta Jag hoppas att...). lära sig = oppia → vi lär oss. av varandra = toisiltamme.",
+                    "wrong": [
+                        "Hoppas vi kan lära mycket av varandra.",
+                        "Hoppas vi kan att lära oss mycket av varandra."
+                    ]
+                },
+                {
+                    "id": "e-post-s05",
+                    "sv": "Med vänliga hälsningar, Erik",
+                    "fi": "Ystävällisin terveisin, Erik",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "vänliga",
+                            "d": ["vänlig", "vänligt", "vänner"]
+                        },
+                        {
+                            "w": "hälsningar",
+                            "d": ["hälsning", "hälsa", "hälsar"]
+                        }
+                    ],
+                    "grammar": ["email", "adj"],
+                    "note": "Vakiolopetus: Med vänliga hälsningar = Ystävällisin terveisin. Monikko, siksi vänliga ja hälsningar.",
+                    "wrong": [
+                        "Med vänligt hälsningar, Erik",
+                        "Med vänliga hälsning, Erik"
+                    ]
+                },
+                {
+                    "id": "e-post-s06",
+                    "sv": "Tack för stödet med nätverkskonfigurationen.",
+                    "fi": "Kiitos tuesta verkkokonfiguraation kanssa.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "stödet", "d": ["stöd", "stöder", "stödde"] },
+                        {
+                            "w": "nätverkskonfigurationen",
+                            "d": [
+                                "nätverkskonfiguration",
+                                "nätverket",
+                                "konfigurera"
+                            ]
+                        }
+                    ],
+                    "grammar": ["email", "definite", "compound"],
+                    "note": "Tack för + asia = kiitos jostakin. stödet = se tuki (määräinen). nätverk + s + konfiguration = verkkokonfiguraatio.",
+                    "wrong": [
+                        "Tack av stödet med nätverkskonfigurationen.",
+                        "Tack för stöd med nätverkskonfigurationen."
+                    ]
+                },
+                {
+                    "id": "e-post-s07",
+                    "sv": "Det gjorde processen mycket enklare.",
+                    "fi": "Se teki prosessista paljon helpompaa.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "gjorde", "d": ["gör", "göra", "gjort"] },
+                        {
+                            "w": "processen",
+                            "d": ["process", "processer", "processens"]
+                        },
+                        { "w": "enklare", "d": ["enkel", "enklast", "enkelt"] }
+                    ],
+                    "grammar": ["past", "comparison"],
+                    "note": "gjorde = teki (göra = tehdä, epäsäännöllinen). enkel = helppo → enklare = helpompi.",
+                    "wrong": [
+                        "Det gjorde processen mycket enkel.",
+                        "Det gjorde processen mycket enkelare."
+                    ]
+                },
+                {
+                    "id": "e-post-s08",
+                    "sv": "Jag uppskattar verkligen din hjälp.",
+                    "fi": "Arvostan todella apuasi.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "uppskattar",
+                            "d": ["uppskatta", "uppskattad", "uppskattade"]
+                        },
+                        {
+                            "w": "verkligen",
+                            "d": ["verklig", "verkligt", "aldrig"]
+                        },
+                        { "w": "hjälp", "d": ["hjälpa", "hjälper", "hjälpte"] }
+                    ],
+                    "grammar": ["adverbs", "possessive"],
+                    "note": "uppskatta = arvostaa. verkligen (todella) tulee verbin perään. din hjälp = apusi.",
+                    "wrong": [
+                        "Jag verkligen uppskattar din hjälp.",
+                        "Jag uppskattar verkligen ditt hjälp."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "e-post-w01",
+                    "sv": "Med vänliga hälsningar",
+                    "fi": "Ystävällisin terveisin",
+                    "src": "m"
+                },
+                {
+                    "id": "e-post-w02",
+                    "sv": "se fram emot",
+                    "fi": "odottaa innolla",
+                    "src": "m"
+                },
+                {
+                    "id": "e-post-w03",
+                    "sv": "uppskatta",
+                    "fi": "arvostaa",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "e-post-l2",
+            "title": "Avunpyyntö ja valmis työ",
+            "intro": "Kaksi mallisähköpostia: pyydät kollegalta apua ja ilmoitat, että työ on valmis.",
+            "sentences": [
+                {
+                    "id": "e-post-s09",
+                    "sv": "Hej Johan, kan du hjälpa mig med installationen av den nya servern?",
+                    "fi": "Hei Johan, voitko auttaa minua uuden palvelimen asennuksessa?",
+                    "src": "m",
+                    "keys": [
+                        { "w": "hjälpa", "d": ["hjälper", "hjälp", "hjälpte"] },
+                        {
+                            "w": "installationen",
+                            "d": ["installation", "installera", "installerade"]
+                        },
+                        { "w": "nya", "d": ["ny", "nytt", "nyare"] }
+                    ],
+                    "grammar": ["questions", "modal", "adj-def"],
+                    "note": "Kysymys alkaa verbillä: kan du...? = voitko...? den nya servern = se uusi palvelin (adjektiivi -a, sana -n).",
+                    "wrong": [
+                        "Hej Johan, du kan hjälpa mig med installationen av den nya servern?",
+                        "Hej Johan, kan du hjälpa mig med installationen av den ny servern?"
+                    ]
+                },
+                {
+                    "id": "e-post-s10",
+                    "sv": "Jag har problem med konfigurationen.",
+                    "fi": "Minulla on ongelmia konfiguraation kanssa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "problem",
+                            "d": ["problemet", "problemen", "fråga"]
+                        },
+                        {
+                            "w": "konfigurationen",
+                            "d": [
+                                "konfiguration",
+                                "konfigurera",
+                                "konfigurerade"
+                            ]
+                        }
+                    ],
+                    "grammar": ["prepositions", "definite"],
+                    "note": "ha problem med = olla ongelmia jonkin kanssa. problem on ett-sana, monikko on sama: ett problem, två problem.",
+                    "wrong": [
+                        "Jag har problem av konfigurationen.",
+                        "Jag är problem med konfigurationen."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag har problem med installationen.",
+                            "fi": "Minulla on ongelmia asennuksen kanssa.",
+                            "w": "installationen",
+                            "d": ["installation", "installera", "installerar"]
+                        },
+                        {
+                            "sv": "Jag har problem med nätverket.",
+                            "fi": "Minulla on ongelmia verkon kanssa.",
+                            "w": "nätverket",
+                            "d": ["nätverk", "nätverken", "nätverks"]
+                        }
+                    ]
+                },
+                {
+                    "id": "e-post-s11",
+                    "sv": "Din hjälp skulle vara väldigt uppskattad.",
+                    "fi": "Apusi olisi todella arvostettua.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "skulle", "d": ["ska", "skall", "kan"] },
+                        {
+                            "w": "väldigt",
+                            "d": ["väldig", "vänligt", "aldrig"]
+                        },
+                        {
+                            "w": "uppskattad",
+                            "d": ["uppskattar", "uppskatta", "uppskattade"]
+                        }
+                    ],
+                    "grammar": ["skulle", "participle"],
+                    "note": "skulle vara = olisi. väldigt = todella, hyvin. uppskattad = arvostettu.",
+                    "wrong": [
+                        "Din hjälp skulle är väldigt uppskattad.",
+                        "Din hjälp skulle vara väldigt uppskattar."
+                    ]
+                },
+                {
+                    "id": "e-post-s12",
+                    "sv": "Tack på förhand, Lisa",
+                    "fi": "Kiitos etukäteen, Lisa",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "förhand",
+                            "d": ["förhanden", "framtiden", "efterhand"]
+                        },
+                        {
+                            "w": "Tack",
+                            "a": ["tack"],
+                            "d": ["Hej", "Tackar", "Hälsningar"]
+                        }
+                    ],
+                    "grammar": ["email"],
+                    "note": "Tack på förhand = kiitos etukäteen. Hyvä lopetus, kun pyydät apua.",
+                    "wrong": ["Tack i förhand, Lisa", "Tack för förhand, Lisa"]
+                },
+                {
+                    "id": "e-post-s13",
+                    "sv": "Jag har slutfört uppdateringen av webbplatsen.",
+                    "fi": "Olen saanut valmiiksi verkkosivuston päivityksen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "slutfört",
+                            "d": ["slutför", "slutföra", "slutförde"]
+                        },
+                        {
+                            "w": "uppdateringen",
+                            "d": ["uppdatera", "uppdaterar", "uppdatering"]
+                        },
+                        {
+                            "w": "webbplatsen",
+                            "d": ["webbplats", "webbplatser", "webbläsaren"]
+                        }
+                    ],
+                    "grammar": ["perfect", "definite"],
+                    "note": "har slutfört = olen saanut valmiiksi (perfekti: har + -t-muoto). uppdateringen av webbplatsen = verkkosivuston päivitys.",
+                    "wrong": [
+                        "Jag har slutföra uppdateringen av webbplatsen.",
+                        "Jag är slutfört uppdateringen av webbplatsen."
+                    ]
+                },
+                {
+                    "id": "e-post-s14",
+                    "sv": "Allt ser ut att fungera korrekt nu.",
+                    "fi": "Kaikki näyttää toimivan oikein nyt.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "ser ut",
+                            "d": ["ser in", "ser på", "ser fram"]
+                        },
+                        {
+                            "w": "fungera",
+                            "d": ["fungerar", "fungerade", "funktion"]
+                        },
+                        {
+                            "w": "korrekt",
+                            "d": ["korrekta", "fel", "korrigera"]
+                        }
+                    ],
+                    "grammar": ["particle", "att-inf"],
+                    "note": "se ut att = näyttää siltä, että (partikkeliverbi). Allt = kaikki (yksikkö, kaikki asiat).",
+                    "wrong": [
+                        "Allt ser ut att fungerar korrekt nu.",
+                        "Allt ut ser att fungera korrekt nu."
+                    ]
+                },
+                {
+                    "id": "e-post-s15",
+                    "sv": "Vänligen granska när du har tid.",
+                    "fi": "Tarkistathan sen, kun ehdit.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Vänligen",
+                            "a": ["vänligen"],
+                            "d": ["Vänlig", "Vänliga", "Vänner"]
+                        },
+                        {
+                            "w": "granska",
+                            "d": ["granskar", "granskade", "granskning"]
+                        },
+                        { "w": "tid", "d": ["tiden", "tider", "tidig"] }
+                    ],
+                    "grammar": ["imperative", "email", "subclause"],
+                    "note": "Vänligen + käsky = kohtelias pyyntö (tarkistathan). när du har tid = kun sinulla on aikaa, kun ehdit.",
+                    "wrong": [
+                        "Vänligen granskar när du har tid.",
+                        "Vänligen granska när har du tid."
+                    ]
+                },
+                {
+                    "id": "e-post-s16",
+                    "sv": "Hälsningar, Sofia",
+                    "fi": "Terveisin, Sofia",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Hälsningar",
+                            "a": ["hälsningar"],
+                            "d": ["Hälsning", "Hälsa", "Hej"]
+                        }
+                    ],
+                    "grammar": ["email"],
+                    "note": "Hälsningar = Terveisin. Lyhyempi kuin Med vänliga hälsningar, sopii tutulle kollegalle.",
+                    "wrong": ["Hälsa, Sofia", "Hälsar, Sofia"]
+                }
+            ],
+            "words": [
+                {
+                    "id": "e-post-w04",
+                    "sv": "Tack på förhand",
+                    "fi": "Kiitos etukäteen",
+                    "src": "m"
+                },
+                {
+                    "id": "e-post-w05",
+                    "sv": "slutföra",
+                    "fi": "saada valmiiksi, viedä loppuun",
+                    "src": "m"
+                },
+                {
+                    "id": "e-post-w06",
+                    "sv": "granska",
+                    "fi": "tarkistaa, tarkastaa",
+                    "src": "m"
+                },
+                {
+                    "id": "e-post-w07",
+                    "sv": "en webbplats",
+                    "fi": "verkkosivusto",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "e-post-l3",
+            "title": "Kokouskutsu",
+            "intro": "Mallisähköposti kokouskutsusta ja muutama hyödyllinen lisäfraasi.",
+            "sentences": [
+                {
+                    "id": "e-post-s17",
+                    "sv": "Hej team, vi har ett möte om den nya mjukvaran på tisdag kl 10.",
+                    "fi": "Hei tiimi, meillä on kokous uudesta ohjelmistosta tiistaina klo 10.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "möte", "d": ["möten", "mötet", "mötas"] },
+                        {
+                            "w": "mjukvaran",
+                            "d": ["mjukvara", "mjukvaror", "hårdvaran"]
+                        },
+                        { "w": "tisdag", "d": ["tisdagen", "tisdagar", "tid"] }
+                    ],
+                    "grammar": ["time", "adj-def", "gender"],
+                    "note": "ett möte = kokous (ett-sana). om = jostakin (aiheesta). på tisdag kl 10 = tiistaina klo 10.",
+                    "wrong": [
+                        "Hej team, vi har en möte om den nya mjukvaran på tisdag kl 10.",
+                        "Hej team, vi har ett möte om den ny mjukvaran på tisdag kl 10."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Hej team, vi har ett möte om den nya mjukvaran på onsdag kl 10.",
+                            "fi": "Hei tiimi, meillä on kokous uudesta ohjelmistosta keskiviikkona klo 10.",
+                            "w": "onsdag",
+                            "d": ["onsdagen", "onsdagar", "ons"]
+                        }
+                    ]
+                },
+                {
+                    "id": "e-post-s18",
+                    "sv": "Vi kommer att gå igenom planering och ansvar.",
+                    "fi": "Käymme läpi suunnitelman ja vastuuhenkilöt.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "kommer att",
+                            "d": ["kommer", "komma att", "kom att"]
+                        },
+                        {
+                            "w": "gå igenom",
+                            "d": ["gå genom", "gå in", "gå om"]
+                        },
+                        { "w": "ansvar", "d": ["ansvarig", "ansvara", "svar"] }
+                    ],
+                    "grammar": ["future", "particle"],
+                    "note": "kommer att + perusmuoto = tulevaisuus. gå igenom = käydä läpi (partikkeliverbi).",
+                    "wrong": [
+                        "Vi kommer att går igenom planering och ansvar.",
+                        "Vi kommer gå att igenom planering och ansvar."
+                    ]
+                },
+                {
+                    "id": "e-post-s19",
+                    "sv": "Hoppas alla kan delta.",
+                    "fi": "Toivottavasti kaikki pääsevät osallistumaan.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "alla", "d": ["allt", "varje", "hela"] },
+                        { "w": "delta", "d": ["deltar", "deltog", "del"] }
+                    ],
+                    "grammar": ["modal"],
+                    "note": "delta = osallistua. kan + perusmuoto: kan delta (ei att-sanaa).",
+                    "wrong": [
+                        "Hoppas alla kan deltar.",
+                        "Hoppas alla kan att delta."
+                    ]
+                },
+                {
+                    "id": "e-post-s20",
+                    "sv": "Med vänlig hälsning, Maria",
+                    "fi": "Ystävällisin terveisin, Maria",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "vänlig",
+                            "d": ["vänligt", "vänligen", "vänner"]
+                        },
+                        {
+                            "w": "hälsning",
+                            "d": ["hälsa", "hälsar", "hälsningen"]
+                        }
+                    ],
+                    "grammar": ["email", "adj"],
+                    "note": "Yksikkömuoto Med vänlig hälsning on yhtä oikein kuin monikko Med vänliga hälsningar.",
+                    "wrong": [
+                        "Med vänligt hälsning, Maria",
+                        "Med vänlig hälsa, Maria"
+                    ]
+                },
+                {
+                    "id": "e-post-s21",
+                    "sv": "Tack för ditt mejl.",
+                    "fi": "Kiitos sähköpostistasi.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "ditt", "d": ["din", "dina", "dig"] },
+                        { "w": "mejl", "d": ["mejla", "mejlar", "brev"] }
+                    ],
+                    "grammar": ["email", "possessive", "finlandssvenska"],
+                    "note": "mejl = sähköposti(viesti), yleinen suomenruotsissa. ett mejl → ditt mejl.",
+                    "wrong": ["Tack för din mejl.", "Tack av ditt mejl."]
+                },
+                {
+                    "id": "e-post-s22",
+                    "sv": "Jag återkommer så snart som möjligt.",
+                    "fi": "Palaan asiaan mahdollisimman pian.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "återkommer",
+                            "d": ["återkomma", "återkom", "kommer"]
+                        },
+                        {
+                            "w": "möjligt",
+                            "d": ["möjlig", "möjliga", "möjlighet"]
+                        }
+                    ],
+                    "grammar": ["email", "present"],
+                    "note": "återkomma = palata asiaan. så snart som möjligt = mahdollisimman pian (vakiofraasi).",
+                    "wrong": [
+                        "Jag återkomma så snart som möjligt.",
+                        "Jag återkommer så snart som möjlig."
+                    ]
+                },
+                {
+                    "id": "e-post-s23",
+                    "sv": "Kan vi ha ett möte på onsdag?",
+                    "fi": "Voimmeko pitää kokouksen keskiviikkona?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Kan",
+                            "a": ["kan"],
+                            "d": ["Kan att", "Kunna", "Kanske"]
+                        },
+                        { "w": "möte", "d": ["mötet", "möten", "mötas"] },
+                        { "w": "onsdag", "d": ["onsdagen", "onsdagar", "ons"] }
+                    ],
+                    "grammar": ["questions", "modal", "time"],
+                    "note": "Kysymys alkaa verbillä: Kan vi...? = Voimmeko...? på onsdag = keskiviikkona.",
+                    "wrong": [
+                        "Vi kan ha ett möte på onsdag?",
+                        "Kan vi ha en möte på onsdag?"
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "e-post-w08",
+                    "sv": "ett möte",
+                    "fi": "kokous, tapaaminen",
+                    "src": "m"
+                },
+                {
+                    "id": "e-post-w09",
+                    "sv": "gå igenom",
+                    "fi": "käydä läpi",
+                    "src": "m"
+                },
+                {
+                    "id": "e-post-w10",
+                    "sv": "delta",
+                    "fi": "osallistua",
+                    "src": "m"
+                }
+            ]
+        }
+    ],
+    "glossary": {
+        "hej": "hei",
+        "anna": "Anna (nimi)",
+        "erik": "Erik (nimi)",
+        "johan": "Johan (nimi)",
+        "lisa": "Lisa (nimi)",
+        "sofia": "Sofia (nimi)",
+        "maria": "Maria (nimi)",
+        "jag": "minä",
+        "börjar": "aloittaa (perusmuoto börja); börja på = aloittaa jossakin",
+        "på": "-lla, -ssa; på tisdag = tiistaina",
+        "företag": "yritys (ett företag)",
+        "x": "X (yrityksen nimen paikka)",
+        "som": "-na, jonakin; myös joka",
+        "systemutvecklare": "järjestelmäkehittäjä (en systemutvecklare)",
+        "programmerare": "ohjelmoija",
+        "it-konsult": "IT-konsultti",
+        "ser": "näkee (perusmuoto se); se fram emot = odottaa innolla",
+        "fram": "eteen; se fram emot = odottaa innolla",
+        "emot": "vastaan; se fram emot = odottaa innolla",
+        "ser fram emot": "odotan innolla (sähköpostissa usein ilman jag-sanaa)",
+        "se fram emot": "odottaa innolla",
+        "se": "nähdä; se fram emot = odottaa innolla, se ut = näyttää joltakin",
+        "att": "infinitiivin merkki (vrt. englannin to)",
+        "arbeta": "työskennellä",
+        "tillsammans": "yhdessä",
+        "med": "kanssa, -lla",
+        "dig": "sinua, sinun (du-sanan objektimuoto); med dig = kanssasi",
+        "hoppas": "toivoa; Hoppas... = toivottavasti...",
+        "vi": "me",
+        "kan": "voi, osaa (perusmuoto kunna)",
+        "lära": "opettaa; lära sig = oppia",
+        "oss": "meitä, itseämme (vi-sanan objektimuoto)",
+        "mycket": "paljon; hyvin",
+        "av": "-sta, -lta",
+        "varandra": "toisiaan; av varandra = toisiltamme",
+        "med vänliga hälsningar": "ystävällisin terveisin",
+        "vänliga": "ystävälliset (monikko sanasta vänlig)",
+        "hälsningar": "terveiset (monikko sanasta en hälsning)",
+        "tack": "kiitos",
+        "för": "-sta (tack för = kiitos jostakin), varten",
+        "stödet": "tuki (määräinen muoto sanasta ett stöd)",
+        "nätverkskonfigurationen": "verkkokonfiguraatio (määräinen muoto)",
+        "det": "se",
+        "gjorde": "teki (perusmuoto göra)",
+        "processen": "prosessi (määräinen muoto)",
+        "enklare": "helpompi (enkel = helppo)",
+        "uppskattar": "arvostaa (perusmuoto uppskatta)",
+        "uppskatta": "arvostaa",
+        "verkligen": "todella",
+        "din": "sinun (en-sanan kanssa)",
+        "ditt": "sinun (ett-sanan kanssa)",
+        "hjälp": "apu",
+        "du": "sinä",
+        "hjälpa": "auttaa",
+        "mig": "minua, minut",
+        "installationen": "asennus (määräinen muoto sanasta en installation)",
+        "den": "se (määräisen adjektiivin edessä en-sanoilla)",
+        "nya": "uusi (määräinen muoto: den nya servern)",
+        "servern": "palvelin (määräinen muoto sanasta en server)",
+        "har": "on jollakin; jag har = minulla on; perfektin apuverbi",
+        "problem": "ongelma(t) (ett problem, monikko sama)",
+        "konfigurationen": "konfiguraatio (määräinen muoto)",
+        "nätverket": "verkko (määräinen muoto sanasta ett nätverk)",
+        "skulle": "-isi- (konditionaali); skulle vara = olisi",
+        "vara": "olla",
+        "väldigt": "todella, hyvin",
+        "uppskattad": "arvostettu",
+        "förhand": "på förhand = etukäteen",
+        "tack på förhand": "kiitos etukäteen",
+        "slutfört": "saanut valmiiksi (perusmuoto slutföra)",
+        "slutföra": "saada valmiiksi, viedä loppuun",
+        "uppdateringen": "päivitys (määräinen muoto sanasta en uppdatering)",
+        "webbplatsen": "verkkosivusto (määräinen muoto sanasta en webbplats)",
+        "webbplats": "verkkosivusto",
+        "allt": "kaikki (kaikki asiat)",
+        "ut": "ulos; se ut = näyttää joltakin",
+        "ser ut": "näyttää (joltakin)",
+        "fungera": "toimia",
+        "korrekt": "oikein, oikea",
+        "nu": "nyt",
+        "vänligen": "ystävällisesti; Vänligen + käsky = kohtelias pyyntö",
+        "granska": "tarkistaa, tarkastaa",
+        "när": "kun; milloin",
+        "tid": "aika",
+        "team": "tiimi",
+        "ett": "yksi; ett-sanojen artikkeli",
+        "en": "yksi; en-sanojen artikkeli",
+        "möte": "kokous (ett möte)",
+        "om": "jostakin (aiheesta); jos",
+        "mjukvaran": "ohjelmisto (määräinen muoto sanasta en mjukvara)",
+        "tisdag": "tiistai; på tisdag = tiistaina",
+        "onsdag": "keskiviikko; på onsdag = keskiviikkona",
+        "kl": "klo (klockan)",
+        "kommer": "tulee (perusmuoto komma); kommer att = tulevaisuus",
+        "kommer att": "tulevaisuuden ilmaus (aikoo, tulee tekemään)",
+        "gå": "mennä; gå igenom = käydä läpi",
+        "igenom": "läpi; gå igenom = käydä läpi",
+        "gå igenom": "käydä läpi",
+        "planering": "suunnittelu, suunnitelma",
+        "och": "ja",
+        "ansvar": "vastuu",
+        "alla": "kaikki (ihmiset)",
+        "delta": "osallistua",
+        "vänlig": "ystävällinen",
+        "hälsning": "tervehdys, terveiset",
+        "mejl": "sähköposti(viesti) (ett mejl), yleinen suomenruotsissa",
+        "återkommer": "palaa asiaan (perusmuoto återkomma)",
+        "så": "niin; så snart som möjligt = mahdollisimman pian",
+        "snart": "pian",
+        "möjligt": "mahdollista; så snart som möjligt = mahdollisimman pian",
+        "så snart som möjligt": "mahdollisimman pian",
+        "ha": "olla jollakin, pitää; ha ett möte = pitää kokous"
+    }
+}

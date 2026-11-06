@@ -1,0 +1,687 @@
+{
+    "id": "datasakerhet",
+    "title": "Tietoturva",
+    "subtitle": "Datasäkerhet",
+    "description": "Salasanat, varmuuskopiot, palomuuri, hakkerit ja haittaohjelmat ruotsiksi. Kirjallisessa kokeessa näitä termejä pitää ymmärtää ruotsista suomeksi.",
+    "icon": "shield-check",
+    "color": "red",
+    "exam": ["written"],
+    "source": "Välilehti 4: Tehtävä 11 Datasäkerhet (fraasit) ja Täytä puuttuvat sanat 4 -harjoitus",
+    "lessons": [
+        {
+            "id": "datasakerhet-l1",
+            "title": "Salasanat ja varmuuskopiot",
+            "intro": "Vahva salasana, varmuuskopiointi, uloskirjautuminen ja lepotila.",
+            "sentences": [
+                {
+                    "id": "datasakerhet-s01",
+                    "sv": "Du måste ha ett starkt lösenord och ett unikt användarnamn.",
+                    "fi": "Sinulla täytyy olla vahva salasana ja yksilöllinen käyttäjänimi.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "lösenord",
+                            "d": ["lösenordet", "användarnamn", "brandvägg"]
+                        },
+                        { "w": "starkt", "d": ["stark", "starka", "starkare"] },
+                        {
+                            "w": "användarnamn",
+                            "d": ["användarnamnet", "användare", "lösenord"]
+                        }
+                    ],
+                    "grammar": ["modal", "adj", "compound"],
+                    "note": "lösen + ord = tunnus + sana → salasana. användar + namn = käyttäjä + nimi. Molemmat ovat ett-sanoja, siksi adjektiivit saavat -t: starkt, unikt.",
+                    "wrong": [
+                        "Du måste ha en stark lösenord och ett unikt användarnamn.",
+                        "Du måste att ha ett starkt lösenord och ett unikt användarnamn."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s02",
+                    "sv": "Du behöver ett starkt lösenord för att logga in.",
+                    "fi": "Tarvitset vahvan salasanan kirjautuaksesi sisään.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "lösenord",
+                            "d": ["lösenordet", "brandvägg", "lösen"]
+                        },
+                        {
+                            "w": "logga in",
+                            "d": ["logga ut", "logga ner", "logga till"]
+                        }
+                    ],
+                    "grammar": ["for-att", "particle", "adj"],
+                    "note": "logga in = kirjautua sisään, logga ut = kirjautua ulos. för att logga in = kirjautuaksesi sisään.",
+                    "wrong": [
+                        "Du behöver ett stark lösenord för att logga in.",
+                        "Du behöver ett starkt lösenord för logga in."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s03",
+                    "sv": "Det är viktigt att säkerhetskopiera sina filer regelbundet.",
+                    "fi": "On tärkeää varmuuskopioida tiedostonsa säännöllisesti.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "säkerhetskopiera",
+                            "d": [
+                                "säkerhetskopierar",
+                                "säkerhetskopia",
+                                "säkerhetskopierade"
+                            ]
+                        },
+                        { "w": "sina", "d": ["sin", "sitt", "mina"] },
+                        {
+                            "w": "regelbundet",
+                            "d": ["regelbunden", "regelbundna", "regel"]
+                        }
+                    ],
+                    "grammar": ["det-finns", "att-inf", "possessive"],
+                    "note": "säkerhet + s + kopiera = turvallisuus + kopioida → varmuuskopioida. sina = omat (puhutaan yleisesti kenen tahansa tiedostoista). Det är viktigt att = on tärkeää.",
+                    "wrong": [
+                        "Det är viktigt säkerhetskopiera sina filer regelbundet.",
+                        "Det är viktigt att säkerhetskopierar sina filer regelbundet."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s04",
+                    "sv": "Jag sparar allt i en säker molntjänst.",
+                    "fi": "Tallennan kaiken turvalliseen pilvipalveluun.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "säker", "d": ["säkert", "säkra", "säkerhet"] },
+                        {
+                            "w": "molntjänst",
+                            "d": ["molntjänsten", "molntjänster", "brandvägg"]
+                        },
+                        { "w": "sparar", "d": ["spara", "sparas", "sparade"] }
+                    ],
+                    "grammar": ["adj", "compound", "present"],
+                    "note": "säker = turvallinen, säkerhet = turvallisuus. moln + tjänst = pilvi + palvelu (en-sana → en säker).",
+                    "wrong": [
+                        "Jag sparar allt i en säkert molntjänst.",
+                        "Jag spara allt i en säker molntjänst."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s05",
+                    "sv": "Jag loggade ut mig och datorn gick automatiskt till viloläge.",
+                    "fi": "Kirjauduin ulos ja tietokone meni automaattisesti lepotilaan.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "viloläge",
+                            "d": ["vila", "viloläg", "brandvägg"]
+                        },
+                        { "w": "loggade", "d": ["loggar", "logga", "loggat"] },
+                        { "w": "gick", "d": ["går", "gå", "gått"] }
+                    ],
+                    "grammar": ["past", "reflexive", "particle"],
+                    "note": "logga ut (mig) = kirjautua ulos; mig = itseni, sen voi myös jättää pois. vilo + läge = lepo + tila. gick = meni (gå = mennä).",
+                    "wrong": [
+                        "Jag logga ut mig och datorn gick automatiskt till viloläge.",
+                        "Jag loggade ut mig och datorn automatiskt gick till viloläge."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s06",
+                    "sv": "Min dator gick in i viloläge.",
+                    "fi": "Tietokoneeni siirtyi lepotilaan.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "viloläge",
+                            "d": ["vila", "viloläg", "molntjänst"]
+                        },
+                        { "w": "gick", "d": ["går", "gå", "gått"] }
+                    ],
+                    "grammar": ["past", "compound", "prepositions"],
+                    "note": "gå in i viloläge = siirtyä lepotilaan (gå = mennä, in i = sisään johonkin). dator on en-sana → min dator.",
+                    "wrong": [
+                        "Min dator gå in i viloläge.",
+                        "Mitt dator gick in i viloläge."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "datasakerhet-l2",
+            "title": "Suojaus",
+            "intro": "Virustorjunta, palomuuri, kaksivaiheinen tunnistautuminen ja sormenjälkilukija.",
+            "sentences": [
+                {
+                    "id": "datasakerhet-s07",
+                    "sv": "Installera alltid ett antivirusprogram och en brandvägg.",
+                    "fi": "Asenna aina virustentorjuntaohjelma ja palomuuri.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "antivirusprogram",
+                            "d": ["antivirusprogrammet", "brandvägg", "virus"]
+                        },
+                        {
+                            "w": "brandvägg",
+                            "d": ["brandväggen", "brandväggar", "lösenord"]
+                        },
+                        {
+                            "w": "Installera",
+                            "d": ["Installerar", "Installerade", "Installerat"]
+                        }
+                    ],
+                    "grammar": ["imperative", "adverbs", "compound"],
+                    "note": "brand + vägg = palo + seinä → palomuuri. anti + virus + program = virustentorjuntaohjelma. alltid = aina, tulee käskyverbin perään.",
+                    "wrong": [
+                        "Installera alltid en antivirusprogram och en brandvägg.",
+                        "Alltid installera ett antivirusprogram och en brandvägg."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s08",
+                    "sv": "En brandvägg skyddar datorn från skadlig trafik.",
+                    "fi": "Palomuuri suojaa tietokonetta haitalliselta liikenteeltä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "brandvägg",
+                            "d": ["brandväggen", "hackare", "lösenord"]
+                        },
+                        {
+                            "w": "skyddar",
+                            "d": ["skydda", "skyddade", "skydd"]
+                        },
+                        {
+                            "w": "skadlig",
+                            "d": ["skadligt", "skadliga", "skada"]
+                        }
+                    ],
+                    "grammar": ["present", "adj", "prepositions"],
+                    "note": "skydda = suojata. från = -lta, -sta. skadlig = haitallinen (skada = vahinko). trafik on en-sana → skadlig ilman -t.",
+                    "wrong": [
+                        "En brandvägg skydda datorn från skadlig trafik.",
+                        "En brandvägg skyddar datorn från skadligt trafik."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s09",
+                    "sv": "Vi installerade ett nytt antivirusprogram mot virus.",
+                    "fi": "Asensimme uuden virustentorjuntaohjelman viruksia vastaan.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "antivirusprogram",
+                            "d": [
+                                "antivirusprogrammet",
+                                "brandvägg",
+                                "lösenord"
+                            ]
+                        },
+                        { "w": "mot", "d": ["med", "för", "till"] },
+                        { "w": "nytt", "d": ["ny", "nya", "nyt"] }
+                    ],
+                    "grammar": ["past", "adj", "prepositions"],
+                    "note": "mot = vastaan. program on ett-sana → ett nytt antivirusprogram.",
+                    "wrong": [
+                        "Vi installerade en ny antivirusprogram mot virus.",
+                        "Vi installera ett nytt antivirusprogram mot virus."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s10",
+                    "sv": "Använd tvåfaktorsautentisering och fingeravtrycksläsare för att skydda din information.",
+                    "fi": "Käytä kaksivaiheista todennusta ja sormenjälkilukijaa suojataksesi tietosi.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "tvåfaktorsautentisering",
+                            "d": [
+                                "tvåfaktorsautentiseringen",
+                                "lösenord",
+                                "användarnamn"
+                            ]
+                        },
+                        {
+                            "w": "fingeravtrycksläsare",
+                            "d": [
+                                "fingeravtryck",
+                                "fingeravtrycksläsaren",
+                                "webbläsare"
+                            ]
+                        },
+                        { "w": "skydda", "d": ["skyddar", "skydd", "skyddade"] }
+                    ],
+                    "grammar": ["imperative", "for-att", "compound"],
+                    "note": "två + faktors + autentisering = kaksi + tekijä + todennus. finger + avtryck + s + läsare = sormen + jälki + lukija. Använd = käytä (käskymuoto).",
+                    "wrong": [
+                        "Använd tvåfaktorsautentisering och fingeravtrycksläsare för skydda din information.",
+                        "Använder tvåfaktorsautentisering och fingeravtrycksläsare för att skydda din information."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s11",
+                    "sv": "Systemet använder tvåfaktorsautentisering för ökad säkerhet.",
+                    "fi": "Järjestelmä käyttää kaksivaiheista todennusta lisäturvaa varten.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "tvåfaktorsautentisering",
+                            "d": [
+                                "tvåfaktorsautentiseringen",
+                                "brandvägg",
+                                "fingeravtryck"
+                            ]
+                        },
+                        { "w": "ökad", "d": ["ökat", "ökade", "öka"] },
+                        {
+                            "w": "säkerhet",
+                            "d": ["säker", "säkert", "säkerheten"]
+                        }
+                    ],
+                    "grammar": ["participle", "compound", "definite"],
+                    "note": "ökad säkerhet = lisääntynyt turvallisuus → lisäturva (öka = kasvaa, lisätä). säkerhet = turvallisuus, turva.",
+                    "wrong": [
+                        "Systemet använder tvåfaktorsautentisering för ökat säkerhet.",
+                        "Systemet använda tvåfaktorsautentisering för ökad säkerhet."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "datasakerhet-l3",
+            "title": "Hakkerit ja haittaohjelmat",
+            "intro": "Murtautumiset, haittaohjelmat ja luottamukselliset tiedot. Huomaa kieltävät käskyt: Öppna aldrig, Dela inte.",
+            "sentences": [
+                {
+                    "id": "datasakerhet-s12",
+                    "sv": "En hackare försökte bryta sig in i vårt datasystem.",
+                    "fi": "Hakkeri yritti murtautua sisään tietokonejärjestelmäämme.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "hackare",
+                            "d": ["hackaren", "hacka", "programmerare"]
+                        },
+                        {
+                            "w": "försökte",
+                            "d": ["försöker", "försöka", "försökt"]
+                        },
+                        {
+                            "w": "bryta sig in",
+                            "d": [
+                                "bryta in sig",
+                                "bryta sig ut",
+                                "bryta mig in"
+                            ]
+                        }
+                    ],
+                    "grammar": ["reflexive", "particle", "past"],
+                    "note": "bryta sig in = murtautua sisään (bryta = murtaa, sig = itsensä, in = sisään). försöka = yrittää, försökte = yritti. data + system = tietojärjestelmä.",
+                    "wrong": [
+                        "En hackare försökte bryta in i vårt datasystem.",
+                        "En hackare försökte bryta sig in i vår datasystem."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "En hackare försökte bryta sig in i systemet.",
+                            "fi": "Hakkeri yritti murtautua järjestelmään.",
+                            "w": "systemet",
+                            "d": ["system", "systemen", "systemets"]
+                        }
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s13",
+                    "sv": "Öppna aldrig filer som innehåller skadlig programvara.",
+                    "fi": "Älä koskaan avaa tiedostoja, jotka sisältävät haittaohjelmia.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "aldrig", "d": ["alltid", "ofta", "ibland"] },
+                        {
+                            "w": "skadlig",
+                            "d": ["skadligt", "skadliga", "skada"]
+                        },
+                        { "w": "som", "d": ["vad", "att", "där"] }
+                    ],
+                    "grammar": ["imperative", "som", "negation"],
+                    "note": "skadlig programvara = haittaohjelma (skadlig = haitallinen). som = jotka. aldrig = ei koskaan; käskyssä se tulee verbin perään.",
+                    "wrong": [
+                        "Aldrig öppna filer som innehåller skadlig programvara.",
+                        "Öppna aldrig filer som innehåller skadligt programvara."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s14",
+                    "sv": "Öppna inte filer som kan innehålla skadlig programvara.",
+                    "fi": "Älä avaa tiedostoja, jotka voivat sisältää haittaohjelman.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "innehålla",
+                            "d": ["innehåller", "innehöll", "innehåll"]
+                        },
+                        { "w": "filer", "d": ["filen", "fil", "filernas"] },
+                        {
+                            "w": "programvara",
+                            "d": ["programvaran", "programvaror", "program"]
+                        }
+                    ],
+                    "grammar": ["modal", "som", "negation"],
+                    "note": "kan + perusmuoto: kan innehålla = voi sisältää (apuverbin jälkeen ei -er-päätettä). Öppna inte = älä avaa.",
+                    "wrong": [
+                        "Öppna inte filer som kan innehåller skadlig programvara.",
+                        "Inte öppna filer som kan innehålla skadlig programvara."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s15",
+                    "sv": "Dela inte din konfidentiella information med okända personer.",
+                    "fi": "Älä jaa luottamuksellisia tietojasi tuntemattomien henkilöiden kanssa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "konfidentiella",
+                            "d": ["konfidentiell", "konfidentiellt", "okända"]
+                        },
+                        { "w": "Dela", "d": ["Delar", "Delade", "Delat"] },
+                        { "w": "okända", "d": ["okänd", "okänt", "kända"] }
+                    ],
+                    "grammar": ["imperative", "adj-def", "negation"],
+                    "note": "konfidentiell = luottamuksellinen. Omistussanan jälkeen adjektiivi saa -a: din konfidentiella information. okänd = tuntematon (o- = epä-, känd = tunnettu).",
+                    "wrong": [
+                        "Dela inte din konfidentiell information med okända personer.",
+                        "Inte dela din konfidentiella information med okända personer."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s16",
+                    "sv": "Dela aldrig personlig information med andra.",
+                    "fi": "Älä koskaan jaa henkilökohtaista tietoa muiden kanssa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "personlig",
+                            "d": ["personligt", "personliga", "person"]
+                        },
+                        { "w": "aldrig", "d": ["alltid", "ofta", "ibland"] },
+                        { "w": "andra", "d": ["annan", "annat", "andras"] }
+                    ],
+                    "grammar": ["imperative", "adverbs", "adj"],
+                    "note": "personlig = henkilökohtainen. information on en-sana → personlig ilman -t. med andra = muiden kanssa.",
+                    "wrong": [
+                        "Aldrig dela personlig information med andra.",
+                        "Dela aldrig personligt information med andra."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Dela aldrig konfidentiell information med andra.",
+                            "fi": "Älä koskaan jaa luottamuksellista tietoa muiden kanssa.",
+                            "w": "konfidentiell",
+                            "d": ["konfidentiellt", "konfidentiella", "okänd"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "datasakerhet-l4",
+            "title": "Rekisteröityminen ja käyttöehdot",
+            "intro": "Käyttöehdot, rekisteröityminen, avoin lähdekoodi ja yksityisyys.",
+            "sentences": [
+                {
+                    "id": "datasakerhet-s17",
+                    "sv": "Du borde läsa användarvillkoren innan du registrerar dig till en nättjänst.",
+                    "fi": "Sinun tulisi lukea käyttöehdot ennen kuin rekisteröidyt verkkopalveluun.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "användarvillkoren",
+                            "d": [
+                                "användarvillkor",
+                                "användarvillkorens",
+                                "användarnamnet"
+                            ]
+                        },
+                        { "w": "borde", "d": ["bordet", "borda", "bordde"] },
+                        {
+                            "w": "registrerar",
+                            "d": ["registrera", "registrerade", "registrering"]
+                        }
+                    ],
+                    "grammar": ["modal", "reflexive", "subclause"],
+                    "note": "borde = pitäisi. användar + villkor = käyttäjä + ehdot; -en = määräinen monikko. registrera sig = rekisteröityä (dig = itsesi). innan = ennen kuin. nät + tjänst = verkkopalvelu.",
+                    "wrong": [
+                        "Du borde läsa användarvillkoren innan du registrerar till en nättjänst.",
+                        "Du borde att läsa användarvillkoren innan du registrerar dig till en nättjänst."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s18",
+                    "sv": "Du måste registrera dig innan du använder tjänsten.",
+                    "fi": "Sinun täytyy rekisteröityä ennen kuin käytät palvelua.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "registrera",
+                            "d": ["registrerar", "registrerade", "registrering"]
+                        },
+                        {
+                            "w": "tjänsten",
+                            "d": ["tjänst", "tjänster", "tjänstet"]
+                        },
+                        { "w": "innan", "d": ["efter", "eftersom", "när"] }
+                    ],
+                    "grammar": ["reflexive", "modal", "subclause"],
+                    "note": "registrera dig = rekisteröityä (du → dig). innan du använder = ennen kuin käytät; sivulauseessa subjekti ennen verbiä. tjänst = palvelu.",
+                    "wrong": [
+                        "Du måste registrera innan du använder tjänsten.",
+                        "Du måste registrera dig innan använder du tjänsten."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s19",
+                    "sv": "Läs alltid användarvillkoren innan du installerar en app.",
+                    "fi": "Lue aina käyttöehdot, ennen kuin asennat sovelluksen.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "Läs", "d": ["Läser", "Läsa", "Läste"] },
+                        {
+                            "w": "användarvillkoren",
+                            "d": [
+                                "användarvillkor",
+                                "användarnamnet",
+                                "användarkonto"
+                            ]
+                        },
+                        {
+                            "w": "installerar",
+                            "d": ["installera", "installerade", "installation"]
+                        }
+                    ],
+                    "grammar": ["imperative", "subclause", "adverbs"],
+                    "note": "Läs = lue (käskymuoto verbistä läsa, -a putoaa pois). alltid = aina, verbin perään.",
+                    "wrong": [
+                        "Alltid läs användarvillkoren innan du installerar en app.",
+                        "Läsa alltid användarvillkoren innan du installerar en app."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s20",
+                    "sv": "Jag loggade ut mig innan jag stängde datorn.",
+                    "fi": "Kirjauduin ulos ennen kuin suljin tietokoneen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "stängde",
+                            "d": ["stänger", "stänga", "stängt"]
+                        },
+                        { "w": "loggade", "d": ["loggar", "logga", "loggat"] },
+                        { "w": "datorn", "d": ["dator", "datoren", "datorns"] }
+                    ],
+                    "grammar": ["past", "reflexive", "subclause"],
+                    "note": "stänga = sulkea, stängde = suljin. logga ut mig = kirjautua ulos. innan jag stängde = ennen kuin suljin.",
+                    "wrong": [
+                        "Jag loggade ut mig innan stängde jag datorn.",
+                        "Jag loggade ut mig innan jag stänga datorn."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s21",
+                    "sv": "Programmet är baserat på öppen källkod.",
+                    "fi": "Ohjelma perustuu avoimeen lähdekoodiin.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "källkod",
+                            "d": ["källkoden", "källkoder", "källa"]
+                        },
+                        {
+                            "w": "baserat",
+                            "d": ["baserad", "baserade", "basera"]
+                        },
+                        { "w": "öppen", "d": ["öppet", "öppna", "öppnar"] }
+                    ],
+                    "grammar": ["participle", "compound", "adj"],
+                    "note": "vara baserat på = perustua johonkin. program on ett-sana → baserat (-t). käll + kod = lähde + koodi. öppen = avoin.",
+                    "wrong": [
+                        "Programmet är baserad på öppen källkod.",
+                        "Programmet är baserat på öppet källkod."
+                    ]
+                },
+                {
+                    "id": "datasakerhet-s22",
+                    "sv": "Vi måste radera filerna för att skydda integriteten.",
+                    "fi": "Meidän täytyy poistaa tiedostot suojataksemme yksityisyyden.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "radera",
+                            "d": ["raderar", "raderade", "raderat"]
+                        },
+                        {
+                            "w": "integriteten",
+                            "d": ["integritet", "integriteter", "informationen"]
+                        },
+                        { "w": "filerna", "d": ["filen", "filer", "filernas"] }
+                    ],
+                    "grammar": ["modal", "for-att", "definite"],
+                    "note": "radera = poistaa. integritet = yksityisyys (ei 'integriteetti'!). för att skydda = suojataksemme.",
+                    "wrong": [
+                        "Vi måste att radera filerna för att skydda integriteten.",
+                        "Vi måste radera filerna för skydda integriteten."
+                    ]
+                }
+            ]
+        }
+    ],
+    "glossary": {
+        "du": "sinä",
+        "måste": "täytyy",
+        "ha": "olla jollakin, omistaa",
+        "ett": "yksi; ett-sanojen artikkeli",
+        "en": "yksi; en-sanojen artikkeli",
+        "starkt": "vahva (ett-sanan kanssa: stark + t)",
+        "lösenord": "salasana (lösen = tunnus + ord = sana; ett lösenord)",
+        "och": "ja",
+        "unikt": "yksilöllinen, ainutlaatuinen (ett-sanan kanssa: unik + t)",
+        "användarnamn": "käyttäjänimi (användare = käyttäjä + namn = nimi; ett användarnamn)",
+        "behöver": "tarvitsee (behöva = tarvita)",
+        "för": "varten; för att = jotta, -kseen",
+        "för att": "jotta, -kseen (tarkoitus)",
+        "att": "infinitiivin merkki (vrt. englannin to); myös 'että'",
+        "logga": "kirjautua (logga in = sisään, logga ut = ulos)",
+        "in": "sisään",
+        "logga in": "kirjautua sisään",
+        "det": "se; det är = on",
+        "är": "on (vara = olla)",
+        "viktigt": "tärkeää (viktig + t)",
+        "säkerhetskopiera": "varmuuskopioida (säkerhet = turvallisuus + s + kopiera = kopioida)",
+        "sina": "omat (monikko; kun omistaja on lauseen subjekti tai yleinen)",
+        "filer": "tiedostot (en fil, monikko -er)",
+        "regelbundet": "säännöllisesti (regel = sääntö)",
+        "jag": "minä",
+        "sparar": "tallentaa (spara = tallentaa)",
+        "allt": "kaikki (yksikkö: allt = kaiken)",
+        "i": "-ssa/-ssä; -an/-een (sisään johonkin)",
+        "säker": "turvallinen, varma",
+        "molntjänst": "pilvipalvelu (moln = pilvi + tjänst = palvelu; en molntjänst)",
+        "loggade": "kirjautui (logga = kirjautua, imperfekti)",
+        "ut": "ulos",
+        "logga ut": "kirjautua ulos",
+        "mig": "minut, itseni",
+        "datorn": "tietokone (määräinen muoto: dator + n)",
+        "dator": "tietokone (en dator)",
+        "gick": "meni (gå = mennä, imperfekti)",
+        "automatiskt": "automaattisesti",
+        "till": "-lle, -ksi; till viloläge = lepotilaan",
+        "viloläge": "lepotila (vila = lepo + läge = tila; ett viloläge)",
+        "min": "minun (en-sanan kanssa)",
+        "installera": "asenna (käskymuoto); asentaa",
+        "alltid": "aina",
+        "antivirusprogram": "virustentorjuntaohjelma (anti + virus + program; ett antivirusprogram)",
+        "brandvägg": "palomuuri (brand = palo + vägg = seinä; en brandvägg)",
+        "skyddar": "suojaa (skydda = suojata)",
+        "skydda": "suojata",
+        "från": "-lta/-ltä, -sta/-stä",
+        "skadlig": "haitallinen (skada = vahinko)",
+        "trafik": "liikenne (en trafik)",
+        "vi": "me",
+        "installerade": "asensi (installera = asentaa, imperfekti)",
+        "installerar": "asentaa (installera, preesens)",
+        "nytt": "uusi (ett-sanan kanssa: ny + tt)",
+        "mot": "vastaan",
+        "virus": "virus, virukset (ett virus)",
+        "använd": "käytä (käskymuoto verbistä använda)",
+        "använder": "käyttää (använda = käyttää, preesens)",
+        "tvåfaktorsautentisering": "kaksivaiheinen tunnistautuminen (två = kaksi + faktor = tekijä + s + autentisering = todennus)",
+        "fingeravtrycksläsare": "sormenjälkilukija (finger = sormi + avtryck = jälki + s + läsare = lukija)",
+        "din": "sinun (en-sanan kanssa)",
+        "information": "tieto, tiedot (en information)",
+        "systemet": "järjestelmä (määräinen muoto: system + et)",
+        "ökad": "lisääntynyt, lisätty (öka = kasvaa, lisätä)",
+        "säkerhet": "turvallisuus, turva (en säkerhet)",
+        "hackare": "hakkeri (en hackare)",
+        "försökte": "yritti (försöka = yrittää, imperfekti)",
+        "bryta": "murtaa; bryta sig in = murtautua sisään",
+        "sig": "itsensä (refleksiivi)",
+        "bryta sig in": "murtautua sisään",
+        "vårt": "meidän (ett-sanan kanssa)",
+        "datasystem": "tietojärjestelmä (data + system; ett datasystem)",
+        "öppna": "avaa (käskymuoto); avata",
+        "aldrig": "ei koskaan",
+        "som": "joka, jotka; jonakin",
+        "innehåller": "sisältää (innehålla)",
+        "innehålla": "sisältää (perusmuoto)",
+        "programvara": "ohjelmisto (program = ohjelma + vara = tavara); skadlig programvara = haittaohjelma",
+        "inte": "ei",
+        "kan": "voi, osaa (kunna)",
+        "dela": "jaa (käskymuoto); jakaa",
+        "konfidentiella": "luottamukselliset (konfidentiell + a omistussanan jälkeen)",
+        "konfidentiell": "luottamuksellinen",
+        "med": "kanssa, -lla/-llä",
+        "okända": "tuntemattomat (okänd + a monikossa; o- = epä-, känd = tunnettu)",
+        "personer": "henkilöt (en person, monikko -er)",
+        "personlig": "henkilökohtainen",
+        "andra": "muut; toinen",
+        "borde": "pitäisi (böra, konditionaali)",
+        "läsa": "lukea",
+        "läs": "lue (käskymuoto verbistä läsa)",
+        "användarvillkoren": "käyttöehdot (määräinen monikko; användare = käyttäjä + villkor = ehto)",
+        "innan": "ennen kuin",
+        "registrerar": "rekisteröi (registrera); registrera sig = rekisteröityä",
+        "registrera": "rekisteröidä; registrera sig = rekisteröityä",
+        "dig": "sinut, itsesi",
+        "nättjänst": "verkkopalvelu (nät = verkko + tjänst = palvelu; en nättjänst)",
+        "tjänsten": "palvelu (määräinen muoto: tjänst + en)",
+        "app": "sovellus (en app)",
+        "stängde": "sulki (stänga = sulkea, imperfekti)",
+        "programmet": "ohjelma (määräinen muoto: program + met)",
+        "baserat": "perustuva (baserad + t ett-sanan kanssa); vara baserat på = perustua johonkin",
+        "på": "-lla/-llä, -ssa; baserat på = perustuu johonkin",
+        "öppen": "avoin, auki",
+        "källkod": "lähdekoodi (källa = lähde + kod = koodi; en källkod)",
+        "radera": "poistaa",
+        "filerna": "tiedostot (määräinen monikko: fil → filer → filerna)",
+        "integriteten": "yksityisyys (määräinen muoto: integritet + en)"
+    }
+}

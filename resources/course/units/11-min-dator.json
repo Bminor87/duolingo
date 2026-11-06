@@ -1,0 +1,767 @@
+{
+    "id": "min-dator",
+    "title": "Tietokoneeni",
+    "subtitle": "Vad använder jag min dator mest till?",
+    "description": "Opit kertomaan, mihin käytät tietokonetta opiskelussa, työssä ja vapaa-ajalla. Auttaa tehtävässä 16 (noin 70 sanan puheenvuoro) ja suullisessa keskustelussa.",
+    "icon": "laptop",
+    "color": "lime",
+    "exam": ["assignment", "oral"],
+    "source": "Tehtävä 16 \"Vad använder jag min dator mest till?\". Lauseet on koottu laitteisto-, ohjelmisto- ja internet-tehtävien (2, 5, 8) sanastosta.",
+    "lessons": [
+        {
+            "id": "min-dator-l1",
+            "title": "Mihin käytän tietokonetta?",
+            "intro": "Näillä lauseilla vastaat kysymykseen \"Vad använder du din dator mest till?\". Vaihda vain lopun sana, niin saat monta uutta lausetta.",
+            "sentences": [
+                {
+                    "id": "min-dator-s01",
+                    "sv": "Jag använder min dator mest till att programmera.",
+                    "fi": "Käytän tietokonettani eniten ohjelmointiin.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "använder",
+                            "d": ["använda", "använde", "behöver"]
+                        },
+                        {
+                            "w": "programmera",
+                            "d": [
+                                "programmerar",
+                                "programmering",
+                                "programmerare"
+                            ]
+                        },
+                        { "w": "mest", "d": ["mer", "mycket", "många"] }
+                    ],
+                    "grammar": ["present", "att-inf", "possessive"],
+                    "note": "använda till att + perusmuoto = käyttää johonkin. mest = eniten. att-sanan perään verbi on aina perusmuodossa (programmera, ei programmerar).",
+                    "wrong": [
+                        "Jag använder min dator mest till att programmerar.",
+                        "Jag använder mitt dator mest till att programmera."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag använder min dator mest till att studera.",
+                            "fi": "Käytän tietokonettani eniten opiskeluun.",
+                            "w": "studera",
+                            "d": ["studerar", "studier", "studerade"]
+                        },
+                        {
+                            "sv": "Jag använder min dator mest till att spela datorspel.",
+                            "fi": "Käytän tietokonettani eniten tietokonepelien pelaamiseen.",
+                            "w": "spela datorspel",
+                            "d": [
+                                "spelar datorspel",
+                                "spel datorspel",
+                                "spelade datorspel"
+                            ]
+                        },
+                        {
+                            "sv": "Jag använder min dator mest till att skriva e-post.",
+                            "fi": "Käytän tietokonettani eniten sähköpostien kirjoittamiseen.",
+                            "w": "skriva e-post",
+                            "d": [
+                                "skriver e-post",
+                                "skrev e-post",
+                                "skrivit e-post"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "min-dator-s02",
+                    "sv": "Jag använder en bärbar dator.",
+                    "fi": "Käytän kannettavaa tietokonetta.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "bärbar",
+                            "d": ["bärbart", "bärbara", "trådlös"]
+                        },
+                        { "w": "dator", "d": ["skärm", "mus", "skrivare"] }
+                    ],
+                    "grammar": ["adj", "gender"],
+                    "note": "bärbar dator = kannettava tietokone (\"kannettava\" = bärbar). dator on en-sana, joten adjektiivi on ilman -t-päätettä.",
+                    "wrong": [
+                        "Jag använder ett bärbar dator.",
+                        "Jag använder en bärbart dator."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag använder en stationär dator.",
+                            "fi": "Käytän pöytätietokonetta.",
+                            "w": "stationär",
+                            "d": ["stationärt", "stationära", "trådlös"]
+                        },
+                        {
+                            "sv": "Jag använder en surfplatta.",
+                            "fi": "Käytän tablettia.",
+                            "w": "surfplatta",
+                            "d": ["surfplattan", "skrivare", "högtalare"]
+                        }
+                    ]
+                },
+                {
+                    "id": "min-dator-s03",
+                    "sv": "På fritiden spelar jag datorspel.",
+                    "fi": "Vapaa-ajalla pelaan tietokonepelejä.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "fritiden",
+                            "d": ["fritid", "fritids", "framtiden"]
+                        },
+                        { "w": "spelar", "d": ["spela", "spelade", "spelat"] },
+                        {
+                            "w": "datorspel",
+                            "d": ["dator", "datorer", "program"]
+                        }
+                    ],
+                    "grammar": ["v2", "present"],
+                    "note": "Lause alkaa sanoilla \"På fritiden\", joten verbi (spelar) tulee toiseksi ja vasta sitten jag. på fritiden = vapaa-ajalla.",
+                    "wrong": [
+                        "På fritiden jag spelar datorspel.",
+                        "I fritiden spelar jag datorspel."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "På kvällen spelar jag datorspel.",
+                            "fi": "Illalla pelaan tietokonepelejä.",
+                            "w": "kvällen",
+                            "d": ["kväll", "kvällar", "morgon"]
+                        },
+                        {
+                            "sv": "På fritiden surfar jag på nätet.",
+                            "fi": "Vapaa-ajalla surfaan verkossa.",
+                            "w": "surfar",
+                            "d": ["surfa", "surfade", "surfat"]
+                        }
+                    ]
+                },
+                {
+                    "id": "min-dator-s04",
+                    "sv": "I skolan använder jag ett textbehandlingsprogram.",
+                    "fi": "Koulussa käytän tekstinkäsittelyohjelmaa.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "textbehandlingsprogram",
+                            "d": [
+                                "bildbehandlingsprogram",
+                                "antivirusprogram",
+                                "kalkylprogram"
+                            ]
+                        },
+                        { "w": "skolan", "d": ["skola", "skolor", "skolans"] }
+                    ],
+                    "grammar": ["v2", "compound", "gender"],
+                    "note": "text + behandling + s + program = tekstinkäsittelyohjelma. program on ett-sana: ett textbehandlingsprogram. i skolan = koulussa.",
+                    "wrong": [
+                        "I skolan jag använder ett textbehandlingsprogram.",
+                        "I skolan använder jag en textbehandlingsprogram."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "I skolan använder jag ett kalkylprogram.",
+                            "fi": "Koulussa käytän taulukkolaskentaohjelmaa.",
+                            "w": "kalkylprogram",
+                            "d": [
+                                "kalkylprogrammet",
+                                "programspråk",
+                                "webbläsare"
+                            ]
+                        },
+                        {
+                            "sv": "I skolan använder jag ett bildbehandlingsprogram.",
+                            "fi": "Koulussa käytän kuvankäsittelyohjelmaa.",
+                            "w": "bildbehandlingsprogram",
+                            "d": [
+                                "bildbehandlingsprogrammet",
+                                "drivrutin",
+                                "brandvägg"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "min-dator-s05",
+                    "sv": "Jag sparar mina filer på ett USB-minne.",
+                    "fi": "Tallennan tiedostoni muistitikulle.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "sparar", "d": ["spara", "sparat", "sparas"] },
+                        { "w": "filer", "d": ["fil", "filen", "filerna"] },
+                        {
+                            "w": "USB-minne",
+                            "a": ["usb-minne"],
+                            "d": ["USB-minnet", "hårddisk", "skrivare"]
+                        }
+                    ],
+                    "grammar": ["present", "possessive", "plural"],
+                    "note": "mina filer = minun tiedostoni (monikko, siksi mina eikä min). på ett USB-minne = muistitikulle.",
+                    "wrong": [
+                        "Jag sparar min filer på ett USB-minne.",
+                        "Jag sparar mina filer på en USB-minne."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag sparar mina filer i en molntjänst.",
+                            "fi": "Tallennan tiedostoni pilvipalveluun.",
+                            "w": "i en molntjänst",
+                            "d": [
+                                "i ett molntjänst",
+                                "på molntjänster",
+                                "till molntjänsten"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "min-dator-s06",
+                    "sv": "Jag surfar ofta på nätet med min webbläsare.",
+                    "fi": "Surfaan usein verkossa selaimellani.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "surfar", "d": ["surfa", "surfat", "surfade"] },
+                        { "w": "ofta", "d": ["aldrig", "inte", "mest"] },
+                        {
+                            "w": "webbläsare",
+                            "d": ["sökmaskin", "hemsida", "länk"]
+                        }
+                    ],
+                    "grammar": ["adverbs", "prepositions"],
+                    "note": "ofta (usein) tulee heti verbin perään. på nätet = verkossa. med = -lla (min webbläsare = selaimeni).",
+                    "wrong": [
+                        "Jag ofta surfar på nätet med min webbläsare.",
+                        "Jag surfar ofta i nätet med min webbläsare."
+                    ]
+                },
+                {
+                    "id": "min-dator-s07",
+                    "sv": "Jag skriver e-post och läser nyheter på datorn.",
+                    "fi": "Kirjoitan sähköposteja ja luen uutisia tietokoneella.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "skriver", "d": ["skriva", "skrev", "skrivit"] },
+                        { "w": "nyheter", "d": ["nyhet", "nyheten", "nya"] },
+                        { "w": "datorn", "d": ["dator", "datorer", "datorns"] }
+                    ],
+                    "grammar": ["present", "definite"],
+                    "note": "på datorn = tietokoneella (datorn = se tietokone, määräinen muoto). e-post = sähköposti, suomenruotsissa myös mejl.",
+                    "wrong": [
+                        "Jag skriva e-post och läser nyheter på datorn.",
+                        "Jag skriver e-post och läser nyheter på dator."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "min-dator-w01",
+                    "sv": "ett datorspel",
+                    "fi": "tietokonepeli",
+                    "src": "m",
+                    "note": "Materiaalissa myös dataspel."
+                },
+                {
+                    "id": "min-dator-w02",
+                    "sv": "en webbläsare",
+                    "fi": "verkkoselain",
+                    "src": "m"
+                },
+                {
+                    "id": "min-dator-w03",
+                    "sv": "på fritiden",
+                    "fi": "vapaa-ajalla",
+                    "src": "m"
+                },
+                {
+                    "id": "min-dator-w04",
+                    "sv": "en bärbar dator",
+                    "fi": "kannettava tietokone",
+                    "src": "m"
+                },
+                {
+                    "id": "min-dator-w05",
+                    "sv": "en stationär dator",
+                    "fi": "pöytätietokone",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "min-dator-l2",
+            "title": "Opiskelu ja työ koneella",
+            "intro": "Kerro, miten tietokone auttaa opiskelussa ja työssä. Näitä lauseita voit käyttää myös suullisessa loppukeskustelussa.",
+            "sentences": [
+                {
+                    "id": "min-dator-s08",
+                    "sv": "Jag programmerar varje dag.",
+                    "fi": "Ohjelmoin joka päivä.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "programmerar",
+                            "d": [
+                                "programmera",
+                                "programmering",
+                                "programmerade"
+                            ]
+                        },
+                        { "w": "varje", "d": ["alla", "många", "vilken"] }
+                    ],
+                    "grammar": ["present", "time"],
+                    "note": "varje dag = joka päivä. Preesensin pääte -r on sama kaikissa persoonissa.",
+                    "wrong": [
+                        "Jag programmera varje dag.",
+                        "Jag programmerar varje dagar."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag studerar varje dag.",
+                            "fi": "Opiskelen joka päivä.",
+                            "w": "studerar",
+                            "d": ["studera", "studier", "studerat"]
+                        },
+                        {
+                            "sv": "Jag programmerar varje vecka.",
+                            "fi": "Ohjelmoin joka viikko.",
+                            "w": "vecka",
+                            "d": ["veckor", "veckan", "veckans"]
+                        }
+                    ]
+                },
+                {
+                    "id": "min-dator-s09",
+                    "sv": "Jag skriver kod med hjälp av olika programspråk.",
+                    "fi": "Kirjoitan koodia eri ohjelmointikielten avulla.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "kod", "d": ["koden", "koder", "kodar"] },
+                        {
+                            "w": "med hjälp av",
+                            "d": [
+                                "med hjälp på",
+                                "med hjälp till",
+                                "för hjälp av"
+                            ]
+                        },
+                        {
+                            "w": "programspråk",
+                            "d": ["programvara", "programmerare", "språket"]
+                        }
+                    ],
+                    "grammar": ["prepositions", "compound"],
+                    "note": "med hjälp av = jonkin avulla. Materiaalissa: \"En programmerare skriver kod med hjälp av olika programspråk.\"",
+                    "wrong": [
+                        "Jag skriver kod med hjälp på olika programspråk.",
+                        "Jag skriva kod med hjälp av olika programspråk."
+                    ]
+                },
+                {
+                    "id": "min-dator-s10",
+                    "sv": "Jag använder ett kalkylprogram för att göra budgeten.",
+                    "fi": "Käytän taulukkolaskentaohjelmaa budjetin laatimiseen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "kalkylprogram",
+                            "d": [
+                                "textbehandlingsprogram",
+                                "antivirusprogram",
+                                "kalkylprogrammet"
+                            ]
+                        },
+                        { "w": "för att", "d": ["för", "att", "till"] },
+                        {
+                            "w": "budgeten",
+                            "d": ["budget", "budgetar", "budgetens"]
+                        }
+                    ],
+                    "grammar": ["for-att", "gender", "definite"],
+                    "note": "för att + perusmuoto = jotta / tekemiseen. budgeten = se budjetti (määräinen muoto).",
+                    "wrong": [
+                        "Jag använder ett kalkylprogram för att gör budgeten.",
+                        "Jag använder en kalkylprogram för att göra budgeten."
+                    ]
+                },
+                {
+                    "id": "min-dator-s11",
+                    "sv": "Jag använder datorn för att hålla kontakt med mina vänner.",
+                    "fi": "Käytän tietokonetta pitääkseni yhteyttä ystäviini.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "hålla", "d": ["håller", "höll", "hålls"] },
+                        {
+                            "w": "kontakt",
+                            "d": ["kontakter", "kontakten", "kontor"]
+                        },
+                        { "w": "vänner", "d": ["vän", "vännen", "vänlig"] }
+                    ],
+                    "grammar": ["for-att", "possessive"],
+                    "note": "hålla kontakt med = pitää yhteyttä johonkin. mina vänner = ystäväni (monikko → mina).",
+                    "wrong": [
+                        "Jag använder datorn för att håller kontakt med mina vänner.",
+                        "Jag använder datorn för att hålla kontakt med min vänner."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag använder datorn för att hålla kontakt med mina kolleger.",
+                            "fi": "Käytän tietokonetta pitääkseni yhteyttä kollegoihini.",
+                            "w": "kolleger",
+                            "d": ["kollega", "kollegan", "kollegans"]
+                        }
+                    ]
+                },
+                {
+                    "id": "min-dator-s12",
+                    "sv": "Jag använder sociala medier varje dag.",
+                    "fi": "Käytän sosiaalista mediaa joka päivä.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "sociala",
+                            "d": ["socialt", "social", "socialen"]
+                        },
+                        { "w": "medier", "d": ["media", "medium", "mediet"] }
+                    ],
+                    "grammar": ["adj", "plural", "time"],
+                    "note": "sociala medier = sosiaalinen media (ruotsissa monikko, siksi adjektiivi -a). Materiaalissa: \"Min blogg handlar om teknik och sociala medier.\"",
+                    "wrong": [
+                        "Jag använder socialt medier varje dag.",
+                        "Jag använda sociala medier varje dag."
+                    ]
+                },
+                {
+                    "id": "min-dator-s13",
+                    "sv": "Jag lyssnar ofta på musik när jag studerar.",
+                    "fi": "Kuuntelen usein musiikkia, kun opiskelen.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "lyssnar", "d": ["lyssna", "lyssnade", "hör"] },
+                        { "w": "musik", "d": ["musiken", "musikal", "film"] },
+                        { "w": "när", "d": ["om", "som", "att"] }
+                    ],
+                    "grammar": ["rektio", "subclause", "adverbs"],
+                    "note": "lyssna på = kuunnella jotakin (aina på!). när = kun. Sivulauseessa \"när jag studerar\" sanajärjestys on suora.",
+                    "wrong": [
+                        "Jag lyssnar ofta till musik när jag studerar.",
+                        "Jag lyssnar ofta på musik när studerar jag."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag lyssnar ofta på musik när jag programmerar.",
+                            "fi": "Kuuntelen usein musiikkia, kun ohjelmoin.",
+                            "w": "programmerar",
+                            "d": [
+                                "programmera",
+                                "programmerare",
+                                "programmering"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "min-dator-s14",
+                    "sv": "Min dator är viktig för mig i mina studier.",
+                    "fi": "Tietokoneeni on minulle tärkeä opinnoissani.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "viktig", "d": ["viktigt", "viktiga", "vikt"] },
+                        {
+                            "w": "studier",
+                            "d": ["studerar", "studie", "student"]
+                        }
+                    ],
+                    "grammar": ["adj", "possessive"],
+                    "note": "dator on en-sana, joten viktig on ilman -t:tä. för mig = minulle. i mina studier = opinnoissani.",
+                    "wrong": [
+                        "Min dator är viktigt för mig i mina studier.",
+                        "Mitt dator är viktig för mig i mina studier."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "min-dator-w06",
+                    "sv": "ett kalkylprogram",
+                    "fi": "taulukkolaskentaohjelma",
+                    "src": "m"
+                },
+                {
+                    "id": "min-dator-w07",
+                    "sv": "ett textbehandlingsprogram",
+                    "fi": "tekstinkäsittelyohjelma",
+                    "src": "m"
+                },
+                {
+                    "id": "min-dator-w08",
+                    "sv": "sociala medier",
+                    "fi": "sosiaalinen media",
+                    "src": "m"
+                },
+                {
+                    "id": "min-dator-w09",
+                    "sv": "hålla kontakt med",
+                    "fi": "pitää yhteyttä johonkin",
+                    "src": "x"
+                }
+            ]
+        },
+        {
+            "id": "min-dator-l3",
+            "title": "Malliteksti: 70 sanaa",
+            "intro": "Tässä on valmis noin 70 sanan vastaus tehtävään 16. Opettele lauseet, niin voit muokata niistä oman tekstisi.",
+            "sentences": [
+                {
+                    "id": "min-dator-s15",
+                    "sv": "Jag använder min dator mest till att studera och programmera.",
+                    "fi": "Käytän tietokonettani eniten opiskeluun ja ohjelmointiin.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "mest", "d": ["mer", "många", "mycket"] },
+                        {
+                            "w": "studera",
+                            "d": ["studerar", "studier", "studerat"]
+                        }
+                    ],
+                    "grammar": ["att-inf", "possessive"],
+                    "note": "Aloita teksti suoraan kysymyksen sanoilla: använder ... mest till att + verbi.",
+                    "wrong": [
+                        "Jag använder min dator mest till att studerar och programmera.",
+                        "Jag använder min dator mest för till studera och programmera."
+                    ]
+                },
+                {
+                    "id": "min-dator-s16",
+                    "sv": "Jag studerar till it-tradenom på Haaga-Helia.",
+                    "fi": "Opiskelen it-tradenomiksi Haaga-Heliassa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "studerar",
+                            "d": ["studera", "studerade", "student"]
+                        },
+                        { "w": "till", "d": ["som", "på", "för"] },
+                        {
+                            "w": "it-tradenom",
+                            "a": ["IT-tradenom"],
+                            "d": ["it-tradenomen", "it-branschen", "it-konsult"]
+                        }
+                    ],
+                    "grammar": ["rektio", "finlandssvenska"],
+                    "note": "studera till + ammatti = opiskella joksikin. tradenom on suomenruotsin sana (Ruotsissa sitä ei käytetä).",
+                    "wrong": [
+                        "Jag studerar som it-tradenom på Haaga-Helia.",
+                        "Jag studera till it-tradenom på Haaga-Helia."
+                    ]
+                },
+                {
+                    "id": "min-dator-s17",
+                    "sv": "Jag har en bärbar dator med en snabb processor.",
+                    "fi": "Minulla on kannettava tietokone, jossa on nopea prosessori.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "bärbar",
+                            "d": ["bärbart", "bärbara", "stationärt"]
+                        },
+                        { "w": "snabb", "d": ["snabbt", "snabba", "långsam"] },
+                        {
+                            "w": "processor",
+                            "d": ["processorn", "skrivare", "hörlurar"]
+                        }
+                    ],
+                    "grammar": ["adj", "gender"],
+                    "note": "Jag har = minulla on. en snabb processor = nopea prosessori (en-sana, ei -t:tä).",
+                    "wrong": [
+                        "Jag har en bärbar dator med ett snabb processor.",
+                        "Jag har en bärbart dator med en snabb processor."
+                    ]
+                },
+                {
+                    "id": "min-dator-s18",
+                    "sv": "I skolan skriver jag kod och använder ett textbehandlingsprogram.",
+                    "fi": "Koulussa kirjoitan koodia ja käytän tekstinkäsittelyohjelmaa.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "skriver", "d": ["skriva", "skrev", "skrivit"] },
+                        { "w": "kod", "d": ["koden", "koder", "kodare"] }
+                    ],
+                    "grammar": ["v2", "conjunctions"],
+                    "note": "I skolan + verbi + jag (V2). och-sanan perään toista verbiä ei tarvitse erillistä jag-sanaa.",
+                    "wrong": [
+                        "I skolan jag skriver kod och använder ett textbehandlingsprogram.",
+                        "I skolan skriver jag kod och använda ett textbehandlingsprogram."
+                    ]
+                },
+                {
+                    "id": "min-dator-s19",
+                    "sv": "Jag sparar alla mina filer i en molntjänst.",
+                    "fi": "Tallennan kaikki tiedostoni pilvipalveluun.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "alla", "d": ["allt", "varje", "hela"] },
+                        {
+                            "w": "molntjänst",
+                            "d": ["molntjänster", "molnet", "brandvägg"]
+                        }
+                    ],
+                    "grammar": ["possessive", "compound"],
+                    "note": "alla mina filer = kaikki tiedostoni. moln (pilvi) + tjänst (palvelu) = molntjänst.",
+                    "wrong": [
+                        "Jag sparar allt mina filer i en molntjänst.",
+                        "Jag sparar alla mina filer i ett molntjänst."
+                    ]
+                },
+                {
+                    "id": "min-dator-s20",
+                    "sv": "På fritiden surfar jag på nätet och spelar datorspel.",
+                    "fi": "Vapaa-ajalla surfaan verkossa ja pelaan tietokonepelejä.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "fritiden",
+                            "d": ["fritid", "framtiden", "fritids"]
+                        },
+                        { "w": "surfar", "d": ["surfa", "surfat", "surfade"] },
+                        { "w": "nätet", "d": ["nät", "näten", "nätets"] }
+                    ],
+                    "grammar": ["v2", "definite"],
+                    "note": "På fritiden + verbi + jag. på nätet = verkossa (nätet = se verkko).",
+                    "wrong": [
+                        "På fritiden jag surfar på nätet och spelar datorspel.",
+                        "På fritiden surfar jag i nätet och spelar datorspel."
+                    ]
+                },
+                {
+                    "id": "min-dator-s21",
+                    "sv": "Jag använder också datorn för att hålla kontakt med mina vänner.",
+                    "fi": "Käytän tietokonetta myös pitääkseni yhteyttä ystäviini.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "också", "d": ["ofta", "aldrig", "inte"] },
+                        {
+                            "w": "kontakt",
+                            "d": ["kontakter", "kontor", "kontakten"]
+                        }
+                    ],
+                    "grammar": ["adverbs", "for-att"],
+                    "note": "också (myös) tulee verbin perään: Jag använder också...",
+                    "wrong": [
+                        "Jag också använder datorn för att hålla kontakt med mina vänner.",
+                        "Jag använder också datorn för att håller kontakt med mina vänner."
+                    ]
+                },
+                {
+                    "id": "min-dator-s22",
+                    "sv": "Utan dator kan jag inte jobba eller studera.",
+                    "fi": "Ilman tietokonetta en voi työskennellä enkä opiskella.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Utan",
+                            "a": ["utan"],
+                            "d": ["Med", "Till", "Från"]
+                        },
+                        { "w": "kan", "d": ["kunna", "kunde", "kan att"] },
+                        { "w": "jobba", "d": ["jobbar", "jobb", "jobbade"] }
+                    ],
+                    "grammar": ["v2", "modal", "negation"],
+                    "note": "utan = ilman. Lause alkaa \"Utan dator\", joten verbi kan tulee toiseksi. kan-sanan perään perusmuoto ilman att-sanaa, inte verbin perään.",
+                    "wrong": [
+                        "Utan dator jag kan inte jobba eller studera.",
+                        "Utan dator kan jag inte att jobba eller studera."
+                    ]
+                }
+            ]
+        }
+    ],
+    "glossary": {
+        "jag": "minä",
+        "använder": "käyttää (perusmuoto använda)",
+        "använda": "käyttää",
+        "min": "minun (en-sanan kanssa)",
+        "mitt": "minun (ett-sanan kanssa)",
+        "mina": "minun (monikon kanssa)",
+        "dator": "tietokone (en dator)",
+        "datorn": "tietokone (määräinen muoto: se tietokone)",
+        "mest": "eniten",
+        "till": "-lle, -ksi; till att + verbi = johonkin",
+        "att": "infinitiivin merkki (vrt. englannin to) tai \"että\"",
+        "programmera": "ohjelmoida",
+        "programmerar": "ohjelmoi (perusmuoto programmera)",
+        "studera": "opiskella",
+        "studerar": "opiskelee (perusmuoto studera)",
+        "spela": "pelata",
+        "spelar": "pelaa (perusmuoto spela)",
+        "datorspel": "tietokonepeli(t) (ett datorspel, monikko sama)",
+        "ett": "yksi; ett-sanojen artikkeli",
+        "en": "yksi; en-sanojen artikkeli",
+        "skriva": "kirjoittaa",
+        "skriver": "kirjoittaa (perusmuoto skriva)",
+        "e-post": "sähköposti (suomenruotsissa myös mejl)",
+        "bärbar": "kannettava",
+        "stationär": "kiinteä; stationär dator = pöytätietokone",
+        "surfplatta": "tabletti (en surfplatta)",
+        "på": "-lla, -ssa, päällä",
+        "fritiden": "vapaa-aika (määräinen muoto); på fritiden = vapaa-ajalla",
+        "kvällen": "ilta (määräinen muoto); på kvällen = illalla",
+        "surfar": "surffaa (perusmuoto surfa)",
+        "nätet": "verkko (määräinen muoto); på nätet = verkossa",
+        "i": "-ssa, -ssä; i skolan = koulussa",
+        "skolan": "koulu (määräinen muoto: se koulu)",
+        "textbehandlingsprogram": "tekstinkäsittelyohjelma (ett)",
+        "kalkylprogram": "taulukkolaskentaohjelma (ett)",
+        "bildbehandlingsprogram": "kuvankäsittelyohjelma (ett)",
+        "sparar": "tallentaa (perusmuoto spara)",
+        "filer": "tiedostot (monikko sanasta en fil)",
+        "usb-minne": "muistitikku (ett USB-minne)",
+        "molntjänst": "pilvipalvelu (en molntjänst)",
+        "ofta": "usein",
+        "med": "kanssa, -lla",
+        "webbläsare": "verkkoselain (en webbläsare)",
+        "och": "ja",
+        "läser": "lukee (perusmuoto läsa)",
+        "nyheter": "uutiset (monikko sanasta en nyhet)",
+        "varje": "joka, jokainen",
+        "dag": "päivä",
+        "vecka": "viikko",
+        "kod": "koodi",
+        "hjälp": "apu; med hjälp av = jonkin avulla",
+        "av": "-sta; med hjälp av = avulla",
+        "olika": "eri, erilaisia",
+        "programspråk": "ohjelmointikieli (ett, monikko sama)",
+        "för": "varten, -lle; för att = jotta",
+        "göra": "tehdä",
+        "budgeten": "budjetti (määräinen muoto)",
+        "hålla": "pitää; hålla kontakt = pitää yhteyttä",
+        "kontakt": "yhteys, kontakti",
+        "vänner": "ystävät (monikko sanasta en vän)",
+        "kolleger": "kollegat (suomenruotsissa kolleger, Ruotsissa usein kollegor)",
+        "sociala": "sosiaaliset (monikko sanasta social)",
+        "medier": "media(t); sociala medier = sosiaalinen media",
+        "lyssnar": "kuuntelee (perusmuoto lyssna); lyssna på = kuunnella jotakin",
+        "musik": "musiikki",
+        "när": "kun; milloin",
+        "är": "on, olen (perusmuoto vara)",
+        "viktig": "tärkeä",
+        "mig": "minua, minulle; för mig = minulle",
+        "studier": "opinnot (monikko)",
+        "it-tradenom": "IT-tradenomi (suomenruotsin sana)",
+        "haaga-helia": "Haaga-Helia (ammattikorkeakoulu)",
+        "har": "on jollakin; jag har = minulla on",
+        "snabb": "nopea",
+        "processor": "prosessori (en processor)",
+        "alla": "kaikki",
+        "också": "myös",
+        "utan": "ilman",
+        "kan": "voi, osaa (perusmuoto kunna)",
+        "inte": "ei",
+        "jobba": "työskennellä, tehdä töitä",
+        "eller": "tai; kieltolauseessa: eikä",
+        "en bärbar dator": "kannettava tietokone",
+        "en stationär dator": "pöytätietokone",
+        "på fritiden": "vapaa-ajalla",
+        "hålla kontakt med": "pitää yhteyttä johonkin"
+    }
+}

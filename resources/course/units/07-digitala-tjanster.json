@@ -1,0 +1,882 @@
+{
+    "id": "digitala-tjanster",
+    "title": "Digitaaliset palvelut",
+    "subtitle": "Digitala tjänster",
+    "description": "Digitaalisten palveluiden sanasto: palvelumuotoilu, käyttäjäkokemus, tunnistautuminen ja saavutettavuus. Tarvitset näitä kirjallisessa kokeessa ja kun kerrot suullisesti omasta alastasi.",
+    "icon": "layers",
+    "color": "teal",
+    "exam": ["written", "oral"],
+    "source": "Välilehti 4: Tehtävä 13 Digitala tjänster (sanat) ja Tehtävä 14 Digitala tjänster (fraasit)",
+    "lessons": [
+        {
+            "id": "digitala-tjanster-l1",
+            "title": "Palvelut ja sovellukset",
+            "intro": "Digitaalinen palvelu, verkkopalvelu, sovellus, alusta ja pilvipalvelu.",
+            "sentences": [
+                {
+                    "id": "digitala-tjanster-s01",
+                    "sv": "Vi utvecklar en ny digital tjänst för våra kunder.",
+                    "fi": "Kehitämme uutta digitaalista palvelua asiakkaillemme.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "utvecklar",
+                            "d": ["utveckla", "utvecklade", "utveckling"]
+                        },
+                        {
+                            "w": "tjänst",
+                            "d": ["tjänsten", "tjänster", "tjänstet"]
+                        },
+                        { "w": "våra", "d": ["vår", "vårt", "våran"] }
+                    ],
+                    "grammar": ["present", "adj", "possessive"],
+                    "note": "utveckla = kehittää. tjänst = palvelu (en tjänst). för våra kunder = asiakkaillemme; kunder on monikko, siksi våra.",
+                    "wrong": [
+                        "Vi utvecklar ett nytt digitalt tjänst för våra kunder.",
+                        "Vi utveckla en ny digital tjänst för våra kunder."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Vi utvecklar en ny mobilapplikation för våra kunder.",
+                            "fi": "Kehitämme uutta mobiilisovellusta asiakkaillemme.",
+                            "w": "mobilapplikation",
+                            "d": [
+                                "mobilapplikationen",
+                                "mobilapplikationer",
+                                "mobil"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "digitala-tjanster-s02",
+                    "sv": "Vår applikation fungerar både på mobil och dator.",
+                    "fi": "Sovelluksemme toimii sekä puhelimella että tietokoneella.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "applikation",
+                            "d": [
+                                "applikationen",
+                                "applikationer",
+                                "plattformen"
+                            ]
+                        },
+                        { "w": "både", "d": ["båda", "eller", "bara"] },
+                        {
+                            "w": "fungerar",
+                            "d": ["fungera", "fungerade", "fungerat"]
+                        }
+                    ],
+                    "grammar": ["possessive", "conjunctions", "present"],
+                    "note": "både ... och ... = sekä ... että .... vår = meidän (en-sanan kanssa). applikation = sovellus, lyhyesti app.",
+                    "wrong": [
+                        "Vårt applikation fungerar både på mobil och dator.",
+                        "Vår applikation fungera både på mobil och dator."
+                    ]
+                },
+                {
+                    "id": "digitala-tjanster-s03",
+                    "sv": "Kan du uppdatera plattformen till den senaste versionen?",
+                    "fi": "Voitko päivittää alustan uusimpaan versioon?",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "plattformen",
+                            "d": ["plattform", "plattformar", "plattformet"]
+                        },
+                        { "w": "senaste", "d": ["senast", "sena", "senaster"] },
+                        {
+                            "w": "uppdatera",
+                            "d": ["uppdaterar", "uppdaterade", "uppdatering"]
+                        }
+                    ],
+                    "grammar": ["questions", "modal", "adj-def"],
+                    "note": "Kysymys alkaa verbillä: Kan du...? = Voitko...? plattform = alusta. den senaste versionen = uusin versio.",
+                    "wrong": [
+                        "Kan du att uppdatera plattformen till den senaste versionen?",
+                        "Kan du uppdaterar plattformen till den senaste versionen?"
+                    ]
+                },
+                {
+                    "id": "digitala-tjanster-s04",
+                    "sv": "Molntjänsten gör arbetet snabbare och smidigare.",
+                    "fi": "Pilvipalvelu tekee työstä nopeampaa ja sujuvampaa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Molntjänsten",
+                            "d": ["Molntjänst", "Molntjänster", "Molnet"]
+                        },
+                        {
+                            "w": "snabbare",
+                            "d": ["snabb", "snabbast", "snabbt"]
+                        },
+                        {
+                            "w": "smidigare",
+                            "d": ["smidig", "smidigast", "smidigt"]
+                        }
+                    ],
+                    "grammar": ["comparison", "definite", "compound"],
+                    "note": "snabb → snabbare = nopea → nopeampi. smidig → smidigare = sujuva → sujuvampi. gör arbetet = tekee työstä (göra = tehdä).",
+                    "wrong": [
+                        "Molntjänsten göra arbetet snabbare och smidigare.",
+                        "Molntjänsten gör arbetet mer snabbare och smidigare."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "digitala-tjanster-w01",
+                    "sv": "en digital tjänst",
+                    "fi": "digitaalinen palvelu",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w02",
+                    "sv": "en webbtjänst",
+                    "fi": "verkkopalvelu",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w03",
+                    "sv": "en applikation",
+                    "fi": "sovellus",
+                    "src": "m",
+                    "note": "Lyhyesti en app."
+                },
+                {
+                    "id": "digitala-tjanster-w04",
+                    "sv": "en mobilapplikation",
+                    "fi": "mobiilisovellus",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w05",
+                    "sv": "en molntjänst",
+                    "fi": "pilvipalvelu",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w06",
+                    "sv": "en plattform",
+                    "fi": "alusta",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "digitala-tjanster-l2",
+            "title": "Kirjautuminen ja tietoturva",
+            "intro": "Sisäänkirjautuminen, käyttäjätili, tietoturva, tietosuoja ja tunnistautuminen.",
+            "sentences": [
+                {
+                    "id": "digitala-tjanster-s05",
+                    "sv": "Kan du logga in med tvåfaktorsautentisering?",
+                    "fi": "Voitko kirjautua sisään kaksivaiheisella tunnistautumisella?",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "tvåfaktorsautentisering",
+                            "d": [
+                                "tvåfaktorsautentiseringen",
+                                "inloggning",
+                                "användarkonto"
+                            ]
+                        },
+                        {
+                            "w": "logga in",
+                            "d": ["logga ut", "logga ner", "logga till"]
+                        }
+                    ],
+                    "grammar": ["questions", "particle", "modal"],
+                    "note": "logga in = kirjautua sisään. två + faktors + autentisering = kaksi + tekijä + tunnistautuminen. Kysymys alkaa verbillä Kan.",
+                    "wrong": [
+                        "Kan du loggar in med tvåfaktorsautentisering?",
+                        "Kan du logga med in tvåfaktorsautentisering?"
+                    ]
+                },
+                {
+                    "id": "digitala-tjanster-s06",
+                    "sv": "Har du redan skapat ett användarkonto?",
+                    "fi": "Oletko jo luonut käyttäjätilin?",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "användarkonto",
+                            "d": [
+                                "användarkontot",
+                                "användarnamn",
+                                "inloggning"
+                            ]
+                        },
+                        { "w": "skapat", "d": ["skapa", "skapar", "skapade"] },
+                        { "w": "redan", "d": ["aldrig", "alltid", "inte"] }
+                    ],
+                    "grammar": ["perfect", "questions", "adverbs"],
+                    "note": "har skapat = olet luonut (perfekti: har + verbi -t). redan = jo. användar + konto = käyttäjä + tili (ett användarkonto).",
+                    "wrong": [
+                        "Har du redan skapa ett användarkonto?",
+                        "Har du redan skapat en användarkonto?"
+                    ]
+                },
+                {
+                    "id": "digitala-tjanster-s07",
+                    "sv": "Systemet behöver bättre datasäkerhet.",
+                    "fi": "Järjestelmä tarvitsee parempaa tietoturvaa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "datasäkerhet",
+                            "d": ["datasäkerheten", "datasystem", "säker"]
+                        },
+                        { "w": "bättre", "d": ["bra", "bäst", "bättra"] }
+                    ],
+                    "grammar": ["comparison", "compound", "definite"],
+                    "note": "data + säkerhet = tieto + turvallisuus → tietoturva (myös informationssäkerhet). bättre = parempi (bra → bättre → bäst).",
+                    "wrong": [
+                        "Systemet behöva bättre datasäkerhet.",
+                        "System behöver bättre datasäkerhet."
+                    ]
+                },
+                {
+                    "id": "digitala-tjanster-s08",
+                    "sv": "Vi använder ett nytt API för bokningssystemet.",
+                    "fi": "Käytämme uutta APIa varausjärjestelmään.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "bokningssystemet",
+                            "d": [
+                                "bokningssystem",
+                                "bokningen",
+                                "bokningssystemets"
+                            ]
+                        },
+                        { "w": "nytt", "d": ["ny", "nya", "nyt"] }
+                    ],
+                    "grammar": ["compound", "adj", "definite"],
+                    "note": "bokning + s + system = varaus + järjestelmä. API on ett-sana → ett nytt API.",
+                    "wrong": [
+                        "Vi använder en ny API för bokningssystemet.",
+                        "Vi använder ett nytt API för bokningssystem."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "digitala-tjanster-w07",
+                    "sv": "en inloggning",
+                    "fi": "sisäänkirjautuminen",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w08",
+                    "sv": "ett användarkonto",
+                    "fi": "käyttäjätili",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w09",
+                    "sv": "datasäkerhet",
+                    "fi": "tietoturva",
+                    "src": "m",
+                    "note": "Samaa tarkoittaa informationssäkerhet."
+                },
+                {
+                    "id": "digitala-tjanster-w10",
+                    "sv": "dataskydd",
+                    "fi": "tietosuoja",
+                    "src": "m",
+                    "note": "Määräinen muoto: dataskyddet."
+                },
+                {
+                    "id": "digitala-tjanster-w11",
+                    "sv": "integritet",
+                    "fi": "yksityisyys",
+                    "src": "m",
+                    "note": "Ei tarkoita integriteettiä vaan yksityisyyttä."
+                },
+                {
+                    "id": "digitala-tjanster-w12",
+                    "sv": "digital autentisering",
+                    "fi": "digitaalinen tunnistautuminen",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w13",
+                    "sv": "tvåfaktorsautentisering",
+                    "fi": "kaksivaiheinen tunnistautuminen",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "digitala-tjanster-l3",
+            "title": "Palvelumuotoilu",
+            "intro": "Palvelumuotoilu, asiakaspolku, käyttäjäkokemus ja käyttöliittymä. Hyviä lauseita myös suulliseen keskusteluun.",
+            "sentences": [
+                {
+                    "id": "digitala-tjanster-s09",
+                    "sv": "Jag är mycket intresserad av tjänstedesign.",
+                    "fi": "Olen erittäin kiinnostunut palvelumuotoilusta.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "tjänstedesign",
+                            "d": ["tjänstedesigner", "tjänst", "tjänsterna"]
+                        },
+                        {
+                            "w": "intresserad",
+                            "d": ["intresserat", "intresse", "intressant"]
+                        },
+                        { "w": "av", "d": ["för", "på", "med"] }
+                    ],
+                    "grammar": ["rektio", "participle", "compound"],
+                    "note": "intresserad av = kiinnostunut jostakin (aina av!). tjänste + design = palvelu + muotoilu (myös servicedesign). mycket = erittäin.",
+                    "wrong": [
+                        "Jag är mycket intresserad för tjänstedesign.",
+                        "Jag är mycket intressant av tjänstedesign."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag är mycket intresserad av datasäkerhet.",
+                            "fi": "Olen erittäin kiinnostunut tietoturvasta.",
+                            "w": "datasäkerhet",
+                            "d": ["datasäker", "datasystem", "säkerhetsdata"]
+                        }
+                    ]
+                },
+                {
+                    "id": "digitala-tjanster-s10",
+                    "sv": "Vi jobbar med tjänstedesign för att förstå användarnas behov.",
+                    "fi": "Työskentelemme palvelumuotoilun parissa ymmärtääksemme käyttäjien tarpeet.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "användarnas",
+                            "d": ["användare", "användarna", "användarens"]
+                        },
+                        {
+                            "w": "förstå",
+                            "d": ["förstår", "förstod", "förstått"]
+                        },
+                        {
+                            "w": "tjänstedesign",
+                            "d": ["tjänstedesigner", "tjänster", "tjänsten"]
+                        }
+                    ],
+                    "grammar": ["for-att", "genitive", "rektio"],
+                    "note": "jobba med = työskennellä jonkin parissa. användarnas = käyttäjien (genetiivin -s). behov = tarve, tarpeet. för att förstå = ymmärtääksemme.",
+                    "wrong": [
+                        "Vi jobbar med tjänstedesign för förstå användarnas behov.",
+                        "Vi jobbar med tjänstedesign för att förstå användarna behov."
+                    ]
+                },
+                {
+                    "id": "digitala-tjanster-s11",
+                    "sv": "Vi gör en kundresa för vår nya webbtjänst.",
+                    "fi": "Teemme asiakaspolun uudelle verkkopalvelullemme.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "kundresa",
+                            "d": ["kundresan", "kundresor", "kundtjänst"]
+                        },
+                        {
+                            "w": "webbtjänst",
+                            "d": ["webbtjänsten", "webbtjänster", "webbsida"]
+                        },
+                        { "w": "nya", "d": ["ny", "nytt", "nyare"] }
+                    ],
+                    "grammar": ["compound", "adj-def", "possessive"],
+                    "note": "kund + resa = asiakas + matka → asiakaspolku. webb + tjänst = verkkopalvelu. vår nya = meidän uusi (omistussanan jälkeen adjektiivi saa -a).",
+                    "wrong": [
+                        "Vi gör en kundresa för vår ny webbtjänst.",
+                        "Vi gör ett kundresa för vår nya webbtjänst."
+                    ]
+                },
+                {
+                    "id": "digitala-tjanster-s12",
+                    "sv": "Har ni testat användargränssnittet (UI) ännu?",
+                    "fi": "Oletteko testanneet käyttöliittymää (UI) jo?",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "användargränssnittet",
+                            "d": [
+                                "användargränssnitt",
+                                "användargränssnitten",
+                                "användarupplevelsen"
+                            ]
+                        },
+                        { "w": "testat", "d": ["testa", "testar", "testade"] },
+                        { "w": "ännu", "d": ["aldrig", "alltid", "ofta"] }
+                    ],
+                    "grammar": ["perfect", "questions", "definite"],
+                    "note": "ni = te. har testat = olette testanneet (perfekti). användar + gräns + snitt = käyttöliittymä (UI = user interface). ännu = jo, vielä (kysymyksessä).",
+                    "wrong": [
+                        "Har ni testa användargränssnittet (UI) ännu?",
+                        "Har ni testat användargränssnitt (UI) ännu?"
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "digitala-tjanster-w14",
+                    "sv": "tjänstedesign",
+                    "fi": "palvelumuotoilu",
+                    "src": "m",
+                    "note": "Myös servicedesign."
+                },
+                {
+                    "id": "digitala-tjanster-w15",
+                    "sv": "en kundresa",
+                    "fi": "asiakaspolku",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w16",
+                    "sv": "en användarresa",
+                    "fi": "käyttäjäpolku",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w17",
+                    "sv": "en användarupplevelse",
+                    "fi": "käyttäjäkokemus (UX)",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w18",
+                    "sv": "ett användargränssnitt",
+                    "fi": "käyttöliittymä (UI)",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w19",
+                    "sv": "en prototyp",
+                    "fi": "prototyyppi",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w20",
+                    "sv": "testning av tjänster",
+                    "fi": "palveluiden testaus",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "digitala-tjanster-l4",
+            "title": "Saavutettavuus ja palaute",
+            "intro": "Saavutettavuus, personointi, palaute ja datan kerääminen.",
+            "sentences": [
+                {
+                    "id": "digitala-tjanster-s13",
+                    "sv": "Tillgängligheten är viktig i alla digitala tjänster.",
+                    "fi": "Saavutettavuus on tärkeää kaikissa digitaalisissa palveluissa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Tillgängligheten",
+                            "d": ["Tillgänglig", "Tillgängligt", "Tillgångar"]
+                        },
+                        {
+                            "w": "digitala",
+                            "d": ["digital", "digitalt", "digitale"]
+                        },
+                        { "w": "viktig", "d": ["viktigt", "viktiga", "vikt"] }
+                    ],
+                    "grammar": ["definite", "adj", "plural"],
+                    "note": "tillgänglighet = saavutettavuus (kaikki, myös esim. näkövammaiset, voivat käyttää palvelua). Monikossa adjektiivi saa -a: digitala tjänster.",
+                    "wrong": [
+                        "Tillgängligheten är viktig i alla digital tjänster.",
+                        "Tillgängligheten viktig är i alla digitala tjänster."
+                    ]
+                },
+                {
+                    "id": "digitala-tjanster-s14",
+                    "sv": "Personalisering gör tjänsten mer användarvänlig.",
+                    "fi": "Personointi tekee palvelusta käyttäjäystävällisemmän.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "användarvänlig",
+                            "d": [
+                                "användarvänligt",
+                                "användarvänliga",
+                                "användare"
+                            ]
+                        },
+                        { "w": "mer", "d": ["mest", "mycket", "fler"] },
+                        {
+                            "w": "Personalisering",
+                            "d": ["Personlig", "Personal", "Personaliseringar"]
+                        }
+                    ],
+                    "grammar": ["comparison", "compound"],
+                    "note": "mer + pitkä adjektiivi = vertailu: mer användarvänlig = käyttäjäystävällisempi. tjänst on en-sana → användarvänlig ilman -t.",
+                    "wrong": [
+                        "Personalisering gör tjänsten mer användarvänligt.",
+                        "Personalisering göra tjänsten mer användarvänlig."
+                    ]
+                },
+                {
+                    "id": "digitala-tjanster-s15",
+                    "sv": "Kunden gav oss värdefull feedback.",
+                    "fi": "Asiakas antoi meille arvokasta palautetta.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "feedback",
+                            "d": ["feedbacken", "kund", "frågor"]
+                        },
+                        {
+                            "w": "värdefull",
+                            "d": ["värdefullt", "värdefulla", "värde"]
+                        },
+                        { "w": "gav", "d": ["ger", "ge", "gett"] }
+                    ],
+                    "grammar": ["past", "pronouns", "adj"],
+                    "note": "gav = antoi (ge = antaa, epäsäännöllinen). oss = meille, meitä. värde + full = arvo + täysi → arvokas. feedback = palaute (myös återkoppling).",
+                    "wrong": [
+                        "Kunden gav vi värdefull feedback.",
+                        "Kunden ge oss värdefull feedback."
+                    ]
+                },
+                {
+                    "id": "digitala-tjanster-s16",
+                    "sv": "Vi samlar in data för att förbättra tjänsten.",
+                    "fi": "Keräämme dataa palvelun parantamiseksi.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "förbättra",
+                            "d": ["förbättrar", "förbättring", "förbättrade"]
+                        },
+                        {
+                            "w": "samlar in",
+                            "d": ["samlar ut", "samlar på", "samla in"]
+                        },
+                        {
+                            "w": "tjänsten",
+                            "d": ["tjänst", "tjänster", "tjänstet"]
+                        }
+                    ],
+                    "grammar": ["particle", "for-att"],
+                    "note": "samla in = kerätä (partikkeliverbi, in painotetaan). för att förbättra = parantaakseen, palvelun parantamiseksi.",
+                    "wrong": [
+                        "Vi samlar data in för att förbättra tjänsten.",
+                        "Vi samlar in data för att förbättrar tjänsten."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "digitala-tjanster-w21",
+                    "sv": "tillgänglighet",
+                    "fi": "saavutettavuus",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w22",
+                    "sv": "personalisering",
+                    "fi": "personointi",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w23",
+                    "sv": "feedback",
+                    "fi": "palaute",
+                    "src": "m",
+                    "note": "Myös återkoppling."
+                },
+                {
+                    "id": "digitala-tjanster-w24",
+                    "sv": "datainsamling",
+                    "fi": "datan kerääminen",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w25",
+                    "sv": "en AI-baserad tjänst",
+                    "fi": "tekoälypohjainen palvelu",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w26",
+                    "sv": "kundservice online",
+                    "fi": "asiakaspalvelu verkossa",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "digitala-tjanster-l5",
+            "title": "Digitalisaatio ja strategia",
+            "intro": "Automaatio, chattibotti, käyttäjädata ja digitaalinen strategia.",
+            "sentences": [
+                {
+                    "id": "digitala-tjanster-s17",
+                    "sv": "Automationen sparar tid och minskar fel.",
+                    "fi": "Automaatio säästää aikaa ja vähentää virheitä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Automationen",
+                            "d": ["Automatisk", "Automatiskt", "Automater"]
+                        },
+                        { "w": "sparar", "d": ["spara", "sparas", "sparade"] },
+                        { "w": "minskar", "d": ["minska", "minskade", "ökar"] }
+                    ],
+                    "grammar": ["definite", "present"],
+                    "note": "spara tid = säästää aikaa (spara tarkoittaa myös tallentaa!). minska = vähentää. fel = virhe, virheet (monikko sama).",
+                    "wrong": [
+                        "Automationen spara tid och minskar fel.",
+                        "Automationen sparar tid och minska fel."
+                    ]
+                },
+                {
+                    "id": "digitala-tjanster-s18",
+                    "sv": "Chattboten svarar på vanliga frågor automatiskt.",
+                    "fi": "Chattibotti vastaa yleisiin kysymyksiin automaattisesti.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Chattboten",
+                            "d": ["Chattbot", "Chattbotar", "Chatten"]
+                        },
+                        { "w": "svarar", "d": ["svara", "svarade", "svar"] },
+                        {
+                            "w": "vanliga",
+                            "d": ["vanlig", "vanligt", "ovanliga"]
+                        }
+                    ],
+                    "grammar": ["rektio", "present", "adj"],
+                    "note": "svara på = vastata johonkin (aina på!). vanlig = tavallinen, yleinen; monikossa vanliga frågor.",
+                    "wrong": [
+                        "Chattboten svarar till vanliga frågor automatiskt.",
+                        "Chattboten svarar på vanlig frågor automatiskt."
+                    ]
+                },
+                {
+                    "id": "digitala-tjanster-s19",
+                    "sv": "Vi analyserar användardata varje vecka.",
+                    "fi": "Analysoimme käyttäjädatan joka viikko.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "användardata",
+                            "d": ["användare", "användarna", "användarkonto"]
+                        },
+                        {
+                            "w": "analyserar",
+                            "d": ["analysera", "analyserade", "analys"]
+                        },
+                        { "w": "varje", "d": ["alla", "hela", "många"] }
+                    ],
+                    "grammar": ["present", "time", "compound"],
+                    "note": "användar + data = käyttäjä + data. varje vecka = joka viikko (varje = jokainen).",
+                    "wrong": [
+                        "Vi analysera användardata varje vecka.",
+                        "Vi analyserar användardata alla vecka."
+                    ]
+                },
+                {
+                    "id": "digitala-tjanster-s20",
+                    "sv": "Vi planerar en digital strategi för hela företaget.",
+                    "fi": "Suunnittelemme digitaalista strategiaa koko yritykselle.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "strategi",
+                            "d": ["strategin", "strategier", "strategisk"]
+                        },
+                        {
+                            "w": "digital",
+                            "d": ["digitalt", "digitala", "digitalisering"]
+                        },
+                        {
+                            "w": "företaget",
+                            "d": ["företag", "företagen", "företagets"]
+                        }
+                    ],
+                    "grammar": ["adj", "definite", "prepositions"],
+                    "note": "hela företaget = koko yritys (hela + määräinen muoto). strategi on en-sana → en digital strategi.",
+                    "wrong": [
+                        "Vi planerar ett digitalt strategi för hela företaget.",
+                        "Vi planerar en digital strategi för hela företag."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "digitala-tjanster-w27",
+                    "sv": "digitalisering",
+                    "fi": "digitalisaatio",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w28",
+                    "sv": "en digital strategi",
+                    "fi": "digitaalinen strategia",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w29",
+                    "sv": "e-handel",
+                    "fi": "verkkokauppa",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w30",
+                    "sv": "en onlinetjänst för bokning",
+                    "fi": "varauspalvelu verkossa",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w31",
+                    "sv": "ett datasystem",
+                    "fi": "tietojärjestelmä",
+                    "src": "m"
+                },
+                {
+                    "id": "digitala-tjanster-w32",
+                    "sv": "IT-stöd",
+                    "fi": "IT-tuki",
+                    "src": "m"
+                }
+            ]
+        }
+    ],
+    "glossary": {
+        "vi": "me",
+        "utvecklar": "kehittää (utveckla = kehittää)",
+        "en": "yksi; en-sanojen artikkeli",
+        "ett": "yksi; ett-sanojen artikkeli",
+        "ny": "uusi (en-sanan kanssa)",
+        "nytt": "uusi (ett-sanan kanssa: ny + tt)",
+        "nya": "uusi (ny + a omistussanan jälkeen tai monikossa)",
+        "digital": "digitaalinen",
+        "digitala": "digitaaliset (digital + a monikossa)",
+        "tjänst": "palvelu (en tjänst)",
+        "tjänsten": "palvelu (määräinen muoto: tjänst + en)",
+        "tjänster": "palvelut (tjänst monikossa)",
+        "för": "varten, jollekin; för att = jotta, -kseen",
+        "för att": "jotta, -kseen (tarkoitus)",
+        "våra": "meidän (monikon kanssa)",
+        "vår": "meidän (en-sanan kanssa)",
+        "kunder": "asiakkaat (en kund, monikko -er)",
+        "kunden": "asiakas (määräinen muoto: kund + en)",
+        "mobilapplikation": "mobiilisovellus (mobil + applikation; en mobilapplikation)",
+        "applikation": "sovellus (en applikation, lyhyesti app)",
+        "fungerar": "toimii (fungera = toimia)",
+        "både": "sekä; både ... och = sekä ... että",
+        "på": "-lla/-llä, -ssa; svara på = vastata johonkin",
+        "mobil": "kännykkä, matkapuhelin",
+        "och": "ja",
+        "dator": "tietokone (en dator)",
+        "kan": "voi, osaa (kunna); Kan du...? = Voitko...?",
+        "du": "sinä",
+        "uppdatera": "päivittää",
+        "plattformen": "alusta (määräinen muoto: plattform + en)",
+        "plattform": "alusta (en plattform)",
+        "till": "-lle, -an/-een, -ksi",
+        "den": "se (en-sanasta); den senaste = uusin",
+        "senaste": "viimeisin, uusin",
+        "versionen": "versio (määräinen muoto: version + en)",
+        "molntjänsten": "pilvipalvelu (määräinen muoto; moln = pilvi + tjänst = palvelu)",
+        "molntjänst": "pilvipalvelu (moln = pilvi + tjänst = palvelu)",
+        "gör": "tekee (göra = tehdä)",
+        "arbetet": "työ (määräinen muoto: arbete + t)",
+        "snabbare": "nopeampi (snabb → snabbare)",
+        "smidigare": "sujuvampi (smidig → smidigare)",
+        "logga": "kirjautua",
+        "in": "sisään",
+        "logga in": "kirjautua sisään",
+        "med": "kanssa, -lla/-llä; jobba med = työskennellä jonkin parissa",
+        "tvåfaktorsautentisering": "kaksivaiheinen tunnistautuminen (två = kaksi + faktor = tekijä + s + autentisering)",
+        "har": "on (jollakin); har + verbi-t = perfekti (Har du skapat = Oletko luonut)",
+        "redan": "jo",
+        "skapat": "luonut (skapa = luoda; har skapat = on luonut)",
+        "användarkonto": "käyttäjätili (användare = käyttäjä + konto = tili; ett användarkonto)",
+        "systemet": "järjestelmä (määräinen muoto: system + et)",
+        "behöver": "tarvitsee (behöva = tarvita)",
+        "bättre": "parempi (bra → bättre → bäst)",
+        "datasäkerhet": "tietoturva (data + säkerhet = turvallisuus)",
+        "använder": "käyttää (använda = käyttää)",
+        "api": "API, ohjelmointirajapinta (ett API)",
+        "bokningssystemet": "varausjärjestelmä (määräinen muoto; bokning = varaus + s + system)",
+        "inloggning": "sisäänkirjautuminen (en inloggning)",
+        "dataskydd": "tietosuoja (data + skydd = suoja; ett dataskydd)",
+        "integritet": "yksityisyys (en integritet)",
+        "autentisering": "tunnistautuminen, todennus",
+        "jag": "minä",
+        "är": "on (vara = olla)",
+        "mycket": "erittäin, hyvin; paljon",
+        "intresserad": "kiinnostunut (intresserad av = kiinnostunut jostakin)",
+        "av": "-sta/-stä; intresserad av = kiinnostunut jostakin",
+        "tjänstedesign": "palvelumuotoilu (tjänst = palvelu + design = muotoilu; myös servicedesign)",
+        "jobbar": "työskentelee (jobba = tehdä töitä)",
+        "förstå": "ymmärtää",
+        "användarnas": "käyttäjien (genetiivi monikko: användarna + s)",
+        "behov": "tarve, tarpeet (ett behov)",
+        "kundresa": "asiakaspolku (kund = asiakas + resa = matka; en kundresa)",
+        "webbtjänst": "verkkopalvelu (webb = verkko + tjänst = palvelu; en webbtjänst)",
+        "ni": "te",
+        "testat": "testannut (testa = testata; har testat = on testannut)",
+        "användargränssnittet": "käyttöliittymä (määräinen muoto; användare + gräns = raja + snitt = leikkaus)",
+        "användargränssnitt": "käyttöliittymä (UI; ett användargränssnitt)",
+        "ui": "käyttöliittymä (user interface)",
+        "ännu": "jo, vielä",
+        "användarresa": "käyttäjäpolku (användare = käyttäjä + resa = matka)",
+        "användarupplevelse": "käyttäjäkokemus (UX; användare + upplevelse = kokemus)",
+        "prototyp": "prototyyppi (en prototyp)",
+        "testning": "testaus (testa = testata)",
+        "tillgängligheten": "saavutettavuus (määräinen muoto: tillgänglighet + en)",
+        "tillgänglighet": "saavutettavuus (tillgänglig = saatavilla oleva)",
+        "viktig": "tärkeä",
+        "i": "-ssa/-ssä",
+        "alla": "kaikki",
+        "personalisering": "personointi",
+        "mer": "enemmän; mer + adjektiivi = -mpi (mer användarvänlig = käyttäjäystävällisempi)",
+        "användarvänlig": "käyttäjäystävällinen (användare = käyttäjä + vänlig = ystävällinen)",
+        "gav": "antoi (ge = antaa, imperfekti)",
+        "oss": "meille, meitä",
+        "värdefull": "arvokas (värde = arvo + full = täysi)",
+        "feedback": "palaute (myös återkoppling)",
+        "samlar": "kerää (samla = kerätä); samla in = kerätä",
+        "samlar in": "kerää (samla in = kerätä)",
+        "data": "data, tieto",
+        "förbättra": "parantaa (bättre = parempi)",
+        "datainsamling": "datan kerääminen (data + insamling = kerääminen)",
+        "ai-baserad": "tekoälypohjainen (AI = tekoäly + baserad = perustuva)",
+        "kundservice": "asiakaspalvelu (kund = asiakas + service = palvelu)",
+        "online": "verkossa",
+        "automationen": "automaatio (määräinen muoto: automation + en)",
+        "sparar": "säästää; tallentaa (spara)",
+        "tid": "aika (en tid)",
+        "minskar": "vähentää (minska = vähentää)",
+        "fel": "virhe, virheet (ett fel)",
+        "chattboten": "chattibotti (määräinen muoto: chattbot + en)",
+        "svarar": "vastaa (svara = vastata); svara på = vastata johonkin",
+        "vanliga": "tavalliset, yleiset (vanlig + a monikossa)",
+        "frågor": "kysymykset (en fråga, monikko -or)",
+        "automatiskt": "automaattisesti",
+        "analyserar": "analysoi (analysera)",
+        "användardata": "käyttäjädata (användare + data)",
+        "varje": "jokainen, joka",
+        "vecka": "viikko (en vecka)",
+        "planerar": "suunnittelee (planera = suunnitella)",
+        "strategi": "strategia (en strategi)",
+        "hela": "koko",
+        "företaget": "yritys (määräinen muoto: företag + et)",
+        "digitalisering": "digitalisaatio, digitalisointi",
+        "e-handel": "verkkokauppa (e- = elektroninen + handel = kauppa)",
+        "onlinetjänst": "verkkopalvelu (online + tjänst = palvelu)",
+        "bokning": "varaus (boka = varata)",
+        "datasystem": "tietojärjestelmä (data + system; ett datasystem)",
+        "it-stöd": "IT-tuki (stöd = tuki)"
+    }
+}

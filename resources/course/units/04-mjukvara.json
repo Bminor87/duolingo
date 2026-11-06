@@ -1,0 +1,819 @@
+{
+    "id": "mjukvara",
+    "title": "Ohjelmistot",
+    "subtitle": "Mjukvara",
+    "description": "Ohjelmistot, sovellukset, päivitykset ja asetukset ruotsiksi. Kirjallisessa kokeessa näitä termejä pitää ymmärtää ruotsista suomeksi.",
+    "icon": "app-window",
+    "color": "indigo",
+    "exam": ["written"],
+    "source": "Välilehti 4: Tehtävä 5 Mjukvara (fraasit) ja Täytä puuttuvat sanat 2 -harjoitus",
+    "lessons": [
+        {
+            "id": "mjukvara-l1",
+            "title": "Asennus",
+            "intro": "Ohjelmien ja sovellusten asentaminen – ja mitä tehdä, kun asennus epäonnistuu.",
+            "sentences": [
+                {
+                    "id": "mjukvara-s01",
+                    "sv": "Jag installerade en ny programvara på min dator.",
+                    "fi": "Asensin uuden ohjelmiston tietokoneelleni.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "programvara",
+                            "d": ["programvaran", "programvaror", "drivrutiner"]
+                        },
+                        {
+                            "w": "installerade",
+                            "d": ["installerar", "installera", "installerat"]
+                        }
+                    ],
+                    "grammar": ["past", "compound"],
+                    "note": "program + vara = ohjelma + tavara → ohjelmisto. Sama asia sanotaan myös mjukvara (mjuk = pehmeä). installerade = asensin (imperfekti).",
+                    "wrong": [
+                        "Jag installera en ny programvara på min dator.",
+                        "Jag installerade ett nytt programvara på min dator."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag installerade en ny programvara på min mobil.",
+                            "fi": "Asensin uuden ohjelmiston puhelimeeni.",
+                            "w": "mobil",
+                            "d": ["mobilen", "mobiler", "mobilt"]
+                        }
+                    ]
+                },
+                {
+                    "id": "mjukvara-s02",
+                    "sv": "Jag installerade en ny app på min mobil.",
+                    "fi": "Asensin uuden sovelluksen puhelimeeni.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "app", "d": ["appen", "appar", "appet"] },
+                        { "w": "mobil", "d": ["mobilen", "mobiler", "mobilt"] }
+                    ],
+                    "grammar": ["past", "gender"],
+                    "note": "app = sovellus (en app). mobil = kännykkä. Suomeksi 'puhelimeeni', ruotsiksi på min mobil.",
+                    "wrong": [
+                        "Jag installerade ett nytt app på min mobil.",
+                        "Jag installerade en ny app på min mobilen."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s03",
+                    "sv": "Installationen tar några minuter och kräver omstart.",
+                    "fi": "Asennus kestää muutaman minuutin ja vaatii uudelleenkäynnistyksen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Installationen",
+                            "d": [
+                                "Installation",
+                                "Installationerna",
+                                "Installera"
+                            ]
+                        },
+                        {
+                            "w": "omstart",
+                            "d": ["omstarta", "uppdatera", "start"]
+                        },
+                        { "w": "kräver", "d": ["kräva", "krävde", "krävs"] }
+                    ],
+                    "grammar": ["definite", "present", "compound"],
+                    "note": "installationen = se asennus. tar några minuter = kestää muutaman minuutin (ta = ottaa). om + start = uudelleen + käynnistys. kräva = vaatia.",
+                    "wrong": [
+                        "Installationen tar några minuter och kräva omstart.",
+                        "Installationen några minuter tar och kräver omstart."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s04",
+                    "sv": "Installeringen misslyckades på grund av ett fel i mjukvaran.",
+                    "fi": "Asennus epäonnistui ohjelmistovirheen vuoksi.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "misslyckades",
+                            "d": ["misslyckas", "lyckades", "misslyckade"]
+                        },
+                        {
+                            "w": "mjukvaran",
+                            "d": ["mjukvara", "mjukvaror", "mjukvarans"]
+                        },
+                        {
+                            "w": "på grund av",
+                            "d": ["på grund för", "på grunden av", "i grund av"]
+                        }
+                    ],
+                    "grammar": ["past", "prepositions", "compound"],
+                    "note": "installering = installation = asennus. misslyckas = epäonnistua (lyckas = onnistua). på grund av = jonkin vuoksi. mjuk + vara = pehmeä + tavara → ohjelmisto.",
+                    "wrong": [
+                        "Installeringen misslyckade på grund av ett fel i mjukvaran.",
+                        "Installeringen misslyckades på grund av en fel i mjukvaran."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Installeringen misslyckades på grund av ett fel i drivrutinen.",
+                            "fi": "Asennus epäonnistui ajurin virheen vuoksi.",
+                            "w": "drivrutinen",
+                            "d": ["drivrutin", "drivrutiner", "drivrutinet"]
+                        }
+                    ]
+                },
+                {
+                    "id": "mjukvara-s05",
+                    "sv": "Jag måste uppdatera drivrutinen för att få enheten att fungera.",
+                    "fi": "Minun täytyy päivittää ajuri saadakseni laitteen toimimaan.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "uppdatera",
+                            "d": ["uppdaterar", "uppdaterade", "uppdaterat"]
+                        },
+                        {
+                            "w": "drivrutinen",
+                            "d": ["drivrutin", "drivrutiner", "programvaran"]
+                        },
+                        { "w": "enheten", "d": ["enhet", "enheter", "enhetet"] }
+                    ],
+                    "grammar": ["modal", "for-att", "definite"],
+                    "note": "driv + rutin = ajo + rutiini → ajuri. få något att fungera = saada jokin toimimaan. enhet = laite. måste-apuverbin perään ei tule att.",
+                    "wrong": [
+                        "Jag måste att uppdatera drivrutinen för att få enheten att fungera.",
+                        "Jag måste uppdaterar drivrutinen för att få enheten att fungera."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "mjukvara-l2",
+            "title": "Versiot ja ohjelmointi",
+            "intro": "Uusimmat versiot, parannukset ja ohjelmoijan työ.",
+            "sentences": [
+                {
+                    "id": "mjukvara-s06",
+                    "sv": "Den senaste versionen av appen innehåller många förbättringar.",
+                    "fi": "Sovelluksen viimeisin versio sisältää paljon parannuksia.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "senaste", "d": ["senast", "senaster", "sena"] },
+                        {
+                            "w": "förbättringar",
+                            "d": ["förbättring", "förbättringen", "förbättrar"]
+                        },
+                        {
+                            "w": "innehåller",
+                            "d": ["innehålla", "innehöll", "innehåll"]
+                        }
+                    ],
+                    "grammar": ["adj-def", "plural", "comparison"],
+                    "note": "den senaste versionen = viimeisin versio (den + adjektiivi -e + määräinen muoto). av appen = sovelluksen. förbättring = parannus (bättre = parempi).",
+                    "wrong": [
+                        "Den senaste version av appen innehåller många förbättringar.",
+                        "Den senaste versionen av appen innehålla många förbättringar."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s07",
+                    "sv": "Den senaste versionen innehåller förbättrade säkerhetsfunktioner.",
+                    "fi": "Viimeisin versio sisältää parannettuja tietoturvaominaisuuksia.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "säkerhetsfunktioner",
+                            "d": [
+                                "säkerhetsfunktion",
+                                "säkerhetsfunktionen",
+                                "säkerhetskopior"
+                            ]
+                        },
+                        {
+                            "w": "förbättrade",
+                            "d": ["förbättrad", "förbättrat", "förbättra"]
+                        },
+                        {
+                            "w": "versionen",
+                            "d": ["version", "versioner", "versionet"]
+                        }
+                    ],
+                    "grammar": ["participle", "compound", "adj-def"],
+                    "note": "säkerhet + s + funktioner = turvallisuus + toiminnot → tietoturvaominaisuudet. förbättrade = parannetut (monikossa pääte -de).",
+                    "wrong": [
+                        "Den senaste versionen innehåller förbättrad säkerhetsfunktioner.",
+                        "Den senaste version innehåller förbättrade säkerhetsfunktioner."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s08",
+                    "sv": "En programmerare skriver kod med hjälp av olika programspråk.",
+                    "fi": "Ohjelmoija kirjoittaa koodia eri ohjelmointikielten avulla.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "programmerare",
+                            "d": ["programmering", "program", "programmerar"]
+                        },
+                        {
+                            "w": "programspråk",
+                            "d": [
+                                "programspråket",
+                                "programvara",
+                                "programmerare"
+                            ]
+                        }
+                    ],
+                    "grammar": ["present", "compound", "prepositions"],
+                    "note": "programmerare = ohjelmoija (pääte -are = tekijä). program + språk = ohjelma + kieli. olika = eri. med hjälp av = avulla.",
+                    "wrong": [
+                        "En programmerare skriva kod med hjälp av olika programspråk.",
+                        "En programmerare kod skriver med hjälp av olika programspråk."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s09",
+                    "sv": "En programmerare lär sig skriva kod i olika programspråk.",
+                    "fi": "Ohjelmoija oppii kirjoittamaan koodia eri ohjelmointikielillä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "programspråk",
+                            "d": [
+                                "programvaror",
+                                "programmeringen",
+                                "programmerare"
+                            ]
+                        },
+                        { "w": "lär sig", "d": ["lär dig", "lär", "lära sig"] }
+                    ],
+                    "grammar": ["reflexive", "present"],
+                    "note": "lära sig = oppia (lära = opettaa, sig = itse). Kun tekijä on han, hon tai en programmerare, käytetään sig.",
+                    "wrong": [
+                        "En programmerare lär skriva kod i olika programspråk.",
+                        "En programmerare lär mig skriva kod i olika programspråk."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s10",
+                    "sv": "Jag studerar programmering och vill bli utvecklare.",
+                    "fi": "Opiskelen ohjelmointia ja haluan kehittäjäksi.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "programmering",
+                            "d": ["programmerare", "programmet", "programmerar"]
+                        },
+                        {
+                            "w": "utvecklare",
+                            "d": ["utveckling", "utvecklar", "utvecklad"]
+                        }
+                    ],
+                    "grammar": ["modal", "present"],
+                    "note": "programmering = ohjelmointi, programmerare = ohjelmoija. vill bli = haluaa tulla joksikin. utvecklare = kehittäjä (utveckla = kehittää). Ammatin edessä ei ole en-sanaa.",
+                    "wrong": [
+                        "Jag studerar programmering och vill att bli utvecklare.",
+                        "Jag studera programmering och vill bli utvecklare."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag studerar programmering och vill bli programmerare.",
+                            "fi": "Opiskelen ohjelmointia ja haluan ohjelmoijaksi.",
+                            "w": "programmerare",
+                            "d": ["programmering", "programmerar", "programmet"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "mjukvara-l3",
+            "title": "Työkaluohjelmat",
+            "intro": "Tekstinkäsittely-, kuvankäsittely- ja taulukkolaskentaohjelmat. Pitkät sanat ovat helppoja, kun ne pilkkoo osiin.",
+            "sentences": [
+                {
+                    "id": "mjukvara-s11",
+                    "sv": "Vi sparade filen i ett textbehandlingsprogram.",
+                    "fi": "Tallensimme tiedoston tekstinkäsittelyohjelmassa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "textbehandlingsprogram",
+                            "d": [
+                                "textbehandlingsprogrammet",
+                                "kalkylprogram",
+                                "bildbehandlingsprogram"
+                            ]
+                        },
+                        { "w": "filen", "d": ["filer", "filerna", "filet"] },
+                        { "w": "sparade", "d": ["sparar", "spara", "sparat"] }
+                    ],
+                    "grammar": ["past", "compound", "definite"],
+                    "note": "text + behandling + s + program = teksti + käsittely + ohjelma. fil = tiedosto, filen = se tiedosto.",
+                    "wrong": [
+                        "Vi sparade filen i en textbehandlingsprogram.",
+                        "Vi spara filen i ett textbehandlingsprogram."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s12",
+                    "sv": "Jag använder ett textbehandlingsprogram när jag jobbar med texter.",
+                    "fi": "Käytän tekstinkäsittelyohjelmaa, kun työskentelen tekstien kanssa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "textbehandlingsprogram",
+                            "d": [
+                                "kalkylprogram",
+                                "bildbehandlingsprogram",
+                                "textbehandlingsprogrammet"
+                            ]
+                        },
+                        { "w": "jobbar", "d": ["jobba", "jobbade", "jobb"] },
+                        { "w": "texter", "d": ["text", "texten", "textar"] }
+                    ],
+                    "grammar": ["subclause", "present"],
+                    "note": "när = kun. jobba med = työskennellä jonkin parissa. text → texter (monikko). Sivulauseessa subjekti tulee ennen verbiä: när jag jobbar.",
+                    "wrong": [
+                        "Jag använder ett textbehandlingsprogram när jobbar jag med texter.",
+                        "Jag använder en textbehandlingsprogram när jag jobbar med texter."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s13",
+                    "sv": "Det här bildbehandlingsprogrammet är kompatibelt med Mac.",
+                    "fi": "Tämä kuvankäsittelyohjelma on yhteensopiva Macin kanssa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "bildbehandlingsprogrammet",
+                            "d": [
+                                "bildbehandlingsprogram",
+                                "textbehandlingsprogrammet",
+                                "kalkylprogrammet"
+                            ]
+                        },
+                        {
+                            "w": "kompatibelt",
+                            "d": ["kompatibel", "kompatibla", "kompatibelta"]
+                        }
+                    ],
+                    "grammar": ["adj-def", "adj", "compound"],
+                    "note": "det här + määräinen muoto = tämä (program on ett-sana, siksi det här). bild = kuva. ett-sanan kanssa adjektiivi saa -t: kompatibelt.",
+                    "wrong": [
+                        "Det här bildbehandlingsprogrammet är kompatibel med Mac.",
+                        "Den här bildbehandlingsprogrammet är kompatibelt med Mac."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s14",
+                    "sv": "Jag använder ett kalkylprogram för att göra budgeten.",
+                    "fi": "Käytän taulukkolaskentaohjelmaa budjetin laatimiseen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "kalkylprogram",
+                            "d": [
+                                "kalkylprogrammet",
+                                "textbehandlingsprogram",
+                                "kalkyl"
+                            ]
+                        },
+                        {
+                            "w": "budgeten",
+                            "d": ["budget", "budgetet", "budgetar"]
+                        },
+                        { "w": "göra", "d": ["gör", "gjorde", "gjort"] }
+                    ],
+                    "grammar": ["for-att", "compound"],
+                    "note": "kalkyl + program = laskelma + ohjelma → taulukkolaskentaohjelma (esim. Excel). för att göra = tekemiseen, jotta voin tehdä.",
+                    "wrong": [
+                        "Jag använder ett kalkylprogram för göra budgeten.",
+                        "Jag använder ett kalkylprogram för att gör budgeten."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s15",
+                    "sv": "Excel är det mest använda kalkylprogrammet på marknaden idag.",
+                    "fi": "Excel on nykyään markkinoiden käytetyin taulukkolaskentaohjelma.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "kalkylprogrammet",
+                            "d": [
+                                "kalkylprogram",
+                                "kalkylprogrammen",
+                                "textbehandlingsprogrammet"
+                            ]
+                        },
+                        {
+                            "w": "marknaden",
+                            "d": ["marknad", "marknaderna", "marknadet"]
+                        },
+                        {
+                            "w": "mest använda",
+                            "d": [
+                                "mer använda",
+                                "mest använt",
+                                "mycket använda"
+                            ]
+                        }
+                    ],
+                    "grammar": ["comparison", "adj-def", "definite"],
+                    "note": "det mest använda = käytetyin (mest = eniten). på marknaden = markkinoilla. idag = nykyään.",
+                    "wrong": [
+                        "Excel är den mest använda kalkylprogrammet på marknaden idag.",
+                        "Excel är det mest använda kalkylprogram på marknaden idag."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "mjukvara-l4",
+            "title": "Asetukset ja käyttöliittymä",
+            "intro": "Salasana-asetukset, käyttöjärjestelmä ja käyttöliittymä.",
+            "sentences": [
+                {
+                    "id": "mjukvara-s16",
+                    "sv": "Applikationens inställningar för lösenord kan ändras manuellt.",
+                    "fi": "Sovelluksen salasanan asetuksia voi muuttaa manuaalisesti.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "inställningar",
+                            "d": ["inställning", "inställningen", "inställer"]
+                        },
+                        { "w": "ändras", "d": ["ändrar", "ändra", "ändrade"] },
+                        {
+                            "w": "Applikationens",
+                            "d": [
+                                "Applikationen",
+                                "Applikation",
+                                "Applikationers"
+                            ]
+                        }
+                    ],
+                    "grammar": ["genitive", "s-passive", "modal"],
+                    "note": "applikationens = sovelluksen (genetiivin -s). inställningar = asetukset. kan ändras = voidaan muuttaa (s-passiivi).",
+                    "wrong": [
+                        "Applikationens inställningar för lösenord kan ändra manuellt.",
+                        "Applikationen inställningar för lösenord kan ändras manuellt."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s17",
+                    "sv": "Jag måste ändra inställningarna för lösenordet.",
+                    "fi": "Minun täytyy muuttaa salasanan asetuksia.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "ändra", "d": ["ändrar", "ändras", "ändrade"] },
+                        {
+                            "w": "inställningarna",
+                            "d": [
+                                "inställningar",
+                                "inställningen",
+                                "inställningarnas"
+                            ]
+                        },
+                        {
+                            "w": "lösenordet",
+                            "d": ["lösenord", "lösenorden", "lösenordets"]
+                        }
+                    ],
+                    "grammar": ["modal", "definite"],
+                    "note": "lösen + ord = tunnus + sana → salasana (ett lösenord). inställningarna = ne asetukset (määräinen monikko). måste + perusmuoto ilman att.",
+                    "wrong": [
+                        "Jag måste att ändra inställningarna för lösenordet.",
+                        "Jag måste ändrar inställningarna för lösenordet."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s18",
+                    "sv": "Applikationen är enkel att använda och den har ett modernt gränssnitt.",
+                    "fi": "Sovellus on helppo käyttää, ja sillä on moderni käyttöliittymä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "gränssnitt",
+                            "d": [
+                                "gränssnittet",
+                                "gränssnitten",
+                                "operativsystem"
+                            ]
+                        },
+                        {
+                            "w": "modernt",
+                            "d": ["modern", "moderna", "moderne"]
+                        },
+                        { "w": "enkel", "d": ["enkelt", "enkla", "enklare"] }
+                    ],
+                    "grammar": ["adj", "att-inf", "gender"],
+                    "note": "enkel att använda = helppo käyttää. gräns + snitt = raja + leikkaus → käyttöliittymä. gränssnitt on ett-sana → ett modernt gränssnitt.",
+                    "wrong": [
+                        "Applikationen är enkel använda och den har ett modernt gränssnitt.",
+                        "Applikationen är enkel att använda och den har en modern gränssnitt."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s19",
+                    "sv": "Operativsystemet har ett användarvänligt gränssnitt.",
+                    "fi": "Käyttöjärjestelmällä on käyttäjäystävällinen käyttöliittymä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Operativsystemet",
+                            "d": [
+                                "Operativsystem",
+                                "Operativsystemen",
+                                "Programmeraren"
+                            ]
+                        },
+                        {
+                            "w": "användarvänligt",
+                            "d": [
+                                "användarvänlig",
+                                "användarvänliga",
+                                "användarvänligare"
+                            ]
+                        },
+                        {
+                            "w": "gränssnitt",
+                            "d": ["gränssnittet", "programspråk", "drivrutin"]
+                        }
+                    ],
+                    "grammar": ["compound", "adj", "definite"],
+                    "note": "operativ + system = käyttöjärjestelmä. användar + vänligt = käyttäjä + ystävällinen. gränssnitt on ett-sana → användarvänligt (-t).",
+                    "wrong": [
+                        "Operativsystemet har ett användarvänlig gränssnitt.",
+                        "Operativsystemet har en användarvänlig gränssnitt."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s20",
+                    "sv": "Den nya appen är inte kompatibel med min telefon.",
+                    "fi": "Uusi sovellus ei ole yhteensopiva puhelimeni kanssa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "kompatibel",
+                            "d": ["kompatibelt", "kompatibla", "kompatibelare"]
+                        },
+                        { "w": "nya", "d": ["ny", "nytt", "nyare"] },
+                        { "w": "appen", "d": ["app", "appar", "appet"] }
+                    ],
+                    "grammar": ["adj-def", "negation", "adj"],
+                    "note": "den nya appen = se uusi sovellus: den + adjektiivi -a + määräinen muoto. app on en-sana, siksi kompatibel ilman -t. kompatibel med = yhteensopiva jonkin kanssa.",
+                    "wrong": [
+                        "Den ny appen är inte kompatibel med min telefon.",
+                        "Den nya appen inte är kompatibel med min telefon."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "mjukvara-l5",
+            "title": "Päivitykset ja tiedostot",
+            "intro": "Päivitykset, tietokanta ja tiedostojen tallentaminen.",
+            "sentences": [
+                {
+                    "id": "mjukvara-s21",
+                    "sv": "Drivrutinen försvann efter uppdateringen.",
+                    "fi": "Ajuri katosi päivityksen jälkeen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Drivrutinen",
+                            "d": ["Drivrutin", "Drivrutiner", "Drivrutinet"]
+                        },
+                        {
+                            "w": "uppdateringen",
+                            "d": ["uppdatering", "uppdateringar", "uppdatera"]
+                        },
+                        {
+                            "w": "försvann",
+                            "d": ["försvinner", "försvinna", "försvunnit"]
+                        }
+                    ],
+                    "grammar": ["past", "definite"],
+                    "note": "försvinna = kadota, försvann = katosi (epäsäännöllinen imperfekti). efter = jälkeen. uppdatering = päivitys.",
+                    "wrong": [
+                        "Drivrutinen försvinna efter uppdateringen.",
+                        "Efter uppdateringen drivrutinen försvann."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s22",
+                    "sv": "Vi behöver uppdatera systemet regelbundet.",
+                    "fi": "Meidän täytyy päivittää järjestelmä säännöllisesti.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "uppdatera",
+                            "d": ["uppdaterar", "uppdaterade", "uppdatering"]
+                        },
+                        {
+                            "w": "systemet",
+                            "d": ["system", "systemets", "systemer"]
+                        },
+                        {
+                            "w": "regelbundet",
+                            "d": ["regelbunden", "regelbundna", "regel"]
+                        }
+                    ],
+                    "grammar": ["modal", "adverbs", "definite"],
+                    "note": "behöver + perusmuoto = täytyy, tarvitsee. regelbundet = säännöllisesti (regel = sääntö). systemet = se järjestelmä (ett system).",
+                    "wrong": [
+                        "Vi behöver uppdaterar systemet regelbundet.",
+                        "Vi behöver uppdatera systemet regelbunden."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s23",
+                    "sv": "Vi behöver en databas för vårt kundregister.",
+                    "fi": "Tarvitsemme tietokannan asiakasrekisteriämme varten.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "databas",
+                            "d": ["databasen", "databaser", "datasystem"]
+                        },
+                        {
+                            "w": "kundregister",
+                            "d": ["kundregistret", "kund", "kundtjänst"]
+                        },
+                        { "w": "vårt", "d": ["vår", "våra", "vårat"] }
+                    ],
+                    "grammar": ["possessive", "compound", "gender"],
+                    "note": "data + bas = tietokanta. kund + register = asiakas + rekisteri. register on ett-sana → vårt. för = varten.",
+                    "wrong": [
+                        "Vi behöver en databas för vår kundregister.",
+                        "Vi behöver ett databas för vårt kundregister."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s24",
+                    "sv": "Jag sparade filen på skrivbordet.",
+                    "fi": "Tallensin tiedoston työpöydälle.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "skrivbordet",
+                            "d": ["skrivbord", "skrivborden", "skrivaren"]
+                        },
+                        { "w": "filen", "d": ["filer", "filerna", "filet"] }
+                    ],
+                    "grammar": ["past", "definite", "compound"],
+                    "note": "skriv + bord = kirjoitus + pöytä → työpöytä (myös tietokoneen työpöytä). på skrivbordet = työpöydälle.",
+                    "wrong": [
+                        "Jag sparade filen på skrivbord.",
+                        "Jag spara filen på skrivbordet."
+                    ]
+                },
+                {
+                    "id": "mjukvara-s25",
+                    "sv": "Jag gillar att spela dataspel på fritiden.",
+                    "fi": "Tykkään pelata tietokonepelejä vapaa-ajalla.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "dataspel",
+                            "d": ["dataspelet", "dataspela", "datorer"],
+                            "a": ["datorspel"]
+                        },
+                        {
+                            "w": "fritiden",
+                            "d": ["fritid", "fritider", "friheten"]
+                        },
+                        { "w": "gillar", "d": ["gilla", "gillade", "gillat"] }
+                    ],
+                    "grammar": ["att-inf", "compound", "time"],
+                    "note": "gilla att = tykätä (perään att + perusmuoto). data + spel = tietokonepeli (myös datorspel). på fritiden = vapaa-ajalla.",
+                    "wrong": [
+                        "Jag gillar att spelar dataspel på fritiden.",
+                        "Jag gilla att spela dataspel på fritiden."
+                    ]
+                }
+            ]
+        }
+    ],
+    "glossary": {
+        "jag": "minä",
+        "installerade": "asensi (installera = asentaa, imperfekti)",
+        "en": "yksi; en-sanojen artikkeli",
+        "ett": "yksi; ett-sanojen artikkeli",
+        "ny": "uusi (en-sanan kanssa)",
+        "nya": "uusi (määräinen tai monikko: ny + a)",
+        "programvara": "ohjelmisto (program = ohjelma + vara = tavara; en programvara)",
+        "på": "-lla/-llä, -ssa, päällä",
+        "min": "minun (en-sanan kanssa)",
+        "dator": "tietokone (en dator)",
+        "mobil": "kännykkä, matkapuhelin (en mobil)",
+        "app": "sovellus (en app)",
+        "appen": "sovellus (määräinen muoto: app + en)",
+        "installationen": "asennus (määräinen muoto: installation + en)",
+        "installeringen": "asennus (määräinen muoto: installering + en; sama kuin installationen)",
+        "tar": "ottaa; kestää (ta = ottaa)",
+        "några": "muutama, joitakin",
+        "minuter": "minuutit (en minut, monikko -er)",
+        "och": "ja",
+        "kräver": "vaatii (kräva = vaatia)",
+        "omstart": "uudelleenkäynnistys (om = uudelleen + start = käynnistys)",
+        "misslyckades": "epäonnistui (misslyckas = epäonnistua)",
+        "på grund av": "jonkin vuoksi, takia",
+        "grund": "perusta; på grund av = vuoksi",
+        "av": "-sta/-stä, jonkin; av appen = sovelluksen",
+        "fel": "virhe (ett fel)",
+        "i": "-ssa/-ssä",
+        "mjukvaran": "ohjelmisto (määräinen muoto: mjukvara + n; mjuk = pehmeä)",
+        "drivrutinen": "ajuri (määräinen muoto: drivrutin + en; driv = ajo + rutin = rutiini)",
+        "måste": "täytyy",
+        "uppdatera": "päivittää",
+        "för": "varten; för att = jotta, -kseen",
+        "för att": "jotta, -kseen (tarkoitus)",
+        "att": "infinitiivin merkki (vrt. englannin to); myös 'että'",
+        "få": "saada; få något att fungera = saada jokin toimimaan",
+        "enheten": "laite, yksikkö (määräinen muoto: enhet + en)",
+        "fungera": "toimia",
+        "den": "se (en-sanasta); den senaste = viimeisin",
+        "senaste": "viimeisin, uusin (sen = myöhä → senast)",
+        "versionen": "versio (määräinen muoto: version + en)",
+        "innehåller": "sisältää (innehålla)",
+        "många": "monta, paljon (monikon kanssa)",
+        "förbättringar": "parannukset (en förbättring; bättre = parempi)",
+        "förbättrade": "parannetut (förbättra = parantaa; monikkomuoto)",
+        "säkerhetsfunktioner": "tietoturvaominaisuudet (säkerhet = turvallisuus + s + funktioner = toiminnot)",
+        "programmerare": "ohjelmoija (en programmerare; pääte -are = tekijä)",
+        "skriver": "kirjoittaa (skriva = kirjoittaa)",
+        "skriva": "kirjoittaa",
+        "kod": "koodi (en kod)",
+        "med": "kanssa, -lla/-llä",
+        "hjälp": "apu",
+        "med hjälp av": "jonkin avulla",
+        "olika": "eri, erilaisia",
+        "programspråk": "ohjelmointikieli, -kielet (program = ohjelma + språk = kieli; ett programspråk)",
+        "lär": "opettaa; lär sig = oppii",
+        "sig": "itsensä (refleksiivi: han, hon, man, de)",
+        "lär sig": "oppii (lära sig = oppia)",
+        "studerar": "opiskelee (studera = opiskella)",
+        "programmering": "ohjelmointi",
+        "vill": "haluaa (vilja = haluta)",
+        "bli": "tulla joksikin",
+        "utvecklare": "kehittäjä (utveckla = kehittää; en utvecklare)",
+        "vi": "me",
+        "sparade": "tallensi (spara = tallentaa, imperfekti)",
+        "filen": "tiedosto (määräinen muoto: fil + en)",
+        "textbehandlingsprogram": "tekstinkäsittelyohjelma (text + behandling = käsittely + s + program)",
+        "använder": "käyttää (använda = käyttää, preesens)",
+        "använda": "käyttää (perusmuoto); det mest använda = käytetyin",
+        "när": "kun; milloin",
+        "jobbar": "työskentelee (jobba = tehdä töitä)",
+        "texter": "tekstit (en text, monikko -er)",
+        "det": "se (ett-sanasta)",
+        "här": "täällä; det här = tämä",
+        "det här": "tämä (ett-sanan kanssa, perään määräinen muoto)",
+        "bildbehandlingsprogrammet": "kuvankäsittelyohjelma (määräinen muoto; bild = kuva + behandling = käsittely + program)",
+        "är": "on (vara = olla)",
+        "kompatibelt": "yhteensopiva (ett-sanan kanssa: kompatibel + t)",
+        "kompatibel": "yhteensopiva",
+        "mac": "Mac (Applen tietokone)",
+        "kalkylprogram": "taulukkolaskentaohjelma (kalkyl = laskelma + program; ett kalkylprogram)",
+        "kalkylprogrammet": "taulukkolaskentaohjelma (määräinen muoto: kalkylprogram + met)",
+        "göra": "tehdä",
+        "budgeten": "budjetti (määräinen muoto: budget + en)",
+        "excel": "Excel (taulukkolaskentaohjelma)",
+        "mest": "eniten; det mest använda = käytetyin",
+        "mest använda": "käytetyin",
+        "marknaden": "markkinat (määräinen muoto: marknad + en); på marknaden = markkinoilla",
+        "idag": "tänään; nykyään",
+        "applikationens": "sovelluksen (genetiivi: applikationen + s)",
+        "inställningar": "asetukset (en inställning, monikko -ar)",
+        "inställningarna": "asetukset (määräinen monikko: inställningar + na)",
+        "lösenord": "salasana (lösen = tunnus + ord = sana; ett lösenord)",
+        "lösenordet": "salasana (määräinen muoto: lösenord + et)",
+        "kan": "voi, osaa (kunna)",
+        "ändras": "muutetaan (s-passiivi: ändra + s)",
+        "ändra": "muuttaa",
+        "manuellt": "manuaalisesti, käsin",
+        "applikationen": "sovellus (määräinen muoto: applikation + en)",
+        "enkel": "helppo, yksinkertainen",
+        "har": "on (jollakin), omistaa (ha = olla jollakin)",
+        "modernt": "moderni (ett-sanan kanssa: modern + t)",
+        "gränssnitt": "käyttöliittymä (gräns = raja + snitt = leikkaus; ett gränssnitt)",
+        "operativsystemet": "käyttöjärjestelmä (määräinen muoto: operativsystem + et)",
+        "användarvänligt": "käyttäjäystävällinen (ett-sanan kanssa; användare = käyttäjä + vänlig = ystävällinen)",
+        "inte": "ei",
+        "telefon": "puhelin (en telefon)",
+        "försvann": "katosi (försvinna = kadota, imperfekti)",
+        "efter": "jälkeen",
+        "uppdateringen": "päivitys (määräinen muoto: uppdatering + en)",
+        "behöver": "tarvitsee (behöva = tarvita)",
+        "systemet": "järjestelmä (määräinen muoto: system + et)",
+        "regelbundet": "säännöllisesti (regel = sääntö)",
+        "databas": "tietokanta (data + bas; en databas)",
+        "vårt": "meidän (ett-sanan kanssa)",
+        "kundregister": "asiakasrekisteri (kund = asiakas + register; ett kundregister)",
+        "skrivbordet": "työpöytä (määräinen muoto: skrivbord + et; skriva = kirjoittaa + bord = pöytä)",
+        "gillar": "tykkää (gilla = pitää jostakin)",
+        "spela": "pelata; soittaa",
+        "dataspel": "tietokonepeli, -pelit (data + spel = peli; myös datorspel)",
+        "fritiden": "vapaa-aika (määräinen muoto: fritid + en); på fritiden = vapaa-ajalla"
+    }
+}

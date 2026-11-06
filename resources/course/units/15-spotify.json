@@ -1,0 +1,747 @@
+{
+    "id": "spotify",
+    "title": "Spotify-tarina",
+    "subtitle": "Spotify startas med pengar direkt från den första it-boomen",
+    "description": "Opit Spotify-tekstin keskeiset lauseet ja sanaston: perustajat, liikeidea, lanseeraus ja kasvu. Auttaa Spotify-käännöstehtävässä, jossa suomenkieliset lauseet käännetään tekstin sanoilla.",
+    "icon": "music",
+    "color": "pink",
+    "exam": ["assignment"],
+    "source": "Teksti \"Spotify startas med pengar direkt från den första it-boomen\" ja sen käännöstehtävä. Pitkät lauseet on lyhennetty tekstin omiksi lauseenosiksi.",
+    "lessons": [
+        {
+            "id": "spotify-l1",
+            "title": "Perustajat ja idea",
+            "intro": "Käännöstehtävässä käytetään tekstin omia sanoja. Opettele nämä lauseet, niin löydät oikeat sanat helposti.",
+            "sentences": [
+                {
+                    "id": "spotify-s01",
+                    "sv": "Martin Lorentzon och Daniel Ek har blivit mångmiljonärer på digitala annonstjänster.",
+                    "fi": "Martin Lorentzon ja Daniel Ek ovat tulleet monimiljonääreiksi digitaalisilla mainospalveluilla.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "blivit", "d": ["bli", "blev", "blir"] },
+                        {
+                            "w": "mångmiljonärer",
+                            "d": ["mångmiljonär", "miljoner", "miljonärens"]
+                        },
+                        {
+                            "w": "annonstjänster",
+                            "d": ["annonstjänst", "annonser", "tjänar"]
+                        }
+                    ],
+                    "grammar": ["perfect", "compound", "plural"],
+                    "note": "har blivit = ovat tulleet joksikin (bli, blev, blivit). mång + miljonär = monimiljonääri. annons (mainos) + tjänst (palvelu).",
+                    "wrong": [
+                        "Martin Lorentzon och Daniel Ek har bli mångmiljonärer på digitala annonstjänster.",
+                        "Martin Lorentzon och Daniel Ek har blivit mångmiljonär på digitala annonstjänster."
+                    ]
+                },
+                {
+                    "id": "spotify-s02",
+                    "sv": "De båda entreprenörerna är på jakt efter ett nytt sätt att tjäna pengar.",
+                    "fi": "Molemmat yrittäjät etsivät uutta tapaa ansaita rahaa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "entreprenörerna",
+                            "d": [
+                                "entreprenör",
+                                "entreprenörer",
+                                "entreprenörens"
+                            ]
+                        },
+                        {
+                            "w": "på jakt efter",
+                            "d": ["på jakt för", "i jakt efter", "på jakt till"]
+                        },
+                        { "w": "tjäna", "d": ["tjänar", "tjänst", "tjänade"] }
+                    ],
+                    "grammar": ["att-inf", "adj", "definite"],
+                    "note": "vara på jakt efter = etsiä, olla jonkin perässä. tjäna pengar = ansaita rahaa. ett sätt → ett nytt sätt (-t).",
+                    "wrong": [
+                        "De båda entreprenörerna är på jakt efter en nytt sätt att tjäna pengar.",
+                        "De båda entreprenörerna är på jakt efter ett nytt sätt att tjänar pengar."
+                    ]
+                },
+                {
+                    "id": "spotify-s03",
+                    "sv": "Daniel registrerar domännamnet och Spotify ser dagens ljus.",
+                    "fi": "Daniel rekisteröi verkkotunnuksen, ja Spotify näkee päivänvalon.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "registrerar",
+                            "d": ["registrera", "registrering", "registrerad"]
+                        },
+                        {
+                            "w": "domännamnet",
+                            "d": ["domännamn", "domän", "namnet"]
+                        },
+                        { "w": "ljus", "d": ["ljuset", "ljust", "luft"] }
+                    ],
+                    "grammar": ["present", "definite", "genitive"],
+                    "note": "Teksti kertoo menneestä preesensissä (elävöittävä preesens). se dagens ljus = nähdä päivänvalo, syntyä.",
+                    "wrong": [
+                        "Daniel registrera domännamnet och Spotify ser dagens ljus.",
+                        "Daniel registrerar domännamn och Spotify ser dagens ljus."
+                    ]
+                },
+                {
+                    "id": "spotify-s04",
+                    "sv": "Spotifys grundare Daniel Ek är född och uppvuxen i Rågsved.",
+                    "fi": "Spotifyn perustaja Daniel Ek on syntynyt ja kasvanut Rågsvedissä.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "grundare",
+                            "d": ["grunda", "grundade", "grund"]
+                        },
+                        { "w": "född", "d": ["föda", "föds", "födde"] },
+                        {
+                            "w": "uppvuxen",
+                            "d": ["uppväxt", "växer", "uppvuxna"]
+                        }
+                    ],
+                    "grammar": ["genitive", "participle"],
+                    "note": "Spotifys = Spotifyn (genetiivi -s). är född och uppvuxen = on syntynyt ja kasvanut.",
+                    "wrong": [
+                        "Spotify grundare Daniel Ek är född och uppvuxen i Rågsved.",
+                        "Spotifys grundare Daniel Ek har född och uppvuxen i Rågsved."
+                    ]
+                },
+                {
+                    "id": "spotify-s05",
+                    "sv": "Han installerade internet på Oasen som 14-åring.",
+                    "fi": "Hän asensi internetin Oaseniin 14-vuotiaana.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "installerade",
+                            "d": ["installera", "installerar", "installation"]
+                        },
+                        { "w": "som", "d": ["till", "av", "för"] }
+                    ],
+                    "grammar": ["past", "som"],
+                    "note": "installerade = asensi (imperfekti -de). som 14-åring = 14-vuotiaana (som = -na).",
+                    "wrong": [
+                        "Han installera internet på Oasen som 14-åring.",
+                        "Han installerade internet på Oasen till 14-åring."
+                    ]
+                },
+                {
+                    "id": "spotify-s06",
+                    "sv": "Grundarna diskuterar flera olika affärsidéer.",
+                    "fi": "Perustajat keskustelevat useista eri liikeideoista.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Grundarna",
+                            "a": ["grundarna"],
+                            "d": ["Grundare", "Grundaren", "Grunda"]
+                        },
+                        {
+                            "w": "diskuterar",
+                            "d": ["diskutera", "diskussion", "diskuterade"]
+                        },
+                        {
+                            "w": "affärsidéer",
+                            "d": ["affärsidé", "affärer", "idén"]
+                        }
+                    ],
+                    "grammar": ["definite", "plural", "compound"],
+                    "note": "en grundare → grundarna (ne perustajat). affär (liiketoiminta) + idé = liikeidea.",
+                    "wrong": [
+                        "Grundarna diskutera flera olika affärsidéer.",
+                        "Grundarna diskuterar flera olika affärsidé."
+                    ]
+                },
+                {
+                    "id": "spotify-s07",
+                    "sv": "Alla affärsidéer kretsar kring visning av annonser.",
+                    "fi": "Kaikki liikeideat pyörivät mainosten näyttämisen ympärillä.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "kretsar",
+                            "d": ["kretsa", "krets", "kretsade"]
+                        },
+                        {
+                            "w": "annonser",
+                            "d": ["annons", "annonsen", "annonsera"]
+                        }
+                    ],
+                    "grammar": ["present", "plural"],
+                    "note": "kretsa kring = pyöriä jonkin ympärillä. en annons → annonser (mainokset).",
+                    "wrong": [
+                        "Alla affärsidéer kretsa kring visning av annonser.",
+                        "Alla affärsidéer kretsar kring visning av annons."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "spotify-w01",
+                    "sv": "en grundare",
+                    "fi": "perustaja",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w02",
+                    "sv": "en entreprenör",
+                    "fi": "yrittäjä",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w03",
+                    "sv": "en annons",
+                    "fi": "mainos",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w04",
+                    "sv": "tjäna pengar",
+                    "fi": "ansaita rahaa",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w05",
+                    "sv": "en affärsidé",
+                    "fi": "liikeidea",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w06",
+                    "sv": "ett domännamn",
+                    "fi": "verkkotunnus",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "spotify-l2",
+            "title": "Musiikkiala ja liiketoimintamalli",
+            "intro": "Musiikkiala on kriisissä, ja Spotify tuo uuden mallin: musiikkia striimataan eikä omisteta.",
+            "sentences": [
+                {
+                    "id": "spotify-s08",
+                    "sv": "Vid tiden genomgår musikbranschen ett stålbad.",
+                    "fi": "Tuolloin musiikkiala käy läpi rajun murroksen.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "genomgår",
+                            "d": ["genomgå", "genomgick", "genomgång"]
+                        },
+                        {
+                            "w": "musikbranschen",
+                            "d": ["musikbransch", "musik", "branschens"]
+                        },
+                        { "w": "stålbad", "d": ["stål", "bad", "stålbadet"] }
+                    ],
+                    "grammar": ["v2", "compound"],
+                    "note": "Vid tiden = tuolloin. Lause alkaa sillä, joten verbi genomgår tulee toiseksi. ett stålbad = \"teräskylpy\", kova koettelemus.",
+                    "wrong": [
+                        "Vid tiden musikbranschen genomgår ett stålbad.",
+                        "Vid tiden genomgår musikbransch ett stålbad."
+                    ]
+                },
+                {
+                    "id": "spotify-s09",
+                    "sv": "Minskad betalningsvilja och illegal fildelning har gjort att branschens intäkter halverats.",
+                    "fi": "Heikentynyt maksuhalukkuus ja laiton tiedostojen jakaminen ovat puolittaneet alan tulot.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "betalningsvilja",
+                            "d": ["betalning", "betala", "viljan"]
+                        },
+                        {
+                            "w": "fildelning",
+                            "d": ["fildela", "filer", "delning"]
+                        },
+                        {
+                            "w": "intäkter",
+                            "d": ["intäkt", "intäkten", "inkomna"]
+                        }
+                    ],
+                    "grammar": ["perfect", "compound", "genitive"],
+                    "note": "betalning + s + vilja = maksuhalukkuus. fil + delning = tiedostojen jakaminen. intäkter = tulot. branschens = alan.",
+                    "wrong": [
+                        "Minskad betalningsvilja och illegal fildelning har gör att branschens intäkter halverats.",
+                        "Minskad betalningsvilja och illegal fildelning har gjort att branschen intäkter halverats."
+                    ]
+                },
+                {
+                    "id": "spotify-s10",
+                    "sv": "I stället för att äga musik ska man strömma den.",
+                    "fi": "Sen sijaan että musiikkia omistettaisiin, sitä pitää striimata.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "äga", "d": ["äger", "ägde", "ägare"] },
+                        {
+                            "w": "strömma",
+                            "d": ["strömmar", "ström", "strömmade"]
+                        },
+                        {
+                            "w": "I stället för",
+                            "a": ["i stället för"],
+                            "d": [
+                                "I stället av",
+                                "I platsen för",
+                                "I stället till"
+                            ]
+                        }
+                    ],
+                    "grammar": ["v2", "man", "modal"],
+                    "note": "i stället för att = sen sijaan että. man = yleinen tekijä. ska + perusmuoto ilman att-sanaa.",
+                    "wrong": [
+                        "I stället för att äga musik man ska strömma den.",
+                        "I stället för att äger musik ska man strömma den."
+                    ]
+                },
+                {
+                    "id": "spotify-s11",
+                    "sv": "Innan licensavtal finns på plats vågar inga investerare satsa på tjänsten.",
+                    "fi": "Ennen kuin lisenssisopimukset ovat valmiina, yksikään sijoittaja ei uskalla panostaa palveluun.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "licensavtal",
+                            "d": ["licens", "avtalet", "licensierad"]
+                        },
+                        { "w": "vågar", "d": ["våga", "vågade", "våg"] },
+                        {
+                            "w": "investerare",
+                            "d": ["investera", "investering", "investerar"]
+                        }
+                    ],
+                    "grammar": ["v2", "subclause", "rektio"],
+                    "note": "Sivulause (Innan... på plats) on lauseen alussa, joten päälauseen verbi vågar tulee heti sen jälkeen (V2). satsa på = panostaa johonkin.",
+                    "wrong": [
+                        "Innan licensavtal finns på plats inga investerare vågar satsa på tjänsten.",
+                        "Innan licensavtal finns på plats vågar inga investerare satsa i tjänsten."
+                    ]
+                },
+                {
+                    "id": "spotify-s12",
+                    "sv": "Deras initiala tanke är att tjänsten ska vara gratis och reklamfinansierad.",
+                    "fi": "Heidän alkuperäinen ajatuksensa on, että palvelu olisi ilmainen ja mainosrahoitteinen.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "tanke", "d": ["tanken", "tänka", "tankar"] },
+                        { "w": "gratis", "d": ["betald", "pengar", "dyr"] },
+                        {
+                            "w": "reklamfinansierad",
+                            "d": ["reklam", "finansierar", "reklamfinansierat"]
+                        }
+                    ],
+                    "grammar": ["subclause", "modal", "participle"],
+                    "note": "initial = alkuperäinen. reklam (mainos) + finansierad (rahoitettu) = mainosrahoitteinen. en tjänst → reklamfinansierad (ei -t:tä).",
+                    "wrong": [
+                        "Deras initiala tanke är att tjänsten ska är gratis och reklamfinansierad.",
+                        "Deras initiala tanke är att tjänsten ska vara gratis och reklamfinansierat."
+                    ]
+                },
+                {
+                    "id": "spotify-s13",
+                    "sv": "Det blir även en prenumerationstjänst.",
+                    "fi": "Siitä tulee myös tilauspalvelu.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "prenumerationstjänst",
+                            "d": ["prenumeration", "prenumerera", "prenumerant"]
+                        },
+                        { "w": "även", "d": ["ännu", "än", "ens"] }
+                    ],
+                    "grammar": ["compound", "adverbs"],
+                    "note": "även = myös (sama kuin också). prenumeration + s + tjänst = tilauspalvelu. bli = tulla joksikin.",
+                    "wrong": [
+                        "Det bli även en prenumerationstjänst.",
+                        "Det blir även ett prenumerationstjänst."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "spotify-w07",
+                    "sv": "intäkter",
+                    "fi": "tulot",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w08",
+                    "sv": "en investerare",
+                    "fi": "sijoittaja",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w09",
+                    "sv": "strömma",
+                    "fi": "striimata, suoratoistaa",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w10",
+                    "sv": "ett licensavtal",
+                    "fi": "lisenssisopimus",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w11",
+                    "sv": "en prenumerationstjänst",
+                    "fi": "tilauspalvelu",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w12",
+                    "sv": "fildelning",
+                    "fi": "tiedostojen jakaminen",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w13",
+                    "sv": "reklamfinansierad",
+                    "fi": "mainosrahoitteinen",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "spotify-l3",
+            "title": "Lanseeraus ja kasvu",
+            "intro": "Spotify lanseerataan, siitä tulee pörssiyhtiö ja tilaajia on yli sata miljoonaa.",
+            "sentences": [
+                {
+                    "id": "spotify-s14",
+                    "sv": "Spotify lanseras i november 2008.",
+                    "fi": "Spotify lanseerataan marraskuussa 2008.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "lanseras",
+                            "d": ["lansera", "lanserade", "lansering"]
+                        },
+                        {
+                            "w": "november",
+                            "d": ["novembers", "novembern", "nionde"]
+                        }
+                    ],
+                    "grammar": ["s-passive", "time"],
+                    "note": "lanseras = lanseerataan (s-passiivi). i november = marraskuussa. Kuukaudet kirjoitetaan pienellä.",
+                    "wrong": [
+                        "Spotify lansera i november 2008.",
+                        "Spotify lanseras på november 2008."
+                    ]
+                },
+                {
+                    "id": "spotify-s15",
+                    "sv": "I mars 2011 har sajten en miljon betalande kunder.",
+                    "fi": "Maaliskuussa 2011 sivustolla on miljoona maksavaa asiakasta.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "sajten", "d": ["sajt", "sajter", "sajtens"] },
+                        {
+                            "w": "betalande",
+                            "d": ["betalar", "betala", "betalning"]
+                        },
+                        { "w": "kunder", "d": ["kund", "kunden", "kundens"] }
+                    ],
+                    "grammar": ["v2", "time", "participle"],
+                    "note": "I mars 2011 + verbi har + sajten (V2). betalande = maksava (-ande = -va). en kund → kunder.",
+                    "wrong": [
+                        "I mars 2011 sajten har en miljon betalande kunder.",
+                        "I mars 2011 har sajten en miljon betalar kunder."
+                    ]
+                },
+                {
+                    "id": "spotify-s16",
+                    "sv": "I april 2018 börsintroduceras bolaget i New York.",
+                    "fi": "Huhtikuussa 2018 yhtiö listautuu pörssiin New Yorkissa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "börsintroduceras",
+                            "d": [
+                                "börsintroducerar",
+                                "börsintroduktion",
+                                "börsen"
+                            ]
+                        },
+                        {
+                            "w": "bolaget",
+                            "d": ["bolag", "bolagen", "bolagets"]
+                        }
+                    ],
+                    "grammar": ["v2", "s-passive", "definite"],
+                    "note": "börs (pörssi) + introducera = tuoda pörssiin; -s-passiivi. bolaget = se yhtiö.",
+                    "wrong": [
+                        "I april 2018 bolaget börsintroduceras i New York.",
+                        "I april 2018 börsintroduceras bolag i New York."
+                    ]
+                },
+                {
+                    "id": "spotify-s17",
+                    "sv": "Många av de tidigt anställda blir mångmiljonärer.",
+                    "fi": "Monista varhaisista työntekijöistä tulee monimiljonäärejä.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "anställda",
+                            "d": ["anställd", "anställer", "anställning"]
+                        },
+                        { "w": "blir", "d": ["bli", "blev", "blivit"] }
+                    ],
+                    "grammar": ["participle", "present"],
+                    "note": "de anställda = työntekijät (sanatarkasti \"palkatut\"). bli = tulla joksikin, preesens blir.",
+                    "wrong": [
+                        "Många av de tidigt anställd blir mångmiljonärer.",
+                        "Många av de tidigt anställda bli mångmiljonärer."
+                    ]
+                },
+                {
+                    "id": "spotify-s18",
+                    "sv": "2019 har Spotify över 100 miljoner prenumeranter.",
+                    "fi": "Vuonna 2019 Spotifylla on yli 100 miljoonaa tilaajaa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "prenumeranter",
+                            "d": [
+                                "prenumerant",
+                                "prenumeration",
+                                "prenumererar"
+                            ]
+                        },
+                        { "w": "över", "d": ["överst", "övre", "om"] }
+                    ],
+                    "grammar": ["v2", "plural"],
+                    "note": "Vuosiluku alussa → verbi har ennen subjektia Spotify (V2). över = yli. en prenumerant = tilaaja.",
+                    "wrong": [
+                        "2019 Spotify har över 100 miljoner prenumeranter.",
+                        "2019 har Spotify över 100 miljoner prenumerant."
+                    ]
+                },
+                {
+                    "id": "spotify-s19",
+                    "sv": "Företaget har prioriterat tillväxt.",
+                    "fi": "Yritys on asettanut kasvun etusijalle.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "prioriterat",
+                            "d": ["prioritera", "prioriterar", "prioritet"]
+                        },
+                        { "w": "tillväxt", "d": ["växer", "utväxt", "vuxen"] }
+                    ],
+                    "grammar": ["perfect"],
+                    "note": "har prioriterat = on priorisoinut (perfekti -t). tillväxt = kasvu.",
+                    "wrong": [
+                        "Företaget har prioritera tillväxt.",
+                        "Företaget är prioriterat tillväxt."
+                    ]
+                },
+                {
+                    "id": "spotify-s20",
+                    "sv": "Företaget har gjort en sammanlagd förlust på 30 miljarder kronor.",
+                    "fi": "Yritys on tehnyt yhteensä 30 miljardin kruunun tappiot.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "förlust",
+                            "d": ["förlora", "förlorare", "förluster"]
+                        },
+                        {
+                            "w": "sammanlagd",
+                            "d": ["sammanlagt", "sammanlagda", "samman"]
+                        },
+                        { "w": "gjort", "d": ["gör", "göra", "gjorde"] }
+                    ],
+                    "grammar": ["perfect", "adj"],
+                    "note": "göra en förlust = tehdä tappiota. sammanlagd = yhteenlaskettu, yhteensä. en förlust → sammanlagd (ei -t:tä).",
+                    "wrong": [
+                        "Företaget har gjort ett sammanlagt förlust på 30 miljarder kronor.",
+                        "Företaget har gör en sammanlagd förlust på 30 miljarder kronor."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "spotify-w14",
+                    "sv": "lansera",
+                    "fi": "lanseerata",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w15",
+                    "sv": "betalande kunder",
+                    "fi": "maksavat asiakkaat",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w16",
+                    "sv": "börsintroducera",
+                    "fi": "listata pörssiin",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w17",
+                    "sv": "tillväxt",
+                    "fi": "kasvu",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w18",
+                    "sv": "en förlust",
+                    "fi": "tappio",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w19",
+                    "sv": "en prenumerant",
+                    "fi": "tilaaja",
+                    "src": "m"
+                },
+                {
+                    "id": "spotify-w20",
+                    "sv": "en anställd",
+                    "fi": "työntekijä",
+                    "src": "m"
+                }
+            ]
+        }
+    ],
+    "glossary": {
+        "martin": "Martin (nimi)",
+        "lorentzon": "Lorentzon (sukunimi)",
+        "daniel": "Daniel (nimi)",
+        "ek": "Ek (sukunimi)",
+        "och": "ja",
+        "har": "on jollakin; perfektin apuverbi",
+        "blivit": "tullut joksikin (perusmuoto bli: blir, blev, blivit)",
+        "mångmiljonärer": "monimiljonäärit (monikko sanasta en mångmiljonär)",
+        "på": "-lla, -ssa; jonkin avulla",
+        "digitala": "digitaaliset (monikko sanasta digital)",
+        "annonstjänster": "mainospalvelut (monikko sanasta en annonstjänst)",
+        "de": "ne, he",
+        "båda": "molemmat",
+        "entreprenörerna": "ne yrittäjät (määräinen monikko sanasta en entreprenör)",
+        "entreprenör": "yrittäjä (en entreprenör)",
+        "är": "on (perusmuoto vara)",
+        "jakt": "metsästys; på jakt efter = jonkin perässä, etsimässä",
+        "efter": "jälkeen, perässä",
+        "på jakt efter": "etsimässä jotakin, jonkin perässä",
+        "ett": "yksi; ett-sanojen artikkeli",
+        "en": "yksi; en-sanojen artikkeli",
+        "nytt": "uusi (ett-sanalle)",
+        "sätt": "tapa (ett sätt)",
+        "att": "infinitiivin merkki; myös \"että\"",
+        "tjäna": "ansaita; tjäna pengar = ansaita rahaa",
+        "pengar": "raha(t)",
+        "tjäna pengar": "ansaita rahaa",
+        "registrerar": "rekisteröi (perusmuoto registrera)",
+        "domännamnet": "verkkotunnus (määräinen muoto sanasta ett domännamn)",
+        "domännamn": "verkkotunnus (ett domännamn)",
+        "spotify": "Spotify",
+        "spotifys": "Spotifyn (genetiivi)",
+        "ser": "näkee (perusmuoto se)",
+        "dagens": "päivän (genetiivi sanasta dagen)",
+        "ljus": "valo; se dagens ljus = nähdä päivänvalo, syntyä",
+        "grundare": "perustaja (en grundare, monikko sama)",
+        "grundarna": "ne perustajat (määräinen monikko)",
+        "född": "syntynyt",
+        "uppvuxen": "kasvanut (aikuiseksi)",
+        "i": "-ssa, -ssä",
+        "rågsved": "Rågsved (Tukholman lähiö)",
+        "han": "hän (mies)",
+        "installerade": "asensi (perusmuoto installera)",
+        "internet": "internet",
+        "oasen": "Oasen (nuorisotalo Rågsvedissä)",
+        "som": "-na; som 14-åring = 14-vuotiaana",
+        "14-åring": "14-vuotias",
+        "diskuterar": "keskustelee (perusmuoto diskutera)",
+        "flera": "useita",
+        "olika": "eri, erilaisia",
+        "affärsidéer": "liikeideat (monikko sanasta en affärsidé)",
+        "affärsidé": "liikeidea (en affärsidé)",
+        "alla": "kaikki",
+        "kretsar": "pyörii, kiertää (perusmuoto kretsa); kretsa kring = pyöriä jonkin ympärillä",
+        "kring": "ympärillä",
+        "visning": "näyttäminen",
+        "av": "-sta; jonkin",
+        "annonser": "mainokset (monikko sanasta en annons)",
+        "annons": "mainos (en annons)",
+        "vid": "luona; vid tiden = tuolloin",
+        "tiden": "aika (määräinen muoto); vid tiden = tuolloin",
+        "vid tiden": "tuolloin, siihen aikaan",
+        "genomgår": "käy läpi (perusmuoto genomgå)",
+        "musikbranschen": "musiikkiala (määräinen muoto)",
+        "stålbad": "\"teräskylpy\": kova koettelemus, raju murros",
+        "minskad": "vähentynyt, heikentynyt",
+        "betalningsvilja": "maksuhalukkuus",
+        "illegal": "laiton",
+        "fildelning": "tiedostojen jakaminen",
+        "gjort": "tehnyt (perusmuoto göra: gör, gjorde, gjort)",
+        "branschens": "alan (genetiivi sanasta branschen)",
+        "intäkter": "tulot (monikko sanasta en intäkt)",
+        "halverats": "puolittunut (perfekti + s-passiivi sanasta halvera)",
+        "stället": "paikka; i stället för = sen sijaan että",
+        "i stället för": "sen sijaan, että; jonkin sijaan",
+        "för": "varten; i stället för = sijaan",
+        "äga": "omistaa",
+        "musik": "musiikki",
+        "ska": "pitää, aikoo (perusmuoto skola)",
+        "man": "yleinen tekijä: ihminen, \"sitä\"",
+        "strömma": "striimata, suoratoistaa",
+        "den": "sen, sitä",
+        "innan": "ennen kuin",
+        "licensavtal": "lisenssisopimus/-sopimukset (ett licensavtal, monikko sama)",
+        "finns": "on olemassa; finnas på plats = olla valmiina",
+        "plats": "paikka; på plats = paikallaan, valmiina",
+        "vågar": "uskaltaa (perusmuoto våga)",
+        "inga": "ei yhtään, ei kukaan",
+        "investerare": "sijoittaja(t) (en investerare, monikko sama)",
+        "satsa": "panostaa; satsa på = panostaa johonkin",
+        "tjänsten": "se palvelu (määräinen muoto sanasta en tjänst)",
+        "deras": "heidän",
+        "initiala": "alkuperäinen (määräinen muoto sanasta initial)",
+        "tanke": "ajatus (en tanke)",
+        "vara": "olla",
+        "gratis": "ilmainen, ilmaiseksi",
+        "reklamfinansierad": "mainosrahoitteinen",
+        "det": "se; siitä",
+        "blir": "tulee joksikin (perusmuoto bli)",
+        "även": "myös",
+        "prenumerationstjänst": "tilauspalvelu (en prenumerationstjänst)",
+        "lanseras": "lanseerataan (s-passiivi sanasta lansera)",
+        "lansera": "lanseerata",
+        "november": "marraskuu",
+        "mars": "maaliskuu",
+        "april": "huhtikuu",
+        "sajten": "se sivusto (määräinen muoto sanasta en sajt)",
+        "miljon": "miljoona (en miljon)",
+        "betalande": "maksava",
+        "kunder": "asiakkaat (monikko sanasta en kund)",
+        "börsintroduceras": "tuodaan pörssiin, listautuu pörssiin (s-passiivi)",
+        "börsintroducera": "listata pörssiin",
+        "bolaget": "se yhtiö (määräinen muoto sanasta ett bolag)",
+        "new": "New York",
+        "york": "New York",
+        "många": "monet, monta",
+        "tidigt": "varhain, aikaisin",
+        "anställda": "työntekijät (\"palkatut\", monikko sanasta anställd)",
+        "anställd": "työntekijä; palkattu",
+        "över": "yli",
+        "miljoner": "miljoonat (monikko sanasta en miljon)",
+        "prenumeranter": "tilaajat (monikko sanasta en prenumerant)",
+        "prenumerant": "tilaaja (en prenumerant)",
+        "företaget": "se yritys (määräinen muoto sanasta ett företag)",
+        "prioriterat": "priorisoinut, asettanut etusijalle (perusmuoto prioritera)",
+        "tillväxt": "kasvu",
+        "sammanlagd": "yhteenlaskettu, yhteensä",
+        "förlust": "tappio (en förlust)",
+        "miljarder": "miljardit (monikko sanasta en miljard)",
+        "kronor": "kruunut (monikko sanasta en krona, Ruotsin raha)",
+        "betalande kunder": "maksavat asiakkaat"
+    }
+}

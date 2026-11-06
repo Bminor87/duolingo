@@ -1,0 +1,868 @@
+{
+    "id": "studier",
+    "title": "Minä ja opiskeluni",
+    "subtitle": "Vad studerar jag?",
+    "description": "Opit kertomaan kuka olet, mitä opiskelet, mihin suuntaudut ja millaista työtä haluat tehdä. Nämä lauseet ovat suullisen loppukeskustelun perusta.",
+    "icon": "graduation-cap",
+    "color": "emerald",
+    "exam": ["oral"],
+    "source": "Välilehti 1 (Vad studerar jag?), IT-opiskelijan vinkkilista suulliseen keskusteluun, diat \"Viktiga ord och fraser när du söker jobb\" (berätta om dig själv, utbildning) ja työhaastatteluharjoitus.",
+    "lessons": [
+        {
+            "id": "studier-l1",
+            "title": "Esittäydy",
+            "intro": "Aloitetaan lauseilla, joilla jokainen suullinen keskustelu alkaa: nimi, ikä, koulu ja valmistuminen.",
+            "sentences": [
+                {
+                    "id": "studier-s01",
+                    "sv": "Jag heter Mika.",
+                    "fi": "Nimeni on Mika.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "heter", "d": ["heta", "hette", "heterar"] }
+                    ],
+                    "grammar": ["present", "v2"],
+                    "note": "'Jag heter' = 'minä nimeltäni olen'. Ruotsissa ei sanota 'mitt namn är' arkikielessä, vaan 'jag heter' + nimi.",
+                    "wrong": ["Jag heta Mika.", "Heter jag Mika."],
+                    "variants": [
+                        {
+                            "sv": "Jag heter Anna.",
+                            "fi": "Nimeni on Anna.",
+                            "w": "Anna",
+                            "d": ["Mika", "Erik", "Lisa"]
+                        }
+                    ]
+                },
+                {
+                    "id": "studier-s02",
+                    "sv": "Jag är tjugofem år.",
+                    "fi": "Olen kaksikymmentäviisi vuotta.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "tjugofem", "d": ["tjugo", "femtio", "femton"] },
+                        { "w": "år", "d": ["året", "åren", "års"] }
+                    ],
+                    "grammar": ["present"],
+                    "note": "Iästä sanotaan 'Jag är + luku + år' (olen ... vuotta). Ei 'gammal' tarvita.",
+                    "wrong": ["Jag har tjugofem år.", "Jag är tjugofem året."],
+                    "variants": [
+                        {
+                            "sv": "Jag är tjugotvå år.",
+                            "fi": "Olen kaksikymmentäkaksi vuotta.",
+                            "w": "tjugotvå",
+                            "d": ["tjugofem", "tolv", "trettio"]
+                        }
+                    ]
+                },
+                {
+                    "id": "studier-s03",
+                    "sv": "Jag studerar till it-tradenom på Haaga-Helia yrkeshögskola.",
+                    "fi": "Opiskelen it-tradenomiksi Haaga-Helian ammattikorkeakoulussa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "studerar",
+                            "d": ["studera", "studerat", "studerande"]
+                        },
+                        { "w": "till", "d": ["som", "av", "med"] },
+                        {
+                            "w": "yrkeshögskola",
+                            "d": ["gymnasium", "företag", "bransch"]
+                        }
+                    ],
+                    "grammar": ["rektio", "present", "finlandssvenska"],
+                    "note": "'studera till' + ammatti = opiskella joksikin. 'Yrkeshögskola' on suomenruotsin sana ammattikorkeakoululle.",
+                    "wrong": [
+                        "Jag studera till it-tradenom på Haaga-Helia yrkeshögskola.",
+                        "Jag studerar som it-tradenom på Haaga-Helia yrkeshögskola."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag studerar till tradenom på Haaga-Helia yrkeshögskola.",
+                            "fi": "Opiskelen tradenomiksi Haaga-Helian ammattikorkeakoulussa.",
+                            "w": "tradenom",
+                            "d": ["restonom", "försäljare", "programmerare"]
+                        },
+                        {
+                            "sv": "Jag studerar till restonom på Haaga-Helia yrkeshögskola.",
+                            "fi": "Opiskelen restonomiksi Haaga-Helian ammattikorkeakoulussa.",
+                            "w": "restonom",
+                            "d": ["tradenom", "systemexpert", "försäljare"]
+                        }
+                    ]
+                },
+                {
+                    "id": "studier-s04",
+                    "sv": "Jag blir färdig nästa höst.",
+                    "fi": "Valmistun ensi syksynä.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "blir", "d": ["bli", "blivit", "blev"] },
+                        {
+                            "w": "färdig",
+                            "d": ["färdiga", "färdigt", "färdighet"]
+                        },
+                        {
+                            "w": "nästa höst",
+                            "d": ["förra hösten", "i höstas", "på höst"]
+                        }
+                    ],
+                    "grammar": ["time", "future"],
+                    "note": "'bli färdig' = valmistua (sanatarkasti 'tulla valmiiksi'). Tulevaisuus ilmaistaan pelkällä preesensillä ja aikailmauksella 'nästa höst'.",
+                    "wrong": [
+                        "Jag bli färdig nästa höst.",
+                        "Nästa höst jag blir färdig."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag blir färdig nästa vår.",
+                            "fi": "Valmistun ensi keväänä.",
+                            "w": "vår",
+                            "d": ["höst", "sommar", "vinter"]
+                        },
+                        {
+                            "sv": "Jag blir färdig om ett år.",
+                            "fi": "Valmistun vuoden kuluttua.",
+                            "w": "om ett år",
+                            "d": ["för ett år", "i ett år", "på ett år"]
+                        },
+                        {
+                            "sv": "Jag blir färdig om två månader.",
+                            "fi": "Valmistun kahden kuukauden kuluttua.",
+                            "w": "månader",
+                            "d": ["år", "veckor", "dagar"]
+                        }
+                    ]
+                },
+                {
+                    "id": "studier-s05",
+                    "sv": "Som person är jag nyfiken och flexibel.",
+                    "fi": "Henkilönä olen utelias ja joustava.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "Som", "d": ["Av", "Till", "För"] },
+                        {
+                            "w": "nyfiken",
+                            "d": ["nyfikna", "nyfikenhet", "nyfiket"]
+                        },
+                        {
+                            "w": "flexibel",
+                            "d": ["flexibla", "flexibelt", "flexibilitet"]
+                        }
+                    ],
+                    "grammar": ["v2", "som"],
+                    "note": "Lause alkaa sanoilla 'Som person', joten verbi 'är' tulee toiseksi ja 'jag' vasta sen perään (V2-sääntö).",
+                    "wrong": [
+                        "Som person jag är nyfiken och flexibel.",
+                        "Som person är jag nyfikna och flexibla."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Som person är jag noggrann och flexibel.",
+                            "fi": "Henkilönä olen tarkka ja joustava.",
+                            "w": "noggrann",
+                            "d": ["nyfiken", "noggranna", "pålitlig"]
+                        }
+                    ]
+                },
+                {
+                    "id": "studier-s06",
+                    "sv": "Mina hobbyer är programmering och datorspel.",
+                    "fi": "Harrastukseni ovat ohjelmointi ja tietokonepelit.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "hobbyer", "d": ["hobby", "hobbyn", "hobbys"] },
+                        { "w": "Mina", "d": ["Min", "Mitt", "Mig"] },
+                        {
+                            "w": "programmering",
+                            "d": ["programmerare", "programmera", "program"]
+                        }
+                    ],
+                    "grammar": ["possessive", "plural"],
+                    "note": "'Mina' on monikon 'minun', koska harrastuksia on monta. Yksikössä olisi 'min hobby'.",
+                    "wrong": [
+                        "Min hobbyer är programmering och datorspel.",
+                        "Mina hobbyer har programmering och datorspel."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Mina hobbyer är musik och datorspel.",
+                            "fi": "Harrastukseni ovat musiikki ja tietokonepelit.",
+                            "w": "musik",
+                            "d": ["programmering", "film", "sport"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "studier-l2",
+            "title": "Suuntautumiseni",
+            "intro": "Kerro, mihin olet suuntautunut ja mikä sinua kiinnostaa. Näitä kysytään suullisessa keskustelussa varmasti.",
+            "sentences": [
+                {
+                    "id": "studier-s07",
+                    "sv": "Min inriktning är programvaruutveckling.",
+                    "fi": "Suuntautumiseni on ohjelmistokehitys.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "inriktning",
+                            "d": ["inriktningen", "riktning", "inriktat"]
+                        },
+                        {
+                            "w": "programvaruutveckling",
+                            "d": [
+                                "programvaruutvecklare",
+                                "programvara",
+                                "utvecklar"
+                            ]
+                        }
+                    ],
+                    "grammar": ["compound", "possessive"],
+                    "note": "'programvaruutveckling' = programvara (ohjelmisto) + utveckling (kehitys). Pitkä sana on helppo, kun sen pilkkoo osiin.",
+                    "wrong": [
+                        "Mitt inriktning är programvaruutveckling.",
+                        "Min inriktning har programvaruutveckling."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Min inriktning är digitala tjänster.",
+                            "fi": "Suuntautumiseni on digitaaliset palvelut.",
+                            "w": "digitala tjänster",
+                            "d": [
+                                "digital tjänst",
+                                "digitalt tjänster",
+                                "programvaruutveckling"
+                            ]
+                        },
+                        {
+                            "sv": "Min inriktning är ICT-infra och molntjänster.",
+                            "fi": "Suuntautumiseni on ICT-infra ja pilvipalvelut.",
+                            "w": "molntjänster",
+                            "d": ["molntjänst", "moln", "molntjänsten"]
+                        },
+                        {
+                            "sv": "Min inriktning är ICT och affärsverksamhet.",
+                            "fi": "Suuntautumiseni on ICT ja liiketoiminta.",
+                            "w": "affärsverksamhet",
+                            "d": ["affär", "verksamheten", "affärsidé"]
+                        }
+                    ]
+                },
+                {
+                    "id": "studier-s08",
+                    "sv": "Jag är också intresserad av digitala tjänster.",
+                    "fi": "Olen kiinnostunut myös digitaalisista palveluista.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "intresserad",
+                            "d": ["intressant", "intresse", "intresserat"]
+                        },
+                        { "w": "av", "d": ["på", "för", "med"] },
+                        { "w": "också", "d": ["ofta", "aldrig", "inte"] }
+                    ],
+                    "grammar": ["rektio", "adverbs"],
+                    "note": "'intresserad av' = kiinnostunut jostakin. Suomen -sta-pääte vastaa tässä sanaa 'av'. 'också' (myös) tulee verbin perään.",
+                    "wrong": [
+                        "Jag är också intresserad på digitala tjänster.",
+                        "Jag också är intresserad av digitala tjänster."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag är också intresserad av molntjänster.",
+                            "fi": "Olen kiinnostunut myös pilvipalveluista.",
+                            "w": "molntjänster",
+                            "d": ["digitala tjänster", "molntjänst", "moln"]
+                        },
+                        {
+                            "sv": "Jag är också intresserad av programvaruutveckling.",
+                            "fi": "Olen kiinnostunut myös ohjelmistokehityksestä.",
+                            "w": "programvaruutveckling",
+                            "d": [
+                                "programvaruutvecklare",
+                                "affärsverksamhet",
+                                "programvara"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "studier-s09",
+                    "sv": "Jag är inte så intresserad av affärsverksamhet.",
+                    "fi": "En ole niin kiinnostunut liiketoiminnasta.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "inte", "d": ["ingen", "inga", "nej"] },
+                        {
+                            "w": "affärsverksamhet",
+                            "d": [
+                                "affär",
+                                "programvaruutveckling",
+                                "verksamheten"
+                            ]
+                        }
+                    ],
+                    "grammar": ["negation", "rektio"],
+                    "note": "Kieltosana 'inte' tulee verbin 'är' perään: 'Jag är inte...' = En ole...",
+                    "wrong": [
+                        "Jag inte är så intresserad av affärsverksamhet.",
+                        "Jag är inte så intresserad för affärsverksamhet."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag är inte så intresserad av molntjänster.",
+                            "fi": "En ole niin kiinnostunut pilvipalveluista.",
+                            "w": "molntjänster",
+                            "d": [
+                                "affärsverksamhet",
+                                "molntjänsten",
+                                "programvara"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "studier-s10",
+                    "sv": "Jag tycker att programvaruutveckling är intressant.",
+                    "fi": "Minusta ohjelmistokehitys on kiinnostavaa.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "tycker", "d": ["tycka", "tyck", "tycks"] },
+                        {
+                            "w": "intressant",
+                            "d": ["intresserad", "intressanta", "intresse"]
+                        }
+                    ],
+                    "grammar": ["opinion", "subclause"],
+                    "note": "'Jag tycker att...' = Mielestäni... 'intressant' = kiinnostava (asia), 'intresserad' = kiinnostunut (ihminen).",
+                    "wrong": [
+                        "Jag tycker att programvaruutveckling är intresserad.",
+                        "Jag tycker programvaruutveckling att är intressant."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag tycker att tjänstedesign är intressant.",
+                            "fi": "Minusta palvelumuotoilu on kiinnostavaa.",
+                            "w": "tjänstedesign",
+                            "d": [
+                                "programvaruutveckling",
+                                "tjänstedesigner",
+                                "tjänster"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "studier-s11",
+                    "sv": "Jag jobbar inom it-branschen.",
+                    "fi": "Työskentelen it-alalla.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "inom", "d": ["på", "till", "av"] },
+                        {
+                            "w": "it-branschen",
+                            "d": ["it-bransch", "it-branscher", "it-företag"]
+                        }
+                    ],
+                    "grammar": ["prepositions", "definite"],
+                    "note": "'inom' = jonkin alalla/sisällä. 'branschen' on määräinen muoto: bransch + en = ala (se tietty ala).",
+                    "wrong": [
+                        "Jag jobbar på it-branschen.",
+                        "Jag jobba inom it-branschen."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "studier-w01",
+                    "sv": "en inriktning",
+                    "fi": "suuntautuminen",
+                    "src": "m"
+                },
+                {
+                    "id": "studier-w02",
+                    "sv": "programvaruutveckling",
+                    "fi": "ohjelmistokehitys",
+                    "src": "m"
+                },
+                {
+                    "id": "studier-w03",
+                    "sv": "digitala tjänster",
+                    "fi": "digitaaliset palvelut",
+                    "src": "m"
+                },
+                {
+                    "id": "studier-w04",
+                    "sv": "molntjänster",
+                    "fi": "pilvipalvelut",
+                    "src": "m"
+                },
+                {
+                    "id": "studier-w05",
+                    "sv": "affärsverksamhet",
+                    "fi": "liiketoiminta",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "studier-l3",
+            "title": "Koulutus ja työkokemus",
+            "intro": "Näillä kerrot aiemmista opinnoistasi ja töistäsi. Huomaa 'har' + verbi = olen tehnyt.",
+            "sentences": [
+                {
+                    "id": "studier-s12",
+                    "sv": "Jag har avlagt studentexamen.",
+                    "fi": "Olen suorittanut ylioppilastutkinnon.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "avlagt", "d": ["avlägga", "avlade", "avlagd"] },
+                        {
+                            "w": "studentexamen",
+                            "d": ["grundexamen", "studerande", "yrkeshögskola"]
+                        }
+                    ],
+                    "grammar": ["perfect", "finlandssvenska"],
+                    "note": "'avlägga en examen' = suorittaa tutkinto. Perfekti: har + avlagt. 'studentexamen' on Suomen ylioppilastutkinto.",
+                    "wrong": [
+                        "Jag har avlägga studentexamen.",
+                        "Jag avlagt har studentexamen."
+                    ]
+                },
+                {
+                    "id": "studier-s13",
+                    "sv": "Jag har studerat i andra stadiet.",
+                    "fi": "Olen opiskellut toisella asteella.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "studerat",
+                            "d": ["studerar", "studera", "studerade"]
+                        },
+                        {
+                            "w": "stadiet",
+                            "d": ["stadium", "stadier", "staden"]
+                        }
+                    ],
+                    "grammar": ["perfect", "finlandssvenska"],
+                    "note": "'andra stadiet' = toinen aste (lukio tai ammattikoulu). Tämä on suomenruotsin ilmaus.",
+                    "wrong": [
+                        "Jag har studerar i andra stadiet.",
+                        "Jag har studerat på andra stadium."
+                    ]
+                },
+                {
+                    "id": "studier-s14",
+                    "sv": "Jag har avlagt grundexamen i turism.",
+                    "fi": "Olen suorittanut perustutkinnon matkailussa.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "grundexamen",
+                            "d": ["studentexamen", "grund", "examen"]
+                        },
+                        {
+                            "w": "turism",
+                            "d": ["turist", "turismen", "turister"]
+                        }
+                    ],
+                    "grammar": ["perfect", "compound"],
+                    "note": "'grundexamen' = grund (perus) + examen (tutkinto) = ammatillinen perustutkinto.",
+                    "wrong": [
+                        "Jag har avlagd grundexamen i turism.",
+                        "Jag avlagt grundexamen i turism."
+                    ]
+                },
+                {
+                    "id": "studier-s15",
+                    "sv": "Jag jobbar som försäljare i en affär.",
+                    "fi": "Työskentelen myyjänä kaupassa.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "som", "d": ["till", "av", "för"] },
+                        {
+                            "w": "försäljare",
+                            "d": ["försäljning", "sälja", "försäljaren"]
+                        },
+                        { "w": "affär", "d": ["affären", "affärer", "affärs"] }
+                    ],
+                    "grammar": ["som", "rektio"],
+                    "note": "'jobba som' + ammatti = työskennellä jonakin. Ammatin eteen ei tule en/ett.",
+                    "wrong": [
+                        "Jag jobbar som en försäljare i en affär.",
+                        "Jag jobbar till försäljare i en affär."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag jobbar som programmerare i en affär.",
+                            "fi": "Työskentelen ohjelmoijana kaupassa.",
+                            "w": "programmerare",
+                            "d": ["programmering", "programmera", "försäljare"]
+                        }
+                    ]
+                },
+                {
+                    "id": "studier-s16",
+                    "sv": "Jag jobbar på ett café som heter Aroma.",
+                    "fi": "Työskentelen kahvilassa, jonka nimi on Aroma.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "café", "d": ["caféet", "caféer", "kaffe"] },
+                        { "w": "heter", "d": ["heta", "hette", "är"] }
+                    ],
+                    "grammar": ["som", "subclause"],
+                    "note": "'som heter' = jonka nimi on. Tässä 'som' tarkoittaa 'joka/jonka'.",
+                    "wrong": [
+                        "Jag jobbar på ett café som heta Aroma.",
+                        "Jag jobbar på en café som heter Aroma."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "studier-l4",
+            "title": "Tulevaisuuden työni",
+            "intro": "Mitä haluat tehdä valmistumisen jälkeen? Opettele lauseet ja vaihda niihin oma unelma-ammattisi.",
+            "sentences": [
+                {
+                    "id": "studier-s17",
+                    "sv": "Jag vill jobba inom it-branschen.",
+                    "fi": "Haluan työskennellä it-alalla.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "vill", "d": ["vilja", "ville", "viljar"] },
+                        {
+                            "w": "jobba",
+                            "d": ["jobbar", "jobbat", "att jobba"]
+                        },
+                        {
+                            "w": "it-branschen",
+                            "d": ["it-bransch", "it-branscher", "it-konsult"]
+                        }
+                    ],
+                    "grammar": ["modal", "prepositions"],
+                    "note": "'vill' (haluaa) on apuverbi, joten sen perään tulee perusmuoto 'jobba' ilman att-sanaa.",
+                    "wrong": [
+                        "Jag vill att jobba inom it-branschen.",
+                        "Jag vill jobbar inom it-branschen."
+                    ]
+                },
+                {
+                    "id": "studier-s18",
+                    "sv": "Jag är intresserad av att jobba som it-konsult.",
+                    "fi": "Olen kiinnostunut työskentelemään it-konsulttina.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "att", "d": ["och", "som", "för"] },
+                        {
+                            "w": "it-konsult",
+                            "d": [
+                                "it-konsulter",
+                                "it-konsulten",
+                                "it-branschen"
+                            ]
+                        },
+                        {
+                            "w": "intresserad",
+                            "d": ["intressant", "intresse", "intresserat"]
+                        }
+                    ],
+                    "grammar": ["att-inf", "rektio", "som"],
+                    "note": "'intresserad av att' + verbi = kiinnostunut tekemään jotain. 'som it-konsult' = it-konsulttina.",
+                    "wrong": [
+                        "Jag är intresserad av jobba som it-konsult.",
+                        "Jag är intresserad av att jobba som en it-konsult."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag är intresserad av att jobba som systemutvecklare.",
+                            "fi": "Olen kiinnostunut työskentelemään järjestelmäkehittäjänä.",
+                            "w": "systemutvecklare",
+                            "d": [
+                                "systemutveckling",
+                                "systemexpertis",
+                                "utvecklar"
+                            ]
+                        },
+                        {
+                            "sv": "Jag är intresserad av att jobba som programvaruutvecklare.",
+                            "fi": "Olen kiinnostunut työskentelemään ohjelmistokehittäjänä.",
+                            "w": "programvaruutvecklare",
+                            "d": [
+                                "programvaruutveckling",
+                                "programvara",
+                                "programmering"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "studier-s19",
+                    "sv": "Jag är intresserad av att bli systemexpert i framtiden.",
+                    "fi": "Olen kiinnostunut ryhtymään järjestelmäasiantuntijaksi tulevaisuudessa.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "bli", "d": ["blir", "blev", "blivit"] },
+                        {
+                            "w": "systemexpert",
+                            "d": ["systemexperter", "system", "expertis"]
+                        },
+                        {
+                            "w": "framtiden",
+                            "d": ["framtid", "framtida", "framåt"]
+                        }
+                    ],
+                    "grammar": ["att-inf", "time"],
+                    "note": "'bli' = tulla joksikin. 'i framtiden' = tulevaisuudessa (määräinen muoto framtid + en).",
+                    "wrong": [
+                        "Jag är intresserad av att blir systemexpert i framtiden.",
+                        "Jag är intresserad av att bli systemexpert på framtiden."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag är intresserad av att bli applikationsarkitekt i framtiden.",
+                            "fi": "Olen kiinnostunut ryhtymään sovellusarkkitehdiksi tulevaisuudessa.",
+                            "w": "applikationsarkitekt",
+                            "d": ["applikation", "arkitektur", "applikationer"]
+                        }
+                    ]
+                },
+                {
+                    "id": "studier-s20",
+                    "sv": "Jag vill jobba som programvaruutvecklare.",
+                    "fi": "Haluan työskennellä ohjelmistokehittäjänä.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "programvaruutvecklare",
+                            "d": [
+                                "programvaruutveckling",
+                                "programvara",
+                                "utvecklare"
+                            ]
+                        },
+                        { "w": "som", "d": ["till", "av", "på"] }
+                    ],
+                    "grammar": ["modal", "som"],
+                    "note": "Vaihda ammatti omaksesi. 'som' + ammatti ilman en/ett-sanaa.",
+                    "wrong": [
+                        "Jag vill jobba som en programvaruutvecklare.",
+                        "Jag vill att jobba som programvaruutvecklare."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag vill jobba som IT-administratör.",
+                            "fi": "Haluan työskennellä IT-ylläpitäjänä.",
+                            "w": "IT-administratör",
+                            "d": [
+                                "IT-administration",
+                                "IT-stöd",
+                                "administrera"
+                            ]
+                        },
+                        {
+                            "sv": "Jag vill jobba som IT-säkerhetsspecialist.",
+                            "fi": "Haluan työskennellä tietoturva-asiantuntijana.",
+                            "w": "IT-säkerhetsspecialist",
+                            "d": [
+                                "IT-säkerhet",
+                                "säkerhetskopiera",
+                                "specialisering"
+                            ]
+                        },
+                        {
+                            "sv": "Jag vill jobba som designer av användargränssnitt.",
+                            "fi": "Haluan työskennellä käyttöliittymäsuunnittelijana.",
+                            "w": "designer av användargränssnitt",
+                            "d": [
+                                "design av användare",
+                                "designer för användargränssnittet",
+                                "användargränssnitt designer"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "studier-s21",
+                    "sv": "Jag vill bli projektchef inom informationsteknik.",
+                    "fi": "Haluan ryhtyä IT-alan projektipäälliköksi.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "projektchef",
+                            "d": ["projektarbete", "projekt", "chefen"]
+                        },
+                        {
+                            "w": "informationsteknik",
+                            "d": [
+                                "informationssäkerhet",
+                                "information",
+                                "teknisk"
+                            ]
+                        }
+                    ],
+                    "grammar": ["modal", "compound"],
+                    "note": "'projektchef inom informationsteknik' = IT-alan projektipäällikkö. 'bli' = tulla joksikin.",
+                    "wrong": [
+                        "Jag vill blir projektchef inom informationsteknik.",
+                        "Jag vill bli projektchef på informationsteknik."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "studier-w06",
+                    "sv": "en programvaruutvecklare",
+                    "fi": "ohjelmistokehittäjä",
+                    "src": "m"
+                },
+                {
+                    "id": "studier-w07",
+                    "sv": "en systemutvecklare",
+                    "fi": "järjestelmäkehittäjä",
+                    "src": "m"
+                },
+                {
+                    "id": "studier-w08",
+                    "sv": "en programmerare",
+                    "fi": "ohjelmoija",
+                    "src": "m"
+                },
+                {
+                    "id": "studier-w09",
+                    "sv": "en projektchef inom informationsteknik",
+                    "fi": "IT-alan projektipäällikkö",
+                    "src": "m"
+                },
+                {
+                    "id": "studier-w10",
+                    "sv": "en applikationsarkitekt",
+                    "fi": "sovellusarkkitehti",
+                    "src": "m"
+                },
+                {
+                    "id": "studier-w11",
+                    "sv": "en systemexpert",
+                    "fi": "järjestelmäasiantuntija",
+                    "src": "m"
+                },
+                {
+                    "id": "studier-w12",
+                    "sv": "en IT-administratör",
+                    "fi": "IT-ylläpitäjä, IT-admin",
+                    "src": "m"
+                },
+                {
+                    "id": "studier-w13",
+                    "sv": "en designer av användargränssnitt",
+                    "fi": "käyttöliittymäsuunnittelija",
+                    "src": "m"
+                },
+                {
+                    "id": "studier-w14",
+                    "sv": "en IT-säkerhetsspecialist",
+                    "fi": "tietoturva-asiantuntija",
+                    "src": "m",
+                    "note": "Materiaalissa käännetty 'tietoturvapäällikkö'."
+                },
+                {
+                    "id": "studier-w15",
+                    "sv": "en it-konsult",
+                    "fi": "it-konsultti",
+                    "src": "m"
+                }
+            ]
+        }
+    ],
+    "glossary": {
+        "jag": "minä",
+        "heter": "on nimeltään (perusmuoto heta)",
+        "mika": "Mika (nimi)",
+        "anna": "Anna (nimi)",
+        "är": "on, olen, olet (perusmuoto vara)",
+        "tjugofem": "kaksikymmentäviisi (25)",
+        "tjugotvå": "kaksikymmentäkaksi (22)",
+        "år": "vuosi, vuotta",
+        "studerar": "opiskelee (perusmuoto studera)",
+        "till": "-ksi, -lle, asti",
+        "it-tradenom": "it-tradenomi",
+        "tradenom": "tradenomi (suomenruotsin sana)",
+        "restonom": "restonomi (suomenruotsin sana)",
+        "på": "-ssa, -lla; päällä",
+        "haaga-helia": "Haaga-Helia (koulun nimi)",
+        "yrkeshögskola": "ammattikorkeakoulu (suomenruotsin sana)",
+        "blir": "tulee joksikin (perusmuoto bli)",
+        "färdig": "valmis; bli färdig = valmistua",
+        "nästa": "seuraava, ensi",
+        "höst": "syksy",
+        "vår": "kevät",
+        "om": "kuluttua (om ett år); jos; -sta",
+        "ett": "yksi; ett-sanojen artikkeli",
+        "två": "kaksi",
+        "månader": "kuukaudet (en månad = kuukausi)",
+        "som": "jona, -na; joka",
+        "person": "henkilö, ihminen",
+        "nyfiken": "utelias",
+        "och": "ja",
+        "flexibel": "joustava",
+        "noggrann": "tarkka, huolellinen",
+        "mina": "minun (monikko: mina hobbyer)",
+        "hobbyer": "harrastukset (en hobby = harrastus)",
+        "programmering": "ohjelmointi",
+        "datorspel": "tietokonepelit (dator = tietokone, spel = peli)",
+        "musik": "musiikki",
+        "min": "minun (en-sanan kanssa)",
+        "inriktning": "suuntautuminen, suuntaus",
+        "en": "yksi; en-sanojen artikkeli",
+        "programvaruutveckling": "ohjelmistokehitys (programvara + utveckling)",
+        "digitala": "digitaaliset (digital + a monikossa)",
+        "tjänster": "palvelut (en tjänst = palvelu)",
+        "ict-infra": "ICT-infra, tietotekninen infrastruktuuri",
+        "ict": "ICT, tieto- ja viestintätekniikka",
+        "molntjänster": "pilvipalvelut (moln = pilvi, tjänst = palvelu)",
+        "affärsverksamhet": "liiketoiminta",
+        "också": "myös",
+        "intresserad": "kiinnostunut",
+        "av": "-sta, -lta; intresserad av = kiinnostunut jostakin",
+        "inte": "ei",
+        "så": "niin; joten",
+        "tycker": "on mieltä (Jag tycker att = mielestäni)",
+        "att": "että; infinitiivin merkki (att jobba = työskennellä)",
+        "intressant": "kiinnostava, mielenkiintoinen",
+        "tjänstedesign": "palvelumuotoilu",
+        "jobbar": "työskentelee, on töissä (perusmuoto jobba)",
+        "inom": "jonkin alalla, sisällä",
+        "it-branschen": "it-ala (määräinen muoto: bransch + en)",
+        "har": "on jollakin; perfektin apuverbi (har avlagt = on suorittanut)",
+        "avlagt": "suorittanut (avlägga = suorittaa tutkinto)",
+        "studentexamen": "ylioppilastutkinto",
+        "studerat": "opiskellut (perusmuoto studera)",
+        "i": "-ssa, -ssä",
+        "andra": "toinen; muut",
+        "stadiet": "aste (määräinen muoto: stadium); andra stadiet = toinen aste",
+        "grundexamen": "perustutkinto",
+        "turism": "matkailu",
+        "försäljare": "myyjä",
+        "affär": "kauppa, liike",
+        "programmerare": "ohjelmoija",
+        "café": "kahvila",
+        "aroma": "Aroma (kahvilan nimi)",
+        "vill": "haluaa (perusmuoto vilja)",
+        "jobba": "työskennellä",
+        "it-konsult": "it-konsultti",
+        "systemutvecklare": "järjestelmäkehittäjä",
+        "programvaruutvecklare": "ohjelmistokehittäjä",
+        "bli": "tulla joksikin",
+        "systemexpert": "järjestelmäasiantuntija",
+        "framtiden": "tulevaisuus (määräinen muoto: framtid + en); i framtiden = tulevaisuudessa",
+        "applikationsarkitekt": "sovellusarkkitehti",
+        "it-administratör": "IT-ylläpitäjä, IT-admin",
+        "it-säkerhetsspecialist": "tietoturva-asiantuntija",
+        "designer": "suunnittelija",
+        "användargränssnitt": "käyttöliittymä",
+        "projektchef": "projektipäällikkö",
+        "informationsteknik": "tietotekniikka"
+    }
+}

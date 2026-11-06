@@ -1,0 +1,640 @@
+{
+    "id": "hisstal",
+    "title": "Hissipuhe",
+    "subtitle": "Hisstal",
+    "description": "Opit, mikä hissipuhe on, ja rakennat oman lyhyen esittelyn it-opiskelijana. Hissipuhe on valmis vastaus suullisen keskustelun 'kerro itsestäsi' -kysymykseen.",
+    "icon": "megaphone",
+    "color": "fuchsia",
+    "exam": ["oral"],
+    "source": "Välilehden 2 tehtävä 6 (Hisstal) ja teksti \"Har du hört talas om hisstal\". Oma hissipuhe on koottu kurssin fraaseista.",
+    "lessons": [
+        {
+            "id": "hisstal-l1",
+            "title": "Mikä on hissipuhe?",
+            "intro": "Hissipuhe on niin lyhyt esittely, että sen ehtii pitää hissimatkan aikana. Nämä lauseet ovat suoraan kurssin tekstistä.",
+            "sentences": [
+                {
+                    "id": "hisstal-s01",
+                    "sv": "Ett hisstal är en kort presentation om dig själv.",
+                    "fi": "Hissipuhe on lyhyt esittely itsestäsi.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "hisstal", "d": ["hisstalet", "hiss", "tal"] },
+                        { "w": "kort", "d": ["korta", "kortet", "kortare"] },
+                        {
+                            "w": "presentation",
+                            "d": ["presentera", "presentationer", "present"]
+                        }
+                    ],
+                    "grammar": ["gender", "compound", "adj"],
+                    "note": "'hisstal' = hiss (hissi) + tal (puhe). Se on ett-sana: 'ett hisstal'.",
+                    "wrong": [
+                        "En hisstal är en kort presentation om dig själv.",
+                        "Ett hisstal är ett kort presentation om dig själv."
+                    ]
+                },
+                {
+                    "id": "hisstal-s02",
+                    "sv": "Ett hisstal ska innehålla vem du är, vad du kan erbjuda och varför kunden behöver dina tjänster.",
+                    "fi": "Hissipuheen pitää sisältää, kuka olet, mitä voit tarjota ja miksi asiakas tarvitsee palvelujasi.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "innehålla",
+                            "d": ["innehåller", "innehåll", "hålla"]
+                        },
+                        {
+                            "w": "erbjuda",
+                            "d": ["erbjuder", "erbjudande", "bjuda"]
+                        },
+                        { "w": "kunden", "d": ["kund", "kunder", "kundens"] }
+                    ],
+                    "grammar": ["modal", "subclause", "definite"],
+                    "note": "Hissipuheen kolme osaa: kuka olet (vem du är), mitä voit tarjota (vad du kan erbjuda) ja miksi asiakas tarvitsee sinua."
+                },
+                {
+                    "id": "hisstal-s03",
+                    "sv": "Det gäller att lyfta fram det viktiga och relevanta.",
+                    "fi": "Tärkeintä on nostaa esiin olennainen ja tärkeä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "lyfta fram",
+                            "d": ["lyfta upp", "lyfta in", "lyfter fram"]
+                        },
+                        { "w": "viktiga", "d": ["viktig", "viktigt", "vikt"] },
+                        {
+                            "w": "gäller",
+                            "d": ["gälla", "gällde", "gäller sig"]
+                        }
+                    ],
+                    "grammar": ["particle", "adj-def"],
+                    "note": "'Det gäller att...' = Kyse on siitä, että... / Tärkeää on... 'lyfta fram' = nostaa esiin (partikkeliverbi).",
+                    "wrong": [
+                        "Det gäller att lyfter fram det viktiga och relevanta.",
+                        "Det gäller lyfta fram det viktiga och relevanta."
+                    ]
+                },
+                {
+                    "id": "hisstal-s04",
+                    "sv": "Du behöver inte berätta allt på en gång.",
+                    "fi": "Sinun ei tarvitse kertoa kaikkea kerralla.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "behöver", "d": ["behöva", "behov", "behövt"] },
+                        { "w": "allt", "d": ["alla", "all", "alltid"] },
+                        {
+                            "w": "på en gång",
+                            "d": ["i en gång", "på ett gång", "på en gången"]
+                        }
+                    ],
+                    "grammar": ["negation", "modal"],
+                    "note": "'behöver inte' = ei tarvitse. 'på en gång' = kerralla, yhtä aikaa.",
+                    "wrong": [
+                        "Du inte behöver berätta allt på en gång.",
+                        "Du behöver inte att berätta allt på en gång."
+                    ]
+                },
+                {
+                    "id": "hisstal-s05",
+                    "sv": "Hisspresentationen ska vara lätt att minnas och enkel att presentera snabbt.",
+                    "fi": "Hissiesittelyn pitää olla helppo muistaa ja yksinkertainen esittää nopeasti.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "lätt", "d": ["lätta", "lättare", "lite"] },
+                        { "w": "minnas", "d": ["minns", "minne", "minnes"] },
+                        { "w": "snabbt", "d": ["snabb", "snabba", "snabbare"] }
+                    ],
+                    "grammar": ["modal", "att-inf", "adj"],
+                    "note": "'lätt att minnas' = helppo muistaa. 'snabbt' (-t) kuvaa verbiä, eli tarkoittaa 'nopeasti'.",
+                    "wrong": [
+                        "Hisspresentationen ska vara lätt minnas och enkel att presentera snabbt.",
+                        "Hisspresentationen ska att vara lätt att minnas och enkel att presentera snabbt."
+                    ]
+                },
+                {
+                    "id": "hisstal-s06",
+                    "sv": "Framförallt vill du att den väcker intresse hos åhöraren.",
+                    "fi": "Ennen kaikkea haluat, että se herättää kiinnostusta kuulijassa.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "väcker", "d": ["väcka", "väckte", "vaken"] },
+                        {
+                            "w": "intresse",
+                            "d": ["intressant", "intresserad", "intressen"]
+                        },
+                        {
+                            "w": "åhöraren",
+                            "d": ["åhörare", "höra", "hörlurar"]
+                        }
+                    ],
+                    "grammar": ["v2", "subclause"],
+                    "note": "'väcka intresse' = herättää kiinnostusta. Lause alkaa sanalla 'Framförallt', joten verbi 'vill' tulee ennen 'du'-sanaa.",
+                    "wrong": [
+                        "Framförallt du vill att den väcker intresse hos åhöraren.",
+                        "Framförallt vill du att den väcka intresse hos åhöraren."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hisstal-l2",
+            "title": "Hissipuheen sanasto",
+            "intro": "Tärkeimmät sanat hissipuhetekstistä ja kolme neuvoa sen rakentamiseen.",
+            "sentences": [
+                {
+                    "id": "hisstal-s07",
+                    "sv": "Se dig själv som en försäljare av din arbetsinsats.",
+                    "fi": "Näe itsesi oman työpanoksesi myyjänä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "försäljare",
+                            "d": ["försäljning", "sälja", "försäljaren"]
+                        },
+                        {
+                            "w": "arbetsinsats",
+                            "d": ["arbetsinsatsen", "arbete", "insats"]
+                        },
+                        { "w": "Se", "d": ["Ser", "Sett", "Såg"] }
+                    ],
+                    "grammar": ["imperative", "reflexive", "som"],
+                    "note": "'Se dig själv som...' = Näe itsesi jonakin. 'arbetsinsats' = arbete (työ) + insats (panos) = työpanos.",
+                    "wrong": [
+                        "Se du själv som en försäljare av din arbetsinsats.",
+                        "Ser dig själv som en försäljare av din arbetsinsats."
+                    ]
+                },
+                {
+                    "id": "hisstal-s08",
+                    "sv": "Fortsätt med att lyfta fram vad du kan och vad du är bra på.",
+                    "fi": "Jatka nostamalla esiin, mitä osaat ja missä olet hyvä.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Fortsätt",
+                            "d": ["Fortsätter", "Fortsatt", "Fortsätta"]
+                        },
+                        { "w": "lyfta", "d": ["lyfter", "lyft", "lyfte"] },
+                        { "w": "bra", "d": ["bättre", "god", "bäst"] }
+                    ],
+                    "grammar": ["imperative", "particle", "rektio"],
+                    "note": "'bra på' = hyvä jossakin. Kysymyksessä prepositio jää lauseen loppuun: 'vad du är bra på'."
+                },
+                {
+                    "id": "hisstal-s09",
+                    "sv": "Lita på dig själv och dina kunskaper.",
+                    "fi": "Luota itseesi ja tietoihisi.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "Lita", "d": ["Litar", "Litat", "Lite"] },
+                        {
+                            "w": "kunskaper",
+                            "d": ["kunskap", "kunnig", "kunskapen"]
+                        }
+                    ],
+                    "grammar": ["imperative", "rektio", "possessive"],
+                    "note": "'lita på' = luottaa johonkin. Prepositio 'på' on pakollinen.",
+                    "wrong": [
+                        "Lita till dig själv och dina kunskaper.",
+                        "Lita på dig själv och din kunskaper."
+                    ]
+                }
+            ],
+            "words": [
+                {
+                    "id": "hisstal-w01",
+                    "sv": "ett hisstal",
+                    "fi": "hissipuhe",
+                    "src": "m"
+                },
+                {
+                    "id": "hisstal-w02",
+                    "sv": "lyfta fram",
+                    "fi": "nostaa esiin, korostaa",
+                    "src": "m"
+                },
+                {
+                    "id": "hisstal-w03",
+                    "sv": "väcka intresse",
+                    "fi": "herättää kiinnostusta",
+                    "src": "m"
+                },
+                {
+                    "id": "hisstal-w04",
+                    "sv": "erbjuda",
+                    "fi": "tarjota",
+                    "src": "m"
+                },
+                {
+                    "id": "hisstal-w05",
+                    "sv": "en arbetsgivare",
+                    "fi": "työnantaja",
+                    "src": "m"
+                },
+                {
+                    "id": "hisstal-w06",
+                    "sv": "övertyga",
+                    "fi": "vakuuttaa, saada vakuuttuneeksi",
+                    "src": "m"
+                },
+                {
+                    "id": "hisstal-w07",
+                    "sv": "en styrka",
+                    "fi": "vahvuus",
+                    "src": "m"
+                },
+                {
+                    "id": "hisstal-w08",
+                    "sv": "öva",
+                    "fi": "harjoitella",
+                    "src": "m"
+                },
+                {
+                    "id": "hisstal-w09",
+                    "sv": "en arbetsinsats",
+                    "fi": "työpanos",
+                    "src": "m"
+                },
+                {
+                    "id": "hisstal-w10",
+                    "sv": "sammanfatta",
+                    "fi": "tiivistää, tehdä yhteenveto",
+                    "src": "m"
+                }
+            ]
+        },
+        {
+            "id": "hisstal-l3",
+            "title": "Vakuuta työnantaja",
+            "intro": "Hissipuheen tärkein osa: miksi juuri sinut kannattaa palkata. Ja lopuksi: harjoittele!",
+            "sentences": [
+                {
+                    "id": "hisstal-s10",
+                    "sv": "De vill höra vad du tillför till arbetsplatsen och varför de borde anställa just dig.",
+                    "fi": "He haluavat kuulla, mitä tuot työpaikalle ja miksi heidän pitäisi palkata juuri sinut.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "tillför",
+                            "d": ["tillföra", "tillfört", "tillfälle"]
+                        },
+                        {
+                            "w": "arbetsplatsen",
+                            "d": [
+                                "arbetsplats",
+                                "arbetsplatser",
+                                "arbetsgivaren"
+                            ]
+                        },
+                        { "w": "borde", "d": ["bör att", "borda", "bordet"] }
+                    ],
+                    "grammar": ["modal", "subclause", "definite"],
+                    "note": "'borde' = pitäisi. 'just dig' = juuri sinut. 'tillföra' = tuoda lisää, antaa panoksensa."
+                },
+                {
+                    "id": "hisstal-s11",
+                    "sv": "Fundera för dig själv vilka styrkor du har och vad du har att erbjuda företaget.",
+                    "fi": "Mieti itseksesi, mitä vahvuuksia sinulla on ja mitä sinulla on tarjota yritykselle.",
+                    "src": "m",
+                    "keys": [
+                        {
+                            "w": "Fundera",
+                            "d": ["Funderar", "Funderade", "Fundering"]
+                        },
+                        {
+                            "w": "styrkor",
+                            "d": ["styrka", "starka", "styrkan"]
+                        },
+                        {
+                            "w": "företaget",
+                            "d": ["företag", "företagen", "företagare"]
+                        }
+                    ],
+                    "grammar": ["imperative", "subclause", "definite"],
+                    "note": "'fundera' = miettiä. 'att erbjuda' = tarjottavaa. 'företaget' = yritys (määräinen muoto)."
+                },
+                {
+                    "id": "hisstal-s12",
+                    "sv": "Öva tills det känns naturligt.",
+                    "fi": "Harjoittele, kunnes se tuntuu luontevalta.",
+                    "src": "m",
+                    "keys": [
+                        { "w": "Öva", "d": ["Övar", "Övat", "Övning"] },
+                        { "w": "känns", "d": ["känner", "känna", "kände"] },
+                        {
+                            "w": "naturligt",
+                            "d": ["naturlig", "naturliga", "natur"]
+                        }
+                    ],
+                    "grammar": ["imperative", "subclause", "adj"],
+                    "note": "'tills' = kunnes. 'det känns naturligt' = se tuntuu luontevalta ('naturligt' saa -t, koska subjekti on 'det').",
+                    "wrong": [
+                        "Öva tills känns det naturligt.",
+                        "Öva tills det känns naturlig."
+                    ]
+                },
+                {
+                    "id": "hisstal-s13",
+                    "sv": "Kom ihåg att tro på dig själv!",
+                    "fi": "Muista uskoa itseesi!",
+                    "src": "m",
+                    "keys": [
+                        { "w": "ihåg", "d": ["hågen", "minns", "håg"] },
+                        { "w": "tro", "d": ["tror", "trodde", "trott"] }
+                    ],
+                    "grammar": ["imperative", "att-inf", "rektio"],
+                    "note": "'komma ihåg' = muistaa (käskynä 'kom ihåg'). 'tro på' = uskoa johonkin.",
+                    "wrong": [
+                        "Kom ihåg tro på dig själv!",
+                        "Kom ihåg att tro till dig själv!"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hisstal-l4",
+            "title": "Oma hissipuheeni",
+            "intro": "Tässä on valmis it-opiskelijan hissipuhe kurssin fraaseista koottuna. Opettele se ulkoa ja vaihda nimi ja tiedot omiksesi.",
+            "sentences": [
+                {
+                    "id": "hisstal-s14",
+                    "sv": "Hej, jag heter Mika.",
+                    "fi": "Hei, nimeni on Mika.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "heter", "d": ["heta", "hette", "heterar"] }
+                    ],
+                    "grammar": ["present"],
+                    "note": "Aloita aina nimellä. Vaihda Mikan tilalle oma nimesi.",
+                    "wrong": ["Hej, jag heta Mika.", "Hej, heter jag Mika."]
+                },
+                {
+                    "id": "hisstal-s15",
+                    "sv": "Jag studerar till it-tradenom på Haaga-Helia och min inriktning är programvaruutveckling.",
+                    "fi": "Opiskelen Haaga-Heliassa it-tradenomiksi ja suuntautumiseni on ohjelmistokehitys.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "inriktning",
+                            "d": ["inriktningen", "riktning", "inriktat"]
+                        },
+                        {
+                            "w": "programvaruutveckling",
+                            "d": [
+                                "programvaruutvecklare",
+                                "programvara",
+                                "programmerare"
+                            ]
+                        },
+                        { "w": "till", "d": ["som", "av", "för"] }
+                    ],
+                    "grammar": ["rektio", "compound", "finlandssvenska"],
+                    "note": "Kaksi Vad studerar jag? -lausetta yhdessä. Vaihda suuntautumisesi tarvittaessa.",
+                    "variants": [
+                        {
+                            "sv": "Jag studerar till it-tradenom på Haaga-Helia och min inriktning är digitala tjänster.",
+                            "fi": "Opiskelen Haaga-Heliassa it-tradenomiksi ja suuntautumiseni on digitaaliset palvelut.",
+                            "w": "digitala tjänster",
+                            "d": [
+                                "digital tjänst",
+                                "digitalt tjänster",
+                                "digitala tjänsten"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "hisstal-s16",
+                    "sv": "Jag är nyfiken, noggrann och en bra problemlösare.",
+                    "fi": "Olen utelias, tarkka ja hyvä ongelmanratkaisija.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "nyfiken",
+                            "d": ["nyfikna", "nyfikenhet", "nyfiket"]
+                        },
+                        {
+                            "w": "noggrann",
+                            "d": ["noggranna", "noggrannhet", "nyfiken"]
+                        },
+                        {
+                            "w": "problemlösare",
+                            "d": ["problemlösning", "problem", "lösare"]
+                        }
+                    ],
+                    "grammar": ["adj", "compound"],
+                    "note": "Kolme vahvuutta, kuten hissipuheteksti neuvoo. Kun ammattinimen edessä on adjektiivi, tarvitaan 'en': 'en bra problemlösare'.",
+                    "wrong": [
+                        "Jag är nyfiken, noggrann och bra problemlösare en.",
+                        "Jag är nyfikna, noggranna och en bra problemlösare."
+                    ]
+                },
+                {
+                    "id": "hisstal-s17",
+                    "sv": "Jag har erfarenhet av projektarbete och jag är van vid att jobba i team.",
+                    "fi": "Minulla on kokemusta projektityöstä ja olen tottunut työskentelemään tiimissä.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "projektarbete",
+                            "d": ["projektchef", "projekt", "projektarbetet"]
+                        },
+                        { "w": "vid", "d": ["på", "av", "med"] },
+                        {
+                            "w": "erfarenhet",
+                            "d": ["erfarenheter", "erfaren", "erfarenheten"]
+                        }
+                    ],
+                    "grammar": ["rektio", "conjunctions"],
+                    "note": "'erfarenhet av' = kokemusta jostakin, 'van vid att' = tottunut tekemään.",
+                    "wrong": [
+                        "Jag har erfarenhet på projektarbete och jag är van vid att jobba i team.",
+                        "Jag har erfarenhet av projektarbete och jag är van vid jobba i team."
+                    ]
+                },
+                {
+                    "id": "hisstal-s18",
+                    "sv": "Jag kan hjälpa ert företag att skapa användarvänliga digitala tjänster.",
+                    "fi": "Voin auttaa yritystänne luomaan käyttäjäystävällisiä digitaalisia palveluita.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "ert", "d": ["er", "era", "ni"] },
+                        { "w": "skapa", "d": ["skapar", "skapat", "skapelse"] },
+                        {
+                            "w": "användarvänliga",
+                            "d": [
+                                "användarvänlig",
+                                "användarvänligt",
+                                "användare"
+                            ]
+                        }
+                    ],
+                    "grammar": ["modal", "att-inf", "possessive"],
+                    "note": "Tämä on hissipuheen tärkein lause: mitä hyötyä sinusta on. 'ert företag' = teidän yrityksenne ('företag' on ett-sana).",
+                    "wrong": [
+                        "Jag kan att hjälpa ert företag att skapa användarvänliga digitala tjänster.",
+                        "Jag kan hjälpa er företag att skapa användarvänliga digitala tjänster."
+                    ]
+                },
+                {
+                    "id": "hisstal-s19",
+                    "sv": "Jag vill gärna veta mer om ert företag.",
+                    "fi": "Haluaisin mielelläni tietää lisää yrityksestänne.",
+                    "src": "x",
+                    "keys": [
+                        { "w": "gärna", "d": ["gärn", "gärnare", "gärning"] },
+                        { "w": "veta", "d": ["vet", "visste", "vetat"] },
+                        { "w": "mer", "d": ["mera än", "merar", "mest"] }
+                    ],
+                    "grammar": ["modal", "adverbs"],
+                    "note": "Tekstin neuvo 'Be om något' = pyydä jotain. 'gärna' = mielellään. Apuverbin 'vill' perään perusmuoto 'veta'.",
+                    "wrong": [
+                        "Jag vill gärna att veta mer om ert företag.",
+                        "Jag vill gärna vet mer om ert företag."
+                    ]
+                },
+                {
+                    "id": "hisstal-s20",
+                    "sv": "Tack för att du lyssnade!",
+                    "fi": "Kiitos, että kuuntelit!",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "lyssnade",
+                            "d": ["lyssna", "lyssnar", "lyssnat"]
+                        },
+                        { "w": "Tack", "d": ["Tacka", "Tackar", "Tacket"] }
+                    ],
+                    "grammar": ["past", "subclause"],
+                    "note": "'Tack för att...' = Kiitos, että... 'lyssnade' on imperfekti (lyssna → lyssnade).",
+                    "wrong": [
+                        "Tack för att du lyssna!",
+                        "Tack för att lyssnade du!"
+                    ]
+                }
+            ]
+        }
+    ],
+    "glossary": {
+        "ett": "yksi; ett-sanojen artikkeli",
+        "hisstal": "hissipuhe (hiss = hissi, tal = puhe)",
+        "är": "on, olet (perusmuoto vara)",
+        "en": "yksi; en-sanojen artikkeli",
+        "kort": "lyhyt",
+        "presentation": "esittely, esitys",
+        "om": "-sta, jostakin; jos",
+        "dig": "sinua, itseäsi",
+        "själv": "itse; dig själv = itsesi",
+        "ska": "pitää, on tarkoitus (apuverbi)",
+        "innehålla": "sisältää",
+        "vem": "kuka",
+        "du": "sinä",
+        "vad": "mitä, mikä",
+        "kan": "voi, osaa",
+        "erbjuda": "tarjota",
+        "och": "ja",
+        "varför": "miksi",
+        "kunden": "asiakas (määräinen muoto: kund + en)",
+        "behöver": "tarvitsee (perusmuoto behöva)",
+        "dina": "sinun (monikko)",
+        "tjänster": "palvelut (en tjänst)",
+        "det": "se; muodollinen subjekti",
+        "gäller": "koskee; det gäller att = tärkeää on, kyse on siitä että",
+        "att": "infinitiivin merkki; että",
+        "lyfta": "nostaa",
+        "fram": "esiin, eteen",
+        "lyfta fram": "nostaa esiin, korostaa",
+        "viktiga": "tärkeä (määräinen muoto: det viktiga = se tärkeä)",
+        "relevanta": "olennainen (määräinen muoto: det relevanta)",
+        "inte": "ei",
+        "berätta": "kertoa",
+        "allt": "kaikki, kaiken",
+        "på": "-lla, -ssa; päällä",
+        "gång": "kerta; på en gång = kerralla",
+        "på en gång": "kerralla, yhtä aikaa",
+        "hisspresentationen": "hissiesittely (määräinen muoto)",
+        "vara": "olla",
+        "lätt": "helppo",
+        "minnas": "muistaa",
+        "enkel": "yksinkertainen, helppo",
+        "presentera": "esitellä, esittää",
+        "snabbt": "nopeasti (snabb + t)",
+        "framförallt": "ennen kaikkea",
+        "vill": "haluaa (perusmuoto vilja)",
+        "den": "se (en-sana)",
+        "väcker": "herättää (perusmuoto väcka)",
+        "intresse": "kiinnostus",
+        "hos": "luona, -ssa",
+        "åhöraren": "kuulija (määräinen muoto: åhörare + n)",
+        "se": "katso, näe (käsky); nähdä",
+        "som": "jona, -na; joka",
+        "försäljare": "myyjä",
+        "av": "-sta; jonkin",
+        "din": "sinun (en-sanan kanssa)",
+        "arbetsinsats": "työpanos",
+        "fortsätt": "jatka (käsky, fortsätta)",
+        "med": "kanssa, -lla",
+        "bra": "hyvä; bra på = hyvä jossakin",
+        "lita": "luota (käsky); lita på = luottaa johonkin",
+        "kunskaper": "tiedot, taidot (en kunskap)",
+        "arbetsgivare": "työnantaja",
+        "övertyga": "vakuuttaa",
+        "styrka": "vahvuus",
+        "öva": "harjoitella; harjoittele (käsky)",
+        "sammanfatta": "tiivistää",
+        "väcka": "herättää",
+        "de": "he (lausutaan 'dom')",
+        "höra": "kuulla",
+        "tillför": "tuo lisää, antaa (perusmuoto tillföra)",
+        "till": "-lle, -ksi",
+        "arbetsplatsen": "työpaikka (määräinen muoto: arbetsplats + en)",
+        "borde": "pitäisi",
+        "anställa": "palkata",
+        "just": "juuri",
+        "fundera": "mieti (käsky); miettiä",
+        "för": "varten; för dig själv = itseksesi",
+        "vilka": "mitkä (monikko)",
+        "styrkor": "vahvuudet (en styrka)",
+        "har": "on jollakin",
+        "företaget": "yritys (määräinen muoto: företag + et)",
+        "tills": "kunnes",
+        "känns": "tuntuu (perusmuoto kännas)",
+        "naturligt": "luontevalta, luonnollisesti (naturlig + t)",
+        "kom": "tule (käsky); kom ihåg = muista",
+        "ihåg": "komma ihåg = muistaa",
+        "kom ihåg": "muista",
+        "tro": "uskoa; tro på = uskoa johonkin",
+        "hej": "hei",
+        "jag": "minä",
+        "heter": "on nimeltään (perusmuoto heta)",
+        "mika": "Mika (nimi)",
+        "studerar": "opiskelee (perusmuoto studera)",
+        "it-tradenom": "it-tradenomi",
+        "haaga-helia": "Haaga-Helia (koulun nimi)",
+        "min": "minun (en-sanan kanssa)",
+        "inriktning": "suuntautuminen",
+        "programvaruutveckling": "ohjelmistokehitys",
+        "digitala": "digitaaliset",
+        "nyfiken": "utelias",
+        "noggrann": "tarkka, huolellinen",
+        "problemlösare": "ongelmanratkaisija",
+        "erfarenhet": "kokemus",
+        "projektarbete": "projektityö",
+        "van": "tottunut (van vid = tottunut johonkin)",
+        "vid": "luona, ääressä; van vid = tottunut johonkin",
+        "jobba": "työskennellä",
+        "i": "-ssa, -ssä",
+        "team": "tiimi (ett team)",
+        "hjälpa": "auttaa",
+        "ert": "teidän (ett-sanan kanssa)",
+        "företag": "yritys (ett företag)",
+        "skapa": "luoda",
+        "användarvänliga": "käyttäjäystävälliset (användarvänlig + a)",
+        "gärna": "mielellään",
+        "veta": "tietää",
+        "mer": "lisää, enemmän",
+        "tack": "kiitos",
+        "lyssnade": "kuunteli (perusmuoto lyssna)"
+    }
+}

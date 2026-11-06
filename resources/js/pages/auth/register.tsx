@@ -16,7 +16,7 @@ type Props = {
 export default function Register({ passwordRules }: Props) {
     return (
         <>
-            <Head title="Register" />
+            <Head title="Luo tili" />
 
             <Form
                 {...store.form()}
@@ -28,7 +28,7 @@ export default function Register({ passwordRules }: Props) {
                     <>
                         <div className="grid gap-6">
                             <div className="grid gap-2">
-                                <Label htmlFor="username">Username</Label>
+                                <Label htmlFor="username">Käyttäjänimi</Label>
                                 <Input
                                     id="username"
                                     type="text"
@@ -37,20 +37,20 @@ export default function Register({ passwordRules }: Props) {
                                     autoFocus
                                     tabIndex={1}
                                     autoComplete="username"
-                                    placeholder="Username"
+                                    placeholder="Käyttäjänimi"
                                 />
                                 <InputError message={errors.username} />
                             </div>
 
                             <div className="grid gap-2">
-                                <Label htmlFor="password">Password</Label>
+                                <Label htmlFor="password">Salasana</Label>
                                 <PasswordInput
                                     id="password"
                                     name="password"
                                     required
                                     tabIndex={2}
                                     autoComplete="new-password"
-                                    placeholder="Password"
+                                    placeholder="Salasana"
                                     passwordrules={passwordRules}
                                 />
                                 <InputError message={errors.password} />
@@ -58,7 +58,7 @@ export default function Register({ passwordRules }: Props) {
 
                             <div className="grid gap-2">
                                 <Label htmlFor="password_confirmation">
-                                    Confirm password
+                                    Salasana uudelleen
                                 </Label>
                                 <PasswordInput
                                     id="password_confirmation"
@@ -66,7 +66,7 @@ export default function Register({ passwordRules }: Props) {
                                     required
                                     tabIndex={3}
                                     autoComplete="new-password"
-                                    placeholder="Confirm password"
+                                    placeholder="Salasana uudelleen"
                                     passwordrules={passwordRules}
                                 />
                                 <InputError
@@ -81,14 +81,14 @@ export default function Register({ passwordRules }: Props) {
                                 data-test="register-user-button"
                             >
                                 {processing && <Spinner />}
-                                Create account
+                                Luo tili
                             </Button>
                         </div>
 
                         <div className="text-center text-sm text-muted-foreground">
-                            Already have an account?{' '}
+                            Onko sinulla jo tili?{' '}
                             <TextLink href={login()} tabIndex={5}>
-                                Log in
+                                Kirjaudu
                             </TextLink>
                         </div>
                     </>
@@ -99,6 +99,6 @@ export default function Register({ passwordRules }: Props) {
 }
 
 Register.layout = {
-    title: 'Create an account',
-    description: 'Pick a username and password to get started',
+    title: 'Ruotsia työelämään',
+    description: 'Valitse käyttäjänimi ja salasana, niin pääset aloittamaan.',
 };
