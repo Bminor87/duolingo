@@ -66,7 +66,7 @@ export default function LearnLayout({ children }: { children: ReactNode }) {
                             </span>
                             <span
                                 className="flex items-center gap-1 text-violet-500"
-                                title="Kurssin hallinta"
+                                title="Kurssin edistyminen"
                             >
                                 <Gauge className="size-5" />
                                 {learner.mastery}%

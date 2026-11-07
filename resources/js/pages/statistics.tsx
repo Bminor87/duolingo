@@ -1,6 +1,7 @@
 import { Head, usePage } from '@inertiajs/react';
 import { Clock, Flame, Gauge, Target, Zap } from 'lucide-react';
 import type { ReactNode } from 'react';
+import ItemCountsCard from '@/components/course/item-counts-card';
 import Mascot from '@/components/course/mascot';
 import ProgressRing from '@/components/course/progress-ring';
 import UnitIcon from '@/components/course/unit-icon';
@@ -133,7 +134,6 @@ export default function Statistics({
     units: UnitStat[];
 }) {
     const { learner } = usePage<{ learner: LearnerHeader | null }>().props;
-    const remaining = readiness.items.total - readiness.items.mastered;
 
     return (
         <>
@@ -152,15 +152,17 @@ export default function Statistics({
                 </ProgressRing>
                 <div className="min-w-0 flex-1">
                     <h1 className="text-xl font-extrabold">
-                        Kuinka lähellä olet?
+                        Kurssin edistyminen
                     </h1>
                     <p className="mt-1 text-sm text-muted-foreground">
-                        {remaining === 0
+                        {readiness.mastery >= 100
                             ? 'Koko kurssi on hallussa. Jatka kertaamista, niin se pysyy muistissa.'
-                            : `Vielä ${remaining} lausetta tai sanaa ennen kuin koko kurssi on hallussa. Lause on hallussa, kun olet osannut sen kolmella harjoituskerralla ilman virheitä. Virhe laskee tasoa yhdellä.`}
+                            : 'Kasvaa aina, kun osaat lauseen tai sanan harjoituksessa ilman virheitä. 100 % tarkoittaa, että koko kurssi on hallussa.'}
                     </p>
                 </div>
             </section>
+
+            <ItemCountsCard items={readiness.items} className="mt-4" />
 
             <section className="mt-4 grid grid-cols-3 gap-2 text-center">
                 {[
@@ -219,8 +221,8 @@ export default function Statistics({
                 />
                 <StatTile
                     icon={<Gauge className="size-4 text-violet-500" />}
-                    label="Opittu"
-                    value={`${readiness.items.learned}/${readiness.items.total}`}
+                    label="Oppitunnit"
+                    value={`${readiness.lessonsCompleted}/${readiness.lessonsTotal}`}
                 />
                 <StatTile
                     icon={<Clock className="size-4 text-sky-500" />}
@@ -239,7 +241,7 @@ export default function Statistics({
             </section>
 
             <section className="mt-4 rounded-3xl border-2 p-4">
-                <h2 className="text-sm font-extrabold">Hallinta osittain</h2>
+                <h2 className="text-sm font-extrabold">Edistyminen osittain</h2>
                 <ul className="mt-3 space-y-3">
                     {units.map((unit) => (
                         <li key={unit.id} className="flex items-center gap-3">
@@ -253,8 +255,7 @@ export default function Statistics({
                                         {unit.title}
                                     </span>
                                     <span className="shrink-0 text-muted-foreground tabular-nums">
-                                        {unit.items.mastered}/{unit.items.total}{' '}
-                                        · {unit.mastery} %
+                                        {unit.mastery} %
                                     </span>
                                 </div>
                                 <div className="mt-1 h-2 overflow-hidden rounded-full bg-muted">

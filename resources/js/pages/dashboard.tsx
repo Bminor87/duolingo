@@ -2,6 +2,7 @@ import { Head, Link, usePage } from '@inertiajs/react';
 import { Check, Lock, Mic, PenLine, RotateCcw, Star } from 'lucide-react';
 import LessonController from '@/actions/App/Http/Controllers/LessonController';
 import ExamBadge from '@/components/course/exam-badge';
+import ItemCountsCard from '@/components/course/item-counts-card';
 import Mascot from '@/components/course/mascot';
 import ProgressRing from '@/components/course/progress-ring';
 import UnitIcon from '@/components/course/unit-icon';
@@ -171,11 +172,12 @@ function UnitBanner({ unit, index }: { unit: PathUnit; index: number }) {
                 {unit.exam.map((exam) => (
                     <ExamBadge key={exam} exam={exam} />
                 ))}
-                <span className="ml-auto text-xs font-bold">
-                    {unit.items.mastered}/{unit.items.total} hallussa
-                </span>
             </div>
-            <div className="mt-2 h-2 overflow-hidden rounded-full bg-black/15">
+            <div className="mt-3 flex justify-between text-xs font-bold">
+                <span>Edistyminen</span>
+                <span className="tabular-nums">{unit.mastery} %</span>
+            </div>
+            <div className="mt-1 h-2 overflow-hidden rounded-full bg-black/15">
                 <div
                     className="h-full rounded-full bg-white"
                     style={{ width: `${unit.mastery}%` }}
@@ -216,13 +218,15 @@ export default function Dashboard({
                     </ProgressRing>
                     <div className="min-w-0 flex-1">
                         <h1 className="text-lg leading-tight font-extrabold">
-                            Kurssin hallinta
+                            Kurssin edistyminen
                         </h1>
                         <p className="mt-1 text-sm text-muted-foreground">
-                            {readiness.items.mastered}/{readiness.items.total}{' '}
-                            lausetta ja sanaa hallussa ·{' '}
+                            Kasvaa aina, kun osaat lauseen tai sanan
+                            harjoituksessa ilman virheitä.
+                        </p>
+                        <p className="mt-1 text-sm font-bold">
                             {readiness.lessonsCompleted}/
-                            {readiness.lessonsTotal} oppituntia
+                            {readiness.lessonsTotal} oppituntia suoritettu
                         </p>
                     </div>
                 </div>
@@ -284,6 +288,10 @@ export default function Dashboard({
                         Suullinen
                     </Link>
                 </section>
+            )}
+
+            {hasCompletedLessons && (
+                <ItemCountsCard items={readiness.items} className="mt-4" />
             )}
 
             <div className="mt-8 space-y-10">
