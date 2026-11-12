@@ -9,6 +9,7 @@ use Random\Randomizer;
  *
  * Every item gets a short "ladder" of exercises that gets harder as the item's strength grows:
  * recognising the meaning, choosing the missing word, ordering words, and finally typing the missing word.
+ * Questions that have model answers end the session with a speaking card: the learner answers aloud from memory.
  *
  * @phpstan-import-type Unit from Course
  * @phpstan-import-type Lesson from Course
@@ -36,6 +37,11 @@ class SessionBuilder
      * The longest sentence (in words) used in a word ordering exercise.
      */
     public const int MAX_ORDER_TOKENS = 12;
+
+    /**
+     * Exercise kinds that are shown to the learner but never graded.
+     */
+    public const array UNGRADED_KINDS = ['learn', 'learn_words', 'speak'];
 
     /**
      * Exercise ladders for sentences, indexed by item strength.
@@ -120,6 +126,8 @@ class SessionBuilder
             $plans[] = $strength === 0 ? [[], [$exercise]] : [[$exercise]];
         }
 
+        $plans = $this->withSpeakingCards($plans, $this->speakingCards($sentences));
+
         return $this->finish($plans, $optionalPlans);
     }
 
@@ -160,6 +168,10 @@ class SessionBuilder
             if (count($group) >= 3) {
                 $plans[] = [[$this->matchExercise($group)]];
             }
+        }
+
+        if ($mode === 'oral') {
+            $plans = $this->withSpeakingCards($plans, $this->speakingCardsForItems($itemIds));
         }
 
         return $this->finish($plans);
@@ -249,6 +261,77 @@ class SessionBuilder
             'itemIds' => array_column($words, 'id'),
             'pairs' => array_map(fn (array $word): array => ['itemId' => $word['id'], 'sv' => $word['sv'], 'fi' => $word['fi'], 'note' => $word['note'] ?? null], $words),
         ];
+    }
+
+    /**
+     * Build one speaking card per question that has model answers among the given sentences.
+     * The learner answers the question aloud before the model answers are revealed.
+     *
+     * @param  list<Sentence>  $sentences
+     * @return list<Exercise>
+     */
+    private function speakingCards(array $sentences): array
+    {
+        $cards = [];
+
+        foreach ($sentences as $question) {
+            $answers = array_values(array_filter(
+                $sentences,
+                fn (array $sentence): bool => ($sentence['answers'] ?? null) === $question['id'],
+            ));
+
+            if ($answers === []) {
+                continue;
+            }
+
+            $cards[] = [
+                'kind' => 'speak',
+                'itemId' => $question['id'],
+                'answers' => array_map(fn (array $answer): array => ['itemId' => $answer['id'], 'sv' => $answer['sv'], 'fi' => $answer['fi']], $answers),
+                'hint' => $this->sentenceHint($question),
+            ];
+        }
+
+        return $cards;
+    }
+
+    /**
+     * Find the speaking cards whose question or model answers are among the given items.
+     *
+     * @param  list<string>  $itemIds
+     * @return list<Exercise>
+     */
+    private function speakingCardsForItems(array $itemIds): array
+    {
+        $cards = [];
+
+        foreach ($itemIds as $itemId) {
+            foreach ($this->speakingCards($this->lessonOfItem($itemId)['sentences'] ?? []) as $card) {
+                if (in_array($itemId, [$card['itemId'], ...array_column($card['answers'], 'itemId')], true)) {
+                    $cards[$card['itemId']] = $card;
+                }
+            }
+        }
+
+        return array_values($cards);
+    }
+
+    /**
+     * Add the speaking cards as a final round, so they come after every graded exercise.
+     *
+     * @param  list<list<list<Exercise>>>  $plans
+     * @param  list<Exercise>  $cards
+     * @return list<list<list<Exercise>>>
+     */
+    private function withSpeakingCards(array $plans, array $cards): array
+    {
+        $gradedRounds = max([0, ...array_map('count', $plans)]);
+
+        foreach ($cards as $card) {
+            $plans[] = [...array_fill(0, $gradedRounds, []), [$card]];
+        }
+
+        return $plans;
     }
 
     /**
@@ -692,7 +775,7 @@ class SessionBuilder
 
         foreach ($plan as $step) {
             foreach ($step as $exercise) {
-                if (! in_array($exercise['kind'], ['learn', 'learn_words'], true)) {
+                if (! in_array($exercise['kind'], self::UNGRADED_KINDS, true)) {
                     $count++;
                 }
             }

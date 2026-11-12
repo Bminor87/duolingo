@@ -13,7 +13,8 @@ export type UnitColor =
     | 'blue'
     | 'pink'
     | 'green'
-    | 'red';
+    | 'red'
+    | 'purple';
 
 export type ExamPart = 'oral' | 'written' | 'assignment';
 
@@ -91,17 +92,28 @@ export type OrderExercise = BaseExercise & {
     hint: Hint;
 };
 
+/**
+ * A question the learner answers aloud before revealing the model answers. Never graded.
+ */
+export type SpeakExercise = BaseExercise & {
+    kind: 'speak';
+    itemId: string;
+    answers: WordPair[];
+    hint: Hint;
+};
+
 export type Exercise =
     | LearnExercise
     | LearnWordsExercise
     | MatchExercise
     | ChooseExercise
     | ClozeExercise
-    | OrderExercise;
+    | OrderExercise
+    | SpeakExercise;
 
 export type GradedExercise = Exclude<
     Exercise,
-    LearnExercise | LearnWordsExercise
+    LearnExercise | LearnWordsExercise | SpeakExercise
 >;
 
 export type SessionData = {

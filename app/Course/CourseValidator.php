@@ -11,11 +11,11 @@ class CourseValidator
 {
     public const array ICONS = [
         'graduation-cap', 'sparkles', 'cpu', 'app-window', 'globe', 'shield-check', 'layers', 'rocket',
-        'briefcase', 'megaphone', 'laptop', 'mail', 'map', 'building-2', 'music',
+        'briefcase', 'megaphone', 'laptop', 'mail', 'map', 'building-2', 'music', 'messages-square', 'mic',
     ];
 
     public const array COLORS = [
-        'emerald', 'sky', 'violet', 'amber', 'rose', 'teal', 'indigo', 'orange', 'lime', 'cyan', 'fuchsia', 'blue', 'pink', 'green', 'red',
+        'emerald', 'sky', 'violet', 'amber', 'rose', 'teal', 'indigo', 'orange', 'lime', 'cyan', 'fuchsia', 'blue', 'pink', 'green', 'red', 'purple',
     ];
 
     public const array EXAMS = ['oral', 'written', 'assignment'];
@@ -216,6 +216,8 @@ class CourseValidator
             $this->validateSentence($context, $sentence, $grammarIds, $glossary);
         }
 
+        $this->validateAnswerLinks($context, $sentences);
+
         foreach ($words as $word) {
             $this->validateWord($context, $word, $glossary);
         }
@@ -286,6 +288,29 @@ class CourseValidator
 
             $this->validateBlank("{$context} variant", $variant['sv'], $variant);
             $this->assertGlossaryCovers("{$context} variant", $variant['sv'], $glossary);
+        }
+    }
+
+    /**
+     * An answer must point at a question sentence of the same lesson, and a question can not answer another question.
+     *
+     * @param  array<mixed>  $sentences
+     */
+    private function validateAnswerLinks(string $context, array $sentences): void
+    {
+        $sentencesById = array_column(array_filter($sentences, 'is_array'), null, 'id');
+
+        foreach ($sentencesById as $id => $sentence) {
+            if (! array_key_exists('answers', $sentence)) {
+                continue;
+            }
+
+            $questionId = $sentence['answers'];
+            $question = is_string($questionId) ? ($sentencesById[$questionId] ?? null) : null;
+
+            if ($question === null || $questionId === $id || array_key_exists('answers', $question)) {
+                $this->errors[] = "{$context} sentence {$id}: 'answers' must be the id of a question sentence in the same lesson.";
+            }
         }
     }
 

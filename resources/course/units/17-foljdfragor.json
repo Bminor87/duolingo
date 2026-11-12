@@ -1,0 +1,1557 @@
+{
+    "id": "foljdfragor",
+    "title": "Yksilökeskustelu: jatkokysymykset",
+    "subtitle": "Följdfrågor och samtalsfraser",
+    "description": "Yksilökeskustelussa opettaja esittää jatkokysymyksiä, joita et tiedä etukäteen, ja arvosana voi nousta viiteen asti. Opit pelastusfraasit, todennäköisimmät jatkokysymykset ja keinot laajentaa vastausta spontaanisti.",
+    "icon": "mic",
+    "color": "sky",
+    "exam": ["oral"],
+    "source": "Suullisen loppukeskustelun ohje (yksilökeskustelu) ja vinkit suulliseen loppukeskusteluun. Jatkokysymyksiä ei anneta etukäteen, joten nämä ovat todennäköisiä esimerkkejä kurssin aiheista ja sanastosta.",
+    "lessons": [
+        {
+            "id": "foljd-l1",
+            "title": "Pelastusfraasit",
+            "intro": "Jatkokysymyksiä ei tiedä etukäteen, joten joskus et ymmärrä kysymystä. Se ei haittaa, kun osaat pyytää toistoa ja ostaa miettimisaikaa ruotsiksi. Nämä fraasit kannattaa osata unissaankin.",
+            "sentences": [
+                {
+                    "id": "foljd-s01",
+                    "sv": "Ursäkta, kan du upprepa frågan?",
+                    "fi": "Anteeksi, voitko toistaa kysymyksen?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "upprepa",
+                            "d": ["upprepar", "upprepat", "uppdatera"]
+                        },
+                        {
+                            "w": "frågan",
+                            "d": ["fråga", "frågor", "frågar"]
+                        },
+                        {
+                            "w": "kan",
+                            "d": ["kunna", "kunde", "kunnat"]
+                        }
+                    ],
+                    "grammar": ["questions", "modal", "definite", "uttal"],
+                    "note": "Tärkein pelastusfraasi: toiston pyytäminen on täysin sallittua. Lausu: 'UUR-säk-ta, kan duu UP-ree-pa FROO-gan' (å = o).",
+                    "wrong": [
+                        "Ursäkta, du kan upprepa frågan?",
+                        "Ursäkta, kan du upprepar frågan?"
+                    ]
+                },
+                {
+                    "id": "foljd-s02",
+                    "sv": "Kan du tala lite långsammare?",
+                    "fi": "Voitko puhua vähän hitaammin?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "tala",
+                            "d": ["talar", "talat", "tal"]
+                        },
+                        {
+                            "w": "långsammare",
+                            "d": ["långsam", "långsamt", "snabbare"]
+                        },
+                        {
+                            "w": "lite",
+                            "d": ["liten", "litet", "lilla"]
+                        }
+                    ],
+                    "grammar": ["questions", "modal", "comparison", "uttal"],
+                    "note": "'långsam' = hidas, 'långsammare' = hitaammin. Lausu: 'LONG-sam-ma-re'.",
+                    "wrong": [
+                        "Kan du talar lite långsammare?",
+                        "Du kan tala lite långsammare?"
+                    ]
+                },
+                {
+                    "id": "foljd-s03",
+                    "sv": "Jag förstår inte frågan.",
+                    "fi": "En ymmärrä kysymystä.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "förstår",
+                            "d": ["förstå", "förstod", "förstått"]
+                        },
+                        {
+                            "w": "inte",
+                            "d": ["ingen", "inga", "nej"]
+                        }
+                    ],
+                    "grammar": ["negation", "present", "definite", "uttal"],
+                    "note": "Kieltosana 'inte' tulee verbin perään. Lausu 'förstår' = för-STOOR, paino lopussa.",
+                    "wrong": [
+                        "Jag inte förstår frågan.",
+                        "Jag förstå inte frågan."
+                    ]
+                },
+                {
+                    "id": "foljd-s04",
+                    "sv": "Vad betyder det ordet?",
+                    "fi": "Mitä se sana tarkoittaa?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "betyder",
+                            "d": ["betyda", "betydde", "betytt"]
+                        },
+                        {
+                            "w": "ordet",
+                            "d": ["ord", "orden", "ordna"]
+                        }
+                    ],
+                    "grammar": ["questions", "definite", "gender", "uttal"],
+                    "note": "'ett ord' → 'det ordet' = se sana. Lausu: 'vaa be-TYY-der de UUR-det' (o = u).",
+                    "wrong": [
+                        "Vad det ordet betyder?",
+                        "Vad betyder den ordet?"
+                    ]
+                },
+                {
+                    "id": "foljd-s05",
+                    "sv": "Det är en bra fråga.",
+                    "fi": "Se on hyvä kysymys.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "fråga",
+                            "d": ["frågan", "frågor", "frågar"]
+                        },
+                        {
+                            "w": "en",
+                            "d": ["ett", "den", "det"]
+                        }
+                    ],
+                    "grammar": ["gender", "present"],
+                    "note": "Tällä saat pari sekuntia miettimisaikaa. Jatka sen jälkeen: 'Låt mig tänka en stund.'",
+                    "wrong": ["Det är ett bra fråga.", "Det är en bra frågan."]
+                },
+                {
+                    "id": "foljd-s06",
+                    "sv": "Låt mig tänka en stund.",
+                    "fi": "Anna minun miettiä hetki.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "tänka",
+                            "d": ["tänker", "tänkt", "tacka"]
+                        },
+                        {
+                            "w": "stund",
+                            "d": ["stunden", "stunder", "stad"]
+                        },
+                        {
+                            "w": "mig",
+                            "d": ["jag", "min", "sig"]
+                        }
+                    ],
+                    "grammar": ["imperative", "pronouns", "uttal"],
+                    "note": "'Låt mig' + perusmuoto = anna minun tehdä jotain. Lausu: 'loot mej TÄN-ka en stund'.",
+                    "wrong": [
+                        "Låt jag tänka en stund.",
+                        "Låt mig tänker en stund."
+                    ]
+                },
+                {
+                    "id": "foljd-s07",
+                    "sv": "Jag vet inte vad det heter på svenska.",
+                    "fi": "En tiedä, mikä se on ruotsiksi.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "vet",
+                            "d": ["veta", "visste", "vetat"]
+                        },
+                        {
+                            "w": "heter",
+                            "d": ["heta", "hette", "hetat"]
+                        },
+                        {
+                            "w": "på svenska",
+                            "d": ["i svenska", "till svenska", "av svenska"]
+                        }
+                    ],
+                    "grammar": ["negation", "subclause"],
+                    "note": "Kun sana puuttuu, sano tämä ja selitä asia toisin sanoin. Se on aina parempi kuin hiljaisuus. 'på svenska' = ruotsiksi.",
+                    "wrong": [
+                        "Jag inte vet vad det heter på svenska.",
+                        "Jag vet inte vad heter det på svenska."
+                    ]
+                },
+                {
+                    "id": "foljd-s08",
+                    "sv": "Menar du mina studier eller mitt jobb?",
+                    "fi": "Tarkoitatko opintojani vai työtäni?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Menar",
+                            "d": ["Mena", "Menat", "Menade"]
+                        },
+                        {
+                            "w": "eller",
+                            "d": ["och", "men", "utan"]
+                        },
+                        {
+                            "w": "mitt",
+                            "d": ["min", "mina", "mig"]
+                        }
+                    ],
+                    "grammar": ["questions", "conjunctions", "possessive"],
+                    "note": "Tarkentava vastakysymys osoittaa, että osaat keskustella. 'mena' = tarkoittaa, 'eller' = vai, tai.",
+                    "wrong": [
+                        "Du menar mina studier eller mitt jobb?",
+                        "Menar du mina studier eller min jobb?"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "foljd-l2",
+            "title": "Kysy ja reagoi",
+            "intro": "Keskustelu ei ole kuulustelu: reagoi toisen puheeseen ja kysy takaisin. Ryhmäkeskustelussa näillä jaat puheenvuoroja, yksilökeskustelussa osoitat spontaania vuorovaikutusta.",
+            "sentences": [
+                {
+                    "id": "foljd-s09",
+                    "sv": "Och du, vad studerar du?",
+                    "fi": "Entä sinä, mitä sinä opiskelet?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "studerar",
+                            "d": ["studera", "studerat", "studerande"]
+                        },
+                        {
+                            "w": "vad",
+                            "d": ["var", "vem", "när"]
+                        }
+                    ],
+                    "grammar": ["questions", "pronouns"],
+                    "note": "'Och du?' = entä sinä? Helpoin tapa antaa puheenvuoro toiselle. Lausu: 'o duu'.",
+                    "wrong": [
+                        "Och du, vad du studerar?",
+                        "Och dig, vad studerar du?"
+                    ]
+                },
+                {
+                    "id": "foljd-s10",
+                    "sv": "Vad tycker du?",
+                    "fi": "Mitä mieltä sinä olet?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "tycker",
+                            "d": ["tycka", "tyckte", "tyckt"]
+                        },
+                        {
+                            "w": "Vad",
+                            "d": ["Var", "Vem", "När"]
+                        }
+                    ],
+                    "grammar": ["questions", "opinion"],
+                    "note": "Lyhyt vastakysymys, jolla saat toisen puhumaan. Lausu: 'vaa TYK-ker duu'.",
+                    "wrong": ["Vad du tycker?", "Vad tycka du?"]
+                },
+                {
+                    "id": "foljd-s11",
+                    "sv": "Jag håller med dig.",
+                    "fi": "Olen samaa mieltä kanssasi.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "håller",
+                            "d": ["hålla", "höll", "hållit"]
+                        },
+                        {
+                            "w": "med",
+                            "d": ["av", "på", "till"]
+                        },
+                        {
+                            "w": "dig",
+                            "d": ["du", "din", "sig"]
+                        }
+                    ],
+                    "grammar": ["particle", "pronouns", "uttal"],
+                    "note": "'hålla med' = olla samaa mieltä. Lausu: 'jaa HOL-ler mee dej' (å = o, dig = dej).",
+                    "wrong": ["Jag håller med du.", "Jag hålla med dig."]
+                },
+                {
+                    "id": "foljd-s12",
+                    "sv": "Det låter intressant!",
+                    "fi": "Kuulostaa mielenkiintoiselta!",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "låter",
+                            "d": ["låta", "lät", "låtit"]
+                        },
+                        {
+                            "w": "intressant",
+                            "d": ["intresserad", "intressanta", "intresse"]
+                        }
+                    ],
+                    "grammar": ["present", "opinion", "uttal"],
+                    "note": "Hyvä reaktio toisen vastaukseen. Lausu: 'de LOO-ter in-tre-SANT'.",
+                    "wrong": ["Det låta intressant!", "Det låter intresserad!"]
+                },
+                {
+                    "id": "foljd-s13",
+                    "sv": "Jag tycker likadant.",
+                    "fi": "Olen samaa mieltä.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "likadant",
+                            "d": ["likadan", "likadana", "lika"]
+                        },
+                        {
+                            "w": "tycker",
+                            "d": ["tycka", "tyckte", "tyckt"]
+                        }
+                    ],
+                    "grammar": ["opinion"],
+                    "note": "'likadant' = samalla tavalla. Sanatarkasti: ajattelen samoin.",
+                    "wrong": ["Jag tycka likadant.", "Jag tycker likadan."]
+                },
+                {
+                    "id": "foljd-s14",
+                    "sv": "Nu är det din tur.",
+                    "fi": "Nyt on sinun vuorosi.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "tur",
+                            "d": ["turen", "turer", "tid"]
+                        },
+                        {
+                            "w": "din",
+                            "d": ["ditt", "dina", "dig"]
+                        },
+                        {
+                            "w": "Nu",
+                            "d": ["Ny", "När", "Nej"]
+                        }
+                    ],
+                    "grammar": ["v2", "possessive", "uttal"],
+                    "note": "Lause alkaa sanalla 'Nu', joten verbi 'är' tulee heti sen perään. Lausu 'tur' = tuur.",
+                    "wrong": ["Nu det är din tur.", "Nu är det ditt tur."],
+                    "variants": [
+                        {
+                            "sv": "Nu är det min tur.",
+                            "fi": "Nyt on minun vuoroni.",
+                            "w": "min",
+                            "d": ["mitt", "mina", "mig"]
+                        }
+                    ]
+                },
+                {
+                    "id": "foljd-s15",
+                    "sv": "Jag kan börja.",
+                    "fi": "Minä voin aloittaa.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "börja",
+                            "d": ["börjar", "började", "början"]
+                        },
+                        {
+                            "w": "kan",
+                            "d": ["kunna", "kunde", "kunnat"]
+                        }
+                    ],
+                    "grammar": ["modal"],
+                    "note": "Rohkea avaus ryhmäkeskustelussa. Apuverbin 'kan' jälkeen perusmuoto 'börja'.",
+                    "wrong": ["Jag kan börjar.", "Jag kunna börja."]
+                },
+                {
+                    "id": "foljd-s16",
+                    "sv": "Tack för diskussionen!",
+                    "fi": "Kiitos keskustelusta!",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "diskussionen",
+                            "d": ["diskussion", "diskussioner", "diskutera"]
+                        },
+                        {
+                            "w": "för",
+                            "d": ["av", "om", "till"]
+                        }
+                    ],
+                    "grammar": ["definite", "rektio", "uttal"],
+                    "note": "'tack för' = kiitos jostakin. Lausu 'diskussionen' = dis-ku-ŠUU-nen.",
+                    "wrong": ["Tack av diskussionen!", "Tack för diskussion!"]
+                }
+            ]
+        },
+        {
+            "id": "foljd-l3",
+            "title": "Jatkokysymykset: opinnot",
+            "intro": "Todennäköisiä jatkokysymyksiä opinnoistasi ja lyhyet vastaukset niihin. Kuuntele kysymys kaiuttimesta, sillä kokeessa et näe näitä kirjoitettuna.",
+            "sentences": [
+                {
+                    "id": "foljd-s17",
+                    "sv": "När blir du färdig?",
+                    "fi": "Milloin valmistut?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "När",
+                            "d": ["Var", "Vad", "Vem"]
+                        },
+                        {
+                            "w": "blir",
+                            "d": ["bli", "blev", "blivit"]
+                        },
+                        {
+                            "w": "färdig",
+                            "d": ["färdiga", "färdigt", "färdighet"]
+                        }
+                    ],
+                    "grammar": ["questions", "future", "time"],
+                    "note": "'När' = milloin. 'bli färdig' = valmistua. Lausu: 'näär bliir duu FÄÄR-dig'.",
+                    "wrong": ["När du blir färdig?", "När bli du färdig?"]
+                },
+                {
+                    "id": "foljd-s18",
+                    "sv": "Jag blir färdig om två år.",
+                    "fi": "Valmistun kahden vuoden kuluttua.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "om",
+                            "d": ["för", "i", "på"]
+                        },
+                        {
+                            "w": "två",
+                            "d": ["tre", "tolv", "tjugo"]
+                        },
+                        {
+                            "w": "år",
+                            "d": ["året", "åren", "års"]
+                        }
+                    ],
+                    "grammar": ["time", "future"],
+                    "note": "'om' + aika = jonkin ajan kuluttua. Vaihda luku omaksesi.",
+                    "wrong": [
+                        "Jag blir färdig i två år.",
+                        "Jag bli färdig om två år."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag blir färdig om ett år.",
+                            "fi": "Valmistun vuoden kuluttua.",
+                            "w": "ett",
+                            "d": ["en", "två", "tre"]
+                        },
+                        {
+                            "sv": "Jag blir färdig nästa vår.",
+                            "fi": "Valmistun ensi keväänä.",
+                            "w": "nästa vår",
+                            "d": ["förra våren", "i våras", "på vår"]
+                        }
+                    ],
+                    "answers": "foljd-s17"
+                },
+                {
+                    "id": "foljd-s19",
+                    "sv": "Hur länge har du studerat på Haaga-Helia?",
+                    "fi": "Kuinka kauan olet opiskellut Haaga-Heliassa?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "länge",
+                            "d": ["lång", "långt", "längre"]
+                        },
+                        {
+                            "w": "studerat",
+                            "d": ["studerar", "studera", "studerade"]
+                        },
+                        {
+                            "w": "Hur",
+                            "d": ["Vad", "Var", "Vem"]
+                        }
+                    ],
+                    "grammar": ["questions", "perfect"],
+                    "note": "'Hur länge' = kuinka kauan. Lausu: 'huur LÄNG-e haar duu stu-DEE-rat'.",
+                    "wrong": [
+                        "Hur länge du har studerat på Haaga-Helia?",
+                        "Hur länge har du studerar på Haaga-Helia?"
+                    ]
+                },
+                {
+                    "id": "foljd-s20",
+                    "sv": "Jag har studerat här i två år.",
+                    "fi": "Olen opiskellut täällä kaksi vuotta.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "här",
+                            "d": ["där", "hit", "hem"]
+                        },
+                        {
+                            "w": "i",
+                            "d": ["på", "om", "för"]
+                        },
+                        {
+                            "w": "studerat",
+                            "d": ["studerar", "studera", "studerade"]
+                        }
+                    ],
+                    "grammar": ["perfect", "time"],
+                    "note": "Kesto ilmaistaan i-prepositiolla: 'i två år' = kaksi vuotta. Vertaa: 'om två år' = kahden vuoden kuluttua.",
+                    "wrong": [
+                        "Jag har studerat här om två år.",
+                        "Jag har studerar här i två år."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag har studerat här i tre år.",
+                            "fi": "Olen opiskellut täällä kolme vuotta.",
+                            "w": "tre",
+                            "d": ["två", "fem", "tretton"]
+                        },
+                        {
+                            "sv": "Jag har studerat här i ett år.",
+                            "fi": "Olen opiskellut täällä vuoden.",
+                            "w": "ett",
+                            "d": ["en", "två", "tre"]
+                        }
+                    ],
+                    "answers": "foljd-s19"
+                },
+                {
+                    "id": "foljd-s21",
+                    "sv": "Vad tycker du om dina studier?",
+                    "fi": "Mitä mieltä olet opinnoistasi?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "tycker",
+                            "d": ["tycka", "tyckte", "tyckt"]
+                        },
+                        {
+                            "w": "om",
+                            "d": ["av", "på", "för"]
+                        },
+                        {
+                            "w": "dina",
+                            "d": ["din", "ditt", "dig"]
+                        }
+                    ],
+                    "grammar": ["questions", "opinion", "possessive"],
+                    "note": "'Vad tycker du om...?' = mitä mieltä olet jostakin? Tämä on opettajan yleisin jatkokysymys, vain loppu vaihtuu.",
+                    "wrong": [
+                        "Vad du tycker om dina studier?",
+                        "Vad tycker du om din studier?"
+                    ]
+                },
+                {
+                    "id": "foljd-s22",
+                    "sv": "Jag tycker att mina studier är intressanta men ibland svåra.",
+                    "fi": "Minusta opintoni ovat kiinnostavia mutta joskus vaikeita.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "intressanta",
+                            "d": ["intressant", "intresserad", "intresserade"]
+                        },
+                        {
+                            "w": "men",
+                            "d": ["och", "eller", "så"]
+                        },
+                        {
+                            "w": "svåra",
+                            "d": ["svår", "svårt", "svårare"]
+                        }
+                    ],
+                    "grammar": ["opinion", "adj", "conjunctions"],
+                    "note": "Vastaa mielipidekysymykseen mallilla 'Jag tycker att...'. 'men' (mutta) tekee vastauksesta heti monipuolisemman.",
+                    "wrong": [
+                        "Jag tycker att mina studier är intressant men ibland svår.",
+                        "Jag tycker mina studier att är intressanta men ibland svåra."
+                    ],
+                    "answers": "foljd-s21"
+                },
+                {
+                    "id": "foljd-s23",
+                    "sv": "Vilken kurs tycker du mest om?",
+                    "fi": "Mistä kurssista pidät eniten?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Vilken",
+                            "d": ["Vilket", "Vilka", "Vad"]
+                        },
+                        {
+                            "w": "kurs",
+                            "d": ["kursen", "kurser", "kors"]
+                        },
+                        {
+                            "w": "mest",
+                            "d": ["mer", "många", "mycket"]
+                        }
+                    ],
+                    "grammar": ["questions", "comparison", "gender"],
+                    "note": "'Vilken' = mikä (en-sanan kanssa: en kurs). 'tycka mest om' = pitää eniten.",
+                    "wrong": [
+                        "Vilken kurs du tycker mest om?",
+                        "Vilket kurs tycker du mest om?"
+                    ]
+                },
+                {
+                    "id": "foljd-s24",
+                    "sv": "Jag tycker mest om programmeringskurserna.",
+                    "fi": "Pidän eniten ohjelmointikursseista.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "mest",
+                            "d": ["mer", "många", "mycket"]
+                        },
+                        {
+                            "w": "programmeringskurserna",
+                            "d": [
+                                "programmeringskurs",
+                                "programmering",
+                                "programmerare"
+                            ]
+                        },
+                        {
+                            "w": "om",
+                            "d": ["av", "på", "för"]
+                        }
+                    ],
+                    "grammar": ["comparison", "definite", "compound"],
+                    "note": "'programmeringskurserna' = programmering + kurser + na (ne tietyt kurssit).",
+                    "wrong": [
+                        "Jag tycker mest av programmeringskurserna.",
+                        "Jag tycka mest om programmeringskurserna."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag tycker mest om projektkurserna.",
+                            "fi": "Pidän eniten projektikursseista.",
+                            "w": "projektkurserna",
+                            "d": ["projektkurs", "projektchef", "projektarbete"]
+                        }
+                    ],
+                    "answers": "foljd-s23"
+                }
+            ]
+        },
+        {
+            "id": "foljd-l4",
+            "title": "Jatkokysymykset: työ ja osaaminen",
+            "intro": "Opettaja voi kysyä nykyisestä työstäsi, siitä mitä olet oppinut, ja heikkouksistasi. Valitse vastaukset, jotka ovat totta, ja muokkaa niitä.",
+            "sentences": [
+                {
+                    "id": "foljd-s25",
+                    "sv": "Var jobbar du nu?",
+                    "fi": "Missä olet nyt töissä?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Var",
+                            "d": ["Vad", "Vem", "När"]
+                        },
+                        {
+                            "w": "jobbar",
+                            "d": ["jobba", "jobbat", "jobbade"]
+                        },
+                        {
+                            "w": "nu",
+                            "d": ["ny", "när", "nya"]
+                        }
+                    ],
+                    "grammar": ["questions", "present"],
+                    "note": "'Var' = missä. Lausu: 'vaar JOB-bar duu nuu'.",
+                    "wrong": ["Var du jobbar nu?", "Var jobba du nu?"]
+                },
+                {
+                    "id": "foljd-s26",
+                    "sv": "Just nu jobbar jag inte, jag studerar på heltid.",
+                    "fi": "Juuri nyt en ole töissä, opiskelen päätoimisesti.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "heltid",
+                            "d": ["helt", "hela", "heltiden"]
+                        },
+                        {
+                            "w": "inte",
+                            "d": ["ingen", "inga", "nej"]
+                        },
+                        {
+                            "w": "jobbar",
+                            "d": ["jobba", "jobbat", "jobbade"]
+                        }
+                    ],
+                    "grammar": ["v2", "negation", "time"],
+                    "note": "'Just nu' = juuri nyt. Lause alkaa sillä, joten verbi tulee ennen jag-sanaa. 'på heltid' = kokopäiväisesti.",
+                    "wrong": [
+                        "Just nu jag jobbar inte, jag studerar på heltid.",
+                        "Just nu jobbar jag inte, jag studera på heltid."
+                    ],
+                    "answers": "foljd-s25"
+                },
+                {
+                    "id": "foljd-s27",
+                    "sv": "Jag jobbar på deltid som utvecklare på ett litet företag.",
+                    "fi": "Työskentelen osa-aikaisesti kehittäjänä pienessä yrityksessä.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "deltid",
+                            "d": ["del", "delen", "deltiden"]
+                        },
+                        {
+                            "w": "utvecklare",
+                            "d": ["utveckling", "utveckla", "utvecklar"]
+                        },
+                        {
+                            "w": "litet",
+                            "d": ["liten", "lilla", "små"]
+                        }
+                    ],
+                    "grammar": ["som", "adj", "gender"],
+                    "note": "'på deltid' = osa-aikaisesti. 'ett litet företag': ett-sana, siksi litet. Vaihda ammatti omaksesi.",
+                    "wrong": [
+                        "Jag jobbar på deltid som en utvecklare på ett litet företag.",
+                        "Jag jobbar på deltid som utvecklare på en liten företag."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Jag jobbar på deltid som försäljare på ett litet företag.",
+                            "fi": "Työskentelen osa-aikaisesti myyjänä pienessä yrityksessä.",
+                            "w": "försäljare",
+                            "d": ["försäljning", "sälja", "försäljaren"]
+                        }
+                    ],
+                    "answers": "foljd-s25"
+                },
+                {
+                    "id": "foljd-s28",
+                    "sv": "Vad har du lärt dig i dina studier?",
+                    "fi": "Mitä olet oppinut opinnoissasi?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "lärt",
+                            "d": ["lära", "lär", "lärde"]
+                        },
+                        {
+                            "w": "dig",
+                            "d": ["du", "din", "sig"]
+                        },
+                        {
+                            "w": "dina",
+                            "d": ["din", "ditt", "mina"]
+                        }
+                    ],
+                    "grammar": ["questions", "perfect", "reflexive"],
+                    "note": "'har lärt dig' = olet oppinut (lära sig). Vastauksessa 'dig' vaihtuu sanaksi 'mig'.",
+                    "wrong": [
+                        "Vad du har lärt dig i dina studier?",
+                        "Vad har du lära dig i dina studier?"
+                    ]
+                },
+                {
+                    "id": "foljd-s29",
+                    "sv": "Jag har lärt mig att programmera och att jobba i projekt.",
+                    "fi": "Olen oppinut ohjelmoimaan ja työskentelemään projekteissa.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "lärt",
+                            "d": ["lära", "lär", "lärde"]
+                        },
+                        {
+                            "w": "mig",
+                            "d": ["jag", "min", "sig"]
+                        },
+                        {
+                            "w": "projekt",
+                            "d": ["projektet", "projektchef", "projektarbete"]
+                        }
+                    ],
+                    "grammar": ["perfect", "reflexive", "att-inf"],
+                    "note": "'har lärt mig att' + perusmuoto = olen oppinut tekemään. Lausu 'lärt' = läärt.",
+                    "wrong": [
+                        "Jag har lära mig att programmera och att jobba i projekt.",
+                        "Jag har lärt sig att programmera och att jobba i projekt."
+                    ],
+                    "answers": "foljd-s28"
+                },
+                {
+                    "id": "foljd-s30",
+                    "sv": "Vad är dina svagheter?",
+                    "fi": "Mitkä ovat heikkoutesi?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "svagheter",
+                            "d": ["svaghet", "svag", "styrkor"]
+                        },
+                        {
+                            "w": "dina",
+                            "d": ["din", "ditt", "dig"]
+                        }
+                    ],
+                    "grammar": ["questions", "plural", "possessive", "uttal"],
+                    "note": "'en svaghet' = heikkous (svag = heikko), vastakohta 'en styrka'. Lausu: 'SVAAG-hee-ter'.",
+                    "wrong": ["Vad dina svagheter är?", "Vad är din svagheter?"]
+                },
+                {
+                    "id": "foljd-s31",
+                    "sv": "Ibland är jag för noggrann, och då tar arbetet mycket tid.",
+                    "fi": "Joskus olen liian tarkka, ja silloin työ vie paljon aikaa.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Ibland",
+                            "d": ["Alltid", "Aldrig", "Ofta"]
+                        },
+                        {
+                            "w": "för",
+                            "d": ["till", "som", "att"]
+                        },
+                        {
+                            "w": "tar",
+                            "d": ["ta", "tog", "tagit"]
+                        }
+                    ],
+                    "grammar": ["v2", "adverbs"],
+                    "note": "'för' + adjektiivi = liian: för noggrann = liian tarkka. Hyvä heikkous on sellainen, joka on myös vahvuus.",
+                    "wrong": [
+                        "Ibland jag är för noggrann, och då tar arbetet mycket tid.",
+                        "Ibland är jag för noggrann, och då arbetet tar mycket tid."
+                    ],
+                    "answers": "foljd-s30"
+                },
+                {
+                    "id": "foljd-s32",
+                    "sv": "Hur skulle dina kolleger beskriva dig?",
+                    "fi": "Miten kollegasi kuvailisivat sinua?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "kolleger",
+                            "d": ["kollega", "kollegan", "kunder"]
+                        },
+                        {
+                            "w": "beskriva",
+                            "d": ["beskriver", "beskriv", "beskrev"]
+                        },
+                        {
+                            "w": "Hur",
+                            "d": ["Vad", "Var", "Vem"]
+                        }
+                    ],
+                    "grammar": ["questions", "skulle", "finlandssvenska"],
+                    "note": "'Hur' = miten. 'skulle beskriva' = kuvailisivat. Suomenruotsissa monikko on usein 'kolleger'.",
+                    "wrong": [
+                        "Hur dina kolleger skulle beskriva dig?",
+                        "Hur skulle dina kolleger beskriver dig?"
+                    ]
+                },
+                {
+                    "id": "foljd-s33",
+                    "sv": "De skulle säga att jag är hjälpsam och pålitlig.",
+                    "fi": "He sanoisivat, että olen avulias ja luotettava.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "De",
+                            "d": ["Dem", "Deras", "Det"]
+                        },
+                        {
+                            "w": "säga",
+                            "d": ["säger", "sagt", "sade"]
+                        },
+                        {
+                            "w": "hjälpsam",
+                            "d": ["hjälpa", "hjälper", "hjälp"]
+                        }
+                    ],
+                    "grammar": ["skulle", "opinion", "pronouns", "uttal"],
+                    "note": "Lausu 'de' = dom ja 'hjälpsam' = JELP-sam (h ei kuulu).",
+                    "wrong": [
+                        "De skulle säger att jag är hjälpsam och pålitlig.",
+                        "De skulle säga att är jag hjälpsam och pålitlig."
+                    ],
+                    "answers": "foljd-s32"
+                }
+            ]
+        },
+        {
+            "id": "foljd-l5",
+            "title": "Jatkokysymykset: tulevaisuus ja ala",
+            "intro": "Soveltavia kysymyksiä tulevaisuudesta ja it-alasta. Mallivastausta ei tarvitse sanoa sanasta sanaan: tärkeintä on, että reagoit heti ja sanot mielipiteesi.",
+            "sentences": [
+                {
+                    "id": "foljd-s34",
+                    "sv": "Vad är viktigt för dig i ett jobb?",
+                    "fi": "Mikä on sinulle tärkeää työssä?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "viktigt",
+                            "d": ["viktig", "viktiga", "viktigare"]
+                        },
+                        {
+                            "w": "för",
+                            "d": ["av", "om", "på"]
+                        },
+                        {
+                            "w": "dig",
+                            "d": ["du", "din", "sig"]
+                        }
+                    ],
+                    "grammar": ["questions", "adj", "uttal"],
+                    "note": "'viktigt för dig' = sinulle tärkeää. Lausu 'viktigt' = VIK-tit (g ei kuulu) ja 'dig' = dej.",
+                    "wrong": [
+                        "Vad viktigt är för dig i ett jobb?",
+                        "Vad är viktigt för du i ett jobb?"
+                    ]
+                },
+                {
+                    "id": "foljd-s35",
+                    "sv": "För mig är det viktigt att ha trevliga kolleger och intressanta arbetsuppgifter.",
+                    "fi": "Minulle on tärkeää, että on mukavat kollegat ja kiinnostavat työtehtävät.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "viktigt",
+                            "d": ["viktig", "viktiga", "viktigare"]
+                        },
+                        {
+                            "w": "trevliga",
+                            "d": ["trevlig", "trevligt", "trevligare"]
+                        },
+                        {
+                            "w": "arbetsuppgifter",
+                            "d": [
+                                "arbetsuppgift",
+                                "arbetsgivare",
+                                "arbetstagare"
+                            ]
+                        }
+                    ],
+                    "grammar": ["v2", "adj", "att-inf"],
+                    "note": "'För mig är det viktigt att...' = minulle on tärkeää, että... Lause alkaa sanoilla 'För mig', joten 'är' tulee ennen sanaa 'det'.",
+                    "wrong": [
+                        "För mig det är viktigt att ha trevliga kolleger och intressanta arbetsuppgifter.",
+                        "För mig är det viktig att ha trevliga kolleger och intressanta arbetsuppgifter."
+                    ],
+                    "answers": "foljd-s34"
+                },
+                {
+                    "id": "foljd-s36",
+                    "sv": "Vill du jobba utomlands?",
+                    "fi": "Haluatko työskennellä ulkomailla?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "utomlands",
+                            "d": ["utlandet", "utom", "utanför"]
+                        },
+                        {
+                            "w": "Vill",
+                            "d": ["Vilja", "Ville", "Velat"]
+                        },
+                        {
+                            "w": "jobba",
+                            "d": ["jobbar", "jobbat", "jobbade"]
+                        }
+                    ],
+                    "grammar": ["questions", "modal", "uttal"],
+                    "note": "Kyllä/ei-kysymys alkaa verbillä. 'utomlands' = ulkomailla. Lausu: 'UU-tom-lands'.",
+                    "wrong": [
+                        "Du vill jobba utomlands?",
+                        "Vill du jobbar utomlands?"
+                    ]
+                },
+                {
+                    "id": "foljd-s37",
+                    "sv": "Ja, jag skulle gärna jobba i Sverige några år.",
+                    "fi": "Kyllä, työskentelisin mielelläni Ruotsissa muutaman vuoden.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "skulle",
+                            "d": ["skulla", "skull", "skola"]
+                        },
+                        {
+                            "w": "några",
+                            "d": ["någon", "något", "ingen"]
+                        },
+                        {
+                            "w": "Sverige",
+                            "d": ["Svenska", "Svensk", "Sveriges"]
+                        }
+                    ],
+                    "grammar": ["skulle", "adverbs", "time", "uttal"],
+                    "note": "'skulle gärna' = tekisin mielelläni. Lausu: 'JÄÄR-na' (g = j), 'SVER-je' ja 'NOO-gra oor'.",
+                    "wrong": [
+                        "Ja, jag skulle gärna jobbar i Sverige några år.",
+                        "Ja, jag gärna skulle jobba i Sverige några år."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Ja, jag skulle gärna jobba i Norge några år.",
+                            "fi": "Kyllä, työskentelisin mielelläni Norjassa muutaman vuoden.",
+                            "w": "Norge",
+                            "d": ["Norden", "Nordisk", "Norska"]
+                        }
+                    ],
+                    "answers": "foljd-s36"
+                },
+                {
+                    "id": "foljd-s38",
+                    "sv": "Nej, jag vill hellre stanna i Finland.",
+                    "fi": "Ei, jään mieluummin Suomeen.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "hellre",
+                            "d": ["heller", "hell", "hellst"]
+                        },
+                        {
+                            "w": "stanna",
+                            "d": ["stannar", "stannat", "stå"]
+                        },
+                        {
+                            "w": "Finland",
+                            "d": ["Finska", "Finsk", "Finlands"]
+                        }
+                    ],
+                    "grammar": ["modal", "comparison"],
+                    "note": "'vill hellre' = haluan mieluummin. 'stanna' = jäädä, pysyä.",
+                    "wrong": [
+                        "Nej, jag vill hellre stannar i Finland.",
+                        "Nej, jag hellre vill stanna i Finland."
+                    ],
+                    "answers": "foljd-s36"
+                },
+                {
+                    "id": "foljd-s39",
+                    "sv": "Vad tycker du om artificiell intelligens?",
+                    "fi": "Mitä mieltä olet tekoälystä?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "artificiell intelligens",
+                            "d": [
+                                "artificiellt intelligens",
+                                "artificiell intelligent",
+                                "artificiella intelligens"
+                            ]
+                        },
+                        {
+                            "w": "tycker",
+                            "d": ["tycka", "tyckte", "tyckt"]
+                        },
+                        {
+                            "w": "om",
+                            "d": ["av", "på", "för"]
+                        }
+                    ],
+                    "grammar": ["questions", "opinion", "uttal"],
+                    "note": "Sama malli 'Vad tycker du om...?' uudella aiheella. Lyhenne on AI. Lausu: 'ar-ti-fi-si-ELL in-tel-li-GENS'.",
+                    "wrong": [
+                        "Vad du tycker om artificiell intelligens?",
+                        "Vad tycker du av artificiell intelligens?"
+                    ]
+                },
+                {
+                    "id": "foljd-s40",
+                    "sv": "Jag tycker att AI är ett bra verktyg, men man måste vara kritisk.",
+                    "fi": "Minusta tekoäly on hyvä työkalu, mutta täytyy olla kriittinen.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "verktyg",
+                            "d": ["verktyget", "verk", "arbete"]
+                        },
+                        {
+                            "w": "måste",
+                            "d": ["måst", "måsta", "måstar"]
+                        },
+                        {
+                            "w": "kritisk",
+                            "d": ["kritiska", "kritiskt", "kritik"]
+                        }
+                    ],
+                    "grammar": ["opinion", "man", "modal"],
+                    "note": "'ett verktyg' = työkalu. 'man måste' = täytyy (yleisesti). Rakenne 'Jag tycker att X är..., men...' sopii lähes mihin tahansa mielipidekysymykseen.",
+                    "wrong": [
+                        "Jag tycker att AI är en bra verktyg, men man måste vara kritisk.",
+                        "Jag tycker att AI är ett bra verktyg, men man måste är kritisk."
+                    ],
+                    "answers": "foljd-s39"
+                },
+                {
+                    "id": "foljd-s41",
+                    "sv": "Varför är datasäkerhet viktig?",
+                    "fi": "Miksi tietoturva on tärkeää?",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "datasäkerhet",
+                            "d": ["dataskydd", "datasystem", "datainsamling"]
+                        },
+                        {
+                            "w": "viktig",
+                            "d": ["viktiga", "viktigare", "vikt"]
+                        },
+                        {
+                            "w": "Varför",
+                            "d": ["Vad", "Var", "Vem"]
+                        }
+                    ],
+                    "grammar": ["questions", "compound", "uttal"],
+                    "note": "'datasäkerhet' = data + säkerhet (turvallisuus). Lausu: 'DAA-ta-sää-ker-heet'.",
+                    "wrong": [
+                        "Varför datasäkerhet är viktig?",
+                        "Varför är datasäkerhet viktiga?"
+                    ]
+                },
+                {
+                    "id": "foljd-s42",
+                    "sv": "Eftersom företag har mycket data som måste skyddas.",
+                    "fi": "Koska yrityksillä on paljon dataa, jota täytyy suojata.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "skyddas",
+                            "d": ["skydda", "skyddar", "skydd"]
+                        },
+                        {
+                            "w": "Eftersom",
+                            "d": ["Därför", "Men", "Eller"]
+                        },
+                        {
+                            "w": "som",
+                            "d": ["att", "och", "vad"]
+                        }
+                    ],
+                    "grammar": ["subclause", "s-passive", "som", "uttal"],
+                    "note": "Miksi-kysymykseen voi vastata suoraan sanalla 'Eftersom...' (koska). 'skyddas' = suojataan (s-passiivi). Lausu: 'ŠYD-das', sk = š y:n edellä.",
+                    "wrong": [
+                        "Eftersom företag har mycket data som måste skydda.",
+                        "Eftersom har företag mycket data som måste skyddas."
+                    ],
+                    "answers": "foljd-s41"
+                }
+            ]
+        },
+        {
+            "id": "foljd-l6",
+            "title": "Laajenna vastausta",
+            "intro": "Hyvän arvosanan saa, kun kertoo laajemmin kuin parilla virkkeellä. Näillä aloituksilla lisäät esimerkin, toisen asian, seurauksen tai mielipiteen. Huomaa: kun lause alkaa näillä sanoilla, verbi tulee heti niiden perään.",
+            "sentences": [
+                {
+                    "id": "foljd-s43",
+                    "sv": "Till exempel har jag gjort en webbapplikation i ett skolprojekt.",
+                    "fi": "Olen esimerkiksi tehnyt verkkosovelluksen kouluprojektissa.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "gjort",
+                            "d": ["göra", "gör", "gjorde"]
+                        },
+                        {
+                            "w": "webbapplikation",
+                            "d": ["webbläsare", "webbtjänst", "applikationer"]
+                        },
+                        {
+                            "w": "Till exempel",
+                            "d": ["Till exemplet", "För exempel", "På exempel"]
+                        }
+                    ],
+                    "grammar": ["v2", "perfect", "compound", "uttal"],
+                    "note": "Esimerkki tekee vastauksesta heti paremman. 'har gjort' = olen tehnyt (göra, gjorde, gjort). Lausu 'gjort' = juurt (gj = j, o = u).",
+                    "wrong": [
+                        "Till exempel jag har gjort en webbapplikation i ett skolprojekt.",
+                        "Till exempel har jag göra en webbapplikation i ett skolprojekt."
+                    ],
+                    "variants": [
+                        {
+                            "sv": "Till exempel har jag gjort en mobilapplikation i ett skolprojekt.",
+                            "fi": "Olen esimerkiksi tehnyt mobiilisovelluksen kouluprojektissa.",
+                            "w": "mobilapplikation",
+                            "d": ["mobil", "applikationer", "molntjänst"]
+                        }
+                    ]
+                },
+                {
+                    "id": "foljd-s44",
+                    "sv": "Dessutom talar jag flytande engelska.",
+                    "fi": "Lisäksi puhun sujuvaa englantia.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Dessutom",
+                            "d": ["Därför", "Däremot", "Eftersom"]
+                        },
+                        {
+                            "w": "talar",
+                            "d": ["tala", "talat", "talade"]
+                        },
+                        {
+                            "w": "flytande",
+                            "d": ["flyta", "flyter", "flyttande"]
+                        }
+                    ],
+                    "grammar": ["v2", "adverbs", "uttal"],
+                    "note": "'dessutom' = lisäksi: tuo vastaukseen toisen asian. Lausu: 'des-UU-tom'.",
+                    "wrong": [
+                        "Dessutom jag talar flytande engelska.",
+                        "Dessutom talar jag flytande engelsk."
+                    ]
+                },
+                {
+                    "id": "foljd-s45",
+                    "sv": "Därför vill jag jobba inom it-branschen.",
+                    "fi": "Siksi haluan työskennellä it-alalla.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "Därför",
+                            "d": ["Eftersom", "Dessutom", "Varför"]
+                        },
+                        {
+                            "w": "vill",
+                            "d": ["vilja", "ville", "viljar"]
+                        },
+                        {
+                            "w": "inom",
+                            "d": ["på", "till", "av"]
+                        }
+                    ],
+                    "grammar": ["v2", "modal"],
+                    "note": "'därför' = siksi (seuraus), 'eftersom' = koska (syy). 'Därför' aloittaa päälauseen, joten verbi tulee heti sen perään.",
+                    "wrong": [
+                        "Därför jag vill jobba inom it-branschen.",
+                        "Därför vill jag jobbar inom it-branschen."
+                    ]
+                },
+                {
+                    "id": "foljd-s46",
+                    "sv": "Enligt min åsikt är samarbete viktigare än teknik.",
+                    "fi": "Minun mielestäni yhteistyö on tärkeämpää kuin tekniikka.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "åsikt",
+                            "d": ["åsikten", "åsikter", "ansikte"]
+                        },
+                        {
+                            "w": "viktigare",
+                            "d": ["viktig", "viktigast", "viktigt"]
+                        },
+                        {
+                            "w": "än",
+                            "d": ["som", "att", "en"]
+                        }
+                    ],
+                    "grammar": ["v2", "comparison", "opinion", "uttal"],
+                    "note": "'Enligt min åsikt' = minun mielestäni (juhlavampi kuin 'Jag tycker att'). 'viktigare än' = tärkeämpi kuin. Lausu: 'EEN-likt min OO-sikt'.",
+                    "wrong": [
+                        "Enligt min åsikt samarbete är viktigare än teknik.",
+                        "Enligt min åsikt är samarbete viktigare som teknik."
+                    ]
+                },
+                {
+                    "id": "foljd-s47",
+                    "sv": "Jag tycker om att jobba ensam, men jag lär mig mera i ett team.",
+                    "fi": "Pidän yksin työskentelystä, mutta opin enemmän tiimissä.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "ensam",
+                            "d": ["ensamma", "ensamt", "en"]
+                        },
+                        {
+                            "w": "men",
+                            "d": ["och", "eller", "så"]
+                        },
+                        {
+                            "w": "lär",
+                            "d": ["lära", "lärt", "lärde"]
+                        }
+                    ],
+                    "grammar": ["conjunctions", "reflexive", "particle"],
+                    "note": "'men' (mutta) näyttää, että osaat katsoa asiaa kahdelta puolelta. 'ensam' = yksin.",
+                    "wrong": [
+                        "Jag tycker om att jobbar ensam, men jag lär mig mera i ett team.",
+                        "Jag tycker om att jobba ensam, men jag lära mig mera i ett team."
+                    ]
+                },
+                {
+                    "id": "foljd-s48",
+                    "sv": "Det beror på situationen.",
+                    "fi": "Se riippuu tilanteesta.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "beror",
+                            "d": ["bero", "berodde", "berott"]
+                        },
+                        {
+                            "w": "på",
+                            "d": ["av", "om", "till"]
+                        },
+                        {
+                            "w": "situationen",
+                            "d": ["situation", "situationer", "stationen"]
+                        }
+                    ],
+                    "grammar": ["rektio", "definite", "uttal"],
+                    "note": "Hyvä aloitus, kun et halua vastata vain kyllä tai ei. Lausu: 'de be-RUUR poo si-tu-a-ŠUU-nen'.",
+                    "wrong": [
+                        "Det beror av situationen.",
+                        "Det bero på situationen."
+                    ]
+                },
+                {
+                    "id": "foljd-s49",
+                    "sv": "Det är svårt att säga, men jag tror att tekniken utvecklas snabbt.",
+                    "fi": "On vaikea sanoa, mutta uskon, että tekniikka kehittyy nopeasti.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "svårt",
+                            "d": ["svår", "svåra", "svårare"]
+                        },
+                        {
+                            "w": "tror",
+                            "d": ["tro", "trodde", "trott"]
+                        },
+                        {
+                            "w": "snabbt",
+                            "d": ["snabb", "snabba", "snabbare"]
+                        }
+                    ],
+                    "grammar": ["opinion", "subclause", "conjunctions"],
+                    "note": "'Det är svårt att säga, men jag tror att...' = on vaikea sanoa, mutta uskon, että... Toimii, kun kysymys on vaikea. 'tro' = uskoa, luulla.",
+                    "wrong": [
+                        "Det är svår att säga, men jag tror att tekniken utvecklas snabbt.",
+                        "Det är svårt att säga, men jag tro att tekniken utvecklas snabbt."
+                    ]
+                },
+                {
+                    "id": "foljd-s50",
+                    "sv": "Med andra ord är jag en riktig lagspelare.",
+                    "fi": "Toisin sanoen olen todellinen tiimipelaaja.",
+                    "src": "x",
+                    "keys": [
+                        {
+                            "w": "riktig",
+                            "d": ["riktigt", "riktiga", "rikt"]
+                        },
+                        {
+                            "w": "lagspelare",
+                            "d": ["lagspelaren", "spelare", "problemlösare"]
+                        },
+                        {
+                            "w": "Med andra ord",
+                            "d": [
+                                "Med annat ord",
+                                "På andra ord",
+                                "Med andra orden"
+                            ]
+                        }
+                    ],
+                    "grammar": ["v2", "gender"],
+                    "note": "'Med andra ord' = toisin sanoen: tiivistä sillä pitkä vastaus yhteen lauseeseen.",
+                    "wrong": [
+                        "Med andra ord jag är en riktig lagspelare.",
+                        "Med andra ord är jag ett riktigt lagspelare."
+                    ]
+                }
+            ]
+        }
+    ],
+    "glossary": {
+        "ursäkta": "anteeksi",
+        "kan": "voi, osaa (perusmuoto kunna)",
+        "du": "sinä",
+        "upprepa": "toistaa",
+        "frågan": "kysymys, asia (fråga + n, määräinen muoto)",
+        "tala": "puhua",
+        "lite": "vähän",
+        "långsammare": "hitaammin (långsam = hidas)",
+        "jag": "minä",
+        "förstår": "ymmärtää (perusmuoto förstå)",
+        "inte": "ei",
+        "vad": "mitä, mikä",
+        "betyder": "tarkoittaa, merkitsee (perusmuoto betyda)",
+        "det": "se; muodollinen subjekti (det är viktigt = on tärkeää)",
+        "ordet": "sana (määräinen muoto: ord + et)",
+        "är": "on, olen, olet (perusmuoto vara)",
+        "en": "yksi; en-sanojen artikkeli",
+        "bra": "hyvä; hyvin (bra på = hyvä jossakin)",
+        "fråga": "kysymys; kysyä",
+        "låt": "anna, salli (käskymuoto verbistä låta); låt mig = anna minun",
+        "mig": "minua, itseäni",
+        "tänka": "ajatella",
+        "stund": "hetki",
+        "vet": "tietää (perusmuoto veta)",
+        "heter": "on nimeltään (perusmuoto heta)",
+        "på": "-ssa, -lla; päällä",
+        "svenska": "ruotsi (kieli)",
+        "menar": "tarkoittaa (perusmuoto mena)",
+        "mina": "minun (monikko: mina hobbyer)",
+        "studier": "opinnot",
+        "eller": "tai",
+        "mitt": "minun (ett-sanan kanssa)",
+        "jobb": "työ (ett jobb)",
+        "och": "ja",
+        "studerar": "opiskelee (perusmuoto studera)",
+        "tycker": "on mieltä (Jag tycker att = mielestäni)",
+        "håller": "pitää (perusmuoto hålla); hålla med = olla samaa mieltä",
+        "med": "kanssa, -lla/-llä",
+        "dig": "sinut, itsesi",
+        "låter": "kuulostaa (perusmuoto låta)",
+        "intressant": "kiinnostava, mielenkiintoinen",
+        "likadant": "samalla tavalla, samoin",
+        "nu": "nyt",
+        "din": "sinun (en-sanan kanssa)",
+        "tur": "vuoro; onni",
+        "min": "minun (en-sanan kanssa)",
+        "börja": "alkaa, aloittaa",
+        "tack": "kiitos",
+        "för": "varten, jollekin",
+        "diskussionen": "keskustelu (määräinen muoto: diskussion + en)",
+        "när": "kun; milloin",
+        "blir": "tulee joksikin (perusmuoto bli)",
+        "färdig": "valmis; bli färdig = valmistua",
+        "om": "kuluttua (om ett år); jos; -sta",
+        "två": "kaksi",
+        "år": "vuosi, vuotta",
+        "ett": "yksi; ett-sanojen artikkeli",
+        "nästa": "seuraava, ensi",
+        "vår": "kevät",
+        "hur": "miten, kuinka",
+        "länge": "kauan; hur länge = kuinka kauan",
+        "har": "on jollakin; perfektin apuverbi (har avlagt = on suorittanut)",
+        "studerat": "opiskellut (perusmuoto studera)",
+        "haaga-helia": "Haaga-Helia (koulun nimi)",
+        "här": "täällä; den här = tämä",
+        "i": "-ssa, -ssä",
+        "tre": "kolme",
+        "dina": "sinun (monikko)",
+        "att": "että; infinitiivin merkki (att jobba = työskennellä)",
+        "intressanta": "kiinnostavat (intressant + a monikossa)",
+        "men": "mutta",
+        "ibland": "joskus",
+        "svåra": "vaikeat (svår + a monikossa)",
+        "vilken": "mikä (yksikkö)",
+        "kurs": "kurssi",
+        "mest": "eniten; det mest använda = käytetyin",
+        "programmeringskurserna": "ohjelmointikurssit (määräinen monikko: programmering + kurser + na)",
+        "projektkurserna": "projektikurssit (määräinen monikko)",
+        "var": "ole (käskymuoto verbistä vara); myös: missä",
+        "jobbar": "työskentelee, on töissä (perusmuoto jobba)",
+        "just": "juuri",
+        "heltid": "kokoaika; på heltid = kokopäiväisesti, päätoimisesti",
+        "deltid": "osa-aika; på deltid = osa-aikaisesti",
+        "som": "jona, -na; joka",
+        "utvecklare": "kehittäjä (utveckla = kehittää; en utvecklare)",
+        "litet": "pieni (ett-sanan kanssa: liten → litet)",
+        "företag": "yritys (ett företag)",
+        "försäljare": "myyjä",
+        "lärt": "oppinut (lära sig = oppia)",
+        "programmera": "ohjelmoida",
+        "jobba": "työskennellä",
+        "projekt": "projekti, projektit",
+        "svagheter": "heikkoudet (en svaghet = heikkous)",
+        "noggrann": "tarkka, huolellinen",
+        "då": "silloin",
+        "tar": "ottaa; kestää (ta = ottaa)",
+        "arbetet": "työ (määräinen muoto: arbete + t)",
+        "mycket": "todella, hyvin; paljon",
+        "tid": "aika (en tid)",
+        "skulle": "-isi- (Jag skulle säga = sanoisin)",
+        "kolleger": "kollegat (suomenruotsissa kolleger, Ruotsissa usein kollegor)",
+        "beskriva": "kuvailla",
+        "de": "ne; de senaste åren = viime vuosina",
+        "säga": "sanoa",
+        "hjälpsam": "avulias",
+        "pålitlig": "luotettava",
+        "viktigt": "tärkeää (viktig + t)",
+        "ha": "olla jollakin, omistaa",
+        "trevliga": "mukavat (trevlig + a monikossa)",
+        "arbetsuppgifter": "työtehtävät (en arbetsuppgift = työtehtävä)",
+        "vill": "haluaa (perusmuoto vilja)",
+        "utomlands": "ulkomailla, ulkomaille",
+        "ja": "kyllä",
+        "gärna": "mielellään",
+        "sverige": "Ruotsi",
+        "några": "muutama, joitakin",
+        "norge": "Norja",
+        "nej": "ei (vastauksena)",
+        "hellre": "mieluummin",
+        "stanna": "jäädä, pysyä; pysähtyä",
+        "finland": "Suomi",
+        "artificiell": "keinotekoinen, keino-",
+        "intelligens": "älykkyys",
+        "ai": "tekoäly (AI = artificiell intelligens)",
+        "verktyg": "työkalu(t) (ett verktyg, monikko sama)",
+        "man": "yleinen tekijä ('voi', 'ihminen')",
+        "måste": "täytyy",
+        "vara": "olla",
+        "kritisk": "kriittinen",
+        "varför": "miksi",
+        "datasäkerhet": "tietoturva (data + säkerhet = turvallisuus)",
+        "viktig": "tärkeä",
+        "eftersom": "koska",
+        "data": "data, tieto",
+        "skyddas": "suojataan (s-passiivi verbistä skydda = suojata)",
+        "till": "-ksi, -lle, asti",
+        "exempel": "esimerkki; till exempel = esimerkiksi",
+        "gjort": "tehnyt (perusmuoto göra: gör, gjorde, gjort)",
+        "webbapplikation": "verkkosovellus",
+        "skolprojekt": "kouluprojekti",
+        "mobilapplikation": "mobiilisovellus (mobil + applikation; en mobilapplikation)",
+        "dessutom": "lisäksi",
+        "talar": "puhuu (perusmuoto tala)",
+        "flytande": "sujuva (sanatarkasti virtaava)",
+        "engelska": "englanti (kieli)",
+        "därför": "siksi",
+        "inom": "jonkin alalla, sisällä",
+        "it-branschen": "it-ala (määräinen muoto: bransch + en)",
+        "enligt": "jonkun mukaan; enligt dig = mielestäsi",
+        "åsikt": "mielipide; enligt min åsikt = minun mielestäni",
+        "samarbete": "yhteistyö",
+        "viktigare": "tärkeämpi",
+        "än": "kuin (vertailussa: mer än = enemmän kuin)",
+        "teknik": "tekniikka",
+        "ensam": "yksin",
+        "lär": "opettaa; lär sig = oppii",
+        "mera": "lisää, enemmän",
+        "team": "tiimi (ett team, monikko team)",
+        "beror": "riippuu (perusmuoto bero); bero på = riippua jostakin",
+        "situationen": "tilanne (määräinen muoto: situation + en)",
+        "svårt": "vaikea, vaikeaa (ett-muoto sanasta svår)",
+        "tror": "uskoo, luulee (perusmuoto tro)",
+        "tekniken": "tekniikka (määräinen muoto)",
+        "utvecklas": "kehittyä (s-verbi)",
+        "snabbt": "nopeasti (snabb + t)",
+        "andra": "toinen; muut",
+        "ord": "sana, sanat",
+        "riktig": "todellinen, oikea",
+        "lagspelare": "tiimipelaaja (lag = joukkue, spelare = pelaaja)",
+        "tycker om": "pitää jostakin",
+        "beror på": "riippuu jostakin",
+        "till exempel": "esimerkiksi",
+        "håller med": "on samaa mieltä",
+        "just nu": "juuri nyt",
+        "hur länge": "kuinka kauan",
+        "med andra ord": "toisin sanoen"
+    }
+}

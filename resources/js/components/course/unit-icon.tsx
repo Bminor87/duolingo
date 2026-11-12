@@ -11,6 +11,8 @@ import {
     Mail,
     Map,
     Megaphone,
+    MessagesSquare,
+    Mic,
     Music,
     Rocket,
     ShieldCheck,
@@ -33,6 +35,8 @@ const icons: Record<string, LucideIcon> = {
     map: Map,
     'building-2': Building2,
     music: Music,
+    'messages-square': MessagesSquare,
+    mic: Mic,
 };
 
 export default function UnitIcon({

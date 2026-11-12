@@ -1,5 +1,6 @@
 import { BookOpen, ChevronDown, Lightbulb } from 'lucide-react';
 import RichText from '@/components/course/rich-text';
+import SpeakButton from '@/components/course/speak-button';
 import {
     Collapsible,
     CollapsibleContent,
@@ -101,9 +102,15 @@ export default function HintPanel({
         <div className="space-y-5">
             <div>
                 {sentence !== null && variant !== 'grammar-only' && (
-                    <p className="text-lg font-semibold" lang="sv">
-                        {sentence}
-                    </p>
+                    <div className="flex items-start gap-3">
+                        <p className="flex-1 text-lg font-semibold" lang="sv">
+                            {sentence}
+                        </p>
+                        {(variant === 'full' ||
+                            variant === 'no-translation') && (
+                            <SpeakButton text={hint.sv} />
+                        )}
+                    </div>
                 )}
                 {showTranslation && (
                     <p className="mt-1 text-muted-foreground">{hint.fi}</p>

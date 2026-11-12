@@ -29,7 +29,7 @@ test('every lesson builds a session within the exercise limit that covers all of
 
     foreach (everyLesson() as ['unit' => $unit, 'lesson' => $lesson]) {
         $session = $builder->forLesson($unit, $lesson, $progress);
-        $graded = array_filter($session['exercises'], fn (array $exercise): bool => ! in_array($exercise['kind'], ['learn', 'learn_words'], true));
+        $graded = array_filter($session['exercises'], fn (array $exercise): bool => ! in_array($exercise['kind'], ['learn', 'learn_words', 'speak'], true));
         $coveredItemIds = collect($graded)->flatMap(fn (array $exercise): array => $exercise['itemIds'] ?? [$exercise['itemId']])->unique();
 
         expect(count($graded))->toBeLessThanOrEqual(SessionBuilder::MAX_EXERCISES, $lesson['id'])
@@ -78,4 +78,48 @@ test('known sentences skip the learning card and are typed instead of chosen', f
     expect($kinds)->not->toContain('learn')
         ->and($kinds)->not->toContain('learn_words')
         ->and(collect($exercises)->where('kind', 'cloze')->pluck('mode')->all())->toContain('type');
+});
+
+test('a lesson ends with one speaking card per question, holding its model answers', function () {
+    $course = app(Course::class);
+    ['unit' => $unit, 'lesson' => $lesson] = $course->lesson('slut-l1');
+
+    $exercises = app(SessionBuilder::class)->forLesson($unit, $lesson, new LearnerProgress($course, User::factory()->create()))['exercises'];
+
+    $kinds = array_column($exercises, 'kind');
+    $cards = collect($exercises)->where('kind', 'speak')->keyBy('itemId');
+
+    expect(array_slice($kinds, -2))->toBe(['speak', 'speak'])
+        ->and(array_slice($kinds, 0, -2))->not->toContain('speak');
+
+    expect($cards->keys()->sort()->values()->all())->toBe(['slut-s01', 'slut-s03'])
+        ->and($cards['slut-s01']['hint']['sv'])->toBe('Vad studerar du?')
+        ->and(array_column($cards['slut-s01']['answers'], 'itemId'))->toBe(['slut-s02'])
+        ->and(array_column($cards['slut-s03']['answers'], 'itemId'))->toBe(['slut-s04', 'slut-s05']);
+});
+
+test('a lesson without questions and answers has no speaking cards', function () {
+    $course = app(Course::class);
+    ['unit' => $unit, 'lesson' => $lesson] = $course->lesson('studier-l1');
+
+    $exercises = app(SessionBuilder::class)->forLesson($unit, $lesson, new LearnerProgress($course, User::factory()->create()))['exercises'];
+
+    expect(array_column($exercises, 'kind'))->not->toContain('speak');
+});
+
+test('only an oral review rehearses the question of a reviewed answer aloud', function () {
+    $course = app(Course::class);
+    $builder = app(SessionBuilder::class);
+    $progress = new LearnerProgress($course, User::factory()->create());
+
+    $oralExercises = $builder->forReview(['slut-s04'], 'oral', $progress)['exercises'];
+    $mixedExercises = $builder->forReview(['slut-s04'], 'mixed', $progress)['exercises'];
+
+    $lastOralExercise = $oralExercises[array_key_last($oralExercises)];
+
+    expect($lastOralExercise['kind'])->toBe('speak')
+        ->and($lastOralExercise['itemId'])->toBe('slut-s03')
+        ->and(collect($oralExercises)->where('kind', 'speak'))->toHaveCount(1);
+
+    expect(array_column($mixedExercises, 'kind'))->not->toContain('speak');
 });

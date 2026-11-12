@@ -10,7 +10,7 @@ use RuntimeException;
  *
  * @phpstan-type Key array{w: string, d: list<string>, a?: list<string>}
  * @phpstan-type Variant array{sv: string, fi: string, w: string, d: list<string>}
- * @phpstan-type Sentence array{id: string, sv: string, fi: string, keys: list<Key>, grammar: list<string>, note?: string, wrong?: list<string>, variants?: list<Variant>, src: string}
+ * @phpstan-type Sentence array{id: string, sv: string, fi: string, keys: list<Key>, grammar: list<string>, note?: string, wrong?: list<string>, variants?: list<Variant>, src: string, answers?: string}
  * @phpstan-type Word array{id: string, sv: string, fi: string, note?: string, src: string}
  * @phpstan-type Lesson array{id: string, title: string, intro?: string, sentences: list<Sentence>, words?: list<Word>}
  * @phpstan-type Unit array{id: string, title: string, subtitle: string, description: string, icon: string, color: string, exam: list<string>, source: string, lessons: list<Lesson>, glossary: array<string, string>}

@@ -139,6 +139,14 @@ export const unitColors: Record<UnitColor, UnitColorClasses> = {
         bar: 'bg-red-500',
         ring: 'ring-red-400',
     },
+    purple: {
+        solid: 'bg-purple-500 text-white',
+        edge: 'border-purple-700',
+        soft: 'bg-purple-50 dark:bg-purple-950/40',
+        text: 'text-purple-700 dark:text-purple-300',
+        bar: 'bg-purple-500',
+        ring: 'ring-purple-400',
+    },
 };
 
 export function colorClasses(color: string): UnitColorClasses {

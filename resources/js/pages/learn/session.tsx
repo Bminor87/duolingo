@@ -11,6 +11,7 @@ import {
 } from '@/components/course/exercises/learn-cards';
 import MatchExercise from '@/components/course/exercises/match-exercise';
 import OrderExercise from '@/components/course/exercises/order-exercise';
+import SpeakCard from '@/components/course/exercises/speak-card';
 import type { Checker, Verdict } from '@/components/course/exercises/types';
 import HintPanel from '@/components/course/hint-panel';
 import type { HintVariant } from '@/components/course/hint-panel';
@@ -56,7 +57,11 @@ type ResultPayload = {
 };
 
 function isGraded(exercise: Exercise): exercise is GradedExercise {
-    return exercise.kind !== 'learn' && exercise.kind !== 'learn_words';
+    return (
+        exercise.kind !== 'learn' &&
+        exercise.kind !== 'learn_words' &&
+        exercise.kind !== 'speak'
+    );
 }
 
 function itemIdsOf(exercise: GradedExercise): string[] {
@@ -64,7 +69,7 @@ function itemIdsOf(exercise: GradedExercise): string[] {
 }
 
 function hintVariant(exercise: Exercise, answered: boolean): HintVariant {
-    if (answered || exercise.kind === 'learn') {
+    if (answered || exercise.kind === 'learn' || exercise.kind === 'speak') {
         return 'full';
     }
 
@@ -430,6 +435,9 @@ export default function Session({ session }: { session: SessionData }) {
                                     onAnswerChange={registerAnswer}
                                     onSubmit={check}
                                 />
+                            )}
+                            {exercise.kind === 'speak' && (
+                                <SpeakCard exercise={exercise} />
                             )}
                             {exercise.kind === 'match' && (
                                 <MatchExercise

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import type { ExerciseProps } from '@/components/course/exercises/types';
+import SpeakButton from '@/components/course/speak-button';
 import { cn } from '@/lib/utils';
 import type { ChooseExercise } from '@/types/course';
 
@@ -34,15 +35,20 @@ export default function ChoiceExercise({
                         ? 'Mitä tämä tarkoittaa?'
                         : 'Valitse oikea ruotsinkielinen lause'}
                 </p>
-                <p
-                    className={cn(
-                        'mt-3 rounded-2xl border-2 p-4 text-lg leading-snug font-semibold',
-                        showsSwedishPrompt && 'text-xl',
+                <div className="mt-3 flex items-start gap-3 rounded-2xl border-2 p-4">
+                    <p
+                        className={cn(
+                            'flex-1 text-lg leading-snug font-semibold',
+                            showsSwedishPrompt && 'text-xl',
+                        )}
+                        lang={showsSwedishPrompt ? 'sv' : 'fi'}
+                    >
+                        {exercise.prompt}
+                    </p>
+                    {showsSwedishPrompt && (
+                        <SpeakButton text={exercise.prompt} />
                     )}
-                    lang={showsSwedishPrompt ? 'sv' : 'fi'}
-                >
-                    {exercise.prompt}
-                </p>
+                </div>
             </div>
 
             <div className="grid gap-3" role="radiogroup">
